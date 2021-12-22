@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 %hash = ('Ten' => 10,
@@ -30,14 +30,14 @@ print("Keys are ", join("-", @keys), "\n");
 
 **输出:**
 
-```
+```perl
 Values are  11-12-13-10
 Keys are Eleven-Twelve-Thirteen-Ten
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 %hash = ('Geek' => 1,
@@ -53,7 +53,7 @@ print("Keys are ", join("-", @keys), "\n");
 
 **输出:**
 
-```
+```perl
 Values are  3-2-1
 Keys are Geeks-For-Geek
 

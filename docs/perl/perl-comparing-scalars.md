@@ -22,7 +22,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **例 1:**
 
-    ```
+    ```perl
     # Perl program to illustrate
     # == operator
 
@@ -39,14 +39,14 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **输出:**
 
-    ```
+    ```perl
     == works with numeric value!
 
     ```
 
     **例 2:**
 
-    ```
+    ```perl
     # Perl program to illustrate
     # == and eq operator
 
@@ -68,7 +68,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **输出:**
 
-    ```
+    ```perl
     == doesn't work with string values!
 
     ```
@@ -81,7 +81,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **例 1:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # != operator
 
@@ -98,14 +98,14 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **输出:**
 
-    ```
+    ```perl
     != works with numeric value!
 
     ```
 
     **例 2:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # != and ne operator
 
@@ -128,7 +128,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **输出:**
 
-    ```
+    ```perl
     ne works with string values!
 
     ```
@@ -141,7 +141,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **例 1:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # (> or gt) And (< or lt)
     # operator
@@ -164,7 +164,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **输出:**
 
-    ```
+    ```perl
     < and lt works with numeric value!
     > and gt works with numeric value!
 
@@ -172,7 +172,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **例 2:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # (> or gt) And (< or lt)
     # operator
@@ -206,7 +206,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **输出:**
 
-    ```
+    ```perl
     gt works with string values!
     lt works with string values!
 
@@ -222,7 +222,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **示例:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # (>= or ge) And (<= or le)
     # operator
@@ -248,7 +248,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     **输出:**
 
-    ```
+    ```perl
     <= and>= works
     le and ge works!
 
@@ -258,7 +258,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     *   **Numeric operator will always convert String values to 0.** When we compare two string scalars with Numeric operators like ==, >= or <= then it will always convert the scalars to 0 or 0.0\. Since they are not a string. And hence it will be true in case of ==, >= or <= as shown in the below example:
 
-        ```
+        ```perl
         # Perl program to illustrate 
         # above point
 
@@ -274,7 +274,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
         **输出:**
 
-        ```
+        ```perl
         True
 
         ```
@@ -283,7 +283,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
     *   **String operator doesn’t compare numeric values, instead it compares there ASCII values.** String operators compare ASCII values for numeric values. In the following example “9 gt 17” is true but “17 gt 9” will give the result as false.
 
-        ```
+        ```perl
         # Perl program to illustrate 
         # above point
 
@@ -299,7 +299,7 @@ Perl 有两种类型的比较运算符集。就像其他数学运算符一样，
 
         **输出:**
 
-        ```
+        ```perl
         True
 
         ```

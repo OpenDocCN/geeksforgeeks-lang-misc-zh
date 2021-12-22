@@ -12,7 +12,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining a string
@@ -34,7 +34,7 @@ print "Array of Integers is @array\n";
 
 **Output:** 
 
-```
+```perl
 Position of 'or' in the string 7
 Array of Integers is 10 20 30 40 50 60
 ```
@@ -43,7 +43,7 @@ Array of Integers is 10 20 30 40 50 60
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining a string
@@ -65,7 +65,7 @@ print "Array of Integers @array\n";
 
 **Output:** 
 
-```
+```perl
 Position of 'o G' in the string 9
 Array of Integers -10 20 15 -40 45 -60
 ```

@@ -15,7 +15,7 @@ Perl 中的 rename()函数将文件的旧名称重命名为用户给定的新名
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Calling the rename() function 

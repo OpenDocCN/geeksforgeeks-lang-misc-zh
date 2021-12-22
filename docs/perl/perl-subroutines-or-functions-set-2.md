@@ -17,7 +17,7 @@
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # passing of hash to subroutines
 
@@ -47,7 +47,7 @@ Display_hash(%hash_para);
 
 **Output:** 
 
-```
+```perl
 Marks : 97
 Subject : Perl
 ```
@@ -57,7 +57,7 @@ Subject : Perl
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # passing of lists to subroutines
 
@@ -87,7 +87,7 @@ Display_List($sc, @li);
 
 **Output:** 
 
-```
+```perl
 Given list is 100 10 20 30 40
 ```
 
@@ -96,7 +96,7 @@ Given list is 100 10 20 30 40
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to demonstrate the
 # returning values subroutine
 
@@ -128,7 +128,7 @@ print "Sum of the given numbers : $result\n";
 
 **Output:** 
 
-```
+```perl
 Sum of the given numbers : 72
 ```
 
@@ -137,7 +137,7 @@ Sum of the given numbers : 72
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the Local
 # and Global variables in subroutine
 
@@ -165,7 +165,7 @@ print "Outside the Subroutine: $str\n";
 
 **Output:** 
 
-```
+```perl
 Inside the Subroutine: GFG
 Outside the Subroutine: GeeksforGeeks
 ```
@@ -175,7 +175,7 @@ Outside the Subroutine: GeeksforGeeks
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the variable
 # number of parameters to the subroutine
 
@@ -211,7 +211,7 @@ print Multiplication(3, 5, 4);
 
 **Output:** 
 
-```
+```perl
 192
 60
 ```

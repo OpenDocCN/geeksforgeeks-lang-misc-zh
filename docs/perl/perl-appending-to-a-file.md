@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```perl
 # Opening a file in read mode
 # to display existing content 
 open(FH, "Hello.txt") or 

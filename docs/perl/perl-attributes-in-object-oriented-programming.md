@@ -18,7 +18,7 @@ Perl 没有特殊的属性语法。在后面，属性通常作为键存储在对
 
 ## Perl
 
-```
+```perl
 sub new{
     my ($class, $args) = @_;
     my $self = bless { serial => $args->{serial},

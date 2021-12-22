@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Using localtime() function
@@ -27,7 +27,7 @@ print scalar localtime();
 
 **输出:**
 
-```
+```perl
 Thu Mar 28 06:02:21 2019
 Thu Mar 28 06:02:26 2019
 
@@ -35,7 +35,7 @@ Thu Mar 28 06:02:26 2019
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Using localtime() function
@@ -52,7 +52,7 @@ print scalar localtime();
 
 **输出:**
 
-```
+```perl
 Thu Mar 28 06:02:26 2019
 Thu Mar 28 06:02:27 2019
 

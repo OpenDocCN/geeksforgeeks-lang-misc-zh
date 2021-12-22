@@ -6,7 +6,7 @@
 
 *   **Example:** To demonstrate Count the frequency of words in string
 
-    ```
+    ```perl
     # Perl program for counting words in a string
 
     $actual_text = "GFG GeeksforGeeks GFG" ;
@@ -30,7 +30,7 @@
 
     **输出:**
 
-    ```
+    ```perl
     GFG 2
     GeeksforGeeks 1
 
@@ -40,7 +40,7 @@
 
 *   **Example:** To demonstrate the difference between /\s+/ and / /
 
-    ```
+    ```perl
 
     # Perl program for counting words in a string using / / 
 
@@ -64,7 +64,7 @@
 
     **输出:**
 
-    ```
+    ```perl
     1
     GeeksforGeeks 2
     portal 1
@@ -80,7 +80,7 @@
 
 *   **Example:**
 
-    ```
+    ```perl
 
     #Perl program for counting words in a string using /\s+/
 
@@ -104,7 +104,7 @@
 
     **输出:**
 
-    ```
+    ```perl
     GeeksforGeeks 2
     portal 1
     to 1

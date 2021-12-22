@@ -11,7 +11,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 $a = 1;
@@ -28,14 +28,14 @@ print ($a);
 
 **Output:**
 
-```
+```perl
 11
 
 ```
 
 **示例 2(重做循环):**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 $a = 1;
@@ -54,7 +54,7 @@ print ("$a $count");
 
 **Output:**
 
-```
+```perl
 101 21
 
 ```

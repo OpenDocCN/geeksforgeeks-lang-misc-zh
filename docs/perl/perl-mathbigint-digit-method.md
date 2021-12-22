@@ -15,7 +15,7 @@
 
 **示例 1:** 使用`**Math::BigInt->digit()**`方法
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -47,7 +47,7 @@ print "${n}th digit in $num is $nth_digit.\n";
 
 **Output:**
 
-```
+```perl
 4th digit in 7821593604 is 9.
 6th digit in 7821593604 is 1.
 
@@ -55,7 +55,7 @@ print "${n}th digit in $num is $nth_digit.\n";
 
 **例 2:** 使用`**Math::BigInt->digit()**`方法从左侧获取**第 n 个**数字
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -97,7 +97,7 @@ print "${n}th digit from left in $num is $nth_digit.\n";
 
 **Output:**
 
-```
+```perl
 4th digit from left in 7821593604 is 1.
 6th digit from left in 7821593604 is 9.
 
@@ -105,7 +105,7 @@ print "${n}th digit from left in $num is $nth_digit.\n";
 
 **例 3:** 使用`**Math::BigInt->digit()**`方法计算数字的位数总和
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -138,7 +138,7 @@ print "Sum of digits in $num is $sum.";
 
 **Output:**
 
-```
+```perl
 Sum of digits in 7821593604 is 45.
 
 ```

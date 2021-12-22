@@ -19,7 +19,7 @@ Perl 中的 **Hash** 是一组键/值对。Perl 为我们提供了将散列分�
 
 **示例**
 
-```
+```perl
 # !/usr/bin/perl
 # Perl program to demonstrate
 # List Context of hash
@@ -47,7 +47,7 @@ say Dumper \@list;
 
 **Output:**
 
-```
+```perl
 $VAR1 = [
           'Yellow',
           'Look and move',
@@ -73,7 +73,7 @@ $VAR1 = [
 
 **例**
 
-```
+```perl
 # !/usr/bin/perl
 # Perl program to demonstrate
 # Use of Data::Dumper
@@ -93,7 +93,7 @@ print Dumper($ref);
 
 **Output:**
 
-```
+```perl
 $VAR1 = {
           'Yellow' => 'Look and move',
           'Red' => 'Stop',
@@ -110,7 +110,7 @@ $VAR1 = {
 *   In the List context in Perl, the operator can be used to obtain multiple values between the supplied range.
     **Example:**
 
-    ```
+    ```perl
     @hundred = (0..100);
 
     ```
@@ -133,7 +133,7 @@ $VAR1 = {
 
 获得的字符串看起来像一个分数，可以计算为:
 
-```
+```perl
 The denominator of the fraction is the total number of buckets.
 The numerator of the fraction is the number of buckets which has one or more elements.
 ```
@@ -143,7 +143,7 @@ The numerator of the fraction is the number of buckets which has one or more ele
 
 **示例**
 
-```
+```perl
 # !/usr/bin/perl
 # Perl program to demonstrate
 # Scalar Context of hash
@@ -167,7 +167,7 @@ print $list;
 
 **Output:**
 
-```
+```perl
 5/8
 
 ```

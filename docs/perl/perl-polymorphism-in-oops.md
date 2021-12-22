@@ -16,7 +16,7 @@
 
 多态性可以通过下面的例子得到最好的解释:
 
-```
+```perl
 use warnings;
 
 # Creating class using package

@@ -15,7 +15,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising an array of some elements
@@ -30,7 +30,7 @@ print @A;
 
  **输出:**
 
-```
+```perl
 GeeksGeek
 
 ```
@@ -39,7 +39,7 @@ GeeksGeek
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising an array of some elements
@@ -54,7 +54,7 @@ print @A;
 
 **输出:**
 
-```
+```perl
 123
 
 ```
@@ -63,7 +63,7 @@ print @A;
 
 **例 3:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising an array of some elements
@@ -78,7 +78,7 @@ print @A;
 
 **输出:**
 
-```
+```perl
 ShyamGeetaSheeta
 
 ```

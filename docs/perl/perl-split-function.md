@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```perl
 split /Pattern/, Expression, Limit
 
 or
@@ -49,7 +49,7 @@ Split
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate the splitting on character
 
 #!/usr/bin/perl
@@ -71,7 +71,7 @@ foreach my $i (@spl) 
 
 **Output:**
 
-```
+```perl
 GeeksforGeeks
 
 ```
@@ -82,7 +82,7 @@ GeeksforGeeks
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate the
 # splitting among string without Limit
 
@@ -105,7 +105,7 @@ foreach my $i (@spl) 
 
 **Output:**
 
-```
+```perl
 GFG
 Geeks
 55
@@ -119,7 +119,7 @@ GeeksforGeeks
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate the 
 # splitting on string with Limit
 
@@ -142,7 +142,7 @@ foreach my $i (@spl) 
 
 **Output:**
 
-```
+```perl
 GFG
 Geeks
 55!!GeeksforGeeks
@@ -155,7 +155,7 @@ Geeks
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate the 
 # splitting on undefined value
 
@@ -178,7 +178,7 @@ foreach my $i (@spl) 
 
 **输出:**
 
-```
+```perl
 G
 e
 e
@@ -209,7 +209,7 @@ G
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate the 
 # splitting on a pattern(regex)
 
@@ -235,7 +235,7 @@ foreach my $i (@spl) 
 
 **Output:**
 
-```
+```perl
 Geeks
 for
 Geeks
@@ -248,7 +248,7 @@ Geeks
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate the 
 # splitting into the hash
 
@@ -271,7 +271,7 @@ foreach my $i (keys %spl) 
 
 **Output:**
 
-```
+```perl
 GFG:1
 GEEKS:2
 PROGEEK:3
@@ -284,7 +284,7 @@ PROGEEK:3
 
 ****示例:****
 
-```
+```perl
 # Perl program to demonstrate the 
 # splitting on space
 
@@ -310,7 +310,7 @@ foreach my $i (@spl)
 
 ****Output:**
 
-```
+```perl
 GFGProGeekGFG
 GFGSudoGFG
 GFGPlacementsGFG
@@ -323,7 +323,7 @@ GFGPlacementsGFG
 
     **示例:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # splitting on string and storing 
     # values in scalars
@@ -345,7 +345,7 @@ GFGPlacementsGFG
 
     **Output:**
 
-    ```
+    ```perl
     GFG
     Sudo
     GeeksforGeeks
@@ -356,7 +356,7 @@ GFGPlacementsGFG
 
     **示例:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # split() function and context
 
@@ -382,7 +382,7 @@ GFGPlacementsGFG
 
     **Output:**
 
-    ```
+    ```perl
     Split G F G:
      G
      F
@@ -397,7 +397,7 @@ GFGPlacementsGFG
 
     **示例:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # split() function with the Delimiter
     # at the start of the string
@@ -424,7 +424,7 @@ GFGPlacementsGFG
 
     **Output:**
 
-    ```
+    ```perl
     Array_Element: 
     Array_Element: GFG
     Array_Element: Geeks
@@ -434,7 +434,7 @@ GFGPlacementsGFG
 
     **示例:**
 
-    ```
+    ```perl
     # Perl program to demonstrate the 
     # split() function and keeping 
     # the delimiter
@@ -462,7 +462,7 @@ GFGPlacementsGFG
 
     **Output:**
 
-    ```
+    ```perl
     Geeks
     1
     for

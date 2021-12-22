@@ -8,7 +8,7 @@ Perl 中的 Array 提供了各种内置函数来执行操作，比如在预定�
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -37,7 +37,7 @@ print "\nUpdated array: @x";
 
 **Output:** 
 
-```
+```perl
 Original array: Java C C++ 
 Pushing new values...
 Updated array: Java C C++ Python Perl

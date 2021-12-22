@@ -12,7 +12,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Hash containing Keys and values
@@ -35,7 +35,7 @@ print "Number of values in Hash are: $values";
 
 **Output:**
 
-```
+```perl
 Values in the Hash are  A-B-10-20
 Number of values in Hash are: 4
 
@@ -43,7 +43,7 @@ Number of values in Hash are: 4
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Hash containing Keys and values
@@ -66,7 +66,7 @@ print "Number of values in Hash are: $values";
 
 **Output:**
 
-```
+```perl
 Values in the Hash are  Welcome-World-to-Geeks
 Number of values in Hash are: 4
 

@@ -7,7 +7,7 @@
 
 例如，让我们考虑一个包含项目数据的文件。允许整个项目团队修改文件。会有一个 CGI 脚本在网上编码来做以下事情。
 
-```
+```perl
 $file = "project.docx";
 $commit = $ENV{'QUERY_INFO'};
 open(FILE, "$file"); #opening the document

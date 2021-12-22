@@ -15,7 +15,7 @@ Perl 字符串用一个**点(。)**符号。点(。)符号代替了 Perl 中的(
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # Concatenation Operator(.) in String
 
@@ -36,7 +36,7 @@ print "String After Concatenation = $concat_string\n";
 
 **输出:**
 
-```
+```perl
 String After Concatenation = GeeksforGeeks
 ```
 
@@ -45,7 +45,7 @@ String After Concatenation = GeeksforGeeks
 x 运算符的左侧接受一个字符串，右侧接受一个数字。它将返回左侧的字符串，重复次数与右侧的值相同。重复取决于用户输入的数字。
 **语法:**
 
-```
+```perl
 "String" x number_of_times 
 ```
 
@@ -53,7 +53,7 @@ x 运算符的左侧接受一个字符串，右侧接受一个数字。它将返
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # Repetition Operator (x) in String
 
@@ -72,7 +72,7 @@ print "$str_result";
 
 **输出:**
 
-```
+```perl
 GeeksforGeeks GeeksforGeeks GeeksforGeeks GeeksforGeeks GeeksforGeeks 
 ```
 
@@ -92,7 +92,7 @@ GeeksforGeeks GeeksforGeeks GeeksforGeeks GeeksforGeeks GeeksforGeeks
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # Concatenation and Repetition
 # Assignment Operator in String
@@ -125,7 +125,7 @@ print "\n$str_result";
 
 **输出:**
 
-```
+```perl
 Geeksforgeeks
 Sudo_PlacementsSudo_PlacementsSudo_PlacementsSudo_PlacementsSudo_Placements
 ```
@@ -137,7 +137,7 @@ Sudo_PlacementsSudo_PlacementsSudo_PlacementsSudo_PlacementsSudo_Placements
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate
 # Auto-increment Operator (++)
 
@@ -160,7 +160,7 @@ print "\nAgain After ++ : $st";
 
 **输出:**
 
-```
+```perl
 After ++ : AYZ
 Again After ++ : AZA
 ```

@@ -27,7 +27,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Assigning values to scalar
@@ -44,7 +44,7 @@ print "Roll no = $rollno\n";
 
 **输出:**
 
-```
+```perl
 Age = 40
 Name = XYZ
 Roll no = 22 
@@ -57,7 +57,7 @@ Roll no = 22
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Assigning values to Array variables
@@ -77,7 +77,7 @@ print "\$names[2] = $names[2]\n";
 这里我们在“{content}”之前使用了“\ ”;签名只是为了把它打印成声明。否则，默认情况下，Perl 会将其理解为一个变量，并打印存储在其中的值。执行时，将产生以下输出–
 **输出:**
 
-```
+```perl
 $ages[0] = 55
 $ages[1] = 80
 $ages[2] = 44
@@ -93,7 +93,7 @@ $names[2] = KMR
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining Hash variable using '%'
@@ -107,7 +107,7 @@ print "\$data{'KMR'} = $data{'KMR'}\n";
 
 **输出:**
 
-```
+```perl
 $data{'XYZ'} = 55
 $data{'LGH'} = 80
 $data{'KMR'} = 44 
@@ -120,7 +120,7 @@ $data{'KMR'} = 44
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining Array variable
@@ -141,7 +141,7 @@ print "Number of names are : $size\n";
 
 **输出:**
 
-```
+```perl
 Given names are : XYZ LGH KMR
 Number of names are : 3
 ```

@@ -25,7 +25,7 @@
 **第一步:创建表单元素**
 首先，需要创建一个“表单”元素
 
-```
+```perl
 <form action="/cgi-bin/upload.cgi" method="post" enctype="multipart/form-data">
 ```
 
@@ -35,7 +35,7 @@
 其次，我们需要为表单提供字段。这些字段用于指导用户在表单中上传需要的文件。
 例如，在这里，我们将提供一个上传字段，供用户上传他们的照片并提供他们的电子邮件。
 
-```
+```perl
 <p>Upload Photo: <input type="file" name="photo" /></p>
 <p>Email: <input type="text" name="email_address" /></p>
 ```
@@ -43,14 +43,14 @@
 **第三步:提供提交表单按钮**
 第三步是允许用户根据表单中给出的字段提交上传的所有文件。为此，需要一个提交按钮，以便用户可以将表单发送到网络服务器。
 
-```
+```perl
 <!--using button for sending the form to web server-->
 <p><input type="submit" name="Submit" value="Submit Form" /></p>
 ```
 
 **示例:在 CGI 中显示文件上传工作的示例表单:**
 
-```
+```perl
 <!DOCTYPE html> 
 <html lang="en"> 
 <head>

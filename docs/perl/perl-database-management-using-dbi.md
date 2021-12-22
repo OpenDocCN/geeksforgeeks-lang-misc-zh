@@ -13,7 +13,7 @@
 
 **安装:**要安装 DBI 模块，请打开终端并键入以下命令，然后按回车键:
 
-```
+```perl
 perl -MCPAN -e 'install Bundle::DBI'
 ```
 
@@ -102,7 +102,7 @@ perl -MCPAN -e 'install Bundle::DBI'
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl -w
 use DBI;
 

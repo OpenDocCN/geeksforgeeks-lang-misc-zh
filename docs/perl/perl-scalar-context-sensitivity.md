@@ -17,15 +17,15 @@
 *   **Assignment to a Scalar variable:**
     **Example:**
 
-    ```
+    ```perl
     $x = @z;
     ```
 
-    ```
+    ```perl
     $x = localtime();
     ```
 
-    ```
+    ```perl
     $x = Scalar;
     ```
 
@@ -34,7 +34,7 @@
 *   **Assignment to a single element of an array:**
     **Example:**
 
-    ```
+    ```perl
     $a[2] = Scalar;
     ```
 
@@ -43,11 +43,11 @@
 *   **创建标量上下文的数值运算符:**
     **示例:**
 
-```
+```perl
 3 + Scalar;
 ```
 
-```
+```perl
 Scalar + 3;
 ```
 
@@ -56,11 +56,11 @@ Scalar + 3;
 *   **Concatenation creating Scalar Context:**
     **Example:**
 
-    ```
+    ```perl
     "GFG" . Scalar;
     ```
 
-    ```
+    ```perl
     Scalar . "GFG"
     ```
 
@@ -68,7 +68,7 @@ Scalar + 3;
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl 
 # Perl program of creating Scalar Context 
 
@@ -107,7 +107,7 @@ print "The number of elements are: " . @CS
 
 **Output:**
 
-```
+```perl
 4
 Wed Mar 27 07:01:56 2019
 7
@@ -120,7 +120,7 @@ The number of elements are: 4
 当 Perl 假定一个列表时，必须要求强制标量上下文。因此，在这种情况下，您可以使用**标量()函数**，该函数生成标量上下文，因为该函数通知 Perl 为其参数赋予标量上下文。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl 
 # Perl program of Forcing Scalar Context 
 
@@ -139,7 +139,7 @@ print scalar localtime();         
 
 **Output:**
 
-```
+```perl
 3
 Sun Mar 17 06:12:53 2019
 
@@ -150,7 +150,7 @@ Sun Mar 17 06:12:53 2019
 为了使用数组激发标量上下文，需要将数组赋给标量变量。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl 
 # Perl program of Arrays in Scalar Context 
 
@@ -168,7 +168,7 @@ print $y;         
 
 **Output:**
 
-```
+```perl
 3
 
 ```
@@ -178,7 +178,7 @@ print $y;         
 如果 if 语句的条件部分假定一个值，那么这个值就是标量上下文。在下面的程序中，if-语句包含数组，在标量上下文中，数组返回其中的元素数。因此，如果数组是空的，那么它将返回 0。因此，如果作为标量上下文传递给它的数组是空的，if-语句将不会执行。
 **节目 1:**
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Program of if-statement in Scalar Context 
@@ -199,7 +199,7 @@ if (@w) 
 
 **Output:**
 
-```
+```perl
 No Output
 
 ```
@@ -208,7 +208,7 @@ No Output
 
 **程序 2:**
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Program of if-statement in Scalar Context 
@@ -229,7 +229,7 @@ if (@w) 
 
 **Output:**
 
-```
+```perl
 There are some elements in the Array
 
 ```
@@ -241,7 +241,7 @@ There are some elements in the Array
 为了将读线运算符(即**<【STDIN】>**)置于标量上下文中，需要将该运算符指定给标量变量。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl 
 # Program to Read input from user
 use strict; 

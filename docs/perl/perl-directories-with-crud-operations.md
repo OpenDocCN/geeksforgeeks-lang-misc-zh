@@ -19,7 +19,7 @@
 创建目录使用 mkdir(路径，模式)。该功能有助于创建新目录，如果用户想检查文件是否已经存在，可以通过 **-e** 功能完成。路径由路径使用模式功能指定的模式设置。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Path of the directory
@@ -40,7 +40,7 @@ print "Directory created \n"; 
 用一个简短的函数 opendir DIRHANDLE 在 Perl 中打开一个目录，使用的是 PATH。这里的 PATH 是要打开的目录的路径。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 my $directory = 'C:\Users\GeeksForGeeks\Folder';  
@@ -62,7 +62,7 @@ closedir DIR;
 **标量上下文:**
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl  
 use strict; 
 use warnings; 
@@ -90,7 +90,7 @@ closedir $dh; 
 
 **列表上下文:**
 
-```
+```perl
 #!/usr/bin/perl  
 use strict;  
 use warnings;  
@@ -124,7 +124,7 @@ closedir $dh;
 要更改目录，使用 chdir()函数。此功能有助于更改目录并将其发送到新位置。chdir()函数在用脚本调用时，会更改脚本其余部分的目录。如果在脚本中调用此函数，终端上的目录将不会改变。另一方面，当使用新的目录路径直接调用时，更改会同时反映在终端中。
 **示例 1:** 在脚本中调用 chdir()时
 
-```
+```perl
 #!/usr/bin/perl
 
 # Module to return 
@@ -162,7 +162,7 @@ print "\n"; 
 要关闭目录，使用 closedir DIRHANDLE。这里，DIRHANDLE 是使用 opendir 函数打开的目录的句柄。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Directory which is to be opened
@@ -191,7 +191,7 @@ closedir(dir);
 删除一个目录可以使用 rmdir 函数完成。此函数仅在指定目录为空时，才通过 FILENAME 移除该目录，如果成功，则返回 true，否则返回 false。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl  
 $directory = "C:/Users/GeeksForGeeks/Folder/Perl";  
 

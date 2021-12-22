@@ -13,7 +13,7 @@
 
 **示例 1:** 本示例在数组上使用 exists()函数。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initialising an array
@@ -41,7 +41,7 @@ for ($i = 0; $i < 10; $i++)
 
  **输出:**
 
-```
+```perl
 Exists
 Exists
 Exists
@@ -59,7 +59,7 @@ Not Exists
 
 **示例 2:** 本示例在哈希上使用 exists()函数。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initialising a Hash
@@ -89,7 +89,7 @@ else
 
 **输出:**
 
-```
+```perl
 Exists
 Not Exists
 

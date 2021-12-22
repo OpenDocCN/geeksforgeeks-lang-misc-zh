@@ -13,7 +13,7 @@ Perl 中的 return()函数在子程序、块或 do 函数的末尾返回 Value�
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Subroutine for Multiplication
@@ -37,7 +37,7 @@ print ("Return value is @retval\n" );
 
 **Output:**
 
-```
+```perl
 Return value is 250
 Return value is 25 10 250
 
@@ -45,7 +45,7 @@ Return value is 25 10 250
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Subroutine for Subtraction
@@ -70,7 +70,7 @@ print ("Return value is @retval\n" );
 
 **Output:**
 
-```
+```perl
 Return value is 15
 Return value is 25 10 15
 

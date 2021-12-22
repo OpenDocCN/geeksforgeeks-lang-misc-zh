@@ -12,7 +12,7 @@
 
 **示例 1:** 打印目录中所有文件的名称
 
-```
+```perl
 #!/usr/bin/perl
 
 # To store the files
@@ -29,7 +29,7 @@ print "@files\n";
 
 **示例 2:** 打印目录中特定文件的名称
 
-```
+```perl
 #!/usr/bin/perl
 
 # To store the files of a specific extension

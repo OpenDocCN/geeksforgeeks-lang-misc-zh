@@ -36,7 +36,7 @@ if(条件)
 
 ## C++
 
-```
+```perl
 // C++ program to add two numbers
 #include <stdio.h>
 
@@ -62,7 +62,7 @@ int main()
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to add two numbers
@@ -83,6 +83,6 @@ sub add
 
 **输出:**
 
-```
+```perl
 The result is 8
 ```

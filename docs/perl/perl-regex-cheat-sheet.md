@@ -23,7 +23,7 @@
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate
 # character class
 
@@ -48,7 +48,7 @@ else
 
 **输出:**
 
-```
+```perl
 Match Found
 ```
 
@@ -70,7 +70,7 @@ Match Found
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate
 # use of anchors in regex
 
@@ -95,7 +95,7 @@ else
 
 **输出:**
 
-```
+```perl
 Match Not Found
 ```
 
@@ -133,7 +133,7 @@ Match Not Found
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate
 # use of quantifiers in regex
 
@@ -158,7 +158,7 @@ else
 
 **输出:**
 
-```
+```perl
 Match Found
 ```
 

@@ -10,7 +10,7 @@
 
 **例:**
 
-```
+```perl
 #!/usr/bin/perl -w 
 use strict;
 use warnings;
@@ -23,13 +23,13 @@ print "You entered $string as a String";
 
 **输入:**
 
-```
+```perl
 GeeksForGeeks
 ```
 
 **输出:**
 
-```
+```perl
 Enter some text: GeeksForGeeks
 You Entered GeeksForGeeks
 as a String
@@ -39,7 +39,7 @@ as a String
 
 **例:**
 
-```
+```perl
 #!/usr/bin/perl -w 
 use strict;
 use warnings;
@@ -53,13 +53,13 @@ print "You entered $string as a String";
 
 **输入:**
 
-```
+```perl
 GeeksForGeeks
 ```
 
 **输出:**
 
-```
+```perl
 Enter some text: GeeksForGeeks
 You Entered GeeksForGeeks as a String
 ```

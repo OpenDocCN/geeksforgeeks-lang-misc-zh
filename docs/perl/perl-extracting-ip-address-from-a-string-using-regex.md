@@ -29,14 +29,14 @@ Perl 代表**实用提取和报告语言**和这个未经授权的缩写。Perl 
 
 最简单的方法就是用句点分隔的四个十进制数字的任意字符串
 
-```
+```perl
 \d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/ OR /^\d+\.\d+\.\d+\.\d+$/
 
 ```
 
 在下面的例子中，我们只是从给定的字符串中提取一个 IP 地址。
 
-```
+```perl
 #!/usr/bin/perl
 
 my $ip = "MY IP ADDRESS IS172.26.39.41THIS IS A VALID IP ADDRESS";
@@ -55,7 +55,7 @@ if($ip =~ /(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/)
 
 现在，我们将看到一个提取 IP 地址的实现，它也将检查八位字节范围。
 
-```
+```perl
 #!/usr/bin/perl
 
 my $ip = "MY IP ADDRESS IS 36.59.63 THIS IS A VALID IP ADDRESS";
@@ -85,7 +85,7 @@ else
 
 如果将字符串更改为
 
-```
+```perl
 [my $ip = "MY IP ADDRESS IS 127.36.59.63 THIS IS A VALID IP ADDRESS";] 
 ```
 
@@ -94,7 +94,7 @@ else
 
 在下面的例子中，我们接受来自用户的包含一个 IP 地址的字符串，然后从中提取 IP 地址。我们使用 **chomp()** 函数从字符串末尾删除任何换行符。
 
-```
+```perl
 #!/usr/bin/perl
 
 print("Enter the IP Address you would like to validate - ");

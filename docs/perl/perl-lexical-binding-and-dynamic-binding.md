@@ -9,7 +9,7 @@
 **词法绑定的工作方式:**词法环境最好由绑定构造来定义，这指定了构造中有界变量的局部值。词法环境是 Lisp 评估器查看变量具体值的第一个地方。词汇绑定的范围是不确定的。这意味着即使在词法环境的执行结束后，它也不会被丢弃，并且每当它被调用时都可以再次使用。
 T3】例:
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to demonstrate 
@@ -30,7 +30,7 @@ print "\$var is: ", (defined $var ? 
 
 **Output:**
 
-```
+```perl
 $var is: GeeksforGeeks
 $var is: Geeks
 
@@ -46,7 +46,7 @@ $var is: Geeks
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to demonstrate 
@@ -97,7 +97,7 @@ $cat->method2(); # Calls cat::method2
 
 **Output:**
 
-```
+```perl
 This is Animal class Method 1
 This is cat class Method 1
 

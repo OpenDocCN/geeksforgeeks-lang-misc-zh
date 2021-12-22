@@ -35,7 +35,7 @@
 
 **示例:**一个简单的程序打印*欢迎来到 GFG！*
 
-```
+```perl
 # Perl program to print Welcome to GFG!
 #!/usr/bin/perl
 
@@ -45,7 +45,7 @@ print "Welcome to GFG!\n";
 
 **输出:**
 
-```
+```perl
 Welcome to GFG!
 ```
 
@@ -55,7 +55,7 @@ Welcome to GFG!
 
     **语法:**
 
-    ```
+    ```perl
     # Single line comment
     ```
 
@@ -63,7 +63,7 @@ Welcome to GFG!
 
     **语法:**
 
-    ```
+    ```perl
     = Multi line comments
     Line start from  = is interpreted as the
     starting of multiline comment and =cut is 

@@ -8,7 +8,7 @@
 
 **例子:**考虑一个班级学生名字和他们平均分数的散列。这里，学生的名字是关键，他们的平均成绩是数值。使用`keys` 函数返回的学生姓名上的 *foreach 循环*打印该散列。
 
-```
+```perl
 # Perl program to demonstrate 
 # the concept of hash
 use strict;
@@ -42,7 +42,7 @@ foreach my $name (keys %studentnames) {
 
 **输出:**
 
-```
+```perl
 Marty    16.5
 Jason    25.2
 Plato    39
@@ -64,7 +64,7 @@ Nitin    30
 
     **示例:**
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # sorting of the hash according 
     # alphabetical order of its keys
@@ -96,7 +96,7 @@ Nitin    30
 
     **输出:**
 
-    ```
+    ```perl
     Earl     31
     Jason    25.2
     Martha   14
@@ -113,7 +113,7 @@ Nitin    30
 
     **示例 1:** 根据 ASCII 表对哈希值进行排序。
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # sorting of the hash according
     # to the values of Hash
@@ -145,7 +145,7 @@ Nitin    30
 
     **输出:**
 
-    ```
+    ```perl
     14
     16.5
     19.6
@@ -160,7 +160,7 @@ Nitin    30
 
     **例 2:** 根据哈希值的数值排序如下:
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # sorting of the hash according
     # to the values of Hash
@@ -193,7 +193,7 @@ Nitin    30
 
     **输出:**
 
-    ```
+    ```perl
     14
     16.5
     19.6
@@ -210,7 +210,7 @@ Nitin    30
 
     **示例 1:** 在下面的程序中，< = >被称为*宇宙飞船操作员*。如果您反复运行代码，那么您可以注意到输出中的差异。有时你会在*之前找到*柏拉图*，反之亦然。*
 
-    ```
+    ```perl
     # Perl program to demonstrate the
     # Sorting of keys of the hash 
     # according to the values
@@ -245,7 +245,7 @@ Nitin    30
 
     **输出:**
 
-    ```
+    ```perl
     Martha   14
     Marty    16.5
     Uri      19.6
@@ -260,7 +260,7 @@ Nitin    30
 
     **例 2:** 为了求解上述代码，具有相同值的键可以根据 ASCII 表排序如下:
 
-    ```
+    ```perl
     # Perl program to demonstrate the
     # Sorting of keys of the hash 
     # according to the values
@@ -293,7 +293,7 @@ Nitin    30
 
     **输出:**
 
-    ```
+    ```perl
     Martha   14
     Marty    16.5
     Uri      19.6

@@ -9,7 +9,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Empty List assigned to an array
@@ -31,7 +31,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Empty List assigned to an array
@@ -50,7 +50,7 @@ print "String list: @string_list\n";
 
 *   **输出:**
 
-```
+```perl
 Empty list: 
 Integer list: 1 2 3
 String list: Geeks for Geeks
@@ -61,7 +61,7 @@ String list: Geeks for Geeks
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # List of strings and integers assigned to an array
@@ -73,7 +73,7 @@ print "Complex List: @complex_list";
 
 *   **输出:**
 
-```
+```perl
 Complex List: 1 2 Geeks for Geeks
 ```
 
@@ -82,7 +82,7 @@ Complex List: 1 2 Geeks for Geeks
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining Internal list as an array
@@ -97,7 +97,7 @@ print "Printing list within list: @External_list";
 
 *   **输出:**
 
-```
+```perl
 Printing list within list: 1 Geeks 3 For 5 6 7
 ```
 
@@ -108,7 +108,7 @@ Printing list within list: 1 Geeks 3 For 5 6 7
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining a list
@@ -120,7 +120,7 @@ print "Second element of List is: $List[2]";
 
 **输出:**
 
-```
+```perl
 Second element of List is: 3
 ```
 
@@ -131,7 +131,7 @@ Second element of List is: 3
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining 1st List
@@ -146,7 +146,7 @@ print "Sliced List: @list2";
 
 **输出:**
 
-```
+```perl
 Sliced List: Geeks 3 5
 ```
 
@@ -161,7 +161,7 @@ Perl 中的 Range 运算符是创建列表的一种简单方法。当与 list �
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining list with range of a to j
@@ -181,7 +181,7 @@ print "List with elements from A to J: @z";
 
 **输出:**
 
-```
+```perl
 List with elements from a to j: a b c d e f g h i j
 List with elements from 1 to 15: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 List with elements from A to J: A B C D E F G H I J
@@ -193,7 +193,7 @@ List with elements from A to J: A B C D E F G H I J
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining a list of elements
@@ -208,6 +208,6 @@ print "Sliced List: @z";
 
 **输出:**
 
-```
+```perl
 Sliced List: 3 For 5
 ```

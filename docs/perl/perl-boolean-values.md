@@ -8,7 +8,7 @@
 
 ## Perl
 
-```
+```perl
 # Perl Code to demonstrate the boolean values
 
 # variable assigned value 0
@@ -40,7 +40,7 @@ else
 
 **输出:**
 
-```
+```perl
 k is False
 m is True
 ```
@@ -51,7 +51,7 @@ m is True
 
 ## Perl
 
-```
+```perl
 # Perl Code to demonstrate the True values
 
 # variable assigned value 5
@@ -112,7 +112,7 @@ else
 
 **输出:**
 
-```
+```perl
 a is True
 b is True
 c is True
@@ -125,7 +125,7 @@ d is True
 
 ## Perl
 
-```
+```perl
 # Perl Code to demonstrate the False values
 
 # variable assigned value 0
@@ -184,7 +184,7 @@ else
 
 **输出:**
 
-```
+```perl
 a is False
 b is False
 c is False
@@ -197,7 +197,7 @@ d is False
 
 ## Perl
 
-```
+```perl
 # Perl Program demonstrate the conditional check
 
 # variable initialized with string
@@ -216,6 +216,6 @@ else
 
 **输出:**
 
-```
+```perl
 Return True
 ```

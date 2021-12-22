@@ -16,7 +16,7 @@
 
     **示例:**
 
-    ```
+    ```perl
     say ?^True; # Falsesay ?^'';   # Truesay ?^0;    # Truesay ?^42;   # False
     ```
 
@@ -26,7 +26,7 @@
 
     **示例:**
 
-    ```
+    ```perl
     use strict;
     use warnings;
     my $x = "4T"; # string
@@ -37,7 +37,7 @@
 
     **Output:**
 
-    ```
+    ```perl
     4T3
     ```
 
@@ -46,7 +46,7 @@
 
     **示例:**
 
-    ```
+    ```perl
     my $a = "23B";
     $a +=0;
 
@@ -56,14 +56,14 @@
 
     **Output:**
 
-    ```
+    ```perl
     23
     ```
 
 *   **Reference Coercion:** When we use a dereferencing operation on a non-reference, it turns a value into a reference. This process is known as Autovivification. This process comes handy while manipulating nested data structures.
     **Example:**
 
-    ```
+    ```perl
     my %users;
     $users{John}{id} = 128;
     $users{Thomas}{id} = 129;
@@ -78,7 +78,7 @@
 
 Perl 具有多组件特性，用户可以用 dualvars 的形式使用。函数 dualvar()是由核心模块 Scalar :: Util 提供的，它允许我们绕过 Perl 强制，单独操作一个值的字符串和数字部分。
 
-```
+```perl
 use Scalar::Util qw(blessed dualvar set_prototype);
 $foo = dualvar 10, "Geeksfor";
 $num = $foo + 2;                   
@@ -89,7 +89,7 @@ print $str;
 
 **Output:**
 
-```
+```perl
 12
 Geeksfor Geeks
 ```

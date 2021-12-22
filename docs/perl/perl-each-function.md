@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing a Hash
@@ -30,7 +30,7 @@ while (($key, $value) = each(%hash))
 
 **Output:**
 
-```
+```perl
 Geek = 3
 of = 2
 Geeks = 1
@@ -39,7 +39,7 @@ Geeks = 1
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing a Hash
@@ -56,7 +56,7 @@ while (($key) = each(%hash))
 
 **Output:**
 
-```
+```perl
 Geek Geeks
 
 ```

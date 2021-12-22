@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```perl
 <html>
 <head></head>
 <body>
@@ -34,7 +34,7 @@
 
 **上述 GET 方法形式的 Perl-CGI 脚本:**
 
-```
+```perl
 #!"c:\xampp\perl\bin\perl.exe"
 
 $buffer = $ENV{'QUERY_STRING'};
@@ -76,7 +76,7 @@ print "</html>";
 ![](img/58a204e82685e1c9313819496292dc3c.png)
 如上图所示，在输出图像中，信息随 URL 一起传递:
 
-```
+```perl
 http://localhost/xampp/cgi-bin/Gfg_get.pl?q=music&l=Web
 ```
 
@@ -84,7 +84,7 @@ http://localhost/xampp/cgi-bin/Gfg_get.pl?q=music&l=Web
 
 **示例:**
 
-```
+```perl
 <head></head>
 <body>
 <b>Please Fill in the Information:</b><br>
@@ -128,7 +128,7 @@ Feedback:<br>
 
 **上述 POST 方法的 Perl-CGI 脚本:**
 
-```
+```perl
 #!"c:\xampp\perl\bin\perl.exe"
 
 read (STDIN, $buffer, $ENV{'CONTENT_LENGTH'});

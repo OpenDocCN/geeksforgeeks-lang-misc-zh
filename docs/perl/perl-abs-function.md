@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining decimal value
@@ -38,7 +38,7 @@ print "Abs value of var3 is $res3";
 
 **输出:**
 
-```
+```perl
 Abs value of var1 is 15.8
 Abs value of var2 is 7
 Abs value of var3 is 15.2
@@ -46,7 +46,7 @@ Abs value of var3 is 15.2
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining string value
@@ -66,7 +66,7 @@ print "Abs value of var2 is $res2";
 
 **输出:**
 
-```
+```perl
 Abs value of var1 is 0
 Abs value of var2 is 3.5
 ```

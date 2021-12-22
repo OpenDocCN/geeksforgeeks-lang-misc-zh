@@ -22,7 +22,7 @@
 在下面的例子中，一个字符串和正则表达式匹配，成功后它返回“match found”，否则返回“match not found”。
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing a string
@@ -43,13 +43,13 @@ else 
 
 **输出:**
 
-```
+```perl
 Match Found
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising an string
@@ -70,7 +70,7 @@ else
 
 **输出:**
 
-```
+```perl
 Match Not Found
 
 ```
@@ -87,7 +87,7 @@ Match Not Found
 在下面的例子中，首先搜索一个 PATTERN 单词，然后用 REPLACEMENT 单词替换它。
 **示例-1:**
 
-```
+```perl
 #/user/bin/perl
 
 # Initialising a string
@@ -103,14 +103,14 @@ print "$string\n";
 
 **输出:**
 
-```
+```perl
 gfg is a cs portal.
 
 ```
 
 **示例-2:**
 
-```
+```perl
 #/user/bin/perl
 
 # Initialising a string
@@ -125,7 +125,7 @@ print "$string\n";
 
 **输出:**
 
-```
+```perl
 19991
 
 ```
@@ -142,7 +142,7 @@ print "$string\n";
 在下面的例子中，所有出现的“G”都被“G”替换成两个不同的运算符“[tr//](https://www.geeksforgeeks.org/perl-tr-operator/)”和“[y//](https://www.geeksforgeeks.org/perl-y-operator/)”。
 **例 1:**
 
-```
+```perl
 #/user/bin/perl
 
 # Initialising a string
@@ -157,14 +157,14 @@ print "$string\n";
 
 **输出:**
 
-```
+```perl
 geeksforgeeks
 
 ```
 
 **例 2:**
 
-```
+```perl
 #/user/bin/perl
 
 # Initialising a string
@@ -179,7 +179,7 @@ print "$string\n";
 
 **输出:**
 
-```
+```perl
 geeksforgeeks
 
 ```

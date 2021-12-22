@@ -10,7 +10,7 @@
 
 **示例 1:** 变量 *$name* 在代码的开头声明。它在文件的末尾随处可见。即使在街区内。即使那些在函数声明中。如果我们改变块内的变量，将会改变代码其余部分的值。即使在街区外。
 
-```
+```perl
 # Perl program to illustrate the 
 # Scope of Global variables
 
@@ -49,7 +49,7 @@ print "$name\n"; 
 
 **Output:**
 
-```
+```perl
 GFG
 GFG
 GeeksforGeeks
@@ -59,7 +59,7 @@ GeeksforGeeks
 
 **例 2:**
 
-```
+```perl
 # Perl program to illustrate the 
 # Scope of Global variables
 
@@ -98,7 +98,7 @@ func();
 
 **Output:**
 
-```
+```perl
 1 GFG
 2 GFG
 3 GFG
@@ -113,7 +113,7 @@ Perl 中的私有变量是在变量前使用 **my** 关键字定义的。**我�
 
 **示例:**
 
-```
+```perl
 # Perl program to illustrate the 
 # scope of private variables
 
@@ -170,7 +170,7 @@ func();
 
 **Output:**
 
-```
+```perl
 1 Global
 2 Global
 Global and Private
@@ -185,7 +185,7 @@ Variable defined in above block:
 
 **示例:**
 
-```
+```perl
 # Perl program to illustrate 
 # the Package Variables
 
@@ -220,7 +220,7 @@ package Pack1;
 
 **Output:**
 
-```
+```perl
 Value of Var1: Main Namespace
 Value of var1: 
 Value of var1: Pack1 Namespace
@@ -231,7 +231,7 @@ Value of var1: Pack1 Namespace
 
 **Perl 中的 Our 关键字:**“Our”关键字只创建同名的现有包变量的别名。**我们的**关键字允许使用包变量，而不用用包名限定它，但是只能在“*我们的*声明的词法范围内。用**声明的变量我们的**关键字声明了一个包变量的别名，该变量将在其整个词法范围内可见，**甚至跨越包边界**。
 
-```
+```perl
 # Perl program to illustrate the use 
 # of our keyword
 
@@ -263,7 +263,7 @@ package Pack2;
 
 **Output:**
 
-```
+```perl
 first_name = Shashank
 second_name =
 

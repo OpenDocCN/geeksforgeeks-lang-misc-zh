@@ -12,7 +12,7 @@ Perl 中的 pop()函数返回作为参数传递给它的 Array 的最后一个�
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining an array of integers
@@ -30,7 +30,7 @@ print "\nResultant array after pop(): \n@array";
 
 **Output:**
 
-```
+```perl
 Popped element is 40
 Resultant array after pop(): 
 10 20 30
@@ -39,7 +39,7 @@ Resultant array after pop():
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining an array of strings
@@ -57,7 +57,7 @@ print "\nResultant array after pop(): \n@array";
 
 **Output:**
 
-```
+```perl
 Popped element is Best
 Resultant array after pop(): 
 Geeks For Geeks

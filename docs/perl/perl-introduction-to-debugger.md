@@ -25,7 +25,7 @@
 
 要进入调试器，我们可以键入以下命令:
 
-```
+```perl
 perl -d program_name
 ```
 
@@ -36,6 +36,6 @@ perl -d program_name
 **退出调试器**
 要退出调试器，我们可以按 **q** 或使用:
 
-```
+```perl
 Ctrl+D or Ctrl+Z
 ```

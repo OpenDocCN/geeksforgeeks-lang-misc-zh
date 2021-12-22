@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calculating square root using sqrt()
@@ -25,14 +25,14 @@ print "Squareroot of 64 is: $square_root";
 
 **Output:**
 
-```
+```perl
 Squareroot of 64 is: 8
 
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calculating square root using sqrt()
@@ -44,7 +44,7 @@ print "Squareroot of 16 is: $square_root";
 
 **Output:**
 
-```
+```perl
 Squareroot of 16 is: 4
 
 ```

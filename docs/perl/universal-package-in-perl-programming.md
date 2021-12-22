@@ -11,7 +11,7 @@
 **示例:**
 我们来考虑一下 2.0 版本的模块 Dog
 
-```
+```perl
 use 5.010;
 package Dog 2.0;
 use strict;
@@ -49,7 +49,7 @@ say $d->VERSION(3.0);    # EXCEPTION
 
 **输出:**
 
-```
+```perl
 2.0
 2.0
 2.0
@@ -65,7 +65,7 @@ Dog version 3 required--this is only version 2.0 at /home/4c09f6973dc56e8a558b8b
 **示例:**
 让我们考虑模块/类狗和动物
 
-```
+```perl
 use 5.010;
 package Animal;  
 
@@ -113,7 +113,7 @@ say $myObject2->DOES('Dog');
 
 **输出:**
 
-```
+```perl
 1
 1
 1
@@ -127,7 +127,7 @@ say $myObject2->DOES('Dog');
 **例:**
 我们来考虑一个类 Dog，它有一个叫 bark 的方法，这个方法可以参考如下:
 
-```
+```perl
 use 5.010;
 use strict;
 use warnings;
@@ -159,7 +159,7 @@ say $dog->can('dog');  # true
 
 **输出:**
 
-```
+```perl
 Use of uninitialized value in say at /home/fdfdd52de0b7348de191b3d9be3cb44f.pl line 11.
 CODE(0x1fc3168)
 
@@ -174,7 +174,7 @@ CODE(0x1fc3168)
 **示例:**
 假设$doggy 是一个对象(一个散列引用，被祝福到 Dog 类中，从 Animal 类继承而来):
 
-```
+```perl
 use 5.010;
 use strict;
 use warnings;
@@ -205,7 +205,7 @@ say $dog->isa('Animal');  # true
 
 **输出:**
 
-```
+```perl
 1
 1
 

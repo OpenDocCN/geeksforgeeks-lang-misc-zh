@@ -49,7 +49,7 @@
     一个类可以通过使用[包](https://www.geeksforgeeks.org/packages-in-perl/)在 perl 中创建，并且可以通过使用‘use’关键字继承。
     **语法:**
 
-    ```
+    ```perl
     use package_name
 
     ```

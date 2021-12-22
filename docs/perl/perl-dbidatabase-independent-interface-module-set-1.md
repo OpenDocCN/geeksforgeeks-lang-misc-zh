@@ -20,7 +20,7 @@ Perl 中的 DBI 不依赖于它使用的数据库。它从应用编程接口获�
 
 **首先:**需要在系统中安装 Perl 的 DBI 模块。这可以通过在 Shell 中运行以下命令来安装 DBI 模块来实现:
 
-```
+```perl
 perl -MCPAN -e shell
 install DBI
 ```
@@ -32,7 +32,7 @@ install DBI
 **步骤 2:** 在这个数据库中创建一个表。我们创建了一个“员工”表，其字段为“姓名”、“职务”和“工资”。
 **步骤 3:** 使用以下给定的脚本将数据库与 Perl 文件连接起来:
 
-```
+```perl
 #!/usr/bin/perl  
 use strict;  
 use warnings;  

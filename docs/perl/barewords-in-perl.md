@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```perl
 #!usr/bin/perl
 my $bw = BWeg;
 print "$bw\n";
@@ -18,7 +18,7 @@ print "$bw\n";
 
 **例:**
 
-```
+```perl
 #!usr/bin/perl
 sub BWeg
 {
@@ -35,7 +35,7 @@ print "$bw\n";
 
 **例:**
 
-```
+```perl
 #!usr/bin/perl
 use strict;
 my $bw = BWeg;
@@ -51,7 +51,7 @@ print "$bw\n";
 
 **例:**
 
-```
+```perl
 #!usr/bin/perl
 my %India = (UP =>'Taj Mahal',
 Rajastan =>'Chittorgarh', 
@@ -78,7 +78,7 @@ print($var2, "\n");
 
 特殊命名的代码块 AUTOLOAD、BEGIN、CHECK、DESTROY、END、INIT 和 UNITCHECK 是空白。
 
-```
+```perl
 package Monkey::Butler;
 BEGIN { initialize_simians( __PACKAGE__ ) }
 sub AUTOLOAD { ... }
@@ -90,7 +90,7 @@ sub AUTOLOAD { ... }
 
 用常量 pragma 声明的常量可以用作裸词。
 
-```
+```perl
 # don't use this for real authentication
 #!usr/bin/perl
     use constant NAME => 'GeeksForGeeks';

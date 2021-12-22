@@ -7,7 +7,7 @@
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate
 # scalars variables
 
@@ -28,7 +28,7 @@ print "Percentage = $percentage\n";
 
 **输出:**
 
-```
+```perl
 Name = Alex
 Roll number = 13
 Percentage = 87.65
@@ -41,7 +41,7 @@ Percentage = 87.65
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate various types
 # of numerical scalar variables
 
@@ -69,7 +69,7 @@ print "Hexadecimal Form = $hexadec\n";
 
 **输出:**
 
-```
+```perl
 Positive Integer = 25
 Negative Integer = -73
 Floating Point = 23.5
@@ -83,7 +83,7 @@ Hexadecimal Form = 205
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate various types
 # of string scalar variables
 
@@ -108,7 +108,7 @@ print "String with special characters = $specialstring\n";
 
 **输出:**
 
-```
+```perl
 String with alphabets = GeeksforGeeks
 String with numeric values = 17
 String with alphanumeric values = gfg21

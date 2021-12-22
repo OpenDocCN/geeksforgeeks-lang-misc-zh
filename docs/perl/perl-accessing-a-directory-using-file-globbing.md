@@ -18,7 +18,7 @@
 
 *   **Accessing the current directory of the script:**
 
-    ```
+    ```perl
     #!/usr/bin/perl -w
 
     # Accessing files using glob function
@@ -34,7 +34,7 @@
 
     *   **Opening a specified directory:**
 
-    ```
+    ```perl
     #!/usr/bin/perl -w
 
     # Prints only the filename excluding the path

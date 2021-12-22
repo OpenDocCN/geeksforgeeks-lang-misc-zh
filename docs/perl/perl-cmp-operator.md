@@ -10,7 +10,7 @@
 
 **例 1:** 当 String1 小于 String2 时
 
-```
+```perl
 #!/usr/local/bin/perl
 
 # Initializing strings
@@ -26,7 +26,7 @@ print("Comparison of \$a and \$b returns $c");
 
 **输出:**
 
-```
+```perl
 Comparison of $a and $b returns -1
 
 ```

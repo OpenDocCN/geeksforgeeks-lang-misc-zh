@@ -15,7 +15,7 @@ Perl 中的日期和时间可以通过使用一个预定义的 Perl 模块来处
 
 **`localtime()`** 函数在 [Perl](https://www.geeksforgeeks.org/introduction-to-perl/) 中返回系统的当前日期和时间，如果调用时没有传递任何参数。
 
-```
+```perl
 #!/usr/local/bin/perl  
 $datetime = localtime();  
 print "Local Time of the System : $datetime\n"; 
@@ -23,7 +23,7 @@ print "Local Time of the System : $datetime\n"; 
 
 **Output:**
 
-```
+```perl
 Local Time of the System : Fri Nov 15 07:21:05 2019
 
 ```

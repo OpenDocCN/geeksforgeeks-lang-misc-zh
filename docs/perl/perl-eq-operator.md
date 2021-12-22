@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/local/bin/perl
 
 # Initializing Strings
@@ -32,14 +32,14 @@ else
 
 **Output:**
 
-```
+```perl
 String1 is not equal to String2
 
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/local/bin/perl
 
 # Initializing Strings
@@ -61,7 +61,7 @@ else
 
 **Output:**
 
-```
+```perl
 String1 is equal to String2
 
 ```

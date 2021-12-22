@@ -8,7 +8,7 @@
 
 要在 Perl 中创建一个表，首先我们必须在 SQL 中创建一个数据库。为此，我们将在 SQL 提示符下执行以下语句:
 
-```
+```perl
 CREATE DATABASE EMP_DB;
 ```
 
@@ -16,7 +16,7 @@ CREATE DATABASE EMP_DB;
 
 现在，我们将使用以下命令连接到该数据库–
 
-```
+```perl
 my $dbh = DBI->connect("dbi:$driver:$dsn", $username, $passwd, { AutoCommit => 1 })
 ```
 
@@ -27,7 +27,7 @@ my $dbh = DBI->connect("dbi:$driver:$dsn", $username, $passwd, { AutoCommit => 1
 
 参考的完整程序如下:
 
-```
+```perl
 #!/usr/bin/perl -w
 use strict;
 use DBI;
@@ -55,7 +55,7 @@ $sth->execute();
 
 现在我们已经在 EMP_DB 数据库中创建了 EMP_DETAILS 表，让我们使用以下语句将一些值插入到表中:
 
-```
+```perl
 #$dbh->do("INSERT INTO EMP_DETAILS (ID, EMP_NAME, AGE, SALARY)  
 VALUES (71, 'CHINMAY', 23, 10000)")  
 or die "Failed to insert :  $DBI::errstr";
@@ -81,7 +81,7 @@ or die "Failed to insert :  $DBI::errstr";
 
 考虑下面给出的程序。在程序中，我们使用了问号(？)在某些地方。这些问号被称为*占位符*。通过使用占位符，数据库驱动程序可以在对 SQL 提示符执行查询之前对其进行预处理。这个过程被称为数据的**绑定**。绑定帮助我们提高代码安全性，这有助于防止 SQL 注入攻击。
 
-```
+```perl
 #!/usr/bin/perl -w
 use strict;
 use DBI;
@@ -128,7 +128,7 @@ $sth->execute($id, $name, $age, $salary) or 
 
 我们的数据库现在填充了一些值。现在我们需要将它们读回给用户。为此，我们将使用 while 循环向用户读回数据。
 
-```
+```perl
 #!/usr/bin/perl -w
 use strict;
 use DBI;
@@ -164,7 +164,7 @@ $sth->finish();
 
 要更新表中的任何值，我们可以通过以下方式使用 SQL UPDATE 命令:
 
-```
+```perl
 #!/usr/bin/perl -w
 use strict;
 use DBI;
@@ -193,7 +193,7 @@ $dbh->do("UPDATE EMP_DETAILS SET ID=250 WHERE ID=150")
 
 要从表中删除特定的行，我们可以通过以下方式使用 SQL DELETE 语句:
 
-```
+```perl
 #!/usr/bin/perl -w
 use strict;
 use DBI;

@@ -17,7 +17,7 @@
 
 **示例:**
 
-```
+```perl
 sub Student_data
 { 
     my $self = shift; 
@@ -37,7 +37,7 @@ sub Student_data
 
 **示例:**
 
-```
+```perl
 # Declaration and definition of Base class 
 use strict; 
 use warnings; 

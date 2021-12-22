@@ -15,7 +15,7 @@ Perl 可以从[perl.org](https://www.perl.org/get.html)下载。要在 Windows �
 
 要检查 perl 是否完美地安装在您的设备上，只需键入:
 
-```
+```perl
 perl -v
 ```
 
@@ -44,7 +44,7 @@ perl -v
 
 ## Perl 语言
 
-```
+```perl
 {
   "cmd": ["perl", "-w", "$file"],
   "file_regex": ".* at (.) line ([0-9])",

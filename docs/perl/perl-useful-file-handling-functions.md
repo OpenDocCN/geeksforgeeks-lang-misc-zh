@@ -6,7 +6,7 @@ Perl 最初是为文本处理而开发的，比如从指定的文本文件中提
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Opening a File in Read-only mode  

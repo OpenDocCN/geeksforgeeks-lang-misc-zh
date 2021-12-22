@@ -7,7 +7,7 @@
 
 **语法:**要使用自动加载，只需将该语法放入您的 Perl 程序中:-
 
-```
+```perl
 use vars '$AUTOLOAD';
 ```
 
@@ -15,14 +15,14 @@ use vars '$AUTOLOAD';
 在$Autoload 中，原始子程序的名称出现在调用未定义函数的包的全局变量中。
 在较新版本的 Perl 中，语法是
 
-```
+```perl
 our $AUTOLOAD;
 ```
 
 **示例:**
 下面看一个 Perl 调用未定义函数的示例
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -40,7 +40,7 @@ print "A computer portal for every geek\n";
 
 如您所见，程序中出现了一个错误。现在我们将在程序中使用自动加载方法
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -71,7 +71,7 @@ sub AUTOLOAD 
 
 实现如下所示:
 
-```
+```perl
 sub AUTOLOAD
 {
     $AUTOLOAD =~ s/.*:://;

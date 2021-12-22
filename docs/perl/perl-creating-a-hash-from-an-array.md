@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # defines a hash named subjects
@@ -26,13 +26,13 @@ print($subjects{'Programming'});
 
 **Output:**
 
-```
+```perl
 Fun
 ```
 
 为了使代码更加优雅和易于阅读，Perl 提供了= >运算符。它有助于区分键和值。键总是用= >运算符指向它们相应的值。然而，这里 Perl 要求散列的键是字符串，同时，值可以是任何标量。如果使用非字符串值作为键，可能会得到意外的结果。可以使用= >运算符重写$subjects 哈希，如下所示:
 
-```
+```perl
 #!/usr/bin/perl
 
 # declaring hash using the => operator
@@ -47,7 +47,7 @@ print($subjects{'Mathematics'});
 
 **Output:**
 
-```
+```perl
 Formulas
 ```
 
@@ -57,7 +57,7 @@ Formulas
 
 由于这只是一个警告(只有在“使用警告”有效时才会显示)，脚本将继续分配。奇数元素(“物理”、“化学”、“数学”和“编程”)将成为键，偶数元素(“定律”、“例外”和“公式”)将成为值。因为元素的数量是奇数，所以最后一个键(“编程”)不会有一对。
 
-```
+```perl
 #!/usr/bin/perl
 use warnings;
 use strict;
@@ -77,7 +77,7 @@ print "Programming = $subjects{'Programming'}\n";
 
 **输出**
 
-```
+```perl
 Physics = Laws
 Chemistry = Exceptions
 Mathematics = Formulas
@@ -91,7 +91,7 @@ Use of uninitialized value $subjects{"Programming"} in print at line 12.
 
 向哈希中添加新元素并修改它们，彼此非常相似。哈希的名称后面是花括号内的键，并被赋予一个值。我们可以使用 delete 函数删除一个散列。以下示例代码显示了如何从哈希中分配/修改和移除元素:
 
-```
+```perl
 #!/usr/bin/perl
 
 # declaring a hash
@@ -139,7 +139,7 @@ for(keys %subjects){
 
 **Output:**
 
-```
+```perl
 Hash size is 4
 Hash size is 5
 Hash size is 4

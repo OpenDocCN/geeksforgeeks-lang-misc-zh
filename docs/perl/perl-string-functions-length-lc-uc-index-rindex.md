@@ -14,7 +14,7 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
 *   **Example 1:**
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # string length function
 
@@ -28,14 +28,14 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
     **输出:**
 
-    ```
+    ```perl
     13
 
     ```
 
 *   **Example 2:**
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # string length function
 
@@ -49,7 +49,7 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
     **输出:**
 
-    ```
+    ```perl
     19
 
     ```
@@ -58,7 +58,7 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
 *   **Example 1:**
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # string lc function
 
@@ -73,14 +73,14 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
     **输出:**
 
-    ```
+    ```perl
     To lower case: geeksforgeeks
 
     ```
 
 *   **Example 2:**
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # string lc function
 
@@ -95,7 +95,7 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
     **输出:**
 
-    ```
+    ```perl
     To lower case: geeks
 
     ```
@@ -104,7 +104,7 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
 *   **Example 1:**
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # string uc function
 
@@ -119,14 +119,14 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
     **输出:**
 
-    ```
+    ```perl
     To Upper Case: GEEKSFORGEEKS
 
     ```
 
 *   **Example 2:**
 
-    ```
+    ```perl
     # Perl program to demonstrate 
     # string uc function
 
@@ -141,7 +141,7 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
     **输出:**
 
-    ```
+    ```perl
     To Upper Case: GEEKS
 
     ```
@@ -150,7 +150,7 @@ Perl 中的字符串是包含在某些类型的引号中的字符序列。Perl �
 
 **示例:**
 
-```
+```perl
 # Perl Program to illustrate 
 # the index() function
 
@@ -173,7 +173,7 @@ print(qq\The substring $subs found at position $r in string $st\);
 
 **输出:**
 
-```
+```perl
 The substring for found at position 5 in string GeeksforGeeks
 
 ```
@@ -182,7 +182,7 @@ The substring for found at position 5 in string GeeksforGeeks
 
 **例 1:**
 
-```
+```perl
 # Perl Program to illustrate 
 # the rindex() function
 
@@ -205,14 +205,14 @@ print(qq\The substring $subs found at position $r in string $st\);
 
 **输出:**
 
-```
+```perl
 The substring for found at position 5 in string GeeksforGeeks
 
 ```
 
 **例 2:**
 
-```
+```perl
 # Perl Program to illustrate 
 # the rindex() function with 
 # three parameters
@@ -235,7 +235,7 @@ print "Founded position of GFG $p\n";
 
 **输出:**
 
-```
+```perl
 Founded position of GFG 24
 Founded position of GFG 8
 

@@ -15,13 +15,13 @@
 
 **语法:**
 
-```
+```perl
 readline (EXPR)
 ```
 
 **示例:**
 
-```
+```perl
 #!/ usr / bin / perl - w
 
 my($data) = "";
@@ -46,13 +46,13 @@ close(F);
 
 **语法:**
 
-```
+```perl
 binmode(FILEHANDLE)
 ```
 
 **示例:**
 
-```
+```perl
 #!/ usr / bin / perl
 
 my($read_data);
@@ -70,13 +70,13 @@ close(DATA);
 该函数用于在执行过程中从文件中读取所需数量的字符，也就是说，它可以用于读取缓冲的信息块。它也用于从文件中读取二进制数据。
 **语法:**
 
-```
+```perl
 read(FILEHANDLE, SCALAR, LENGTH)
 ```
 
 **示例:**
 
-```
+```perl
 #!/ usr / bin / perl
 
 my($read_data);
@@ -96,13 +96,13 @@ print()是 perl 中最重要的 I/O 函数之一。它用于从控制台将数�
 
 **语法:**
 
-```
+```perl
 print FILEHANDLE LIST
 ```
 
 **示例:**
 
-```
+```perl
 #!/ usr / bin / perl
 
 my($read_data);
@@ -128,7 +128,7 @@ T4】
 
 **语法:**
 
-```
+```perl
 seek(FILEHANDLE, POSITION, WHENCE)
 ```
 
@@ -139,7 +139,7 @@ c)whorf = 2，表示指针必须从文件末尾开始。
 
 **示例:**
 
-```
+```perl
 #!/ usr / bin / perl
 
 my($read_data);
@@ -153,7 +153,7 @@ close(DATA);
 
 **输出:**
 
-```
+```perl
 The position of the pointer will be set to the specified position.
 ```
 
@@ -163,13 +163,13 @@ The position of the pointer will be set to the specified position.
 
 **语法:**
 
-```
+```perl
 tell(FILEHANDLE)
 ```
 
 **示例:**
 
-```
+```perl
 #!/ usr / bin / perl
 
 my($read_data);
@@ -193,13 +193,13 @@ close(DATA);
 
 **语法:**
 
-```
+```perl
 close(FILEHANDLE)
 ```
 
 **示例:**
 
-```
+```perl
 #!/ usr / bin / perl
 
 my($read_data);

@@ -14,7 +14,7 @@
 
 **示例 1:** 使用`**Math::BigInt->is_odd()**`方法
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -65,7 +65,7 @@ else
 
 **Output:**
 
-```
+```perl
 89123751682746 is not an odd number
 6348762649837957979685908708650797587783 is an odd number
 
@@ -73,7 +73,7 @@ else
 
 **例 2:** 使用`**Math::BigInt->is_odd()**`方法检查八进制数是否为十进制奇数。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -107,14 +107,14 @@ else
 
 **Output:**
 
-```
+```perl
 726746425 (in octal) is an odd number in decimal
 
 ```
 
 **例 3:** 使用`**Math::BigInt->is_odd()**`方法检查十六进制是否为十进制奇数。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -148,7 +148,7 @@ else
 
 **Output:**
 
-```
+```perl
 Ox112210F4B16C1CB1 (in hexadecimal) is an odd number in decimal
 
 ```

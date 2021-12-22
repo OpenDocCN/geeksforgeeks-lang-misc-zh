@@ -10,7 +10,7 @@
 
 ![](img/2c0804143d83d1a0e11cc8f8522fc959.png)
 
-```
+```perl
 Store the above file as new.csv
 ```
 
@@ -30,7 +30,7 @@ CSV 文件可用于管理企业或公司数据库的记录文件。这些文件�
 
 **示例:**
 
-```
+```perl
 Input: $s = "Johny loves Sugar" 
 Output: "Johny", "loves", "Sugar"
 If Input string is passed to split function as,
@@ -40,7 +40,7 @@ The array @words will be filled with 3 values: “Johny”, “loves” and “S
 
 **注:**
 
-```
+```perl
 If $words[2] is printed then result will be "Sugar" as array indexing starts from 0.
 ```
 
@@ -53,7 +53,7 @@ If $words[2] is printed then result will be "Sugar" as array indexing starts fro
 
 ## Perl 语言
 
-```
+```perl
 use strict;
 
 my $file = $ARGV[0] or die;
@@ -79,7 +79,7 @@ while (my $line = <$data>) 
 
 使用以下命令执行上面保存的文件:
 
-```
+```perl
 perl test.pl new.csv
 ```
 
@@ -104,7 +104,7 @@ perl test.pl new.csv
 为了处理这种情况，一些限制和作用域被添加到 Perl 中，这些限制允许编译器跳过引号内的字段划分。
 我们使用**文本::CSV** ，它允许完整的 CSV 阅读器和编写器。TEXT::CSV 是 Perl 中 MCPAN 的一个模块，它允许许多新的功能，例如读取、解析和写入 CSV 文件。这些模块可以包含在 Perl 程序中，使用以下 pragma:
 
-```
+```perl
 use Text::CSV
 ```
 
@@ -113,20 +113,20 @@ use Text::CSV
 **安装 TEXT::CSV :**
 **为 Windows:**
 
-```
+```perl
 perl -MCPAN -e shell
 install Text::CSV
 ```
 
 **对于基于 Debian/Ubuntu 的系统:**
 
-```
+```perl
 $ sudo apt-get install libtext-csv-perl
 ```
 
 **对于基于红帽/Centos/Fedora 的系统:**
 
-```
+```perl
 $ sudo yum install perl-Text-CSV
 ```
 
@@ -134,7 +134,7 @@ $ sudo yum install perl-Text-CSV
 
 ## Perl 语言
 
-```
+```perl
 use strict;
 
 # Using Text::CSV file to allow
@@ -178,14 +178,14 @@ while (my $line = <$data_file>) 
 
 在上面的示例中，可以看到第一个字段现在有一个逗号，该逗号在解析 CSV 文件时被转义。
 
-```
+```perl
 my $csv = Text::CSV->new({ sep_char => ', ' }); 
 ```
 
 用“，”隔开。
 上面一行描述了在类上调用构造函数的方式。使用箭头 **- >** 完成构造函数调用。
 
-```
+```perl
 $csv->parse($line)
 ```
 
@@ -202,7 +202,7 @@ Perl 提供了一个 **getline()** 方法来处理这类文件。
 
 ## Perl 语言
 
-```
+```perl
 use strict;
 
 # Using Text::CSV file to allow

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```perl
 sub Function1(parameter1, parameter2){ statement; }
 ```
 
@@ -23,7 +23,7 @@ sub Function1(parameter1, parameter2){ statement; }
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Function Definition
@@ -57,7 +57,7 @@ print Func($value);
 
 ***例:**使用 **`is copy`** 性状*
 
-```
+```perl
 *#!/usr/bin/perl
 
 # Function Definition using
@@ -81,7 +81,7 @@ print $value;*
 
 ***输出:***
 
-```
+```perl
 *15
 10*
 ```
@@ -90,7 +90,7 @@ print $value;*
 
 ***例:**使用 **`is rw`** 性状*
 
-```
+```perl
 *#!/usr/bin/perl
 
 # Function Definition using
@@ -114,7 +114,7 @@ print $value;*
 
 ***输出:***
 
-```
+```perl
 *15
 15*
 ```

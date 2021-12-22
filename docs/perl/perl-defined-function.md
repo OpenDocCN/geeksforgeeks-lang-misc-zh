@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining a variable
@@ -43,14 +43,14 @@ else
 
 **输出:**
 
-```
+```perl
 X is defined
 Y is not defined
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining a function
@@ -82,7 +82,7 @@ else
 
 **输出:**
 
-```
+```perl
 Function Exists
 Y is not defined
 

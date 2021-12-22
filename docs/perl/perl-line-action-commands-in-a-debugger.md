@@ -5,7 +5,7 @@
 [Perl](https://www.geeksforgeeks.org/introduction-to-perl/) 中的调试器为我们提供了**行动作命令**的特性，但是在深入探讨它们之前，让我们先来谈谈实际的动作是什么:因此，动作基本上是一条指令，只要它到达特定的行，就被给予调试器来执行它。执行这些操作的原因是为了使调试变得容易。
 例如
 
-```
+```perl
 $i = 0;
 for($i = 0; $i <= 9; $i++)
 {
@@ -29,7 +29,7 @@ print($i);
 
 **语法**
 
-```
+```perl
 a line no. command to be executed [condition]
 ```
 
@@ -58,7 +58,7 @@ a line no. command to be executed [condition]
 
 **注:**
 
-```
+```perl
 There can be only one action per line.
 ```
 
@@ -67,7 +67,7 @@ There can be only one action per line.
 **`'A' command`** 用于删除之前使用`**'a' command**`指定的线动作。它会删除命令中指定的行的行操作。
 **语法:**
 
-```
+```perl
  A lineno.;
 ```
 
@@ -92,7 +92,7 @@ There can be only one action per line.
 
 **语法:**
 
-```
+```perl
  < action to be performed;
 ```
 
@@ -108,7 +108,7 @@ There can be only one action per line.
 `**'>' command**`用于指定在执行代码的进一步语句之前要执行的操作。因此，该动作将在执行某一行代码后执行，
 **语法:**
 
-```
+```perl
 > action to be performed;
 ```
 
@@ -120,13 +120,13 @@ There can be only one action per line.
 
 要删除使用`**< and > command**`指定的动作，只需重新输入用于指定该动作的命令。
 
-```
+```perl
 DB<8> < ;
 ```
 
 这将删除使用`**< command**`指定的动作。
 
-```
+```perl
 DB<9> > ;
 ```
 
@@ -138,7 +138,7 @@ DB<9> > ;
 
 **示例:**
 
-```
+```perl
 DB<3> L a;
 ```
 

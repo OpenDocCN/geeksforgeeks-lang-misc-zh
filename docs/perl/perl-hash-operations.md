@@ -18,7 +18,7 @@ Hash 是通过维护键和值或**键/值对**之间的关系来存储数据的�
 
 **例**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Creating a simple hash containing
@@ -48,7 +48,7 @@ print "AllVehicles : $hash{'AllVehicles'}\n";
 
 **Output:**
 
-```
+```perl
 Traffic : HASH(0x242af30)
 AllVehicles : ARRAY(0x24471f8)
 
@@ -76,7 +76,7 @@ Perl Hash 中的每个操作都将在下面用例子进行解释:
 
 **例**
 
-```
+```perl
 # Perl program to demonstrate 
 # accessing of the hash values
 my %hash = ('MyVehicle' => 'Car', 
@@ -116,7 +116,7 @@ print "$hash{'AllVehicles'}[3] is a type of vehicle \n";
 
 **Output:**
 
-```
+```perl
 Keys are : AllVehicles, MyVehicle, Speed, Traffic, Model
 Values are : ARRAY(0x9361f8), Car, 60.7, HASH(0x919f30), 1234
 Speed is : 60.7
@@ -135,7 +135,7 @@ Auto is a type of vehicle
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate the 
 # Modification of an element of a Hash 
 
@@ -186,7 +186,7 @@ print join(", ", @k_n), "\n"; 
 
 **Output:**
 
-```
+```perl
 Previous Model number is 1234
 New Model number is 7717
 Previous Keys are : 
@@ -207,7 +207,7 @@ Perl 允许循环其哈希值。这意味着哈希是迭代类型，可以使用
 1.  Perl **foreach** 循环
 2.  Perl **而**循环使用**的每个**功能
 
-```
+```perl
 # Perl program to demonstrate the 
 # looping over a hash using its keys
 
@@ -250,7 +250,7 @@ while(($key, $value) = each (%hash))
 
 **Output:**
 
-```
+```perl
 Value of Model is 1234
 Value of MyVehicle is Car
 Value of Traffic is HASH(0x1049f30)
@@ -268,7 +268,7 @@ Value of Speed is 60.7
 
 **例**
 
-```
+```perl
 # Perl program to demonstrate the 
 # looping over a multidimensional hash
 
@@ -308,7 +308,7 @@ foreach my $val(keys %{$hash{'Traffic'}})
 
 **Output:**
 
-```
+```perl
 AllVehicles include 
 Car
 Cycle

@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # String whose length is to be calculated
@@ -28,13 +28,13 @@ print "Length of String is: $string_len";
 
 **输出:**
 
-```
+```perl
 Length of String is: 15
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # String whose length is to be calculated
@@ -49,7 +49,7 @@ print "Length of String is: $string_len";
 
 **输出:**
 
-```
+```perl
 Length of String is: 20
 ```
 

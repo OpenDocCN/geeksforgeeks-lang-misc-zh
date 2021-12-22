@@ -10,7 +10,7 @@
 
 **第一步:**打开终端，运行以下命令:
 
-```
+```perl
 perl -MCPAN -e shell
 ```
 
@@ -18,7 +18,7 @@ perl -MCPAN -e shell
 进入 cpan 外壳后，按照下一步安装 File::Slurp 模块。
 **步骤 2:** 运行以下命令安装模块:
 
-```
+```perl
 install File::Slurp
 ```
 
@@ -58,7 +58,7 @@ File::slurpp 的 write_file 函数是利用 File::slurpp 模块一次性写入�
 
 **示例 1:** 使用标量存储文件内容
 
-```
+```perl
 # Perl code to illustrate the slurp function
 use File::Slurp;
 
@@ -79,7 +79,7 @@ write_file('C:\Users\GeeksForGeeks\Copyof_GFG_Slurp.txt', $content);
 
 **示例 2:** 使用数组存储文件内容
 
-```
+```perl
 # perl code to illustrate the slurp function
 use File::Slurp;
 
@@ -100,7 +100,7 @@ write_file('C:\Users\GeeksForGeeks\Copyof_GFG_Slurp2.txt', @lines);
 
 **示例 3:** 创建一个使用 slurp 方法的函数
 
-```
+```perl
 # Perl code to illustrate the slurp function
 use strict;
 use warnings;

@@ -10,7 +10,7 @@
 **符号**引用使您能够使用另一个变量的值作为对变量名称的引用。例如，如果变量$val 包含字符串“文本”，那么对$val 的符号引用就是指变量$Text。
 A **硬**引用是数据结构中包含的实际数据的术语。然而，它所指向的数据结构的形式在很大程度上是不相关的。虽然硬引用可以引用单个标量，但它也可以引用标量数组、散列或子例程。
 
-```
+```perl
 $val = "Text";
 $val_ref = \$val;
 
@@ -27,7 +27,7 @@ $valsub = \&val;
 
 调用子程序引用也称为**解引用**。它是从结构中提取信息的行为。当您取消引用标量引用时，您实际上是在引用原始数据结构。取消引用的最直接的方法是在包含引用的标量变量之前添加相关的数据类型字符( **$** 用于标量， **@** 用于数组， **%** 用于散列，以及 **&** 用于子程序)。
 
-```
+```perl
 $val_ref = \$val;       # Create reference to scalar
 $array = \@ARGV;        # Create reference to array
 $hash = \%ENV;          # Create reference to hash
@@ -47,7 +47,7 @@ $hash{'...'};
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to demonstrate
@@ -77,7 +77,7 @@ print("\nAfter dereferencing, value : ", &$rs2);
 
 **Output**
 
-```
+```perl
 Reference to named subroutine: CODE(0x981750)
 After dereferencing, value : GeeksforGeeks
 
@@ -90,7 +90,7 @@ T3】例 2:
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to demonstrate
@@ -124,7 +124,7 @@ sub func3
 
 **Output:** 
 
-```
+```perl
 GeeksforGeeks
 ```
 
@@ -136,7 +136,7 @@ GeeksforGeeks
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate
 # the use of callbacks
 sub alt {
@@ -182,7 +182,7 @@ sub calc
 
 **Output:** 
 
-```
+```perl
 Sandro teams up with James
 Rodrygo teams up with Peter
 Marcelo teams up with Lewis
@@ -197,7 +197,7 @@ Marcelo teams up with Lewis
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 w
 # Perl program to demonstrate
 # array of references
@@ -232,7 +232,7 @@ for(my $i = 0; $i < scalar(@{$array}); $i++)
 
 **Output:** 
 
-```
+```perl
 Geeks
 for
 Geeks
@@ -246,7 +246,7 @@ Geeks for Geeks
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to demonstrate
@@ -279,7 +279,7 @@ for (keys %$hash_ref)
 
 **Output:** 
 
-```
+```perl
 John
 Marcelo
 The hash stored is :

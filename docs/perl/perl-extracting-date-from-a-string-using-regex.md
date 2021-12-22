@@ -54,7 +54,7 @@ d 代表什么？/d 的意思是？该模式确保月、日、小时、分钟和
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 # your code here
 my $str = "sample2018-03-21T12:10:10.csv";
@@ -65,7 +65,7 @@ print "year : $year  month:$month  day:$day - hour:$hour  minute:$min  secon
 
 **输出:**
 
-```
+```perl
 year : 2018  month:03  day:21 - hour:12  minute:10  seconds:10
 ```
 
@@ -77,7 +77,7 @@ year : 2018  month:03  day:21 - hour:12  minute:10  seconds:10
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 # your code here
 my $str1 = "test_28/04/2017 11.00.00";
@@ -88,7 +88,7 @@ print "year:$year1  month:$month1  day:$day1 - hour:$hour1  minute:$min1  se
 
 **输出:**
 
-```
+```perl
 year:2017  month:28  day:04 - hour:11  minute:00  seconds:00
 ```
 
@@ -100,7 +100,7 @@ year:2017  month:28  day:04 - hour:11  minute:00  seconds:00
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 # your code here
 my $string = 'Date: Tue, 11 Feb 2014 11:01:57 +0100 (CET)';
@@ -110,6 +110,6 @@ print "Day:$day3 month:$month3 year:$year3\n";
 
 **输出:**
 
-```
+```perl
 Day:11 month:Feb year:2014
 ```

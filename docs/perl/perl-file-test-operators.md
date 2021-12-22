@@ -6,7 +6,7 @@ Perl 中的文件测试运算符是返回真或假值的逻辑运算符。在 Pe
 
 以下示例使用“-e”，existence 运算符检查文件是否存在:
 
-```
+```perl
 #!/usr/bin/perl
 
 # Using predefined modules
@@ -67,7 +67,7 @@ else
 
 您可以将 AND 逻辑运算符与文件测试运算符结合使用，如下所示:
 
-```
+```perl
 #!/usr/bin/perl
 
 # Using predefined modules

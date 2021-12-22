@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 $prototype_func = prototype ( "GFG" );
@@ -29,14 +29,14 @@ sub GFG(**) 
 
 **Output:**
 
-```
+```perl
 Prototype of GFG function is **
 
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 $prototype_func = prototype ( "GFG" );
@@ -51,7 +51,7 @@ sub GFG($) 
 
 **Output:**
 
-```
+```perl
 Prototype of GFG function is $
 
 ```

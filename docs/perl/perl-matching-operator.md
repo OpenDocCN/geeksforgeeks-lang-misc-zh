@@ -18,7 +18,7 @@ Perl 中的 m 运算符用于匹配给定文本中的模式。传递给 m 运算
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Text String
@@ -38,7 +38,7 @@ print "After: {content}apos;\n";
 
 **Output:**
 
-```
+```perl
 Before: Geeks f
 Matched: or g
 After: eeks is the best
@@ -47,7 +47,7 @@ After: eeks is the best
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Text String
@@ -67,7 +67,7 @@ print "After: {content}apos;\n";
 
 **Output:**
 
-```
+```perl
 Before: Welcome 
 Matched: to Ge
 After: eksForGeeks

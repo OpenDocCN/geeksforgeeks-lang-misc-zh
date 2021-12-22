@@ -5,7 +5,7 @@
 一组**键/值**对被称为哈希。哈希结构中的每个键都是唯一的，并且是类型字符串。与这些键相关联的值是 [**标量**](https://www.geeksforgeeks.org/perl-scalars/) 。这些值可以是数字、字符串或引用。哈希是使用 **my** 关键字声明的。变量名前面是美元**符号($)** ，后面是花括号下的键和与该键关联的值。每个键都与一个值相关联。
 **例:**
 
-```
+```perl
 my%rateof{mango} = 45;
 ```
 
@@ -13,7 +13,7 @@ my%rateof{mango} = 45;
 
 *   如果事情是有序的，那么去数组。例如:
 
-```
+```perl
 1\. A list of people in a bank queue.
 2\. A list of people in railway reservation line.
 3\. A list of files to read.
@@ -21,7 +21,7 @@ my%rateof{mango} = 45;
 
 *   如果我们拥有的东西不合适，那就去找哈希吧。例如:
 
-```
+```perl
 1\. An index of surname looked up by the first name.
 2\. An index showing the size of files looked up by name.
 ```
@@ -30,7 +30,7 @@ my%rateof{mango} = 45;
 
 *   **例:**
 
-```
+```perl
 my %rateof;
 ```
 
@@ -40,7 +40,7 @@ my %rateof;
 
 *   **例:**
 
-```
+```perl
 $rateof{'mango'} = 45; 
 ```
 
@@ -53,7 +53,7 @@ $rateof{'mango'} = 45;
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # Fetching an element of a Hash
 
@@ -68,7 +68,7 @@ print "$rateof{'Grapes'}\n";
 
 *   **输出:**
 
-```
+```perl
 45
 30
 40
@@ -80,7 +80,7 @@ print "$rateof{'Grapes'}\n";
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # empty values of a Hash
 
@@ -97,7 +97,7 @@ print "$rateof{'Grapes'}\n";
 
 **输出:**
 
-```
+```perl
 45
 
 40
@@ -106,7 +106,7 @@ print "$rateof{'Grapes'}\n";
 **迭代散列:**要访问散列中的值，用户必须知道与该值相关联的密钥。如果一个散列的关键字事先不知道，那么在关键字函数的帮助下，用户可以获得关键字列表，并可以迭代这些关键字。
 **例:**
 
-```
+```perl
 my @fruits = keys %rateof;
 for my $fruit (@fruits) {
     print "The color of '$fruit' is $rateofof{$fruit}\n";
@@ -117,7 +117,7 @@ for my $fruit (@fruits) {
 
 *   **语法:**
 
-```
+```perl
 print scalar keys % hash_variable_name;
 ```
 
@@ -125,7 +125,7 @@ print scalar keys % hash_variable_name;
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to find the size of a Hash
 
 #use warnings;
@@ -146,7 +146,7 @@ print "Hash size using Values is: $size\n";
 
 *   **输出:**
 
-```
+```perl
 Hash size using Keys is: 4
 Hash size using Values is: 4
 ```
@@ -157,7 +157,7 @@ Hash size using Values is: 4
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to add an element in a hash
 
 #use warnings;
@@ -183,7 +183,7 @@ print "SIZE OF HASH AFTER ADDING:  is $size\n";
 
 *   **输出:**
 
-```
+```perl
 SIZE OF HASH BEFORE ADDING:  is 4
 SIZE OF HASH AFTER ADDING:  is 5
 ```
@@ -193,7 +193,7 @@ SIZE OF HASH AFTER ADDING:  is 5
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to element from hash
 
 #use warnings;
@@ -221,7 +221,7 @@ print "SIZE OF HASH AFTER DELETING: $size\n";
 
 *   **输出:**
 
-```
+```perl
 SIZE OF HASH BEFORE DELETING: 4
 SIZE OF HASH AFTER DELETING: 3
 ```

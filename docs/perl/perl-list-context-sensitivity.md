@@ -13,15 +13,15 @@ Perl 假定*在“列表上下文”中列出*值，因为列表可以有任意�
 *   **Assignment to an array:**
     **Example:**
 
-    ```
+    ```perl
     @y = LIST;
     ```
 
-    ```
+    ```perl
     @y = @z;
     ```
 
-    ```
+    ```perl
     @y = localtime();
     ```
 
@@ -30,11 +30,11 @@ Perl 假定*在“列表上下文”中列出*值，因为列表可以有任意�
 *   **Assignment to a list:**
     **Example:**
 
-    ```
+    ```perl
     ($x, $y) = LIST;
     ```
 
-    ```
+    ```perl
     ($x) =  LIST;
     ```
 
@@ -42,7 +42,7 @@ Perl 假定*在“列表上下文”中列出*值，因为列表可以有任意�
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 # Perl program of creating List Context
 
@@ -73,7 +73,7 @@ print @t;
 
 **Output:**
 
-```
+```perl
 geeks for
 geeks for geeks articles
 201761121191690
@@ -87,7 +87,7 @@ geeks for geeks articles
 为了用一个数组激发 List Context，我们需要将一个数组赋给另一个数组。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Program for arrays in List Context
@@ -108,7 +108,7 @@ print @y;
 
 **Output:**
 
-```
+```perl
 computer_science_portal_for_GeeksforGeeks
 
 ```
@@ -120,7 +120,7 @@ computer_science_portal_for_GeeksforGeeks
 if-语句用于列表上下文中，仅当数组中存在元素时，才显示包含在“if”中的语句。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Program to display content of if-statement
@@ -140,7 +140,7 @@ if (@x)
 
 **Output:**
 
-```
+```perl
 GeeksforGeeks
 
 ```
@@ -152,7 +152,7 @@ GeeksforGeeks
 *“STDIN”*是 Perl 中的一个 readline 运算符。为了将读线操作符置于列表上下文中，需要将该操作符指定给一个数组。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use 5.010;

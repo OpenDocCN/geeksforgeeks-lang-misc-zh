@@ -8,7 +8,7 @@ Perl 中的一个[字符串](https://www.geeksforgeeks.org/perl-quoted-interpola
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # Concatenation Operator(.) in String
 
@@ -29,7 +29,7 @@ print "String After Concatenation = $concat_string\n";
 
 **Output:** 
 
-```
+```perl
 String After Concatenation = GeeksforGeeks
 ```
 

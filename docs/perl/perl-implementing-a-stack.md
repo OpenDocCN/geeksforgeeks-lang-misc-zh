@@ -12,13 +12,13 @@
 用 Perl 创建堆栈相当简单。我们只需要声明一个数组。
 堆栈可以是空的，如下所示:
 
-```
+```perl
 @stack;
 ```
 
 或者它可以被初始化:
 
-```
+```perl
 @stack = (1, 2, 3);
 ```
 
@@ -36,7 +36,7 @@
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Intitialising the Stack
@@ -66,7 +66,7 @@ print("\nUpdated Stack: @stack");
 
 **Output:**
 
-```
+```perl
 Original Stack: 1 2 3
 Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
@@ -82,7 +82,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
     **示例:**
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # Intitialising the Stack
@@ -113,7 +113,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
     **Output:**
 
-    ```
+    ```perl
     Original Stack: 1 2 3
     Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
@@ -133,7 +133,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
         **示例:**
 
-        ```
+        ```perl
         #!/usr/bin/perl
 
         # Intitialising the Stack
@@ -156,7 +156,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
         **Output:**
 
-        ```
+        ```perl
         Original Stack: 1 2 3
         Popped element: 3
         Updated Stack: 1 2
@@ -167,7 +167,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
             **示例:**
 
-            ```
+            ```perl
             #!/usr/bin/perl
 
             # Creating a Stack
@@ -186,7 +186,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
             **Output:**
 
-            ```
+            ```perl
             Popped element: 
 
             ```
@@ -201,7 +201,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
         **示例:**
 
-        ```
+        ```perl
         #!/usr/bin/perl
 
         # Intitialising the Stack
@@ -223,7 +223,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
         **Output:**
 
-        ```
+        ```perl
         Original Stack: 1 2 3
         Popped element: 3
         Updated Stack: 1 2
@@ -232,7 +232,7 @@ Updated Stack: 1 2 3 scalar a r r a y Geeks 10 for Geeks 20
 
         *   An error is raised, if the stack is empty. The following code raises an error:
 
-            ```
+            ```perl
             use warnings;
             #!/usr/bin/perl
 

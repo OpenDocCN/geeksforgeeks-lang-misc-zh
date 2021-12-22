@@ -20,7 +20,7 @@
 
 **例 1**
 
-```
+```perl
 #!/usr/bin/perl
 
 # String to be passed
@@ -43,7 +43,7 @@ print "Substring 2 : $sub_string2 ";
 
 **输出:**
 
-```
+```perl
 Substring 1 : sForGeeks
 Substring 2 : sForG 
 
@@ -51,7 +51,7 @@ Substring 2 : sForG
 
 **例 2**
 
-```
+```perl
 #!/usr/bin/perl
 
 # String to be passed
@@ -74,7 +74,7 @@ print "Substring 2 : $sub_string2 ";
 
 **输出:**
 
-```
+```perl
 Substring 1 : eeks
 Substring 2 : sForGee 
 

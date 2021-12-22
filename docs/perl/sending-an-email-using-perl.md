@@ -10,7 +10,7 @@
 
 ##### 发送简单邮件
 
-```
+```perl
 #!/usr/bin/perl
 
 # Details for email
@@ -47,7 +47,7 @@ else
 
 如果用户想向接收者发送 html 格式的文本怎么办？在这种情况下，只需在 perl 脚本中添加以下代码作为$message 变量:
 
-```
+```perl
 $message = '<h1>H1 is the main heading</h1><p><img src="image_source_with_extension" /></p>';
 ```
 
@@ -57,7 +57,7 @@ $message = '<h1>H1 is the main heading</h1><p><img src="image_source_with_extens
 
 您也可以在邮件标题中添加抄送和密件抄送字段。在您的 Perl 脚本中添加以下变量:
 
-```
+```perl
 $cc = 'user1@mail.abc, user2@mail.abc, user3@mail.abc';
 $bcc = 'user4@mail.abc';
 
@@ -69,7 +69,7 @@ $bcc = 'user4@mail.abc';
 
 > **注意:**在运行下面的代码之前，请确保已经安装了 Mail::Sendmail 模块。
 
-```
+```perl
 use MIME::QuotedPrint;
 use MIME::Base64;
 use Mail::Sendmail;
@@ -115,7 +115,7 @@ sendmail(%mail) || print "Error: $Mail::Sendmail::error\n";
 
 该模块提供了更大的灵活性，也适用于非 Linux/Unix 机器。通过该模块，您可以轻松地将同一封邮件发送给不同的收件人，使用 HTML 标签格式化您的邮件，还可以发送多个附件。`**MIME::Lite**`旨在作为一个简单、独立的模块来生成 MIME 消息，具体来说，它允许您输出一个简单、体面的包含文本或二进制附件的单部分或多部分消息。它不要求您安装邮件::或 MIME::模块，但如果安装了，将可以使用它们。为了安装只需写:
 
-```
+```perl
 cpan -i MIME::Lite
 ```
 
@@ -125,7 +125,7 @@ cpan -i MIME::Lite
 
 下面是发送邮件时需要运行的文件。下面的代码需要用邮件的“收件人的邮件地址”、“发件人的邮件地址”、“主题”和“正文”来指定。
 
-```
+```perl
 #!/usr/bin/perl
 use MIME::Lite;
 
@@ -155,7 +155,7 @@ print "Email Sent Successfully!\n";
 
 就像发送邮件实用程序一样，`**MIME::Lite**`模块也允许用户使用 perl 脚本发送 HTML 格式的邮件。
 
-```
+```perl
 $message = '<h1>H1 is the main heading</h1><p><img src="image_source_with_extension" /></p>';
 ```
 
@@ -165,7 +165,7 @@ $message = '<h1>H1 is the main heading</h1><p><img src="image_source_with_extens
 
 现在的问题是如果你有多个接收器。在这种情况下，您什么也不用做，只需将$配置为变量:
 
-```
+```perl
 $to = 'receiver1_mail@anything.com, receiver2_mail@anything.com, receiver3_mail@anything.com';
 ```
 
@@ -175,7 +175,7 @@ $to = 'receiver1_mail@anything.com, receiver2_mail@anything.com, receiver3_mail@
 
 附件可以是任何东西，如文档、pdf 或图像。您可以在附件中添加一条短信。这个模块的一个优点是它使发送附件变得容易。您可以使用 attach()方法在一封电子邮件中包含多个文件。为了发送附件，只需写:
 
-```
+```perl
 # Add text message.
 $msg->attach(Type => 'text', 
              Filename => 'filename.extension', 
@@ -192,7 +192,7 @@ $msg->attach(Type => 'image/gif',
 
 因此，经过上述配置(如添加多个接收者、使用 HTML 格式化邮件和添加附件)后的最终代码如下所示:
 
-```
+```perl
 #!/usr/bin/perl
 use MIME::Lite;
 
@@ -229,7 +229,7 @@ print "Email Sent Successfully!\n";
 
 为了安装该模块:
 
-```
+```perl
 cpan -i MIME::Lite::TT::HTML
 ```
 
@@ -237,19 +237,19 @@ cpan -i MIME::Lite::TT::HTML
 
 **文件名:notice.txt.tt**
 
-```
+```perl
 This is from notice.txt
 ```
 
 **文件名:notice.html.tt**
 
-```
+```perl
 <p>This is from</p> <p>notice.html</p>
 ```
 
 现在使用模板配置的源代码如下所示。
 
-```
+```perl
 #!/usr/bin/perl
 
 use strict;
@@ -281,7 +281,7 @@ $msg->send;
 
 对于发送附件，只需在$msg 变量后添加下面的代码。
 
-```
+```perl
 $msg->attr("content-type" => "multipart/mixed");
 
 $msg->attach(Type => 'application/pdf',
@@ -294,7 +294,7 @@ $msg->attach(Type => 'application/pdf',
 
 现在完整的源代码如下所示:
 
-```
+```perl
 #!/usr/bin/perl
 
 use strict;
@@ -332,6 +332,6 @@ $msg->send;
 
 默认情况下，上述方法使用 localhost 发送电子邮件，本地设置服务器不保证邮件会被发送。一旦您选择了提供商或决定自行设置 SMTP 服务器，请调整 MIME 模块中的代码，并在`send()`方法中提供 SMTP 凭据:
 
-```
+```perl
 $msg->send('smtp', "smtp.example.com", AuthUser=>"your_id", AuthPass=>"your_password" );
 ```

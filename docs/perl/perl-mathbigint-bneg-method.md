@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Import Math::BigInt module 
@@ -33,14 +33,14 @@ print($x);
 
 **Output:**
 
-```
+```perl
 -78215936043546
 
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Import Math::BigInt module 
@@ -59,14 +59,14 @@ print($x);
 
 **Output:**
 
-```
+```perl
 78215936043546
 
 ```
 
 **例 3:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Import Math::BigInt module 
@@ -89,7 +89,7 @@ print($y);
 
 **Output:**
 
-```
+```perl
 0
 NaN
 

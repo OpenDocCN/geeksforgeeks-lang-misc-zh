@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the string and checking it
@@ -33,7 +33,7 @@ else
 
 **Output:**
 
-```
+```perl
 1
 I found geek.
 
@@ -41,13 +41,13 @@ I found geek.
 
 因此，在上面的例子中，它首先检查“极客”，并在第一个替换模式中找到匹配项，一旦找到匹配项，就返回 1。但是它也会检查“for ”,如果它不在字符串中，它也不会被打扰，因为它已经返回了匹配状态。如果“for”匹配，它将检查“for”是否出现在字符串的最少位置，因为“geeks”中的“g”出现在位置 0，“for”中的“f”出现在位置 5，“geeks”存储在最后一个匹配模式中。查看以下示例:
 
-```
+```perl
  {content}amp; - Contains the string matched by the last pattern match.
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the string and checking it
@@ -70,7 +70,7 @@ if ($str =~ /[gfrkc]/)
 
 **Output:**
 
-```
+```perl
 1
 I found ge.
 g
@@ -82,7 +82,7 @@ g
 分组用于搜索以相似单词或模式为界限的模式，在开头、结尾或中间，它还返回位置最少的模式。分组使用元字符“()”完成。下面是一个能让事情变得清楚的例子:
 **例子 1:**
 
-```
+```perl
 #!/usr/bin/perl
 # Initializing the string and checking it
 # against few search patterns
@@ -101,14 +101,14 @@ else
 
 **Output:**
 
-```
+```perl
 I found Blackbackground.
 
 ```
 
 为了更好地理解，请查看以下示例:
 
-```
+```perl
 #!/usr/bin/perl
 use warnings;
 use strict;
@@ -134,7 +134,7 @@ for(@mail)
 
 **Output:**
 
-```
+```perl
 Valid : Ab-@gmail.com
 Valid : d.f@yahoo.com
 Valid : 0b_f@bing.com

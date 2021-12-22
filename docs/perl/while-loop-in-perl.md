@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```perl
 while (condition)
 {
     # Code to be executed
@@ -20,7 +20,7 @@ while (condition)
 
 **示例:**
 
-```
+```perl
 # Perl program to illustrate
 # the while loop
 
@@ -35,7 +35,7 @@ while ($count >= 0)
 
 **输出:**
 
-```
+```perl
 GeeksForGeeks
 GeeksForGeeks
 GeeksForGeeks
@@ -47,7 +47,7 @@ GeeksForGeeks
 
 嵌套 while 循环是指在另一个 while 循环中使用一个 while 循环。在嵌套 while 循环中，对于外部 while 循环的每次迭代，内部 while 循环都将完全执行。
 
-```
+```perl
 #!/usr/bin/perl
 # Perl program for Nested while loop
 $a = 0;  
@@ -67,7 +67,7 @@ while( $a <= 2 )
 
 **输出:**
 
-```
+```perl
 0 0
 0 1
 0 2
@@ -86,7 +86,7 @@ while( $a <= 2 )
 
 下面的程序将无限时间打印指定的语句，并在联机 IDE 上给出运行时错误为*超出输出限制*
 
-```
+```perl
 # Perl program to illustrate
 # the infinite while loop
 
@@ -101,7 +101,7 @@ while(1)
 
 **输出:**
 
-```
+```perl
 Infinite While Loop
 Infinite While Loop
 Infinite While Loop

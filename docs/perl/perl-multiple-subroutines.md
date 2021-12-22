@@ -11,7 +11,7 @@
 
 在 Perl 中定义子例程的一般形式如下-
 
-```
+```perl
 sub subroutine_name
 {
     # body of method or subroutine
@@ -27,7 +27,7 @@ sub subroutine_name
 
 **示例:**
 
-```
+```perl
 multi Func1($var){statement};
 multi Func1($var1, $var2){statement1; statement2;}
 
@@ -39,7 +39,7 @@ multi Func1($var1, $var2){statement1; statement2;}
 
 **例 1:** 斐波那契数列的和。
 
-```
+```perl
 #!/usr/bin/perl
 # Program to print sum of fibonacci series
 
@@ -69,7 +69,7 @@ print Fibonacci_func(17);
 
 **输出:**
 
-```
+```perl
 2584
 ```
 
@@ -77,7 +77,7 @@ print Fibonacci_func(17);
 
 **例 2:** 一个数的阶乘
 
-```
+```perl
 #!/usr/bin/perl
 # Program to print factorial of a number
 
@@ -101,7 +101,7 @@ print Factorial(15);
 
 **输出:**
 
-```
+```perl
 3628800
 ```
 

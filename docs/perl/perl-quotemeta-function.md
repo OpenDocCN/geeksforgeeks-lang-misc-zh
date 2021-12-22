@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```perl
 Input : "GF*..G" 
 Output : "GF\*\.\.G"
 
@@ -22,7 +22,7 @@ Output : "GF\*\.\.G"
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 $string = "GF*\n[.]*G";
 
@@ -36,7 +36,7 @@ print quotemeta($string);
 
 **输出:**
 
-```
+```perl
 Original String: 
 GF*
 [.]*G
@@ -48,7 +48,7 @@ GF\*\
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 $string = "GF+n\{.}/G";
 
@@ -62,7 +62,7 @@ print quotemeta($string);
 
 **输出:**
 
-```
+```perl
 Original String: 
 GF+n{.}/G
 

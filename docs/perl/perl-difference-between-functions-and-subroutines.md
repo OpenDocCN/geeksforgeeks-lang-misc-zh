@@ -44,7 +44,7 @@ Perl 中有很多内置的函数，也很方便。例如，“say”是一个内
 
 ## 功能
 
-```
+```perl
 #!/usr/bin/perl
 # Perl program to reverse a string
 # using pre-defined function
@@ -60,7 +60,7 @@ print scalar reverse("$string"), "\n";
 
 ## 子程序
 
-```
+```perl
 #!/usr/bin/perl
 # Perl program to reverse a string
 # using a subroutine
@@ -91,7 +91,7 @@ sub reverse_in_place
 
 **Output:**
 
-```
+```perl
 Original string: GeeksforGeeks
 Reversed using Subroutine:  skeeGrofskeeG
 

@@ -6,7 +6,7 @@
 
 **定义子程序:**在 Perl 中定义子程序的一般形式如下-
 
-```
+```perl
 sub subroutine_name
 {
     # body of method or subroutine
@@ -16,19 +16,19 @@ sub subroutine_name
 
 **调用子程序:**在 Perl 中，子程序可以通过将参数列表传递给它来调用，如下所示-
 
-```
+```perl
 subroutine_name(aruguments_list);
 ```
 
 上述调用子例程的方式仅适用于 Perl 及更高版本。在 Perl 5.0 之前，有另一种调用子例程的方法，但是不建议使用，因为它绕过了子例程原型。
 
-```
+```perl
 &subroutine_name(aruguments_list);
 ```
 
 **示例:**
 
-```
+```perl
 # Perl Program to demonstrate the 
 # subroutine declaration and calling
 
@@ -47,7 +47,7 @@ ask_user();
 
 **输出:**
 
-```
+```perl
 Hello Geeks!
 ```
 
@@ -55,7 +55,7 @@ Hello Geeks!
 
 **示例:**
 
-```
+```perl
 # Perl Program to demonstrate the 
 # Passing parameters to subroutines
 
@@ -79,7 +79,7 @@ printf $totalArea;
 
 **输出:**
 
-```
+```perl
 16
 ```
 

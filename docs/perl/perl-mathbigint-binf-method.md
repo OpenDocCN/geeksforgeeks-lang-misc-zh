@@ -15,7 +15,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Import Math::BigInt module 
@@ -36,7 +36,7 @@ print("$x");
 
 **Output:**
 
-```
+```perl
 inf
 -inf
 
@@ -44,7 +44,7 @@ inf
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Import Math::BigInt module 
@@ -68,7 +68,7 @@ print("After function call: $x");
 
 **Output:**
 
-```
+```perl
 Before function call: 78215936043546
 After function call: inf
 
@@ -76,7 +76,7 @@ After function call: inf
 
 **例 3:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Import Math::BigInt module 
@@ -100,7 +100,7 @@ print("After function call: $x");
 
 **Output:**
 
-```
+```perl
 Before function call: 78215936043546
 After function call: -inf
 

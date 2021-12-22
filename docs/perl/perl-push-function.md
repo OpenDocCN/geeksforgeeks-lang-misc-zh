@@ -15,7 +15,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Original Array
@@ -34,7 +34,7 @@ print "Updated Array: @array \n";
 
 **输出:**
 
-```
+```perl
 Original Array: 10 20 30 
 Updated Array: 10 20 30 35 40 55 
 
@@ -42,7 +42,7 @@ Updated Array: 10 20 30 35 40 55
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Original Array
@@ -61,7 +61,7 @@ print "Updated Array: @array \n";
 
 **输出:**
 
-```
+```perl
 Original Array: 10 A 30 
 Updated Array: 10 A 30 F G H 
 

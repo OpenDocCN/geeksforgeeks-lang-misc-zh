@@ -15,7 +15,7 @@
 
 下面是实现:
 
-```
+```perl
 # Number Guessing Game implementation 
 # using Perl Programming 
 
@@ -117,7 +117,7 @@ while($n < $chances)
 
 **输入:**
 
-```
+```perl
 5
 6
 8
@@ -127,7 +127,7 @@ while($n < $chances)
 
 **输出:**
 
-```
+```perl
 Number guessing game
 Guess a number (between 0 and 10): 
 Your guess was too low, guess a higher number than 5

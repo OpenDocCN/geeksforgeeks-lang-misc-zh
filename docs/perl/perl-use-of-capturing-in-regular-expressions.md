@@ -11,7 +11,7 @@ Perl 通过在任何正则表达式中的数据周围使用括号()来提取匹�
 
 **示例:**
 
-```
+```perl
 use warnings;
 use strict;
 
@@ -33,7 +33,7 @@ print ("$1 \n") if($time =~ /(\d\d:\d\d:\d\d)/);
 
 编号捕获的基本语法是:
 
-```
+```perl
 (?<capture name> …)
 ```
 
@@ -44,7 +44,7 @@ print ("$1 \n") if($time =~ /(\d\d:\d\d:\d\d)/);
 
 **示例:**
 
-```
+```perl
 # Extracting the parts of string
 $_ = "The brown fox jumps over the lazy dog";
 /the (\S+)(?{ $color = $^N }) (\S+)(?{ $animal = $^N })/i;
@@ -55,7 +55,7 @@ print "color = $color, animal = $animal\n"; 
 
 **Output:**
 
-```
+```perl
 color = brown, animal = fox
 ```
 
@@ -67,7 +67,7 @@ color = brown, animal = fox
 
 **示例:**
 
-```
+```perl
 # Extracting forename and surname
 print "Please enter your name \n "; 
 chop ($name = <'Vishal Raina '>);
@@ -85,7 +85,7 @@ print "\n";
 
 **Output**
 
-```
+```perl
 Please enter your name 
 Hi Vishal. Your Surname is Raina.
 ```

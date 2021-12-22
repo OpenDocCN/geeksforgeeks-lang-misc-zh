@@ -9,7 +9,7 @@
 **“for”循环**提供了编写循环结构的简洁方式。与 while 循环不同，for 语句在一行中消耗初始化、条件和增量/减量，从而提供一个更短、更易于调试的循环结构。
 **语法:**
 
-```
+```perl
 for (init statement; condition; increment/decrement ) 
 {
     # Code to be Executed
@@ -32,7 +32,7 @@ for 循环作用于预定义的控制流。控制的流程可以通过以下方�
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # the for loop
 
@@ -45,7 +45,7 @@ for ($count = 1 ; $count <= 3 ; $count++)
 
 **输出:**
 
-```
+```perl
 GeeksForGeeks
 GeeksForGeeks
 GeeksForGeeks
@@ -56,7 +56,7 @@ foreach 循环
 foreach 循环用于迭代一个列表，变量一次保存一个列表元素的值。它主要用于当我们在一个列表中有一组数据，并且我们想要迭代列表的元素，而不是迭代它的范围。每个元素的迭代过程由循环自动完成。
 **语法:**
 
-```
+```perl
 foreach variable 
 {
     # Code to be Executed
@@ -71,7 +71,7 @@ foreach variable
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # the foreach loop
 
@@ -87,7 +87,7 @@ foreach $word (@data)
 
 **输出:**
 
-```
+```perl
 GEEKSFORGEEKS
 ```
 
@@ -96,7 +96,7 @@ while 循环
 while 循环通常使用括号中的表达式。如果表达式为真，则执行 while 循环体中的代码。当我们不知道希望循环执行的次数，但是我们知道循环的终止条件时，就使用 while 循环。也称为**入口控制循环**，因为在执行循环之前会检查条件。while 循环可以看作是一个重复的 if 语句。
 **语法:**
 
-```
+```perl
 while (condition)
 {
     # Code to be executed
@@ -111,7 +111,7 @@ while (condition)
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # the while loop
 
@@ -126,7 +126,7 @@ while ($count >= 0)
 
 **输出:**
 
-```
+```perl
 GeeksForGeeks
 GeeksForGeeks
 GeeksForGeeks
@@ -140,7 +140,7 @@ GeeksForGeeks
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # the infinite while loop
 
@@ -155,7 +155,7 @@ while(1)
 
 *   **输出:**
 
-```
+```perl
 Infinite While Loop
 Infinite While Loop
 Infinite While Loop
@@ -171,7 +171,7 @@ Infinite While Loop
 做..while 循环与 while 循环几乎相同。唯一不同的是..而循环至少运行一次。第一次执行后检查条件。做..当我们希望循环至少运行一次时，使用 while 循环。也称为**退出受控循环**，因为在执行循环后会检查条件。
 **语法:**
 
-```
+```perl
 do {
 
     # statements to be Executed
@@ -187,7 +187,7 @@ do {
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # do..while Loop
 
@@ -203,7 +203,7 @@ do {
 
 **输出:**
 
-```
+```perl
 10 9 8 7 6 5 4 3 2 1
 ```
 
@@ -212,7 +212,7 @@ do {
 **直到循环**与 while 循环相反。它在括号中带一个条件，并且只运行到条件为假。基本上，它重复一条指令或一组指令，直到条件为假。它也是入口控制器循环，即首先检查条件，然后执行块内的指令集。
 **语法:**
 
-```
+```perl
 until (condition) 
 {
    # Statements to be executed
@@ -227,7 +227,7 @@ until (condition)
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate until Loop
 
 $a = 10;
@@ -242,7 +242,7 @@ until ($a < 1)
 
 **输出:**
 
-```
+```perl
 10 9 8 7 6 5 4 3 2 1
 ```
 
@@ -253,7 +253,7 @@ until ($a < 1)
 
 *   **嵌套为循环**
 
-```
+```perl
 for (init statement; condition; increment/decrement ) 
 {
     for (init statement; condition; increment/decrement ) 
@@ -265,7 +265,7 @@ for (init statement; condition; increment/decrement )
 
 *   **嵌套 foreach 循环**
 
-```
+```perl
 foreach variable_1 (@array_1) {
 
     foreach variable_2 (@array_2) 
@@ -278,7 +278,7 @@ foreach variable_1 (@array_1) {
 
 *   **嵌套 while 循环**
 
-```
+```perl
 while (condition)
 {
     while (condition)
@@ -290,7 +290,7 @@ while (condition)
 
 *   **嵌套 do..【while 循环** 
 
-```
+```perl
 do{
     do{
 
@@ -303,7 +303,7 @@ do{
 
 *   **嵌套直到循环**
 
-```
+```perl
 until (condition) {
 
     until (condition) 
@@ -317,7 +317,7 @@ until (condition) {
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # nested while Loop
 
@@ -343,7 +343,7 @@ while ($a < 7)
 
 **输出:**
 
-```
+```perl
 value of a = 5, b = 0
 value of a = 5, b = 1
 value of a = 5, b = 2

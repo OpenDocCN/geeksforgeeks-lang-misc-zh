@@ -11,7 +11,7 @@ Name of the module must be the same as that of the package name and has a .pm ex
 
 **示例:Calculator.pm**
 
-```
+```perl
 package Calculator;
 
 # Defining sub-routine for Addition
@@ -52,7 +52,7 @@ To use this calculator module, we use require or use functions. To access a func
 
 **示例:Test.pl**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Using the Package 'Calculator'
@@ -86,7 +86,7 @@ If a file accessing the package lies outside the directory then we use ‘::’ 
 
 **示例:计算器目录外的 Test _ out _ package.pl】**
 
-```
+```perl
 #!/usr/bin/perl
 
 use GFG::Calculator; # Directory_name::module_name
@@ -118,7 +118,7 @@ Calculator::subtraction($a, $b);
 Variables from different packages can be used by declaring them before using. Following example demonstrates this
 **Examples: Message.pm**
 
-```
+```perl
 #!/usr/bin/perl
 
 package Message;
@@ -137,7 +137,7 @@ sub Hello
 Perl 文件访问模块如下
 **示例**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Using Message.pm package
@@ -158,7 +158,7 @@ Message::Hello();
 BEGIN and END block is used when we want to run some part of the code at the beginning and some part of the code at an end. The codes written within BEGIN{…} are executed at the beginning of the script while the codes written within END{…} are executed at the end of the script. The program below demonstrates this:
 **Examples: begineg.pl**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Predefined BEGIN block
@@ -178,7 +178,7 @@ print "Hello Perl;\n";
 
 **输出:**
 
-```
+```perl
 In the begin block
 Hello Perl;
 In the end block

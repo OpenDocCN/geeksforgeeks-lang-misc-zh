@@ -11,7 +11,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -31,7 +31,7 @@ print "\nUpdated array: @x";
 
 **Output:** 
 
-```
+```perl
 Original array: Geeks for Geeks 
 No of elements returned by unshift: 5
 Updated array: Welcome to Geeks for Geeks
@@ -41,7 +41,7 @@ Updated array: Welcome to Geeks for Geeks
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -61,7 +61,7 @@ print "\nUpdated array: @x";
 
 **Output:** 
 
-```
+```perl
 Original array: 10 20 30 40 50 
 No of elements returned by unshift: 8
 Updated array: 70 80 Geeks 10 20 30 40 50

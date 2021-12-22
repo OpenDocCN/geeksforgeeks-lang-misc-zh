@@ -11,7 +11,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining Arrays
@@ -35,7 +35,7 @@ print "Array in scalar form: @array3\n";
 
 **Output:** 
 
-```
+```perl
 Array in List form: Geeks For Geeks 1 1 0 0 9 6
 Array in scalar form: 3 6
 ```
@@ -44,7 +44,7 @@ Array in scalar form: 3 6
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining Arrays
@@ -67,7 +67,7 @@ print "Difference in number of elements: @array3\n";
 
 **Output:** 
 
-```
+```perl
 Concatenation of Arrays: Welcome To Geeks 1 1 0 0 9 6
 Difference in number of elements: 3
 ```

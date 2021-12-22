@@ -16,7 +16,7 @@ Perl 中的字符串是一个标量变量，以($)符号开头，它可以包含
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # An array of integers from 1 to 10
@@ -32,7 +32,7 @@ print("$strng1\n$strng2");
 
 **Output:** 
 
-```
+```perl
 Using Single quotes: @list 
 Using Double-quotes: 1 2 3 4 5 6 7 8 9 10
 ```
@@ -44,7 +44,7 @@ Using Double-quotes: 1 2 3 4 5 6 7 8 9 10
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Assigning a variable with an email address
@@ -57,7 +57,7 @@ print($email);
 
 **Output:** 
 
-```
+```perl
 GeeksforGeeks0402.com
 ```
 
@@ -67,7 +67,7 @@ GeeksforGeeks0402.com
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Pre-defining the array
@@ -83,7 +83,7 @@ print($email);
 
 **Output:** 
 
-```
+```perl
 GeeksforGeeks0402a b c d e f g.com
 ```
 
@@ -92,7 +92,7 @@ GeeksforGeeks0402a b c d e f g.com
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Assigning a variable with an email address
@@ -105,7 +105,7 @@ print($email);
 
 **Output:** 
 
-```
+```perl
 GeeksforGeeks0402@gmail.com
 ```
 
@@ -113,7 +113,7 @@ GeeksforGeeks0402@gmail.com
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Assigning a variable with an email
@@ -137,7 +137,7 @@ print($email2);
 
 **Output:** 
 
-```
+```perl
 GeeksforGeeks0402@gmail.com
 GeeksforGeeks@gmail.com
 ```
@@ -149,7 +149,7 @@ GeeksforGeeks@gmail.com
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Using Two escape characters to avoid
@@ -162,7 +162,7 @@ print($string1);
 
 **Output:** 
 
-```
+```perl
 Using the escape(\) character
 ```
 
@@ -173,7 +173,7 @@ Using the escape(\) character
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Escaping double-quotes with '\'
@@ -185,6 +185,6 @@ print($string);
 
 **Output:** 
 
-```
+```perl
 This page is "Geeks For Geeks".
 ```

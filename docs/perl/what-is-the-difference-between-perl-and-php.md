@@ -9,7 +9,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```perl
 <?php
 
 // Here echo command is
@@ -20,7 +20,7 @@ echo "Welcome to GFG!";
 
 **输出:**
 
-```
+```perl
 Welcome to GFG!
 
 ```
@@ -30,7 +30,7 @@ Welcome to GFG!
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to print Welcome to GFG!
 #!/usr/bin/perl
 
@@ -40,7 +40,7 @@ print "Welcome to GFG!\n";
 
 **输出:**
 
-```
+```perl
 Welcome to GFG!
 
 ```

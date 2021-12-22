@@ -14,7 +14,7 @@ Perl 要求散列的键是字符串，而值可以是任何[标量](https://www.
 
 *   该值直接赋值，如下所示，并将数据添加到现有的哈希中。
 
-```
+```perl
 $stud{'Comp'} = 45;
 $stud{'Inft'} = 42;
 $stud{'Extc'} = 35;
@@ -22,19 +22,19 @@ $stud{'Extc'} = 35;
 
 *   另一种方法是使用列表，通过获取单个对将列表转换为散列。该对的第一个元素用作键，第二个元素用作值。
 
-```
+```perl
 %stud = ('Comp', 45, 'Inft', 42, 'Extc', 35);
 ```
 
 *   一种方法是使用 **= >** 来表示键/值对，如下所示:
 
-```
+```perl
 %stud = ('Comp' => 45, 'Inft' => 42, 'Extc' => 35);
 ```
 
 *   做同样事情的另一种方法如下所示。这里所有的键前面都有连字符(-)所以不需要引号。只有当单词中没有空格时，才能使用此方法构建哈希。
 
-```
+```perl
 %stud = (-Comp => 45, -Inft => 42, -Extc => 35);
 ```
 
@@ -48,7 +48,7 @@ $stud{'Extc'} = 35;
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing Hash1 by
@@ -94,7 +94,7 @@ print "$stud4{'-Extc'}";
 
 **Output:** 
 
-```
+```perl
 Printing values of Hash1
 10
 20
@@ -128,7 +128,7 @@ Printing values of Hash4
 
 ## Perl 语言
 
-```
+```perl
 # Initializing Hash with Key-Value pairs
 %stud = ('Comp' => 45, 'Inft' => 42, 'Extc' => 35);
 
@@ -144,7 +144,7 @@ print "$Key_array[2]\n";
 
 **输出:**
 
-```
+```perl
 Keys are :
 Comp
 Extc
@@ -160,7 +160,7 @@ Inft
 
 ## Perl 语言
 
-```
+```perl
 # Initializing Hash with Key-Value pairs
 %stud = ('Comp' => 45, 'Inft' => 42, 'Extc' => 35);
 
@@ -176,7 +176,7 @@ print "$value_array[2]\n";
 
 **Output:** 
 
-```
+```perl
 Values are :
 45
 35

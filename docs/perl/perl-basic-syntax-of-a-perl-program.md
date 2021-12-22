@@ -13,7 +13,7 @@ Perl 支持过程和面向对象编程。Perl 在语法上与 C 非常相似，�
 一个值是传递给程序执行操纵操作的数据。这些数据可以是数字、字符串、字符、列表等。
 **例:**
 
-```
+```perl
 Values: 
 5
 geeks
@@ -32,7 +32,7 @@ $c = 15;
 Perl 中的表达式由变量和一个运算符组成。这些表达式规定了要对相应代码中提供的数据执行的操作。Perl 中的表达式是在求值时返回值的东西。表达式也可以只是一个没有变量和运算符符号的值。它可以是整数，也可以是没有变量的字符串。
 **例:**
 
-```
+```perl
 Value 10 is an expression, $x + $y is an expression that returns their sum, etc.
 ```
 
@@ -46,7 +46,7 @@ Perl 中有两种类型的注释:
 
 **单行注释:** Perl 单行注释以没有空格(#)的 hashtag 符号开始，一直持续到行尾。如果注释超过一行，那么在下一行放一个标签并继续注释。Perl 的单行注释对于提供变量、函数声明和表达式的简短解释非常有用。请参见下面演示单行注释的代码片段:
 
-```
+```perl
 #!/usr/bin/perl
 $b = 10;    # Assigning value to $b
 $c = 30;    # Assigning value to $c
@@ -57,7 +57,7 @@ print "$a";     # Printing the result
 
 **多行字符串作为注释:** Perl 多行注释是一段包含在“=”和“=cut”中的文本。当注释文本不适合一行时，它们很有用；因此需要跨线。多行注释或段落作为其他人阅读您的代码的文档。Perl 将任何写在“=”符号之后的内容都视为注释，直到它的末尾带有“=cut”。请注意，' = '符号后不应有空格。请参见下面演示多行注释的代码片段:
 
-```
+```perl
 #!/usr/bin/perl
 
 =Assigning values to 
@@ -80,7 +80,7 @@ Perl 中的一条语句保存编译器执行操作的指令。这些语句在运
 当程序员需要做长时间的计算，无法将自己的语句装进一行时，可以很容易地将其分成多行。
 **例:**
 
-```
+```perl
 $x = $a + $b + $c + 
      $d + $e + $f;
 
@@ -91,7 +91,7 @@ $x = $a + $b + $c +
 块是用于执行相对操作的一组语句。在 Perl 中，通过使用大括号({})，可以同时执行多个语句(在单个条件或循环下)。这形成了同时执行的语句块。通过分组组织语句，该块可用于使程序更加优化。在块内声明的变量的[作用域](https://www.geeksforgeeks.org/perl-scope-of-variables/)仅限于该特定块，在块外没有任何用处。只有在该特定块被执行之前，它们才会被执行。
 **例:**
 
-```
+```perl
 {
      $x = 15;
      $x = $x + 25;
@@ -133,7 +133,7 @@ Perl 支持各种类型的循环技术:
 **Perl 中的 Whitespaces** 是变量和运算符之间或者关键字之间使用的空格等。除非在引号中使用空格，否则 Perl 不会影响空格。空格，如空格、制表符、换行符等。如果在引号之外使用，在 Perl 中具有相同的含义。
 T3】例 1:
 
-```
+```perl
 $a = $b + $c;
 Here, spaces are of no use, 
 it will cause no effect even if it is written as 
@@ -143,7 +143,7 @@ $a = $b       +         $c;
 
 **例 2:**
 
-```
+```perl
 print "Geeks for Geeks"; 
 will print 
 Geeks for geeks
@@ -159,7 +159,7 @@ Geeks       for
 同样的，**缩进**的过程是用来有条理的排列代码，让读者更容易理解。无论何时使用语句块，缩进都有助于降低代码的读取复杂性。
 **例:**
 
-```
+```perl
 Using Indentation:
 {
     $a = $b + $c;
@@ -183,6 +183,6 @@ print "$a";
 这些关键字有时可以用作变量名，但这将导致混乱，因此，调试这样的程序将是困难的。
 **示例:**
 
-```
+```perl
 One can use $print as a variable along with the keyword print().
 ```

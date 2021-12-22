@@ -6,7 +6,7 @@ filehandle 是一个用于读写文件的变量。此文件句柄与文件相关
 
 为了写入文件，它以写模式打开，如下所示:
 
-```
+```perl
 open (FH, ‘>’, “filename.txt”);
 ```
 
@@ -22,7 +22,7 @@ print()函数用于将内容写入文件。
 
 **示例:**
 
-```
+```perl
 # Opening file Hello.txt in write mode
 open (fh, ">", "Hello.txt");
 
@@ -64,7 +64,7 @@ close(fh) or "Couldn't close the file"; 
 **示例:**
 下面的示例从源文件中读取内容并将其写入目标文件。
 
-```
+```perl
 # Source File 
 $src = 'Source.txt';
 
@@ -113,7 +113,7 @@ print "File content copied successfully!\n";
 当无法为 filehandle 分配有效的文件指针时，执行 Die 打印消息并终止当前程序。
 **例:**
 
-```
+```perl
 # Initializing filename  
 $filename = 'Hello.txt'; 
 # $filename = 'ello.txt';
@@ -132,7 +132,7 @@ open(fh, '<', $filename) or 
 当无法为文件句柄分配有效的文件指针时，它仅使用警告功能打印警告消息并继续运行。
 **例:**
 
-```
+```perl
 # Initializing filename 
 $filename = 'GFG.txt'; 
 

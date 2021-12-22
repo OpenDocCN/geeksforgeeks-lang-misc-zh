@@ -6,7 +6,7 @@
 
 ## Perl
 
-```
+```perl
 # Simple Perl program
 #!/usr/bin/perl
 
@@ -17,7 +17,7 @@ print "Welcome to GeeksforGeeks!\n";
 
 **输出:**
 
-```
+```perl
 Welcome to GeeksforGeeks!
 
 ```
@@ -26,14 +26,14 @@ Welcome to GeeksforGeeks!
 
 ## 红宝石
 
-```
+```perl
 # Simple Ruby program
 puts "Welcome to GeeksforGeeks!"
 ```
 
 **输出:**
 
-```
+```perl
 Welcome to GeeksforGeeks!
 
 ```

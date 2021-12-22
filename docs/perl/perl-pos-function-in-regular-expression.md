@@ -14,7 +14,7 @@ pos 函数可以和 Regex 中的字符类一起使用，返回给定字符串中
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Program to print position of a substring
@@ -36,7 +36,7 @@ while($String =~ m/G/g)
 
 **Output:** 
 
-```
+```perl
 Position of 'G' in string:
 1
 11
@@ -46,7 +46,7 @@ Position of 'G' in string:
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Program to print position of a substring
@@ -83,7 +83,7 @@ while($String =~ m/[a-z]/g)
 
 **Output:** 
 
-```
+```perl
 Position of all Uppercase characters:
 1, 7, 11, 
 Position of all Lowercase characters:
@@ -94,7 +94,7 @@ Position of all Lowercase characters:
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Program to print position of a substring
@@ -114,7 +114,7 @@ while($String =~ m/\s/g)
 
 **Output:** 
 
-```
+```perl
 6
 10
 ```
@@ -125,7 +125,7 @@ while($String =~ m/\s/g)
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining the default string
@@ -148,7 +148,7 @@ print "$position $1";
 
 **Output:** 
 
-```
+```perl
 8 rld is the best
 ```
 
@@ -157,7 +157,7 @@ print "$position $1";
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining the default string
@@ -194,7 +194,7 @@ print "$position $1\n";
 
 **Output:** 
 
-```
+```perl
 8 rld is the best among all
 19 ng all
 ```

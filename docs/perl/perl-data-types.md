@@ -16,7 +16,7 @@ Perl 中有 3 种数据类型，如下所示:
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to demonstrate the
 # Scalars data types
 
@@ -37,7 +37,7 @@ print "Salary = $salary\n";
 
 **输出:**
 
-```
+```perl
 Age = 1
 Name = ABC
 Salary = 21.5
@@ -49,7 +49,7 @@ Salary = 21.5
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to demonstrate
 # the Scalars operations
 
@@ -76,7 +76,7 @@ print "mix = $mix\n";
 
 **输出:**
 
-```
+```perl
 str = GFG is the best
 num = 1
 mul = 36
@@ -85,13 +85,13 @@ mix = GFG is the best1
 
 **2。数组:**数组是以列表形式存储相同数据类型值的变量。要在 Perl 中声明一个数组，我们在变量名前面使用“@”符号。
 
-```
+```perl
 @age=(10, 20, 30)
 ```
 
 它将创建一个包含值 10、20 和 30 的整数数组。要访问数组的单个元素，我们使用“{content}”签名。
 
-```
+```perl
 $age[0]
 ```
 
@@ -101,7 +101,7 @@ $age[0]
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to demonstrate
 # the Arrays data type
 
@@ -122,7 +122,7 @@ print "\$names[2] = $names[2]\n";
 
 **输出:**
 
-```
+```perl
 $ages[0] = 33
 $ages[1] = 31
 $ages[2] = 27
@@ -137,7 +137,7 @@ $names[2] = Geeks
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to demonstrate the
 # Hashes data type
 
@@ -152,7 +152,7 @@ print "\$data{'Bale'} = $data{'Bale'}\n";
 
 **输出:**
 
-```
+```perl
 $data{'GFG'} = 7
 $data{'for'} = 4
 $data{'Geeks'} = 11

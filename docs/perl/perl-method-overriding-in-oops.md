@@ -15,7 +15,7 @@ Perl 中的方法重写可以通过下面的例子得到最好的解释:
 
 *   **Creation of Base class:**
 
-    ```
+    ```perl
     # Declaration and definition of Base class
     use strict;
     use warnings;
@@ -70,7 +70,7 @@ Perl 中的方法重写可以通过下面的例子得到最好的解释:
 
 *   **Creation of Derived Class:**
 
-    ```
+    ```perl
     # Declaring and defining derived class
 
     # Creating derived class
@@ -110,7 +110,7 @@ Perl 中的方法重写可以通过下面的例子得到最好的解释:
 
 *   **用物体说明方法覆盖的过程:**
 
-    ```
+    ```perl
     # Calling the objects and
     # the methods of each class 
     # using the corresponding objects.

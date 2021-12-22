@@ -23,7 +23,7 @@
 
 以下示例显示了描述公司组织的哈希散列。主键是部门，嵌套键是员工姓名。这些值包含相应员工的职称。
 
-```
+```perl
 # !/usr/bin/perl 
 # Perl program to demonstrate 
 # Multidimensional hash
@@ -56,7 +56,7 @@ print Dumper(\%company);
 
 **Output:**
 
-```
+```perl
 $VAR1 = {
           'Marketing' => {
                            'Evans' => 'Tea-person',
@@ -109,7 +109,7 @@ $VAR1 = {
 
 **语法:**
 
-```
+```perl
 for $key (keys %hash) 
 {
     print "$key: \n";
@@ -124,7 +124,7 @@ for $key (keys %hash) 
 
 **语法:**
 
-```
+```perl
 while (($key, $ele) = each %hash) 
 {
     print "$key: \n";
@@ -139,7 +139,7 @@ while (($key, $ele) = each %hash) 
 以下示例说明了使用`**For**`和`**while**`循环遍历多维散列:
 **示例:**
 
-```
+```perl
 # !/usr/bin/perl 
 # Perl program to demonstrate
 # Traversing of 
@@ -197,7 +197,7 @@ while ((my $key, my $ele) = each %company)
 
 **Output:**
 
-```
+```perl
 Traversing hash by For loop.
 
 Marketing: 
@@ -241,7 +241,7 @@ Production:
 
 这里有一个简单的例子，演示了 Perl `**exists**`散列函数。在这个 Perl 脚本中，我们将首先创建一个简单的 Perl 散列，然后我们将使用`**exists**`函数来查看散列中是否存在名为‘Albert’的散列关键字。
 
-```
+```perl
 # !/usr/bin/perl 
 # Perl program to check for
 # existence of a key in a
@@ -288,7 +288,7 @@ else 
 
 **Output:**
 
-```
+```perl
 Sales department exists.
 Albert is Salesman of Sales department.
 

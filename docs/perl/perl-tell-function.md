@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Opening a File in Read-only mode 
@@ -42,7 +42,7 @@ close(fh); 
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Opening a File in Read-only mode 

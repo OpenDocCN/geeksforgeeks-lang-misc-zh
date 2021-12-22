@@ -10,7 +10,7 @@
 
 查看以下代码，了解这个特殊变量:
 
-```
+```perl
 # Providing some input 
 while ( <> ) 
 { 
@@ -22,7 +22,7 @@ while ( <> ) 
 
 **这个和**一样
 
-```
+```perl
 #!/usr/bin/perl
 while ( $abc = <> ) 
 {
@@ -32,7 +32,7 @@ while ( $abc = <> ) 
 
 下面是工作格式中上述特殊变量的示例:
 
-```
+```perl
 #!/usr/bin/perl
 foreach ('Mango', 'Orange', 'Apple')
 {
@@ -43,7 +43,7 @@ foreach ('Mango', 'Orange', 'Apple')
 
 **Output:**The output of the above code will be:
 
-```
+```perl
 Mango
 Orange
 Apple
@@ -68,7 +68,7 @@ Apple
 
 **{ content } amp；，$MATCH:** 用于查找上次成功模式搜索中匹配的字符串。虽然匹配在隐藏块中或包含在当前集合中，但不计算在内。这是一个只读变量，其作用域是动态的。
 
-```
+```perl
 #!/usr/bin/perl
 
 # Declaring local string
@@ -83,7 +83,7 @@ print "{content}amp;\n";  
 
 **Output:**
 
-```
+```perl
 def
 
 ```
@@ -92,7 +92,7 @@ def
 
 **，$PREMATCH:** 引用字符串前面的字符串与上次成功的模式匹配相匹配。它不计算任何包含在块或当前块包含的 eval 中的匹配项。
 
-```
+```perl
 #!/usr/bin/perl
 
 # Declaring local string
@@ -109,7 +109,7 @@ Perl 中的特殊变量
 
 **Output:**
 
-```
+```perl
 abc:def
 
 ```

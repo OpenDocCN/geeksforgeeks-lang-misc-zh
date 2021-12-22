@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 $pos = rindex("WelcomeToGeeksforGeeksWorld", "eks");
@@ -40,7 +40,7 @@ print "Position of eks: $pos\n";
 
 **Output:**
 
-```
+```perl
 Position of eks: 19
 Position of eks: 11
 
@@ -48,7 +48,7 @@ Position of eks: 11
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 $pos = rindex("GeeksforGeeks", "eks");
@@ -65,7 +65,7 @@ print "Position of eek: $pos\n";
 
 **Output:**
 
-```
+```perl
 Position of eek: 10
 Position of eek: 2
 

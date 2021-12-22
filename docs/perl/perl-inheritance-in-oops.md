@@ -34,7 +34,7 @@ Perl 中的继承可以有多种类型，但多级继承是一种有基类和派
 
 Perl 中的继承可以通过使用[包](https://www.geeksforgeeks.org/packages-in-perl/)来实现。包用于创建父类，该父类可以在派生类中用来继承功能。
 
-```
+```perl
 use strict;
 use warnings;
 
@@ -64,7 +64,7 @@ sub new
 
 上面的代码是基类的定义。这里的基类是*员工*，数据成员是员工 id 和员工姓名。父类的代码需要保存为*。pm，这里我们将其保存为 **employee.pm** 。我们现在将看到如何从已经声明的基类雇员派生一个类。
 
-```
+```perl
 # Creating parent class
 package Department;
 
@@ -79,7 +79,7 @@ use parent 'employee';
 
 如上例所示，班级部门使用已经声明的班级员工的特征。因此，在声明类 Department 时，我们没有再次声明所有的数据成员，而是从基类 employee 继承了它们。要运行此代码，请将中间类代码保存为*。pm，这里保存为 **Department.pm** 。这个类是中间类，并将进一步作为下面给定的派生文件**的父类。**
 
-```
+```perl
 use strict;
 use warnings;
 

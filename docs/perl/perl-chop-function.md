@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising a string
@@ -30,7 +30,7 @@ print " Removed character is : $A\n";
 
  **输出:**
 
-```
+```perl
 Chopped String is : GfG is a computer science porta
 Removed character is : l
 
@@ -38,7 +38,7 @@ Removed character is : l
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising a string
@@ -55,7 +55,7 @@ print " Removed character is : $A\n";
 
 **输出:**
 
-```
+```perl
 Chopped String is : [1, 2, 3
 Removed character is : ]
 

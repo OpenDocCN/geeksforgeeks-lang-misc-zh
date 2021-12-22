@@ -12,7 +12,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Passing string to q operator
@@ -21,14 +21,14 @@ print(q(Geeks For Geeks));
 
 **Output:**
 
-```
+```perl
 Geeks For Geeks
 
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining an Integer variable
@@ -41,7 +41,7 @@ print(q(Welcome to GFG, $var));
 
 **输出:**
 
-```
+```perl
 Welcome to GFG, $var
 
 ```

@@ -4,7 +4,7 @@
 
 [Perl 中的警告](https://www.geeksforgeeks.org/introduction-to-perl/)是 Perl 编程中最常用的 Pragma，用于捕捉‘不安全代码’。pragma 是 Perl 包中的一个特定模块，它对 Perl 的编译时或运行时行为的某些功能进行控制，这是严格的或警告的。第一行是这样的，
 
-```
+```perl
 use warnings;
 ```
 
@@ -19,7 +19,7 @@ use warnings;
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -65,7 +65,7 @@ Perl 中的一个 **warn** 函数会为错误生成一条警告消息，但不�
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use warnings;  
 
@@ -85,7 +85,7 @@ print "done\n"; 
 
 可以通过在代码中使用**‘使用警告’**pragma 来启用警告。但是，这个 pragma 只能在较新版本的 Perl 中使用，即 5.6 版或更高版本。对于旧版本，-w 用于启用警告。这个-w 是在 Hashbang 行中添加的:
 
-```
+```perl
 #!/usr/local/bin/perl -w
 ```
 
@@ -99,7 +99,7 @@ print "done\n"; 
 
 ## Perl 语言
 
-```
+```perl
 use warnings;
 my @a;
 {
@@ -118,7 +118,7 @@ my $c = @a[0];
 
 [Perl](https://www.geeksforgeeks.org/introduction-to-perl/) 允许创建和注册您自己的警告，以便其他用户可以在词法范围内轻松启用和禁用它们。这可以通过使用预定义的 pragma**‘警告::注册’**来完成。
 
-```
+```perl
 package Geeks::Perl_program;
 
 use warnings::register;
@@ -131,7 +131,7 @@ use warnings::register;
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 package Geeks::Perl_program;
 

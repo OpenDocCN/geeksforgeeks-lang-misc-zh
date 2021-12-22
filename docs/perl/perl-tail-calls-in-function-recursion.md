@@ -10,7 +10,7 @@
 
 **例子 1:**
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Perl Program to calculate Factorial 
@@ -69,7 +69,7 @@ print "\nFactorial of a number $a ", 
 
 **Output:**
 
-```
+```perl
 Factorial of a number 5 through recursion is 120
 Factorial of a number 5 through tail-recursion is 120
 
@@ -79,7 +79,7 @@ Factorial of a number 5 through tail-recursion is 120
 
 **实施例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to demonstrate the
@@ -130,7 +130,7 @@ print "\nFibonacci upto $a through tail-recursion is ", 
 
 **Output:**
 
-```
+```perl
 Fibonacci upto 10 through recursion is 55
 Fibonacci upto 10 through tail-recursion is 55
 
@@ -138,7 +138,7 @@ Fibonacci upto 10 through tail-recursion is 55
 
 **使用`goto`语句演示 Tail 递归:** `**goto**`将编译器从当前运行的子程序转移到给定名称的子程序。这将替换函数调用，并以同样的方式创建递归过程。
 
-```
+```perl
 # Perl program to demonstrate the
 # use of tail-recursion
 use warnings;
@@ -168,7 +168,7 @@ tail_recurse(200);
 
 **输出:**
 
-```
+```perl
 recursing
 tail_recursing
 
@@ -186,7 +186,7 @@ tail_recursing
 
 **示例 1:一个数的阶乘**
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Perl Program to calculate Factorial 
@@ -222,14 +222,14 @@ print "Factorial of a number $a ", 
 
 **Output:**
 
-```
+```perl
 Factorial of a number 5 through tail-recursion is 120
 
 ```
 
 **例 2:斐波那契厄普**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to demonstrate the
@@ -268,7 +268,7 @@ print "Fibonacci upto $a through tail-recursion is ",
 
 **Output:**
 
-```
+```perl
 Fibonacci upto 10 through recursion is 55
 Fibonacci upto 10 through tail-recursion is 55
 

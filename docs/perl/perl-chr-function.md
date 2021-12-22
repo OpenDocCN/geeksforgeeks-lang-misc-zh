@@ -13,7 +13,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Taking some unicode integer value as the parameter
@@ -28,7 +28,7 @@ print chr(71), chr(101), chr(101), chr(107), chr(115);
 
 **输出:**
 
-```
+```perl
 Geeks
 for
 Geeks
@@ -38,7 +38,7 @@ Geeks
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising an array of some unicode integer values
@@ -52,6 +52,6 @@ foreach my $element (@Array) {
 
 **输出:**
 
-```
+```perl
 Geeks
 ```

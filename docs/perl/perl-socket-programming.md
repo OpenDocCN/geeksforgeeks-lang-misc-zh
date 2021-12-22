@@ -58,7 +58,7 @@
 
 **要为服务器创建运行的脚本:**
 
-```
+```perl
 #!/usr/bin/perl -w  
 use IO::Socket;   
 use strict;   
@@ -90,7 +90,7 @@ close($socket);  
 
 **要为客户端创建运行的脚本:**
 
-```
+```perl
 use strict;   
 use warnings;   
 use IO::Socket;   

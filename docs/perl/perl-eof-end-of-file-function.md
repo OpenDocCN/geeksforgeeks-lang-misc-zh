@@ -16,7 +16,7 @@
 1.  **eof(FileHandle) :** Passing FileHandle to eof() function. If File is empty then it returns 1 otherwise undef.
     **Example:**
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # Opening Hello.txt file
@@ -51,7 +51,7 @@
 
     **Example:**
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # opens filehandle for files passed as arguments
@@ -78,7 +78,7 @@
 
     **Example:**
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # opening Hello.plx

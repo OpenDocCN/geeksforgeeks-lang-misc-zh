@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```perl
 sub make_adder 
 {
     my $addpiece = shift;
@@ -47,7 +47,7 @@ my $f2 = make_adder(20);
 
 **示例:**
 
-```
+```perl
 sub fs(&) 
 { 
     my $func = shift;
@@ -71,7 +71,7 @@ print "fs_double(@s): @{[ $fs_double->(@s) ]}\n";
 
 **输出:**
 
-```
+```perl
 fs_square(0 1 2 3): 0 1 4 9
 fs_double(0 1 2 3): 0 2 4 6
 fs_square(2 4 6 8): 4 16 36 64

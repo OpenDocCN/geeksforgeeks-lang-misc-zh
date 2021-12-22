@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate
 # character class
 
@@ -40,7 +40,7 @@ else
 
 **输出:**
 
-```
+```perl
 Match Found
 ```
 
@@ -48,7 +48,7 @@ Match Found
 
 **示例:**
 
-```
+```perl
 To specify range [abcdef] you can use /[a-f]/
 ```
 
@@ -61,7 +61,7 @@ To specify range [abcdef] you can use /[a-f]/
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate
 # range in character class
 
@@ -86,7 +86,7 @@ else
 
 **输出:**
 
-```
+```perl
 Match Found
 ```
 
@@ -94,7 +94,7 @@ Match Found
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate
 # negated character class
 
@@ -119,6 +119,6 @@ else
 
 **输出:**
 
-```
+```perl
 Match Not Found
 ```

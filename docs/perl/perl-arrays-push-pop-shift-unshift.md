@@ -24,7 +24,7 @@ Perl 提供了各种内置函数来添加和移除数组中的元素。
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -42,7 +42,7 @@ print "Updated array: @x";
 
 **输出:**
 
-```
+```perl
 Original array: Java C C++ 
 Updated array: Java C C++ Python Perl
 ```
@@ -57,7 +57,7 @@ Updated array: Java C C++ Python Perl
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -75,7 +75,7 @@ print "\nUpdated array: @x";
 
 **输出:**
 
-```
+```perl
 Original array: Java C C++ 
 Value returned by pop: C++
 Updated array: Java C
@@ -91,7 +91,7 @@ Updated array: Java C
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -111,7 +111,7 @@ print "\nUpdated array: @x";
 
 **输出:**
 
-```
+```perl
 Original array: Java C C++ 
 Value returned by shift :Java
 Updated array: C C++
@@ -127,7 +127,7 @@ Updated array: C C++
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -147,7 +147,7 @@ print "\nUpdated array: @x";
 
 **输出:**
 
-```
+```perl
 Original array: Java C C++ 
 No of elements returned by unshift :5
 Updated array: PHP JSP Java C C++

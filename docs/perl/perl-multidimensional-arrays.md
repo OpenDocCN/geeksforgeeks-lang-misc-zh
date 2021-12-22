@@ -13,7 +13,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -43,7 +43,7 @@ print $items[2][2], "\n";
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -78,7 +78,7 @@ for(my $m = 0; $m <= $#result; $m++)
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 use strict;
 use warnings;
@@ -185,7 +185,7 @@ else
 
 **语法:**
 
-```
+```perl
 @ARRAY_NAME = ([value1], [value2], [value3], ..., [valueN]);
 ```
 
@@ -193,7 +193,7 @@ else
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -227,7 +227,7 @@ print "\n";
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -267,7 +267,7 @@ print Dumper(\@test), "\n";
 
 **语法:**
 
-```
+```perl
 @ARRAY_NAME = ({KEY1 => VALUE1}, {KEY2 => VALUE2});
 ```
 
@@ -275,7 +275,7 @@ print Dumper(\@test), "\n";
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -309,7 +309,7 @@ print $hashtest[0]->{"Last"}, "\n";
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;

@@ -10,7 +10,7 @@ Perl 子例程中的构造函数返回一个对象，该对象是类的实例。
 让我们设计一些代码，以便更好地解释:
 **注意:**由于使用了软件包，以下代码将无法在联机 IDE 上运行。下面的代码是一个 Perl 类或模块文件。将以下文件另存为(*。pm)扩展。
 
-```
+```perl
 # Declaring the Package
 package Area; 
 
@@ -26,7 +26,7 @@ sub new 
 
 调用构造函数方法时，包名‘Area’存储在默认数组**“@ _”**中。**“shift”**关键字用于从**“@ _”**中获取包裹名称，并将其传递给**“祝福”**功能。
 
-```
+```perl
 package Area;
 
 sub new
@@ -38,13 +38,13 @@ sub new
 1;
 ```
 
-```
+```perl
 Note: "my" restricts the scope of a variable.
 ```
 
 Perl 中的属性作为键和值对存储在哈希引用中。此外，向代码中添加一些属性。
 
-```
+```perl
 package Area;
 
 sub new 
@@ -62,7 +62,7 @@ sub new 
 
 上面的代码(**区域**类)有两个属性:**长度**和**宽度**。为了访问这些属性，设计了另一个 Perl 程序来使用它们。
 
-```
+```perl
 use strict;
 use warnings;
 use Area;
@@ -91,7 +91,7 @@ say $area->{width}; # print the width
 
 **Areas.pm:**
 
-```
+```perl
 package Area;
 
 sub new 
@@ -121,7 +121,7 @@ sub get_area 
 
 **test.pl:**
 
-```
+```perl
 use strict;
 use warnings;
 use feature qw/say/;
@@ -140,7 +140,7 @@ say $area->get_area;
 
 现在，参数
 
-```
+```perl
 length = 2, width = 2
 ```
 
@@ -158,7 +158,7 @@ length = 2, width = 2
 
 ***语法:***
 
-```
+```perl
 sub DESTROY 
 { 
     # DEFINE Destructors
@@ -167,7 +167,7 @@ sub DESTROY 
 }
 ```
 
-```
+```perl
 Once this snippet is added to existing file Area.pm.
 ```
 

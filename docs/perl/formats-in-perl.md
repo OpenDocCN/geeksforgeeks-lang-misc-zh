@@ -8,7 +8,7 @@
 
 定义 Perl 格式的语法:
 
-```
+```perl
 format FormatName =
 fieldline
 value_1, value_2, value_3
@@ -26,7 +26,7 @@ value_1, value_2, value_3
 
 **字段持有者语法:**
 
-```
+```perl
 @<<<<<<<       left-justified (with 7 field spaces by counting '@' and '<')
 @|||||||       center-justified
 @###.####      numeric fieldholder
@@ -38,20 +38,20 @@ value_1, value_2, value_3
 
 **`Write`** 关键字用于调用格式声明。
 
-```
+```perl
 Write FormatName;
 ```
 
 格式名是打开的文件句柄的名称，write 语句将输出发送到同一个文件句柄。为了将数据发送到**标准输出**，格式名称需要与标准输出文件句柄相关联。
 **注意:**使用`**select()**`功能确保 STDOUT 是选定的文件句柄。
 
-```
+```perl
 select (STDOUT);
 ```
 
 为了通过设置新的格式名和 STDOUT 来关联格式名和 STDOUT，使用像 **$~** 或 **$Format_Name** 这样的变量
 
-```
+```perl
 $~ = "Format_Name";
 ```
 
@@ -60,7 +60,7 @@ $~ = "Format_Name";
 **示例:**
 **输入:使用 STDOUT。**
 
-```
+```perl
 #!/usr/bin/perl
 print "Content-type: text/html\n\n";
 
@@ -90,7 +90,7 @@ while ($k <= $#First_Name)
 
 **输入:使用其他文件句柄(将输出打印成文本文件。)**
 
-```
+```perl
 #!/usr/bin/perl
 
 print "Content-type: text/html\n\n";
@@ -131,7 +131,7 @@ close FILE;
 页眉是出现在每页顶部的东西。不用定义模板，只需定义一个标题并将其分配给 **$^** 或 **$FORMAT_NAME_TOP** 。
 **页脚**有固定尺寸。可以通过检查变量 **$-** 来实现。如果需要，您甚至可以使用下面给出的语法自己打印页脚，
 
-```
+```perl
 format FORMAT_NAME_BOTTOM
 End of Page $%
 
@@ -140,7 +140,7 @@ End of Page $%
 **示例:**
 **输入:使用 STDOUT**
 
-```
+```perl
 #!/usr/bin/perl
 print "Content-type: text/html\n\n";
 
@@ -179,7 +179,7 @@ while ($k <= $#First_Name)
 
 **输入:将输出输入到文本文件中。**
 
-```
+```perl
 #!/usr/bin/perl
 print "Content-type: text/html\n\n";
 
@@ -228,7 +228,7 @@ close FILE;
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 print "Content-type: text/html\n\n";
 

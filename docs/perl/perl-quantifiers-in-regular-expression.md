@@ -28,7 +28,7 @@ Perl 提供了几个正则表达式量词，用于指定在匹配完成之前给
 **我们来看一些举例说明这些量词的例子:**
 **例-1:** 在本例中， ***** 量词用在正则表达式 **/Ge*ks/** 中，该表达式产生“Gks”、“Geks”、“Geeks”……等等，并与输入字符串“Gks”匹配，因此给出“Match Found”作为输出。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initializing a string 
@@ -48,13 +48,13 @@ else
 
 **输出:**
 
-```
+```perl
 Match Found
 ```
 
 **示例-2:** 在本例中， **+** 量词用在正则表达式 **/Ge+ks/** 中，该表达式生成“Geks”、“Geeks”、“Geeks”等，并与输入字符串“Gks”匹配，因此给出“匹配未找到”作为输出。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initializing a string 
@@ -74,13 +74,13 @@ else
 
 **输出:**
 
-```
+```perl
 Match Not Found
 ```
 
 **例-3:** 在本例中，**？**量词用在正则表达式中**/格？ks/** 产生“Geks”或“Gks”，并与输入字符串“Geeks”匹配，因此给出“匹配未找到”作为输出。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initializing a string 
@@ -100,13 +100,13 @@ else
 
 **输出:**
 
-```
+```perl
 Match Not Found
 ```
 
 **示例-4:** 在此示例中， **{n}** 量词用于正则表达式 **/Ge{2}ks/** 中，该表达式生成“Geeks”，并与输入字符串“Geeks”匹配，因此给出“Match Found”作为输出。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initializing a string 
@@ -126,13 +126,13 @@ else
 
 **输出:**
 
-```
+```perl
 Match Found
 ```
 
 **示例-5:** 在此示例中， **{n，}** 量词用于正则表达式 **/Ge{2，}ks/** 中，该表达式生成“Geeks”、“Geeeks”、“Geeeks”等，并与输入字符串“Geks”匹配，因此给出“Match Not Found”作为输出。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initializing a string 
@@ -152,13 +152,13 @@ else
 
 **输出:**
 
-```
+```perl
 Match Not Found
 ```
 
 **示例-6:** 在此示例中， **{n，m}** 量词用在正则表达式 **/Ge{1，2}ks/** 中，该表达式产生“Geks”和“Geeks”，并与输入字符串“Geeks”匹配，因此给出“匹配未找到”作为输出。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initializing a string 
@@ -178,6 +178,6 @@ else
 
 **输出:**
 
-```
+```perl
 Match Not Found
 ```

@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calling sin() function
@@ -25,13 +25,13 @@ print "sin value of 5 is $var";
 
 **输出:**
 
-```
+```perl
 sin value of 5 is -0.958924274663138
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calling sin() function
@@ -43,6 +43,6 @@ print "sin value of 9 is $var";
 
 **输出:**
 
-```
+```perl
 sin value of 9 is 0.412118485241757
 ```

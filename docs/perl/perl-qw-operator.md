@@ -6,7 +6,7 @@
 这个函数代表**引用单词**，因为它认为给定字符串中的每个单词都像 qw(极客的极客)一样被引用，相当于(‘极客’，‘极客’)。
 这个 qw()使用了圆括号，所以看起来像是一个函数，其实不是。它使用不同类型的分隔符，如下所示:
 
-```
+```perl
 @String = qw/Ram is a boy/;
 @String = qw{Geeks for Geeks};
 @String = qw[Geeks for Geeks];
@@ -25,7 +25,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising a String as the parameter of qw
@@ -38,7 +38,7 @@ foreach $key (@String) {
 
  **输出:**
 
-```
+```perl
 Element is: GfG
 Element is: is
 Element is: a
@@ -50,7 +50,7 @@ Element is: portal
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising a String as the parameter of qw
@@ -63,7 +63,7 @@ foreach $key (@String) {
 
 **输出:**
 
-```
+```perl
 City name is: Delhi
 City name is: Mumbai
 City name is: Kolkata

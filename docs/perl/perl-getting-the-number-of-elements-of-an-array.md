@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -23,7 +23,7 @@ print "Size of the Array is $s";
 
 **Output:**
 
-```
+```perl
 Size of the Array is 3
 
 ```
@@ -32,7 +32,7 @@ Size of the Array is 3
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing the array
@@ -55,7 +55,7 @@ print "\nMaximum index is $i";
 
 **Output:**
 
-```
+```perl
 Array is 1 2 3             20
 Maximum index is 15
 

@@ -14,7 +14,7 @@
 
 **示例 1:** 使用`**Math::BigInt->length()**`方法对数字进行计数
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -51,7 +51,7 @@ print "Length of $num is $len.\n";
 
 **Output:**
 
-```
+```perl
 Length of 78215936043546 is 14.
 Length of 7821593604584625197 is 19.
 
@@ -59,7 +59,7 @@ Length of 7821593604584625197 is 19.
 
 **例 2:** 使用`**Math::BigInt->length()**`方法将给定的数字分成两半。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -120,7 +120,7 @@ print "Second half: $secondHalf";
 
 **Output:**
 
-```
+```perl
 Original number: 78215936043546
 First half: 7821593
 Second half: 6043546

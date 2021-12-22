@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Local variable outside of subroutine
@@ -46,7 +46,7 @@ sub mysub 
 
 **输出:**
 
-```
+```perl
 Geeks for Geeks
 This is in Function
 Geeks for Geeks
@@ -55,7 +55,7 @@ Geeks for Geeks
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Local variable outside of subroutine
@@ -85,7 +85,7 @@ sub mysub 
 
 **输出:**
 
-```
+```perl
 Welcome to Geeks
 Let's GO Geeky!!!
 Welcome to Geeks
@@ -94,7 +94,7 @@ Welcome to Geeks
 
  **如何定义动态范围？**T3“我的”的反义词是“本地”。local 关键字定义动态范围。
 
-```
+```perl
 # A perl code to demonstrate dynamic scoping 
 $x = 10; 
 sub f 

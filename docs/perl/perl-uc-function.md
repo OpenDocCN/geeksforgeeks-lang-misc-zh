@@ -12,7 +12,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # String to be converted to UPPERCASE
@@ -29,7 +29,7 @@ print "Modified String: $UPPER_STRING";
 
 **Output:**
 
-```
+```perl
 Original String: geeksfOrGeeks
 Modified String: GEEKSFORGEEKS
 
@@ -37,7 +37,7 @@ Modified String: GEEKSFORGEEKS
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # String to be converted to UPPERCASE
@@ -54,7 +54,7 @@ print "Modified String: $UPPER_STRING";
 
 **输出:**
 
-```
+```perl
 Original String: WelComEToGeeKS
 Modified String: WELCOMETOGEEKS
 

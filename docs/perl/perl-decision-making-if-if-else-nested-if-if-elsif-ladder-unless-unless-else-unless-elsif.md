@@ -19,7 +19,7 @@
 if 语句与其他编程语言相同。它用于执行基于基本条件的任务。它用于决定是否执行某个语句或语句块，即如果某个条件为真，则执行某个语句块，否则不执行。
 **语法:**
 
-```
+```perl
 if(condition)
 {    
      # code to be executed    
@@ -35,7 +35,7 @@ T3】流程图:T5】
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate if statement
 
 $a = 10;
@@ -50,7 +50,7 @@ if($a % 2 == 0 )
 
 **输出:**
 
-```
+```perl
 Even Number
 ```
 
@@ -59,7 +59,7 @@ Even Number
 if 语句在条件为真的情况下计算代码，但是如果条件不为真怎么办，这就出现了 else 语句。它告诉代码当 if 条件为假时该做什么。
 **语法:**
 
-```
+```perl
 if(condition)
 {  
       # code if condition is true  
@@ -78,7 +78,7 @@ else
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # if - else statement
 
@@ -98,7 +98,7 @@ else
 
 **输出:**
 
-```
+```perl
 Odd Number
 ```
 
@@ -107,7 +107,7 @@ Odd Number
 **if 语句在 if** 语句中被称为嵌套 if。在这种情况下，if 语句是另一个 if 或 else 语句的目标。当不止一个条件需要为真并且其中一个条件是父条件的子条件时，可以使用嵌套 if。
 **语法:**
 
-```
+```perl
 if (condition1) 
 {
    # Executes when condition1 is true
@@ -127,7 +127,7 @@ if (condition1)
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # Nested if statement
 
@@ -148,7 +148,7 @@ if($a % 2 ==0)
 
 **输出:**
 
-```
+```perl
 Number is divisible by 2 and 5
 ```
 
@@ -157,7 +157,7 @@ Number is divisible by 2 and 5
 在这里，用户可以在多个选项中进行选择。if 语句从上到下执行。一旦控制 if 的条件之一为真，与该条件相关联的语句就会被执行，而阶梯的其余部分就会被绕过。如果这些条件都不成立，那么将执行最后的 else 语句。
 **语法:**
 
-```
+```perl
 if(condition1)
 {  
            # code to be executed if condition1 is true  
@@ -187,7 +187,7 @@ else
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # if - elseif ladder statement
 
@@ -216,7 +216,7 @@ else
 
 **输出:**
 
-```
+```perl
 i is 20
 ```
 
@@ -225,7 +225,7 @@ i is 20
 在这种情况下，如果条件为假，那么语句将执行。**数字 0、空字符串“”、字符“0”、空列表()和 undf**在布尔上下文中都是**假**，所有其他值都是真。
 **语法:**
 
-```
+```perl
 unless(boolean_expression) 
 {
    # will execute if the given condition is false
@@ -240,7 +240,7 @@ unless(boolean_expression)
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # unless statement
 
@@ -257,7 +257,7 @@ unless($a != 10)
 
 **输出:**
 
-```
+```perl
 a is not equal to 10
 ```
 
@@ -266,7 +266,7 @@ a is not equal to 10
 除非语句后面可以跟一个可选的 else 语句，该语句在布尔表达式为真时执行。
 **语法:**
 
-```
+```perl
 unless(boolean_expression)
 {
       # execute if the given condition is false
@@ -286,7 +286,7 @@ else
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # unless - else statement
 
@@ -311,7 +311,7 @@ else
 
 **输出:**
 
-```
+```perl
 a is equal to 10
 ```
 
@@ -326,7 +326,7 @@ a is equal to 10
 
 **语法:**
 
-```
+```perl
 unless(boolean_expression 1) 
 {
      # Executes when the boolean expression 1 is false
@@ -349,7 +349,7 @@ else
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to illustrate
 # unless - elsif statement
 $a = 50;
@@ -376,12 +376,12 @@ else
 
 **Output**
 
-```
+```perl
 a is not equal to 60
 ```
 
 **输出:**
 
-```
+```perl
 a is not equal to 60
 ```

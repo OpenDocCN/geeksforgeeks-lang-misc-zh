@@ -8,7 +8,7 @@
 从 0 到数组中间迭代数组。
 用 arr[size-i]元素替换 arr[i]元素。
 
-```
+```perl
 #Perl code to reverse an array iteratively
 
 #declaring an array of integers
@@ -43,7 +43,7 @@ for $i (0 .. $#arr)
 
 **Output:**
 
-```
+```perl
 The original array is : 2 3 4 5 6 7 
 The reversed array is : 7 6 5 4 3 2
 
@@ -52,7 +52,7 @@ The reversed array is : 7 6 5 4 3 2
 **使用内置函数:**
 Perl 有一个内置函数来反转数组、字符串或数字。
 
-```
+```perl
 #Perl code to reverse an array using inbuilt function reverse
 
 #declaring an array of integers
@@ -78,7 +78,7 @@ for $i (0 .. $#rev_arr)
 
 **Output:**
 
-```
+```perl
 The original array is : 2 3 4 5 6 7 
 The reversed array is : 7 6 5 4 3 2
 

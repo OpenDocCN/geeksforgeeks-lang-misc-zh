@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Original String containing both
@@ -32,7 +32,7 @@ print "Changed String : $changed_string\n";
 
 **输出:**
 
-```
+```perl
 Original String : GEEkS FoR geEkS
 Changed String : gEEkS FoR geEkS
 
@@ -40,7 +40,7 @@ Changed String : gEEkS FoR geEkS
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Original String containing 
@@ -60,7 +60,7 @@ print "Changed String : $changed_string\n";
 
 **输出:**
 
-```
+```perl
 Original String : G33kS F0R g3EkS
 Changed String : g33kS F0R g3EkS
 

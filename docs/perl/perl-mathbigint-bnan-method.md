@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Import Math::BigInt module 
@@ -38,7 +38,7 @@ print("After function call: $x");
 
 **Output:**
 
-```
+```perl
 Before function call: 78215936043546
 After function call: NaN
 
@@ -46,7 +46,7 @@ After function call: NaN
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl  
 
 # Import Math::BigInt module 
@@ -61,7 +61,7 @@ print("$x");
 
 **Output:**
 
-```
+```perl
 NaN
 
 ```

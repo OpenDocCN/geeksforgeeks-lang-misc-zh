@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # String from which Substring 
@@ -38,14 +38,14 @@ print "Position of 'the' in the string: $index\n";
 
 **Output:**
 
-```
+```perl
 Position of 'the' in the string: 10
 
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # String from which Substring 
@@ -64,7 +64,7 @@ print "Position of 'Geeks' in the string: $index\n";
 
 **Output:**
 
-```
+```perl
 Position of 'Geeks' in the string: -1
 
 ```

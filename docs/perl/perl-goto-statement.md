@@ -5,7 +5,7 @@
 [Perl](https://www.geeksforgeeks.org/introduction-to-perl/) 中的`**goto**`语句是一个跳转语句，有时也被称为无条件跳转语句。`**goto**`语句可用于在函数中从任何地方跳转到任何地方。
 **语法:**
 
-```
+```perl
 LABEL:
 Statement 1;
 Statement 2;
@@ -29,7 +29,7 @@ goto LABEL;
 
 **语法:**
 
-```
+```perl
 goto LABEL
 
 goto EXPRESSION
@@ -41,7 +41,7 @@ goto Subroutine_Name
 **`goto`使用 LABEL 名称:** LABEL 名称用于跳转到代码中的特定语句，并将从该语句开始执行。不过，它的影响范围有限。它只能在调用它的范围内工作。
 **例:**
 
-```
+```perl
 # Perl program to print numbers 
 # from 1 to 10 using goto statement 
 
@@ -64,7 +64,7 @@ printNumbers(); 
 
 **Output:**
 
-```
+```perl
 1 2 3 4 5 6 7 8 9 10
 
 ```

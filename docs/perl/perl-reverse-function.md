@@ -11,7 +11,7 @@
 
 **示例 1:** **列表上下文中:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining list of +ve Integers to the array
@@ -25,14 +25,14 @@ print reverse(@array2), "\n";
 
 **输出:**
 
-```
+```perl
 706050403020
 6-543-21
 ```
 
 **示例 2:** **在标量上下文中:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining string to be reversed
@@ -45,7 +45,7 @@ print scalar reverse("$string"), "\n";
 
 **输出:**
 
-```
+```perl
 dlroW olleH
 skeeG roF skeeG
 ```

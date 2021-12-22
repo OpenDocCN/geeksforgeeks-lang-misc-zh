@@ -14,7 +14,7 @@ order()函数是 Perl中的一个内置函数，它返回字符串第一个字�
 
 **示例:**
 
-```
+```perl
 Input: Geeksforgeeks
 Output: 71
 Explanation: The ASCII value of G is 71
@@ -28,7 +28,7 @@ Explanation: The ASCII value of W is 87
 
 **程序 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # ASCII value of 'G' is printed
@@ -37,14 +37,14 @@ print(ord('GeeksforGeeks'));
 
 **Output:**
 
-```
+```perl
 71
 
 ```
 
 **程序 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # ASCII value of 'W' is printed
@@ -53,7 +53,7 @@ print(ord('WelcometoGFG'));
 
 **Output:**
 
-```
+```perl
 87
 
 ```

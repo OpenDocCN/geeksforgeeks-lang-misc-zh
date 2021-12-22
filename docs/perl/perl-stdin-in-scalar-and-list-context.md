@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```perl
 # Asking user for Input
 print "What is your age?\n";
 
@@ -38,7 +38,7 @@ print "Your age is ", $age;
 下面的例子展示了 STDIN 在列表上下文中的使用。
 T3】例:
 
-```
+```perl
 # Get a city name from the user 
 print "Enter the cities you have visited last year... ";
 print "<Ctrl>-D to Terminate \n";

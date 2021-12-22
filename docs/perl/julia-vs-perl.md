@@ -35,7 +35,7 @@
 
 ## 朱莉娅
 
-```
+```perl
 # Julia program for
 # Addition of Two Numbers
 
@@ -52,7 +52,7 @@ print(z)
 
 ## Perl 语言
 
-```
+```perl
 # Perl program for
 # Addition of Two Numbers
 
@@ -69,6 +69,6 @@ print $z;
 
 **输出:**
 
-```
+```perl
 30
 ```

@@ -16,7 +16,7 @@
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Import Math::BigInt module
@@ -35,7 +35,7 @@ print($x);
 
 **Output:** 
 
-```
+```perl
 12
 23
 ```
@@ -45,7 +45,7 @@ print($x);
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Import Math::BigInt module
@@ -64,7 +64,7 @@ print($x);
 
 **Output:** 
 
-```
+```perl
 15
 -16
 ```

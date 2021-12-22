@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```perl
 Input :  Key_8, pub_12, pri_4 (array of strings) 
 Output :  pri_4 Key_8 pub_12
 
@@ -24,7 +24,7 @@ Output :  pri_4 Key_8 pub_12
     **注意:**数组中的所有字母数字字符串必须大小相同。
     **示例:**
 
-    ```
+    ```perl
     use strict;
     use 5.010;
 
@@ -42,7 +42,7 @@ Output :  pri_4 Key_8 pub_12
 
     **输出:**
 
-    ```
+    ```perl
     prin_4 Keys_8 pubg_12
 
     ```
@@ -53,7 +53,7 @@ Output :  pri_4 Key_8 pub_12
 
     **注意:**这个方法不关心字母数字串的大小是否不同。
 
-    ```
+    ```perl
     use strict;
     use 5.010;
 
@@ -86,7 +86,7 @@ Output :  pri_4 Key_8 pub_12
 
     **Output:**
 
-    ```
+    ```perl
     Number Extracted from Key_8_key is 8
 
     Array Before sorting
@@ -99,12 +99,12 @@ Output :  pri_4 Key_8 pub_12
 
 **不带数字的字符串:**如果数组由字符串组成，其中一些字符串没有数字，那么可以用 0 来代替那个数字。要检查字符串中是否没有数字，请使用以下代码:
 
-```
+```perl
  my @y = sort { (($a =~ /(\d+)/)[0] || 0)  (($b =~ /(\d+)/)[0] || 0) } @x; 
 
 ```
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use 5.010;
@@ -122,14 +122,14 @@ print join " ", @y;
 
 **Output:**
 
-```
+```perl
 Key pri_4 pubg_12
 
 ```
 
 **使用子例程排序:**为了更好地模块化代码，我们可以在 Perl 中创建单独的函数或子例程，并使用该子例程执行排序操作。sort()函数以子程序名为参数，调用保存排序定义的子程序。
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use 5.010;
@@ -155,7 +155,7 @@ sub numbersort 
 
 **Output:**
 
-```
+```perl
 pri_4 Key_8 pubg_12
 
 ```

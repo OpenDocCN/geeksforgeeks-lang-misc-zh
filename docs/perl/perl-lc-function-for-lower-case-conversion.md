@@ -14,7 +14,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Original String containing both
@@ -33,7 +33,7 @@ print "Changed String : $changed_string\n";
 
 **输出:**
 
-```
+```perl
 Original String : GEEkS FoR geEkS
 Changed String : geeks for geeks
 ```
@@ -42,7 +42,7 @@ Changed String : geeks for geeks
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Original String containing
@@ -62,7 +62,7 @@ print "Changed String : $changed_string\n";
 
 **输出:**
 
-```
+```perl
 Original String : G33kS F0R g3EkS
 Changed String : g33ks f0r g3eks
 ```

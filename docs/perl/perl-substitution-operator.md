@@ -10,7 +10,7 @@ Perl中的替换运算符或' s '运算符用于用用户指定的某种模式�
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # String in which text 
@@ -27,14 +27,14 @@ print "$string\n";
 
 **输出:**
 
-```
+```perl
 GeekstoGeeks
 
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # String in which text 
@@ -51,7 +51,7 @@ print "$string\n";
 
 **输出:**
 
-```
+```perl
 Hello all!!! Welcome to Geeks
 
 ```

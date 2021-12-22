@@ -12,7 +12,7 @@ Perl 中的变量可以用特定的数据类型来命名。命名变量时要遵
 
 **示例:**
 
-```
+```perl
 $John and $john are two different variables
 ```
 
@@ -21,7 +21,7 @@ $John and $john are two different variables
 
 **示例:**
 
-```
+```perl
 $my-name = "John"; // Invalid 
 $my name = "John"; // Invalid
 $my_name = "John"; // Valid
@@ -37,7 +37,7 @@ $my_name = "John"; // Valid
 
 **示例:**
 
-```
+```perl
 $item = "Hello" 
 $item_one = 2
 ```
@@ -48,7 +48,7 @@ $item_one = 2
 
 **示例:**
 
-```
+```perl
 @price_list = (70, 30, 40);
 @name_list = ("Apple", "Banana", "Guava");
 ```
@@ -59,7 +59,7 @@ $item_one = 2
 
 **示例:**
 
-```
+```perl
 %item_pairs = ("Apple" =>2, "Banana'=>3);
 %pair_random = ("Hi" =>8, "Bye"=>9);
 
@@ -73,7 +73,7 @@ Perl 允许在变量声明完成后随时修改其变量值。变量的修改有
 
 **示例:**
 
-```
+```perl
 $name = "John";
 
 # This can be modified by simply
@@ -85,7 +85,7 @@ $name = "Rahul";
 
 **示例:**
 
-```
+```perl
 @array = ("A", "B", "C", "D", "E");
 
 # If value of second variable is to
@@ -101,7 +101,7 @@ $name = "Rahul";
 
 **示例:**
 
-```
+```perl
 %Hash = ("A", 10, "B", 20, "C", 30)
 
 # This will modify the value 
@@ -116,28 +116,28 @@ Perl 提供了各种方法来定义变量的字符串。这可以通过使用单
 
 **示例:**
 
-```
+```perl
 $name = "John"
 print 'Hi $name\nHow are you?' 
 ```
 
 上面的代码将打印出来:
 
-```
+```perl
 Hi $name\nHow are you?
 ```
 
 而用双引号括起来的字符串用它们的值替换变量，然后显示字符串。它甚至用它们的实际用途代替了转义序列。
 **例:**
 
-```
+```perl
 $name = "John"
 print "Hi $name\nHow are you?" 
 ```
 
 上面的代码将打印出来:
 
-```
+```perl
 Hi John
 How are you?
 ```
@@ -146,7 +146,7 @@ How are you?
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use Data::Dumper;
 
@@ -178,7 +178,7 @@ print Dumper(\%Hash);
 
 **Output:** 
 
-```
+```perl
 Modified Array is G E F K S
 Name is $name\n
 Name is GeeksForGeeks$VAR1 = {

@@ -14,7 +14,7 @@ Perl 有一种不同的方式来处理运算符，因为这里运算符定义了
 
     **例 1:**
 
-    ```
+    ```perl
     # Perl code to demonstrate implicit 
     # type casting
 
@@ -42,7 +42,7 @@ Perl 有一种不同的方式来处理运算符，因为这里运算符定义了
 
     **输出:**
 
-    ```
+    ```perl
     z is 70
     w is 5713
 
@@ -52,7 +52,7 @@ Perl 有一种不同的方式来处理运算符，因为这里运算符定义了
 
     **示例:**下面执行显式类型转换，其中字符串(或任何数据类型)被转换为指定类型(比如 int)。
 
-    ```
+    ```perl
     # Perl code to demonstrate Explicit 
     # type casting
 
@@ -80,7 +80,7 @@ Perl 有一种不同的方式来处理运算符，因为这里运算符定义了
 
     **输出:**
 
-    ```
+    ```perl
     Numbers are 27 and 13
     Sum of the numbers = 40
 
@@ -92,7 +92,7 @@ sprintf 函数
 
 这个 sprintf 函数返回一个标量值，一个格式化的文本字符串，根据代码进行类型转换。sprintf 命令是一个格式化程序，根本不打印任何东西。
 
-```
+```perl
 # Perl code to demonstrate the use 
 # of sprintf function
 
@@ -119,7 +119,7 @@ print"Sum of the numbers = $sum\n";
 
 **输出:**
 
-```
+```perl
 Numbers are 25 and 13
 Sum of the numbers = 38
 

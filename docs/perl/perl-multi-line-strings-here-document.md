@@ -12,7 +12,7 @@ Perl 中的字符串是一个标量变量，它可以包含字母、数字和特
 
 **示例:**
 
-```
+```perl
 # Perl code to illustrate the multiline 
 # string using single quotes and 
 # double quotes
@@ -43,7 +43,7 @@ print "$multi_line\n";
 
 **输出:**
 
-```
+```perl
 This is multiline 
 
 string using double quotes
@@ -65,7 +65,7 @@ on $GeeksforGeeks
 
 **示例:**
 
-```
+```perl
 # Perl code to illustrate the multiline 
 # string using Here-Document
 
@@ -120,7 +120,7 @@ print "$deli\n\n";
 
 **输出:**
 
-```
+```perl
 Multiline string using 
 
      Here-Document on 
@@ -146,7 +146,7 @@ Multiline string using
 
 **示例:**
 
-```
+```perl
 # Perl code to illustrate the error by 
 # changing the ending delimiter
 

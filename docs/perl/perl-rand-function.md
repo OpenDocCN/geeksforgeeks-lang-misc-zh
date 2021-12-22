@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Calling the rand function
@@ -28,13 +28,13 @@ print("Random Number between 0 and 15: ",
 
 **输出:**
 
-```
+```perl
 Random Number between 0 and 15: 12.6694798049858
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Calling the rand function
@@ -49,6 +49,6 @@ print("Random Number between 0 and -25: ", 
 
 **输出:**
 
-```
+```perl
 Random Number between 0 and -25: -7.54296459674615
 ```

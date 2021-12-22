@@ -14,7 +14,7 @@ HTML 表单中最常用的方法是隐藏的字段。这有助于隐藏表单中
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use CGI qw/:standard/;
 
@@ -96,7 +96,7 @@ END_TEXT
 
 ## 超文本标记语言
 
-```
+```perl
 <input type="hidden" name="userid" value="GeeksforGeeks" type="hidden"/>
 
 <input type="hidden" name="credit_ok" value="1"/>
@@ -109,7 +109,7 @@ END_TEXT
 
 ## 超文本标记语言
 
-```
+```perl
 <input type="hidden" name="userid" value="Geeks123" />
 
 <input type="hidden" name="credit_ok" value="1" />

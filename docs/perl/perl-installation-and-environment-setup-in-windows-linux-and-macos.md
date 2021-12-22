@@ -15,7 +15,7 @@ Perl 程序可以写在任何纯文本编辑器上，如****记事本++*** 或�
 要检查您的设备是否预装了 Perl，只需转到**命令行**(对于 **Windows** ，在运行对话框中搜索**cmd**(<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">***+R**)对于 **Linux** 使用`**Ctrl+Alt+T**`打开终端，对于 **MacOS** 使用`**Control+Option+Shift+T**` )
 现在运行以下命令:**
 
-```
+```perl
 ****perl -v****
 ```
 
@@ -71,7 +71,7 @@ Perl 程序可以写在任何纯文本编辑器上，如****记事本++*** 或�
 
 **完成安装过程后，可以使用任何 IDE 或文本编辑器编写 Perl 代码，并使用以下命令在 IDE 或命令提示符下运行这些代码:**
 
-```
+```perl
 **perl file.pl**
 ```
 

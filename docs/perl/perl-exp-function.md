@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising some values for the
@@ -40,7 +40,7 @@ print "$H\n";
 
  **输出:**
 
-```
+```perl
 1
 2.71828182845905
 22026.4657948067
@@ -50,7 +50,7 @@ print "$H\n";
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calling the exp function
@@ -70,7 +70,7 @@ print "$D\n";
 
 **输出:**
 
-```
+```perl
 2.71828182845905
 7.38905609893065
 20.0855369231877

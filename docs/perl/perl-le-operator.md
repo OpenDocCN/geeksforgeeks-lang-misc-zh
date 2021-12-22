@@ -12,7 +12,7 @@
 
 **例 1:** String1 小于 String2
 
-```
+```perl
 #!/usr/local/bin/perl
 
 # Initializing Strings
@@ -34,7 +34,7 @@ else
 
 **输出:**
 
-```
+```perl
 String1 is less than or equal to String2
 
 ```

@@ -10,7 +10,7 @@
 
 ****例:****
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Perl Program to calculate Factorial  
@@ -42,7 +42,7 @@ print "Factorial of a number $n is ", factorial($n);
 
 ****输出:**
 
-```
+```perl
 Factorial of a number 7 is 5040
 
 ```**

@@ -17,7 +17,7 @@
 
 *   **加法:** ' *+* '运算符用于将两个操作数的值相加。例如:
 
-```
+```perl
 $a = 5;
 $b = 10;
 print $a + $b;
@@ -26,7 +26,7 @@ Here Result will be 15
 
 *   **减法:**'*–*'运算符用于从左手操作数中减去右手操作数。例如:
 
-```
+```perl
 $a = 10;
 $b = 5;
 print $a - $b;
@@ -35,7 +35,7 @@ Here Result will be 5
 
 *   **乘法:** ' *** '运算符用于将运算符两侧的值相乘。例如:
 
-```
+```perl
 $a = 5;
 $b = 10;
 print $a * $b;
@@ -44,7 +44,7 @@ Here Result will be 50
 
 *   **除法运算符:** ' */* '运算符在第一个操作数除以第二个操作数时返回余数。例如:
 
-```
+```perl
 $a = 30;
 $b = 15;
 print $a / $b;
@@ -53,7 +53,7 @@ Here Result will be 3
 
 *   **模数运算符:** ' *%* '运算符用于将左操作数与右操作数相除，并返回余数。例如:
 
-```
+```perl
 $a = 10;
 $b = 15;
 print $a % $b;
@@ -62,7 +62,7 @@ Here Result will be 5
 
 *   **指数运算符:** ' **** '运算符用于对操作数进行指数(幂)计算。例如:
 
-```
+```perl
 $a = 2;
 $b = 3;
 print $a**$b;
@@ -73,7 +73,7 @@ Here Result will be 8
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to illustrate the Arithmetic Operators
 
 # Operands
@@ -91,7 +91,7 @@ print "Exponent is: ", $a ** $b, "\n";
 
 **输出:**
 
-```
+```perl
 Addition is: 14
 Subtraction is: 6
 Multiplication is: 40
@@ -116,7 +116,7 @@ Exponent is: 10000
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to illustrate the Relational Operators
 
 # Operands
@@ -189,7 +189,7 @@ else
 
 **输出:**
 
-```
+```perl
 Equal To Operator is False
 Not Equal To Operator is True
 Greater Than Operator is False
@@ -211,7 +211,7 @@ Comparison of Operator is True
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to illustrate the Logical Operators
 
 # Operands
@@ -234,7 +234,7 @@ print "NOT Operator: ", $result;
 
 **输出:**
 
-```
+```perl
 AND Operator: false
 OR Operator: true
 NOT Operator: 1
@@ -246,7 +246,7 @@ NOT Operator: 1
 
 *   **&(按位“与”)**将两个数字作为操作数，并对两个数字的每一位进行“与”。仅当两位都为 1 时，“与”的结果才为 1。例如
 
-```
+```perl
 $a = 13;    // 1101
 $b = 5;   //  0101
 $c = $b & $a;   
@@ -264,7 +264,7 @@ $c = 0 1  0 1
 
 *   **|(按位“或”)**将两个数字作为操作数，并对两个数字的每一位进行“或”。“或”的结果是 1，两位中的任何一位都是 1。例如
 
-```
+```perl
 $a = 13;    // 1101
 $b = 5;     // 0101
 $c = $b | $a;   
@@ -281,7 +281,7 @@ $c = 1 1  0 1
 
 *   **^(按位异或)**将两个数字作为操作数，并对两个数字的每一位进行异或运算。如果两位不同，异或的结果是 1。例如
 
-```
+```perl
 $a = 13;  // 1101
 $b = 5;   // 0101
 $c = $b ^ $a;
@@ -299,7 +299,7 @@ $c = 1 0 0 1
 *   **~(补码运算符)**这是一元运算符，充当翻转位。它的工作是反转位，并由于有符号的二进制数而使用 2 的补码形式给出结果。
 *   **( < <)二进制左移位运算符**将取两个数字，左移位第一个操作数的位，第二个操作数决定移位的位数。它将左操作数乘以右操作数指定的次数。例如:
 
-```
+```perl
 $a = 60;
 $c = $a << 2;
 print $c;
@@ -313,7 +313,7 @@ Explanation:
 
 *   **( > >)二进制右移运算符**取两个数，右移第一个操作数的位，第二个操作数决定移位的位数。它将左操作数除以右操作数指定的次数。例如:
 
-```
+```perl
 $a = 60;
 $c = $a >> 2;
 print $c;
@@ -328,7 +328,7 @@ Explanation:
 
 ## Perl 语言
 
-```
+```perl
 # Perl Program to illustrate the Bitwise operators
 #!/usr/local/bin/perl
 use integer;
@@ -364,7 +364,7 @@ print "Bitwise Right Shift: ", $result, "\n";
 
 **输出:**
 
-```
+```perl
 Bitwise AND: 0
 Bitwise OR: 82
 Bitwise XOR: 82
@@ -381,7 +381,7 @@ Bitwise Right Shift: 20
 *   **"= "(简单赋值)**:这是最简单的赋值运算符。该运算符用于将右边的值赋给左边的变量。
     例:
 
-```
+```perl
 $a = 10;
 $b = 20;
 ```
@@ -389,7 +389,7 @@ $b = 20;
 *   **“+=”(添加赋值)**:这个运算符是“+”和“=”运算符的组合。该运算符首先将左边变量的当前值与右边的值相加，然后将结果赋给左边的变量。
     例:
 
-```
+```perl
 ($a += $b) can be written as ($a = $a + $b)
 ```
 
@@ -397,7 +397,7 @@ $b = 20;
 *   **"-= "(减法赋值)**:这个运算符是'-'和' = '运算符的组合。该运算符首先从右边的值中减去左边变量的当前值，然后将结果赋给左边的变量。
     例:
 
-```
+```perl
 ($a -= $b) can be written as ($a = $a - $b)
 ```
 
@@ -405,7 +405,7 @@ $b = 20;
 *   **"*= "(乘法赋值)**:该运算符是' * '和' = '运算符的组合。该运算符首先将左边变量的当前值乘以右边的值，然后将结果赋给左边的变量。
     例:
 
-```
+```perl
 ($a *= $b) can be written as ($a = $a * $b)
 ```
 
@@ -413,7 +413,7 @@ $b = 20;
 *   **"/= "(除法赋值)**:这个运算符是'/'和' = '运算符的组合。该运算符首先将左边变量的当前值除以右边的值，然后将结果赋给左边的变量。
     例:
 
-```
+```perl
 ($a /= $b) can be written as ($a = $a / $b)
 ```
 
@@ -421,7 +421,7 @@ $b = 20;
 *   **“% =”(模数赋值)**:这个运算符是“%”和“=”运算符的组合。该运算符首先用右边的值对左边变量的当前值取模，然后将结果赋给左边的变量。
     示例:
 
-```
+```perl
 ($a %= $b) can be written as ($a = $a % $b)
 ```
 
@@ -429,7 +429,7 @@ $b = 20;
 *   **“** =”(指数赋值)**:这个运算符是“* *”和“=”运算符的组合。该运算符首先用右边的值对左边变量的当前值进行指数运算，然后将结果赋给左边的变量。
     例:
 
-```
+```perl
 ($a **= $b) can be written as ($a = $a ** $b)
 ```
 
@@ -439,7 +439,7 @@ $b = 20;
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the working
 # of Assignment Operators
 #!/usr/local/bin/perl
@@ -476,7 +476,7 @@ print "Exponent Assignment Operator: ", $a**=$b, "\n";
 
 **输出:**
 
-```
+```perl
 Addition Assignment Operator: 13
 Subtraction Assignment Operator: 4
 Multiplication Assignment Operator: 32
@@ -491,13 +491,13 @@ Exponent Assignment Operator: 4096
 
 **语法:**
 
-```
+```perl
 condition ? first_expression : second_expression;
 ```
 
 **说明:**
 
-```
+```perl
 *condition:* It must be evaluated to true or false.
 If the condition is true
 first_expression is evaluated and becomes the result.
@@ -509,7 +509,7 @@ second_expression is evaluated and becomes the result.
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the working
 # of Ternary Operator
 
@@ -526,7 +526,7 @@ print "The Larger Number is: $result"      
 
 **输出:**
 
-```
+```perl
 The Larger Number is: 10
 ```
 
@@ -536,7 +536,7 @@ The Larger Number is: 10
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the working
 # of Ternary Operator by using expression
 # as the condition
@@ -559,6 +559,6 @@ print "$result"     
 
 **输出:**
 
-```
+```perl
 100
 ```

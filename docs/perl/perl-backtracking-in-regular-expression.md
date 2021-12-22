@@ -7,7 +7,7 @@
 *   Firstly, they are used in conditionals to determine whether a string matches a particular pattern.
     **Example:**Usage of Regular expressions in conditionals.
 
-    ```
+    ```perl
     #!usr/bin/perl
 
     # Regular expressions in Conditionals
@@ -32,7 +32,7 @@
 *   Secondly, they can locate patterns within a string and can replace them with something else.
     **Example:** Substitution Operator
 
-    ```
+    ```perl
     #!usr/bin/perl
     # Regular expressions in Substitutions
 
@@ -54,7 +54,7 @@
 *   最后，模式不仅可以指定某物在哪里，还可以指定它不在哪里。所以 **`[split](https://www.geeksforgeeks.org/perl-split-function/)`** 运算符使用正则表达式来指定数据不在哪里。也就是说，正则表达式定义了分隔数据字段的分隔符。
     **示例:**拆分运算符
 
-```
+```perl
 #!usr/bin/perl
 
 # Program to illustrate 
@@ -81,7 +81,7 @@ print($var3);  
 
 让我们再举一个例子，
 
-```
+```perl
 /^ab*bc*d/
 ```
 

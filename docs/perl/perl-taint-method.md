@@ -11,7 +11,7 @@
 
 要打开污点模式，我们只需在哈斯邦线中使用 ***-T 标志*** 。
 
-```
+```perl
 #!/usr/bin/perl -wT 
 
 ```
@@ -38,7 +38,7 @@
 
 ## Perl 语言
 
-```
+```perl
 $mail_address=~/(\S+)\@([\w.-]+)/;
 $untainted_address = "$1\@$2";
 ```
@@ -56,7 +56,7 @@ Perl 认为这些变量是特殊的，因为 Perl 基本上认为，由于这些
 
 *   *使用*(允许不带-T 运行)。**
 
-```
+```perl
 *# allow to run without -T
 use Taint qw(allow_no_taint);    
 
@@ -66,7 +66,7 @@ use Taint;*
 
 *   *不通过显式传递空导入列表来导入任何符号。*
 
-```
+```perl
 *# importing no symbols
 use Taint ();* 
 ```
@@ -75,7 +75,7 @@ use Taint ();*
 
 ## *Perl 语言*
 
-```
+```perl
 *# Showing how a variable assigned to
 # a tainted value gets tainted itself too:
 
@@ -93,6 +93,6 @@ exit 0;*
 
 *此程序将失败，并出现以下错误:*
 
-```
+```perl
 *Insecure dependency in open while running with -T switch at ./test.pl line 9.* 
 ```

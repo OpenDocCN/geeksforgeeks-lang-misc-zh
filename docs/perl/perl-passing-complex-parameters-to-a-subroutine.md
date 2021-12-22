@@ -15,7 +15,7 @@
 
 **示例 1:** 这里，一个单独的列表被传递给子程序，并显示它们的元素。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Defining Subroutine
@@ -42,7 +42,7 @@ Display_List(@list); 
 
 **输出:**
 
-```
+```perl
 Given list is 1 2 3 4
 
 ```

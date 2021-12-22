@@ -15,7 +15,7 @@
 
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # an array of numbers from 0 to 7
@@ -38,7 +38,7 @@ print("Removed elements are @array2");         
 
 **输出:**
 
-```
+```perl
 Original Array: 0 1 2 3 4 5 6 7
 Elements of Updated @array are 0 1 a b c 5 6 7
 Removed elements are 2 3 4

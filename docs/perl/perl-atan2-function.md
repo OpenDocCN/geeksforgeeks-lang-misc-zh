@@ -13,7 +13,7 @@
 
 **示例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Assigning values to X and y
@@ -29,13 +29,13 @@ print "atan2 of 45/70 is : $return_val\n";
 
  **输出:**
 
-```
+```perl
 atan2 of 45/70 is : 0.571337479833627
 ```
 
 **示例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Assigning values to X and y
@@ -51,6 +51,6 @@ print "atan2 of -30/40 is : $return_val\n";
 
 **输出:**
 
-```
+```perl
 atan2 of -30/40 is : -0.643501108793284
 ```

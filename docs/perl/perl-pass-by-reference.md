@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising an array 'a' 
@@ -37,7 +37,7 @@ sub sample
 
 **输出:**
 
-```
+```perl
 Values of an array before function call: = 0 1 2 3 4 5 6 7 8 9 10
 Values of an array after function call: =  A B 2 3 4 5 6 7 8 9 10
 
@@ -52,7 +52,7 @@ Values of an array after function call: =  A B 2 3 4 5 6 7 8 9 10
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing values to scalar
@@ -79,7 +79,7 @@ sub sample
 
 **输出:**
 
-```
+```perl
 Before calling subroutine x = 10, y = 20 
 After calling subroutine x = 1, y = 2 
 

@@ -18,7 +18,7 @@ LDAP 分布是 Perl 模块的集合，它为我们提供了一个面向对象的
 
 要安装**网络::LDAP** 服务器，请使用以下命令:
 
-```
+```perl
 perl -MCPAN -e shell
 install Net::LDAP
 ```
@@ -38,7 +38,7 @@ install Net::LDAP
 
 ## Perl 语言
 
-```
+```perl
 foreach $result ($mesg->all_entries)
 {
   # Perform some operation on the data
@@ -49,7 +49,7 @@ foreach $result ($mesg->all_entries)
 
 ## Perl 语言
 
-```
+```perl
 $num_entries = $mesg->count( ); 
 for ($i = 0; $i < $num_entries; $i++)
 { 
@@ -62,7 +62,7 @@ for ($i = 0; $i < $num_entries; $i++)
 
 ## Perl 语言
 
-```
+```perl
 use strict;
 use warnings;
 use Net::LDAP; # Package Definition
@@ -103,7 +103,7 @@ $ldap->unbind( );
 
 ## *Perl 语言*
 
-```
+```perl
 *use Net::LDAP; # Package Definition
 
 # Initialization

@@ -12,7 +12,7 @@ exit()函数计算传递给它的表达式，并从 Perl 解释器中退出，�
 
 **示例:**
 
-```
+```perl
 # Getting the user's bid for
 # an online auction
 print "Enter your bid";
@@ -45,7 +45,7 @@ else
 下面的示例显示了如何将值传递给退出函数:
 **示例:**
 
-```
+```perl
 # Opening a file
 if(!open(fh,"<","Filename.txt"))
 {

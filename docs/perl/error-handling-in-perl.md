@@ -25,7 +25,7 @@ Perl 提供了两个内置函数来生成致命异常和警告，它们是:
 
 例如，使用 **`open()`** 访问文件时，在继续其他文件操作之前，会告知打开操作是否成功。
 
-```
+```perl
 open FILE, "filename.txt" or die "Cannot open file: $!\n";
 ```
 
@@ -35,7 +35,7 @@ open FILE, "filename.txt" or die "Cannot open file: $!\n";
 
 **例如:**
 
-```
+```perl
 open FILE, "filename.txt" or warn "Cannot open file: $!\n";
 ```
 
@@ -49,7 +49,7 @@ open FILE, "filename.txt" or warn "Cannot open file: $!\n";
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 if(-e $filename)){
   print "File exists";
 
@@ -62,7 +62,7 @@ if(-e $filename)){
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 unless(-e $filename) {
    die "File Does not Exist! $!";
 }
@@ -72,7 +72,7 @@ unless(-e $filename) {
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 use Error ':try';
 
 try{
@@ -95,7 +95,7 @@ try{
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 package test;
 sub functionName
 {
@@ -104,14 +104,14 @@ sub functionName
 1;
 ```
 
-```
+```perl
 use test;
 functionName();
 ```
 
 **输出:**
 
-```
+```perl
 Error in module! at test.pm line 6
 ```
 
@@ -132,7 +132,7 @@ T3】例:
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 package test;
 use Carp;
 
@@ -143,14 +143,14 @@ sub functionName
 1;
 ```
 
-```
+```perl
 use test;
 functionName();
 ```
 
 **输出:**
 
-```
+```perl
 Error in module!  at test.pm line 8
 ```
 
@@ -159,7 +159,7 @@ Error in module!  at test.pm line 8
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 package Test;
 use Carp qw(cluck);
 
@@ -169,7 +169,7 @@ sub function_name {
 1;
 ```
 
-```
+```perl
 use Test;
 function_name();
 
@@ -177,7 +177,7 @@ function_name();
 
 **输出:**
 
-```
+```perl
 Error in module! at Test.pm line 5
    Test::function_name() called at test.pl line 2
 ```
@@ -187,7 +187,7 @@ Error in module! at Test.pm line 5
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 package Test;
 use carp;
 
@@ -197,14 +197,14 @@ sub functionName {
 1;
 ```
 
-```
+```perl
 use Test;
 functionName();
 ```
 
 **输出:**
 
-```
+```perl
 Error in module! at test.pl line 2
 ```
 
@@ -213,7 +213,7 @@ Error in module! at test.pl line 2
 
 ## 实际抽取与汇报语言
 
-```
+```perl
 package Test;
 use Carp;
 
@@ -223,14 +223,14 @@ sub functionName {
 1;
 ```
 
-```
+```perl
 use Test;
 functionName();
 ```
 
 **输出:**
 
-```
+```perl
 Error in module! at Test.pm line 5
    Test::functionName() called at test.pl line 2
 ```

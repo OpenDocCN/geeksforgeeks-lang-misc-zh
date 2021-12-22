@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 $var1 = 20;
@@ -37,7 +37,7 @@ print "var1 value = $var1, ", 
 
 **Output:**
 
-```
+```perl
 var1 value = 20, var2 value = 15
 var1 value = , var2 value =
 
@@ -45,7 +45,7 @@ var1 value = , var2 value =
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 $variable1 = 10;
@@ -71,7 +71,7 @@ print "variable3 value = $variable3";
 
 **Output:**
 
-```
+```perl
 variable1 value = 10,  variable2 value = 30
 variable3 value = 40
 variable1 value = ,  variable2 value = , 

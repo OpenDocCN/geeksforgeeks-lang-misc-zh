@@ -17,7 +17,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Joining string with a separator
@@ -31,7 +31,7 @@ print"Joined String is $string\n";
 
  **输出:**
 
-```
+```perl
 Joined String is Geeks-for-Geeks
 Joined String is GeeksforGeeks
 
@@ -39,7 +39,7 @@ Joined String is GeeksforGeeks
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Joining string with '~' separator
@@ -53,7 +53,7 @@ print"Joined String is $string\n";
 
 **输出:**
 
-```
+```perl
 Joined String is Geeks~for~Geeks
 Joined String is Geeks***for***Geeks
 ```

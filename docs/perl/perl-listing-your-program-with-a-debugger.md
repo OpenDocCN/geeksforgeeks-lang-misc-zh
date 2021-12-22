@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```perl
 perl -d <program_name>
 ```
 
 **要调试的示例程序:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Perl program for a simple calculator
@@ -81,7 +81,7 @@ sub calculator 
     Adds a watch expression.
     **Syntax:**
 
-    ```
+    ```perl
     w $variable_name
     ```
 
@@ -91,7 +91,7 @@ sub calculator 
     // and ?? search for a given pattern in the script. The /pattern/ searches for a pattern in forward direction while, the ?pattern? searches for a pattern in the backward direction from the current position of cursor.
     **Syntax:**
 
-    ```
+    ```perl
     /pattern/ or ?pattern?
     ```
 
@@ -101,7 +101,7 @@ sub calculator 
     This command lists all the subroutines not matching a given pattern.
     **Syntax:**
 
-    ```
+    ```perl
     S expression 
     ```
 

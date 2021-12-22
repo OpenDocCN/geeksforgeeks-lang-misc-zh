@@ -15,7 +15,7 @@
 
 **示例 1:** **考虑一个文件 Hello.txt**
 
-```
+```perl
 #!/usr/bin/perl
 use warnings;
 use strict;
@@ -54,7 +54,7 @@ close FNAME;
 
 **例 2:** **读取同一个脚本文件**
 
-```
+```perl
 #!/usr/bin/perl
 use warnings;
 use strict;

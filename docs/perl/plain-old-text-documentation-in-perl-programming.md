@@ -20,7 +20,7 @@ POD 是一种标记语言，用于为 Perl、Perl 程序和 Perl 模块编写文
 
 **示例:**
 
-```
+```perl
 =head1 SYNOPSIS
  [GEEKSFORGEEKS].
 =cut
@@ -29,7 +29,7 @@ POD 是一种标记语言，用于为 Perl、Perl 程序和 Perl 模块编写文
 
 下面提到的是一个在 Perl 代码中使用嵌入式文档的简单例子
 
-```
+```perl
 #!/usr/bin/perl
 
 print "Hello, World\n";
@@ -43,14 +43,14 @@ print "Hello, geeksforgeeks\n"
 
 **输出:**
 
-```
+```perl
 Hello, World
 Hello, geeksforgeeks
 ```
 
 如果 Pod 放在文件的末尾，并且您使用的是 **__END__** 或 **__DATA__** 剪切标记，那么请确保您在第一个 Pod 命令之前放了一个空行，否则如果在= **head1** 之前没有空行，许多翻译人员将无法识别= **head1** 作为 Pod 块的开始。
 
-```
+```perl
 #!/usr/bin/perl
 
 print "Hello, World\n";
@@ -68,7 +68,7 @@ print "Hello, geeksforgeeks\n";
 
 **输出:**
 
-```
+```perl
 Hello, World
 
 =head1 Hello, World Example

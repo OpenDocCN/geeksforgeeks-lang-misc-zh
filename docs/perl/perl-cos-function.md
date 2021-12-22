@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calling cos function
@@ -25,13 +25,13 @@ print "cos value of 5 is $var";
 
 **输出:**
 
-```
+```perl
 cos value of 5 is 0.283662185463226
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calling cos function
@@ -43,6 +43,6 @@ print "cos value of 9 is $var";
 
 **输出:**
 
-```
+```perl
 cos value of 9 is -0.911130261884677
 ```

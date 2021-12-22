@@ -10,7 +10,7 @@
 
 *   **程序 1:** 举例说明‘m//’和’= ~’的用法如下:
 
-    ```
+    ```perl
     # Perl program to demonstrate
     # the m// and =~ operators
 
@@ -34,14 +34,14 @@
 
     **输出:**
 
-    ```
+    ```perl
     Match Found
 
     ```
 
 *   **程序 2:** 举例说明‘m//‘and’的用法！~ '如下:
 
-    ```
+    ```perl
     # Perl program to demonstrate
     # the m// and !~ operators
 
@@ -65,7 +65,7 @@
 
     **输出:**
 
-    ```
+    ```perl
     Match Not Found
 
     ```

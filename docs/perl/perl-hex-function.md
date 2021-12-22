@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising some hexadecimal values for
@@ -39,7 +39,7 @@ print "$H\n";
 
  **输出:**
 
-```
+```perl
 10
 11
 26
@@ -49,7 +49,7 @@ print "$H\n";
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising some hexadecimal values and
@@ -69,7 +69,7 @@ print "$D\n";
 
 **输出:**
 
-```
+```perl
 13
 175
 175

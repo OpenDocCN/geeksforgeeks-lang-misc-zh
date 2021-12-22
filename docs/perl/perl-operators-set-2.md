@@ -22,7 +22,7 @@
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the Quote
 # Like Operators
 
@@ -53,7 +53,7 @@ print "Value of qx{date} = $d";
 
 **输出:**
 
-```
+```perl
 Value of g is = $g
 Value of g is = Geek
 Value of qx{date} = Sun Aug 12 14:19:43 UTC 2018
@@ -70,7 +70,7 @@ Value of qx{date} = Sun Aug 12 14:19:43 UTC 2018
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # string operators
 
@@ -101,7 +101,7 @@ print "Result of Repetition Operator = $str_result";
 
 **输出:**
 
-```
+```perl
 Result of Concatenation Operator = GeeksforGeeks
 Result of Repetition Operator = GeeksforGeeks GeeksforGeeks GeeksforGeeks GeeksforGeeks 
 ```
@@ -115,7 +115,7 @@ T3】例:
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the
 # Range operators
 
@@ -130,7 +130,7 @@ print "Result of Range Operator = @res";
 
 **输出:**
 
-```
+```perl
 Result of Range Operator = 1 2 3 4
 ```
 
@@ -143,7 +143,7 @@ Result of Range Operator = 1 2 3 4
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the Auto
 # Increment and Decrement Operator
 
@@ -188,7 +188,7 @@ print "Value of g3 is = $g3\n";
 
 **输出:**
 
-```
+```perl
 Value of res is = 11
 Value of g is = 11
 Value of res1 is = 15
@@ -206,7 +206,7 @@ Value of g3 is = 24
 
 ## Perl 语言
 
-```
+```perl
 # Perl program to demonstrate the Arrow Operator
 
 #!/usr/local/bin/perl
@@ -237,7 +237,7 @@ print $has2->{'c'}->[0],"\n";
 
 **输出:**
 
-```
+```perl
 4
 5
 6

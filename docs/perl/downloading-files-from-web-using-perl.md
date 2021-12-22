@@ -14,7 +14,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 
 # using the strict pragma
@@ -52,7 +52,7 @@ getWebPage();
 
 **输出:**
 
-```
+```perl
 the contents of the downloaded web page :
 <raw HTML web page>
 ```
@@ -63,7 +63,7 @@ the contents of the downloaded web page :
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 
 # using the strict pragma
@@ -100,7 +100,7 @@ getWebPage();
 
 **输出:**
 
-```
+```perl
 the contents of the downloaded web page :
 <raw HTML web page>
 ```
@@ -111,7 +111,7 @@ LWP::Simple 是 Perl 中的一个模块，它提供了一个 get()，该 get 将
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 
 # using the strict pragma
@@ -151,7 +151,7 @@ getWebPage();
 
 **输出:**
 
-```
+```perl
 the contents of the downloaded web page :
 <raw HTML web page>
 ```
@@ -162,7 +162,7 @@ HTTP::Tiny 是一个简单的 HTTP/1.1 客户端，这意味着它用于获取�
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 
 # using the warnings pragma to
@@ -222,7 +222,7 @@ getWebPage();
 
 **输出:**
 
-```
+```perl
 the length of the web page : 
 15175
 the contents of the web page are :
@@ -235,7 +235,7 @@ the contents of the web page are :
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 
 # using the warnings pragma
@@ -303,7 +303,7 @@ getWebPages();
 
 **输出:**
 
-```
+```perl
 downloading web page...
 downloaded successfully
 Length : 15175
@@ -324,7 +324,7 @@ Length : <Length of the landing page of GFG>
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 
 # using the strict pragma
@@ -371,7 +371,7 @@ getImage();
 
 **输出:**
 
-```
+```perl
 Downloading...
 Image successfully downloaded.
 (the downloaded image will be saved at the specified location
@@ -385,7 +385,7 @@ would be saved in the current working directory.
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 
 # using the strict pragma
@@ -438,7 +438,7 @@ getImage();
 
 **输出:**
 
-```
+```perl
 The image is stored with the specified file name.
 ```
 

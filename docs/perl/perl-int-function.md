@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Passing positive decimal value
@@ -27,7 +27,7 @@ print"Integer value is $int_val\n";
 
 **输出:**
 
-```
+```perl
 Integer value is 19
 Integer value is -18
 
@@ -35,7 +35,7 @@ Integer value is -18
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Passing fractional positive value
@@ -49,7 +49,7 @@ print"Integer value is $int_val\n";
 
 **输出:**
 
-```
+```perl
 Integer value is 4
 Integer value is -4
 ```

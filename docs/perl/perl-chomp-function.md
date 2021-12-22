@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising a string
@@ -30,7 +30,7 @@ print "Number of Characters removed : $A";
 
 **Output:**
 
-```
+```perl
 Chopped String is : GfG is a computer science portal
 Number of Characters removed : 1
 
@@ -40,7 +40,7 @@ Number of Characters removed : 1
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising two strings
@@ -58,7 +58,7 @@ print "Number of Characters removed : $A\n";
 
 **Output:**
 
-```
+```perl
 Chopped String is : Geeks for Geeks
 Welcomes you all
 Number of Characters removed : 2

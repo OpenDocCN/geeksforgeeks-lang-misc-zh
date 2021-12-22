@@ -9,14 +9,14 @@
 **第一步:将文件传输到 Perl 解释器:**
 总是在 Perl 中，第一行以一对字符#开始！。它坚持 Perl 解释器应该如何执行文件。这里，文件应该被传输到驻留在/usr/bin/perl 文件夹中的 Perl 解释器。所以，程序的第一行将是这样的，
 
-```
+```perl
 #!/usr/bin/perl
 ```
 
 **第二步:Perl 中的 Pragma:**
 Pragma 是 Perl 包中的一个特定模块，它对 Perl 的编译时或运行时行为的某些功能有控制，这是严格的或警告的。接下来的两行是这样的，
 
-```
+```perl
 use strict;
 use warnings;
 
@@ -25,13 +25,13 @@ use warnings;
 **第三步:使用 print()函数:**
 最后显示输出，我们使用 print()函数在 perl 中显示一个字符串。
 
-```
+```perl
 print("Hello World\n");
 ```
 
 **代码:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Modules used
@@ -44,7 +44,7 @@ print("Hello World\n");
 
 **输出:**
 
-```
+```perl
 Hello World
 ```
 

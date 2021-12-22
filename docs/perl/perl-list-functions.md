@@ -19,7 +19,7 @@ T2 Perl 中的列表是标量值的集合。我们可以使用索引访问列表
 
     **示例:**
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # Initializing list with alphabets A to Z
@@ -36,7 +36,7 @@ T2 Perl 中的列表是标量值的集合。我们可以使用索引访问列表
 
     **输出:**
 
-    ```
+    ```perl
     List: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
     String after join operation:
@@ -56,7 +56,7 @@ T2 Perl 中的列表是标量值的集合。我们可以使用索引访问列表
 
     **示例:**
 
-    ```
+    ```perl
     # Initializing a list
     @list = ("Raj", "E123", 12000);
 
@@ -76,7 +76,7 @@ T2 Perl 中的列表是标量值的集合。我们可以使用索引访问列表
 
     **输出:**
 
-    ```
+    ```perl
     Reversed list is 12000 E123 Raj
     Reversed string is skeeGrofskeeG
 
@@ -93,7 +93,7 @@ T2 Perl 中的列表是标量值的集合。我们可以使用索引访问列表
 
     **示例:**
 
-    ```
+    ```perl
     # Initializing a list
     @Dept = ('comp', 'inft', 'extc', 'mech');
 
@@ -120,7 +120,7 @@ T2 Perl 中的列表是标量值的集合。我们可以使用索引访问列表
 
     **输出:**
 
-    ```
+    ```perl
     List with First char capital: Comp, Inft, Extc, Mech, 
     List with all char capital: COMP, INFT, EXTC, MECH, 
     ```
@@ -133,7 +133,7 @@ T2 Perl 中的列表是标量值的集合。我们可以使用索引访问列表
 
     **例**
 
-    ```
+    ```perl
     # Initializing two lists
     @country = ('India', 'Qatar', 'Bangladesh', 'France', 'Italy');
     @capital = ('Delhi', 'Lahore', 'Dhaka', 'Paris', 'Rome');
@@ -162,7 +162,7 @@ T2 Perl 中的列表是标量值的集合。我们可以使用索引访问列表
 
     **输出:**
 
-    ```
+    ```perl
     Countries in sorted order: 
     BangladeshFranceIndiaItalyQatar
 

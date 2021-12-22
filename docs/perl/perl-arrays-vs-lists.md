@@ -10,7 +10,7 @@
 
 **例:**
 
-```
+```perl
 (10, 20, 30);
 ("this", "is", "a", "list", "in", "perl");
 
@@ -20,7 +20,7 @@
 
 简单列表是包含同类元素的列表。
 
-```
+```perl
 # declaration without variable referencing
 print("List declared and printed: ");
 print join(' ', 10, 20, 30, 40, 50);
@@ -59,7 +59,7 @@ print("\n\n");
 
 **输出:**
 
-```
+```perl
 List declared and printed: 10 20 30 40 50
 
 List declared using qw(): this is gfg
@@ -81,13 +81,13 @@ Spliced elements: 2 3 4
 
 复杂列表是包含异构元素的列表。
 
-```
+```perl
 print("complex", 10, 20, "list");
 ```
 
 **输出:**
 
-```
+```perl
 complex1020list
 
 ```
@@ -96,7 +96,7 @@ complex1020list
 
 如果存在嵌套列表，它将被合并成一个没有任何嵌套的列表。
 
-```
+```perl
 print(2, 3, 4, (5, 6));
 print("\n");
 print(2, 3, 4, 5, 6);
@@ -107,7 +107,7 @@ print("\n");
 
 **输出:**
 
-```
+```perl
 23456
 23456
 23456
@@ -119,7 +119,7 @@ print("\n");
 
 **例:**
 
-```
+```perl
 @num = (10, 20, 30);
 @str = ("this", "is", "a", "list", "in", "perl");
 
@@ -127,7 +127,7 @@ print("\n");
 
 #### 数组操作
 
-```
+```perl
 # declaration
 @array = (10, 20, 30, 40, 50);
 print("Declared array\n");
@@ -199,7 +199,7 @@ print("\n\n");
 
 **输出:**
 
-```
+```perl
 Declared array
 10 20 30 40 50
 
@@ -238,7 +238,7 @@ Range function
 
 Perl 允许创建二维数组。
 
-```
+```perl
 @array = ( [ 10, 20, 30 ],
            [ "ana", "joe", "ester" ],
            [ "Welcome to gfg" ] );
@@ -251,7 +251,7 @@ for $array_ref( @array ) 
 
 **输出:**
 
-```
+```perl
 [ 10 20 30 ],
 [ ana joe ester ],
 [ Welcome to gfg ],

@@ -32,7 +32,7 @@
 
     让文件**“gfg . txt”**的内容如下:
 
-    ```
+    ```perl
     GeeksforGeeks
     Hello Geek
     Geek a revolution
@@ -42,7 +42,7 @@
 
     **例:GFG.pl**
 
-    ```
+    ```perl
     # Opening the file 
     open(fh, "GFG.txt") or die "File '$filename' can't be opened";
 
@@ -59,7 +59,7 @@
 
     > **语法:** getc FILEHANDLE
 
-    ```
+    ```perl
     # Opening the file 
     open(fh, "GFG.txt") or die "File '$filename' can't be opened";
 
@@ -88,7 +88,7 @@
 
     **示例:File.pl**
 
-    ```
+    ```perl
     # Opening the file
     open(FH, "GFG.txt")or die "Sorry!! couldn't open";
     print "Reading file \n";
@@ -115,7 +115,7 @@
         When filehandle could not be assigned a valid file pointer at that time die gets executed printing the message and kills the current program.
         **Example :**
 
-        ```
+        ```perl
         # Initializing filename 
         $filename = 'GFG1.txt';
 
@@ -132,7 +132,7 @@
         When filehandle could not be assigned a valid file pointer it just prints warning message using warn function and keeps running.
         **Example :**
 
-        ```
+        ```perl
         # Initializing filename
         $filename = 'GFG.txt';
         # Opening a file and reading content

@@ -20,7 +20,7 @@
 
 ****在 Perl 中创建队列非常简单。这可以通过声明一个数组来实现，该数组可以是空的，也可以用一些预填充的数据初始化。****
 
-```
+```perl
 **@queue;        # Queue is empty.
 
 @queue = (1, 2, 3);      # Queue with initialized values.**
@@ -41,7 +41,7 @@
 
 ## ****Perl 语言****
 
-```
+```perl
 **#!/usr/bin/perl
 use strict;
 use warnings;
@@ -72,7 +72,7 @@ print("\nUpdated Queue after Pop: @queue");**
 
 ******Output:** 
 
-```
+```perl
 Original Queue: 1 2 3
 Updated Queue after Push: 1 2 3 4 5 6
 Element popped is: 1
@@ -91,7 +91,7 @@ Updated Queue after Pop: 3 4 5 6
 
 ## ****Perl 语言****
 
-```
+```perl
 **#!/usr/bin/perl
 use strict;
 use warnings;
@@ -164,7 +164,7 @@ print("\nUpdated Queue after Push: @queue");**
 
 ******Output:** 
 
-```
+```perl
 Original Queue: 1 2 3
 Pushed 4 in queue
 Pushed 5 in queue
@@ -190,7 +190,7 @@ Updated Queue after Push: 8 9 3 4 5 6 7
 
 ## ****Perl 语言****
 
-```
+```perl
 **#!/usr/bin/perl
 use strict;
 use warnings;
@@ -241,7 +241,7 @@ for (my $i = 0; $i < 2; $i++)
 
 ******Output:** 
 
-```
+```perl
 Original Queue is 1 2 4 5 
 Updated Queue after push is 1 2 4 5 11 7 
 Popped item: 11, Priority: 9
@@ -259,7 +259,7 @@ Updated Queue after pop is 5 7
 
 ## ****Perl 语言****
 
-```
+```perl
 **#!/usr/bin/perl
 use strict;
 use warnings;
@@ -327,7 +327,7 @@ print("\nUpdated Queue after Pop: @queue");**
 
 ******Output:** 
 
-```
+```perl
 Original Queue: 1 2 3
 Rear element is 3
 Front element is 7
@@ -357,7 +357,7 @@ Updated Queue after Pop: 20 1 1 2 3
 
 ## ****Perl 语言****
 
-```
+```perl
 **#!/usr/bin/perl
 use strict;
 use warnings;
@@ -405,7 +405,7 @@ $q->end();**
 
 ******Output:** 
 
-```
+```perl
  size of the queue is 3
 Head of the Queue is 1.
 The size of the queue is 5
@@ -424,7 +424,7 @@ The queue is empty.
 
 ## ****Perl 语言****
 
-```
+```perl
 **#!/usr/bin/perl
 use strict;
 use warnings;
@@ -438,7 +438,7 @@ say "PID $ ($pid)";**
 
 ******Output:** 
 
-```
+```perl
 PID 22112
 PID 22112 (22113)
 PID 22113 (0)

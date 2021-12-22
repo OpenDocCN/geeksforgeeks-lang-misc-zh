@@ -5,14 +5,14 @@
 [正则表达式](https://www.geeksforgeeks.org/perl-regular-expressions/) (Regex/RE)是用于模式匹配的字符序列。或者我们可以说，它是一种描述一组字符串的方式，而不必列出程序中的所有字符串。我们可以使用模式绑定操作符 **=~** 和**来应用正则表达式！~** 。Regex 运算符 **=~** 用于测试正则表达式匹配。
 **例:**我们来考虑一下**/极客/** 作为正则表达式。会匹配的
 
-```
+```perl
 Geeksforgeeks
 Computergeeks
 ```
 
 但不能
 
-```
+```perl
 Ge12eksg22eeks
 Geeksg*eks
 ```
@@ -21,7 +21,7 @@ Geeksg*eks
 
 **模式匹配:**这是一种在给定字符串中找出特定字符序列或模式的方法。在 Perl 中，我们有三个正则表达式运算符。它们是:
 
-```
+```perl
 Match Regular Expression - m//
 Substitute Regular Expression - s///
 Transliterate Regular Expression - tr///
@@ -29,7 +29,7 @@ Transliterate Regular Expression - tr///
 
 **示例 1:使用匹配运算符**
 
-```
+```perl
 #!usr/bin/perl
 
 # Perl program to search the substring "or" 
@@ -50,7 +50,7 @@ if($a = ~m/or/)
 
 **示例 2:使用替代运算符**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to replace the substring "For" 
@@ -70,7 +70,7 @@ print "$a";
 
 **例 3:使用音译运算符**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to replace all occurrences
@@ -100,7 +100,7 @@ REs 中通常的匹配规则有时被称为“**最左边最长的**”:当一�
 
 **示例:贪婪模式匹配**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to show greedy matching
@@ -118,7 +118,7 @@ print($1, "\n");
 
 **示例:非贪婪模式匹配**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to show non-greedy matching

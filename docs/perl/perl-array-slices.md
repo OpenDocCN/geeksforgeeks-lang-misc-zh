@@ -6,7 +6,7 @@
 阵列可以存储任何类型的数据，并且可以通过多种方式访问这些数据。这些值可以通过在数组前放置 **$** 符号并在方括号内存储要访问的元素的索引值来提取。
 **例如:**
 
-```
+```perl
 # Define an array
 @arr = (1, 2, 3);
 
@@ -32,7 +32,7 @@ print "$arr[1]\n";
 数组切片可以通过从要访问其值的数组中传递多个索引值来完成。这些值作为参数传递给数组名。Perl 将在指定的索引上访问这些值，并对这些值执行所需的操作。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to implement the use of Array Slice
@@ -48,7 +48,7 @@ print"Extracted elements: ". 
 
 **Output:**
 
-```
+```perl
 Extracted elements: for Geek
 
 ```

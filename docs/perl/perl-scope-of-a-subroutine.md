@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate
 # simple subroutine
 
@@ -33,7 +33,7 @@ $message = message;    # Calling subroutine
 
 **Output:**
 
-```
+```perl
 Hello!
 
 ```
@@ -55,7 +55,7 @@ Hello!
 
 **例**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Subroutine definition
@@ -88,7 +88,7 @@ if (length($user_input) >= 7)
 
 **Output:**
 
-```
+```perl
 Max from the given numbers : 100
 Max from the given numbers : 90
 
@@ -114,7 +114,7 @@ Max from the given numbers : 90
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 $user_input = "Geeks";
@@ -168,7 +168,7 @@ else 
 
 **Output:**
 
-```
+```perl
 Max from the given numbers : 37
 
 ```
@@ -184,7 +184,7 @@ Perl 中的所有变量默认都是**全局**变量，这意味着编译器可�
 
 **例**
 
-```
+```perl
 #!/usr/bin/perl
 
 my $string = "GeeksforGeeks";
@@ -211,7 +211,7 @@ sub mysub
 
 **Output:**
 
-```
+```perl
 GeeksforGeeks
 Inside myfunction GFG
 Inside mysub GeeksforGeeks
@@ -226,7 +226,7 @@ GeeksforGeeks
 
 ****示例:****
 
-```
+```perl
 #!/usr/bin/perl
 
 $string = "GeeksforGeeks";
@@ -253,7 +253,7 @@ sub mysub
 
 ****Output:**
 
-```
+```perl
 GeeksforGeeks
 Inside myfunction GFG
 Inside mysub GFG
@@ -272,7 +272,7 @@ GeeksforGeeks
 
 ****示例:****
 
-```
+```perl
 #!/usr/bin/perl
 
 our $string = "GeeksforGeeks";
@@ -292,7 +292,7 @@ sub myfunction 
 
 ****Output:**
 
-```
+```perl
 GeeksforGeeks
 Inside myfunction GFG
 GFG

@@ -25,7 +25,7 @@ CGI 程序可以发送多种类型的数据或媒体，如文档、图像、音�
 这里有一个简单的程序来了解用 Perl 进行 CGI 编程的工作原理。在这里，我们将在 HTML 程序中获得输入，然后为结果网页运行 CGI 脚本。
 因为，HTML 确定了许多输入字段，我们可以使用这些字段将用户数据传递给 CGI 程序。这是一个 HTML 表单，它利用这些输入字段，如文本字段、向下滚动列表、复选框和提交按钮，将用户数据提交给 web 服务器。
 
-```
+```perl
 <html>
 <head>
     <title>GfG Test Example Form</title>
@@ -77,7 +77,7 @@ CGI 程序可以发送多种类型的数据或媒体，如文档、图像、音�
 
 **上述表单的 Perl-CGI 脚本:**
 
-```
+```perl
 #!"c:\xampp\perl\bin\perl.exe"
 
 use strict;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```perl
 use File::Compare;
 $compare = compare('FILE_NAME_1', 'FILE_NAME_2');
 
@@ -23,7 +23,7 @@ $compare = compare('FILE_NAME_1', 'FILE_NAME_2');
 
 **当文件的内容相同时:**
 
-```
+```perl
 #!/usr/bin/perl
 print "Content-type: text/html\n\n";
 
@@ -59,7 +59,7 @@ exit;
 
 **当文件的内容不同时:**
 
-```
+```perl
 #!/usr/bin/perl
 print "Content-type: text/html\n\n";
 
@@ -95,7 +95,7 @@ exit;
 
 **当文件不可访问时:**
 
-```
+```perl
 #!/usr/bin/perl
 print "Content-type: text/html\n\n";
 

@@ -5,7 +5,7 @@
 一个[散列](https://www.geeksforgeeks.org/perl-hash/)是一组键值对。Perl 存储散列的元素，这样它就可以根据关键字搜索值。Perl 提供了各种函数来对哈希值执行操作，例如返回值、从哈希值中删除元素等。
 T3】例:
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initializing hash  
@@ -25,7 +25,7 @@ print "Deleted element: $deleted_element"; 
 
 **Output:**
 
-```
+```perl
 10
 
 80

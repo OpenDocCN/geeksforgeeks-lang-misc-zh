@@ -6,7 +6,7 @@
 传递给函数的参数是从默认数组@_ 中检索的，而每个值都可以被$_[0]，$_[1]等访问。
 **例 1:** 下面的例子求出一个数的阶乘。
 
-```
+```perl
 Factorial of any number n is (n)*(n-1)*(n-2)*....*1.
 e.g.:
 4! = 4*3*2*1 = 24
@@ -18,7 +18,7 @@ e.g.:
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl Program to calculate Factorial
@@ -59,7 +59,7 @@ print "Factorial of a number $a is ", fact($a);
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl Program to print Fibonacci series

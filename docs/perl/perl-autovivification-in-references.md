@@ -20,7 +20,7 @@ Perl [引用](https://www.geeksforgeeks.org/perl-references/)是访问相同数�
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 use warnings;
 use strict;
@@ -34,7 +34,7 @@ print $test->{fullName}->{lastName}, "\n"; # Bong
 
 **输出:**
 
-```
+```perl
 HASH(0x169af30)
 HASH(0x16b9e48)
 Bong
@@ -42,7 +42,7 @@ Bong
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 use warnings;
 use strict;
@@ -56,7 +56,7 @@ print $anime->{manga}->{artist}, "\n"; # One Piece
 
 **输出:**
 
-```
+```perl
 HASH(0x2405f30)
 HASH(0x2424e48)
 One Piece

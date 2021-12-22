@@ -10,7 +10,7 @@
 
 **示例:**引用不同的数据类型:
 
-```
+```perl
 # Array Reference
 
 # defining array 
@@ -21,7 +21,7 @@ $reference_array = \@array;
 
 ```
 
-```
+```perl
 # Hash Reference
 
 # defining hash
@@ -32,7 +32,7 @@ $reference_hash = \%hash;
 
 ```
 
-```
+```perl
 # Scalar Value Reference
 
 # defining scalar
@@ -49,7 +49,7 @@ $reference_scalar = \$scalar_val;
 
     **示例:**
 
-    ```
+    ```perl
     # creating reference to anonymous hash
     $ref_to_anonymous_hash = {'GFG' => '1', 'Geeks' => '2'};
 
@@ -59,7 +59,7 @@ $reference_scalar = \$scalar_val;
 
     **示例:**
 
-    ```
+    ```perl
     # creating reference to an anonymous array
     $ref_to_anonymous_array = [20, 30, ['G', 'F', 'G']];
 
@@ -69,7 +69,7 @@ $reference_scalar = \$scalar_val;
 
     **示例:**
 
-    ```
+    ```perl
     # creating reference to an anonymous subroutine
     $ref_to_anonymous_subroutine = sub { print "GeeksforGeeks\n"};
 
@@ -83,7 +83,7 @@ $reference_scalar = \$scalar_val;
 
 ***例 1:***
 
-```
+```perl
 *# Perl program to illustrate the 
 # Dereferencing of an Array
 
@@ -102,14 +102,14 @@ print @$reference_array;    *
 
 ***Output:**
 
-```
+```perl
 123
 
 ```* 
 
 ***例 2:***
 
-```
+```perl
 *# Perl program to illustrate the 
 # Dereferencing of a Hash
 
@@ -128,14 +128,14 @@ print %$reference_hash;  *
 
 ***Output:**
 
-```
+```perl
 3c2b1a
 
 ```* 
 
 ***例 3:***
 
-```
+```perl
 *# Perl program to illustrate the 
 # Dereferencing of a Scalar
 
@@ -154,7 +154,7 @@ print $reference_scalar;  *
 
 ***Output:**
 
-```
+```perl
 1234
 
 ```*

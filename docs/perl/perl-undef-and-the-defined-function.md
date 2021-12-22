@@ -7,7 +7,7 @@
 
 ## **Perl 语言**
 
-```
+```perl
 # Perl program for undef variable
 # variable which declared without
 # initial value
@@ -21,7 +21,7 @@ print "The value of x is = ${x}";
 
 ****输出:**** 
 
-```
+```perl
 The value of x is = 
 ```
 
@@ -31,7 +31,7 @@ The value of x is =
 
 ## **Perl 语言**
 
-```
+```perl
 # Perl program to illustrate
 # the undef() function
 
@@ -64,7 +64,7 @@ print "The value of variable m is ${m}\n";
 
 *   ****输出:**** 
 
-```
+```perl
 The value of variable k is 10
 The value of variable k is 
 The value of variable m is 20
@@ -75,7 +75,7 @@ The value of variable m is
 
 *   ****语法:**** 
 
-```
+```perl
 defined $variable_name
 ```
 
@@ -83,7 +83,7 @@ defined $variable_name
 
 ## **Perl 语言**
 
-```
+```perl
 # Perl program to illustrate
 # the defined() function.
 
@@ -116,7 +116,7 @@ else
 
 *   ****输出:**** 
 
-```
+```perl
 k is defined
 k is not defined
 ```
@@ -127,7 +127,7 @@ k is not defined
 
 ## **Perl 语言**
 
-```
+```perl
 # Perl program to demonstrate behaviour
 # of undef variables, during operation
 # like arithmetic, concatenation etc.
@@ -159,7 +159,7 @@ print "After concatenation of strx and stry  ${strz}\n";
 
 *   ****输出:**** 
 
-```
+```perl
 The sum of x and y is 125
 After concatenation of strx and stry  GFG
 ```

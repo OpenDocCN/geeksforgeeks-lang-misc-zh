@@ -10,13 +10,13 @@ Perl 中的 **[print](https://www.geeksforgeeks.org/perl-print-operator/)** 运�
 
 **语法:**
 
-```
+```perl
 print "";
 ```
 
 **例:**
 
-```
+```perl
 #!/usr/bin/perl -w 
 
 # Defining a string 
@@ -29,7 +29,7 @@ print "$string2";
 
 **输出:**
 
-```
+```perl
 Geeks For GeeksWelcomes you all
 
 ```

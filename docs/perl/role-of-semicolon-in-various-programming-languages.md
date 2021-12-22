@@ -15,7 +15,7 @@
 3.  C 语言中分号的使用将消除看代码时的歧义和混乱。
 4.  它们不用于控制流语句之间，而是用于分隔循环中的条件。
 
-    ```
+    ```perl
     for(initialization/declaration;
         condition; 
         increment/decrements)

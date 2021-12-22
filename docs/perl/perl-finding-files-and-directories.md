@@ -19,7 +19,7 @@
 
 **示例 1:** 打印搜索到的文件夹中所有可用的目录。
 
-```
+```perl
 #!usr/bin/perl
 print "content-type: text/html\n\n";
 
@@ -48,7 +48,7 @@ exit;
 
 **示例 2:** 打印出目录中可用的文件
 
-```
+```perl
 #!usr/bin/perl
 print "content-type: text/html\n\n";
 
@@ -77,7 +77,7 @@ exit;
 
 **示例 3:** 只打印一次我们正在访问的文件夹/目录中所有可用/存在的目录。
 
-```
+```perl
 #!usr/bin/perl
 print "content-type: text/html\n\n";
 
@@ -108,7 +108,7 @@ exit;
 
 **示例 4:** 访问目录中的文件，而不访问同一目录中的其他可用目录。
 
-```
+```perl
 #!usr/bin/perl
 print "content-type: text/html\n\n";
 
@@ -142,7 +142,7 @@ exit;
 
 **示例 5:** 使用`**finddepth()**`功能查找目录中的文件和子目录。
 
-```
+```perl
 #!usr/bin/perl
 print "content-type: text/html\n\n";
 
@@ -168,7 +168,7 @@ exit;
 
 **例 6:** 查找所有类型的文本文件。
 
-```
+```perl
 #!usr/bin/perl
 print "content-type: text/html\n\n";
 

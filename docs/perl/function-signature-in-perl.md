@@ -6,7 +6,7 @@
 
 **定义子程序:**在 Perl 中定义子程序的一般形式如下-
 
-```
+```perl
 sub subroutine_name
 {
     # body of method or subroutine
@@ -18,7 +18,7 @@ sub subroutine_name
 函数签名讲述了很多关于子程序类型的信息。它使用户能够使用不同的签名(即不同的参数)创建同名的不同子程序。在 Perl 中，不同子程序的子程序名可以相同，但它们的参数必须不同。
 **例:**
 
-```
+```perl
 sub example_func($variable)
 {
     statement;
@@ -35,7 +35,7 @@ sub example_func($variable1, $variable2)
 **传递与签名不同类型的参数:**当用签名定义函数时，该子例程必须接受与其签名相同类型的参数。如果传递了函数签名以外的参数，那么它将生成一个错误，导致代码编译失败。
 T3】例:
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining Function Signature
@@ -50,13 +50,13 @@ print example(44);
 
 **输出:**
 
-```
+```perl
 22
 ```
 
 如果我们传递一个不是函数签名的类型的参数，那么它将产生如下所示的错误:
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining Function Signature
@@ -77,7 +77,7 @@ print example("44");
 定义函数签名时，它还保存可以传递给它的参数数量以及参数类型。如果我们用不同数量的参数调用函数，那么它将导致一个错误，因为 Perl 对不同签名的函数有不同的含义。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining Function Signature
@@ -99,7 +99,7 @@ print example(44, 29);
 函数签名是一个有用的方面，但是它有时对一些程序员来说变得非常烦人，因为定义函数签名将函数的使用限制在特定类型的参数上。如果定义的函数没有签名，那么可以传递给它的参数类型就没有限制。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining Function Signature
@@ -115,13 +115,13 @@ print example("44");
 
 **输出:**
 
-```
+```perl
 22
 ```
 
 在上面的代码中，一个函数被声明为没有这种特定的参数类型，因此当一个整数值作为字符串传递给它时，它会自动将参数转换为整数形式并给出结果。但是，如果我们使用字符串参数调用函数，并且要对其执行的操作需要整数值，那么它将导致如下所示的错误:
 
-```
+```perl
 #!/usr/bin/perl
 
 # Defining Function Signature

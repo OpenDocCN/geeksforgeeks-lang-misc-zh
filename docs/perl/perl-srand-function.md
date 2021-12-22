@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calling the srand() function and 
@@ -40,7 +40,7 @@ print("The fourth random number is ", rand(), ".\n");
 
  **输出:**
 
-```
+```perl
 The first random number is 0.524839579434232.
 The second random number is 0.524839579434232.
 The third random number is 0.524839579434232.
@@ -52,7 +52,7 @@ The fourth random number is 0.524839579434232.
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Calling the srand() function and 
@@ -78,7 +78,7 @@ print("The fourth random number is ", rand(), ".\n");
 
 **输出:**
 
-```
+```perl
 The first random number is 0.524839579434232.
 The second random number is 0.395641888099821.
 The third random number is 0.266444196765409.
@@ -89,7 +89,7 @@ The fourth random number is 0.137246505430998.
 
 **例 3:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Printing a random value without calling the srand() function
@@ -107,7 +107,7 @@ print("The fourth random number is ", rand(), ".\n");
 
 **输出:**
 
-```
+```perl
 The first random number is 0.241482914266275.
 The second random number is 0.821264154368208.
 The third random number is 0.870625858233449.

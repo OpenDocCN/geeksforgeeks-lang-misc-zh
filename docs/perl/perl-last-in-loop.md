@@ -14,7 +14,7 @@ last 关键字用于循环控制语句，该语句会立即导致循环的当前
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 $sum = 0;
 $a = 0;
@@ -43,7 +43,7 @@ print "Loop ended at Sum > 10\n";
 
 **输出:**
 
-```
+```perl
 Sum = 11
 Exiting the loop
 Loop ended at Sum > 10
@@ -52,7 +52,7 @@ Loop ended at Sum > 10
 
 **例 2:**
 
-```
+```perl
 #!/usr/local/bin/perl
 
 $a = 1;
@@ -82,6 +82,6 @@ Label1: while($a < 16) 
 
 **输出:**
 
-```
+```perl
 Sum is 22
 ```

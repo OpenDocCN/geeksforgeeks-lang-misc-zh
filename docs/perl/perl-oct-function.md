@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Converting and printing 
@@ -25,7 +25,7 @@ print("oct(50) ", oct('50'), "\n");
 
 **Output:**
 
-```
+```perl
 oct(31) 25
 oct(50) 40
 
@@ -33,7 +33,7 @@ oct(50) 40
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Converting and printing 
@@ -44,7 +44,7 @@ print("oct(125) ", oct('125'), "\n");
 
 **Output:**
 
-```
+```perl
 oct(106) 70
 oct(125) 85
 

@@ -4,7 +4,7 @@
 
 在 Perl 中，有时需要求解包含一些数学运算的各种表达式。这些数学运算可以通过使用各种内置函数来执行。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Initialising some values for the 

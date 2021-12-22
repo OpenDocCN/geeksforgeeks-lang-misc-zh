@@ -20,7 +20,7 @@ Perl 中数组的排序可以通过多种方式完成:
 由于大写字母的 ASCII 值小于小写字母的 ASCII 值，所有大写的值都排列在小写值开始之前。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing an array
@@ -33,7 +33,7 @@ print sort @country;
 
 **Output:**
 
-```
+```perl
 AmericaIndiabangladeshfrancelondon
 
 ```
@@ -48,7 +48,7 @@ AmericaIndiabangladeshfrancelondon
 此功能可用于对数组进行降序排序。sort()函数默认使用 cmp()，但不使用 block。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing an array
@@ -70,7 +70,7 @@ print "Array in descending order: @y";
 
 **Output:**
 
-```
+```perl
 Array in ascending order: apple banana chikoo grapes orange
 Array in descending order: orange grapes chikoo banana apple
 
@@ -87,7 +87,7 @@ Array in descending order: orange grapes chikoo banana apple
 **注意:**数组的原值不会被修改。
 T3】例:
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing an array
@@ -111,7 +111,7 @@ print "Array after converting to upper case: @y\n";
 
 **Output:**
 
-```
+```perl
 Array after converting to lower case: Apple banana Chikoo Grapes orange
 Array after converting to upper case: Apple banana Chikoo Grapes orange
 
@@ -127,7 +127,7 @@ Array after converting to upper case: Apple banana Chikoo Grapes orange
 
 如果使用排序函数对包含数字的数组进行排序，它会将数组中的每个值都作为字符串，因此 12 将放在 2 之前。因此，为了将这些值视为一个数字，在排序函数中使用了宇宙飞船运算符()而不是 cmp。该运算符将其操作数视为一个数字，并将数据排序为一个数字。
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing an array
@@ -146,7 +146,7 @@ print "Array after Sorting: @x";
 
 **Output:**
 
-```
+```perl
 Original Array: 12 44 2 5 25 7 96 1
 Array after Sorting: 1 2 5 7 12 25 44 96
 

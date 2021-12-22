@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Formatting the string using sprintf
@@ -23,7 +23,7 @@ print "$text1\n$text2";
 
 **Output:**
 
-```
+```perl
         Geeks
 Geeks        
 
@@ -31,7 +31,7 @@ Geeks
 
  **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Formatting the string using sprintf
@@ -45,7 +45,7 @@ print "$text1\n$text2\n$text3";
 
 **Output:**
 
-```
+```perl
 007
 123
 0123

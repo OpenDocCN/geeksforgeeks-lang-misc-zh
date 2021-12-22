@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Defining Array to be shifted
@@ -31,7 +31,7 @@ print "Updated Array: @array1";
 
 **Output:**
 
-```
+```perl
 Original Array: Geeks For Geeks
 Shifted element: Geeks
 Updated Array: For Geeks
@@ -40,7 +40,7 @@ Updated Array: For Geeks
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Program to move first element 
@@ -64,7 +64,7 @@ print "Updated Array: @array1";
 
 **Output:**
 
-```
+```perl
 Original Array: Geeks For Geeks
 Updated Array: For Geeks  Geeks
 

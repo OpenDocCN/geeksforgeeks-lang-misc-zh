@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl
 
 @array1 = ("a", "d", "h", "e", "b");
@@ -24,7 +24,7 @@ print ("Sorted Array: ", sort(@array1));
 
 **Output:**
 
-```
+```perl
 Original Array: a d h e b
 Sorted Array: abdeh
 

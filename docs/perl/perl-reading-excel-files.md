@@ -17,7 +17,7 @@ Excel 文件可以借助内置模块**[Excel::Writer::XLSX](https://www.geeksfor
 此外，`**write()**`功能用于向 excel 文件添加内容。
 **例:**
 
-```
+```perl
 #!/usr/bin/perl
 use Excel::Writer::XLSX;
 my $Excel_book1  = Excel::Writer::XLSX->new('new_excel.xlsx' );
@@ -47,7 +47,7 @@ $Excel_book1->close;
 **`ReadData()`**函数接受一个文件名，在这种情况下是一个 Excel 文件，但它也接受各种其他文件类型。基于文件扩展名，它将加载适当的后端模块，然后解析文件。它创建一个代表整个文件的数组引用:
 **示例:**
 
-```
+```perl
 use 5.016;
 use Spreadsheet::Read qw(ReadData);
 my $book_data = ReadData (‘new_excel.xlsx');
@@ -58,7 +58,7 @@ say 'A2: ' . $book_data->[1]{A2};
 
 **输出:**
 
-```
+```perl
 A2: Perl|Reading Files in Excel
 ```
 
@@ -67,7 +67,7 @@ A2: Perl|Reading Files in Excel
 **`Spreadsheet::Read`** 函数的参数是一张表，要取的行数。返回类型是一个数组，包含参数中传递的行的值。
 下面的程序演示了如何读取第一张纸的第一行，然后显示该行每个字段中的内容。
 
-```
+```perl
 my @rowsingle = Spreadsheet::Read::row($book_data->[1], 1);
 for my $i (0 .. $#rowsingle)
 {
@@ -84,7 +84,7 @@ for my $i (0 .. $#rowsingle)
 仅仅获取一行是远远不够的。为了高效编程，我们需要获取所有行。我们使用 **`rows()`** 功能来实现这一点。这个函数以一个工作表作为参数。它以矩阵(二维数组)的形式返回元素数组或引用数组。矩阵中的每个元素代表电子表格中的一行。
 获取所有行的脚本如下:
 
-```
+```perl
 my @rowsmulti = Spreadsheet::Read::rows($book_data->[1]);
 foreach my $m (1 .. scalar @rowsmulti) 
 {
@@ -102,7 +102,7 @@ foreach my $m (1 .. scalar @rowsmulti) 
 **将所有这些放在一起**
 下面的 Perl 脚本说明了在 Perl 中读取 Excel 文件的所有上述特性的使用:
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;

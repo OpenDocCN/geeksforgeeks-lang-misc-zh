@@ -14,7 +14,7 @@
 
 **示例 1:** 使用`**Math::BigInt->is_even()**`方法
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -63,7 +63,7 @@ else
 
 **Output:**
 
-```
+```perl
 89132506319263974586 is an even number
 98793270075788553683446589224555431 is not an even number
 
@@ -71,7 +71,7 @@ else
 
 **例 2:** 使用`**Math::BigInt->is_even()**`方法检查十六进制数是否为十进制偶数。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -105,14 +105,14 @@ else
 
 **Output:**
 
-```
+```perl
 0x24CB016EA is an even number in decimal
 
 ```
 
 **例 3:** 使用`**Math::BigInt->is_even()**`方法检查二进制数是否为十进制偶数。
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Math::BigInt module
@@ -146,7 +146,7 @@ else
 
 **Output:**
 
-```
+```perl
 0b1001001100101100000001011011101010 is an even Number in decimal
 
 ```

@@ -11,7 +11,7 @@ Perl 中的 **`given-when`** 类似于**的`**switch-case**`C/c++**、 **Python*
 
 **语法:**
 
-```
+```perl
 given(expression)
 {
     when(value1) {Statement;}
@@ -33,7 +33,7 @@ given(expression)
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to print respective day
@@ -62,13 +62,13 @@ given ($day_code) 
 
 **输入:**
 
-```
+```perl
 4
 ```
 
 **输出:**
 
-```
+```perl
 Enter a day-code between 0-6
 Thursday
 
@@ -80,7 +80,7 @@ Thursday
 
 **语法:**
 
-```
+```perl
 given(expression)
 {
     when(value1) {Statement;}
@@ -101,7 +101,7 @@ given(expression)
 
 以下是嵌套 **`given-when`** 语句的示例:
 
-```
+```perl
 #!/usr/bin/perl
 
 # Perl program to print respective day
@@ -141,14 +141,14 @@ given ($day_code) 
 
 **输入:**
 
-```
+```perl
 1
 Morning
 ```
 
 **输出:**
 
-```
+```perl
 Enter a day-code between 0-6
 What time of day is it?
 It is Monday Morning
@@ -157,13 +157,13 @@ It is Monday Morning
 
 **输入:**
 
-```
+```perl
 3
 ```
 
 **输出:**
 
-```
+```perl
 Enter a day-code between 0-6
 Wednesday
 

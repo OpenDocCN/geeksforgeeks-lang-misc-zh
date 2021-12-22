@@ -10,7 +10,7 @@ Perl 中的模块是执行一组编程任务的相关子程序和变量的集合
 
 **示例:Calculator.pm**
 
-```
+```perl
 package Calculator;
 
 # Defining sub-routine for Multiplication
@@ -51,7 +51,7 @@ To import this calculator module, we use require or use functions. To access a f
 
 **示例:Test.pl**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Using the Package 'Calculator'
@@ -84,7 +84,7 @@ Calculator::division($a, $b);
 不同包中的变量可以通过在使用前声明来使用。下面的例子演示了这个
 T1】例子:Message.pm
 
-```
+```perl
 #!/usr/bin/perl
 
 package Message;
@@ -103,7 +103,7 @@ sub Hello
 Perl 文件访问模块如下
 **示例**
 
-```
+```perl
 #!/usr/bin/perl
 
 # Using Message.pm package
@@ -126,7 +126,7 @@ Such as: ‘strict’, ‘warnings’, etc.
 
 **示例:**
 
-```
+```perl
 #!/usr/bin/perl
 
 use strict;
@@ -137,6 +137,6 @@ print" Hello This program uses Pre-defined Modules";
 
 **输出:**
 
-```
+```perl
 Hello This program uses Pre-defined Modules
 ```

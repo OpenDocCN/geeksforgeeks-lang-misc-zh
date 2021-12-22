@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Subroutine to call wantarray() function
@@ -31,7 +31,7 @@ print("Value in List Context: @value");
 
 **Output:**
 
-```
+```perl
 Value in Scalar context: 1
 Value in List Context: Geeks For Geeks
 
@@ -39,7 +39,7 @@ Value in List Context: Geeks For Geeks
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Subroutine to call wantarray() function
@@ -74,7 +74,7 @@ print("Value when called in List Context: @value");
 
 **Output:**
 
-```
+```perl
 Value when called in Scalar context: 1
 Value when called in List Context: 30
 

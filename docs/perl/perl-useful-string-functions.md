@@ -7,7 +7,7 @@ Perl 中的一个[字符串](https://www.geeksforgeeks.org/perl-quoted-interpola
 Perl 像任何其他编程语言一样，提供各种函数来操作字符串。
 **例:**
 
-```
+```perl
 # Perl program to demonstrate  
 # string length function 
 
@@ -25,7 +25,7 @@ print(uc($s), "\n"); 
 
 **Output:**
 
-```
+```perl
 Length: 13
 To Upper Case: GEEKSFORGEEKS
 

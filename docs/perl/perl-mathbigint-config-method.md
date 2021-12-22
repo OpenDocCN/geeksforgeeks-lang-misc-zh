@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Data Dumper Module
@@ -30,7 +30,7 @@ print Math::BigInt->config()->{version}, "\n";
 
 **Output:**
 
-```
+```perl
 $VAR1 = {
           'precision' => undef,
           'upgrade' => undef,
@@ -51,7 +51,7 @@ $VAR1 = {
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl 
 
 # Import Data Dumper Module
@@ -67,7 +67,7 @@ print Math::BigInt->config()->{lib}, "\n";
 
 **Output:**
 
-```
+```perl
 $VAR1 = {
           'lib' => 'Math::BigInt::Calc',
           'class' => 'Math::BigInt',

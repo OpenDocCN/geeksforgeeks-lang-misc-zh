@@ -14,7 +14,7 @@
 
 **注意:** **$salt** 变量可以是下面给定集合中任意两个字符的组合:
 
-```
+```perl
 ['.', '/', 0..9, 'A'..'Z', 'a'..'z']
 ```
 
@@ -23,7 +23,7 @@
 
 ## Perl 语言
 
-```
+```perl
 #!usr/bin/perl
 print "Content-type: text/html\n\n";
 
@@ -71,7 +71,7 @@ while (<STDIN>)
 
 ## Perl 语言
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;

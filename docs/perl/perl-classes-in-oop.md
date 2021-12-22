@@ -27,7 +27,7 @@
 
 **语法:**
 
-```
+```perl
 package Class_name
 ```
 
@@ -40,7 +40,7 @@ Perl 中的一个类可以通过使用关键字 package 来创建，但是要创
 
 ## Perl 语言
 
-```
+```perl
 package student     // This is the class student
 sub Student_data    // Constructor to class
 {
@@ -61,7 +61,7 @@ sub Student_data    // Constructor to class
 
 **语法:**
 
-```
+```perl
 bless Object_name, Class Name
 ```
 
@@ -70,7 +70,7 @@ Perl 中的一个对象通过使用类中定义的构造函数来实例化。根
 
 ## Perl 语言
 
-```
+```perl
 $Data = Student_data student( "Shikhar", "Mathur");
 ```
 
@@ -78,7 +78,7 @@ $Data = Student_data student( "Shikhar", "Mathur");
 
 ## Perl 语言
 
-```
+```perl
 use strict;
 use warnings;
 
@@ -112,7 +112,7 @@ print "$Data->{'StudentLastName'}\n";
 
 **Output:** 
 
-```
+```perl
 Geeks
 forGeeks
 ```

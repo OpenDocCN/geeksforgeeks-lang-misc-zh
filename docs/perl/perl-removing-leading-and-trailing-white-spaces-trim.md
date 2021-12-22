@@ -10,7 +10,7 @@
 
 **示例:**以下代码演示了 Perl 中的左修剪、右修剪和修剪:
 
-```
+```perl
 
 # Perl program for removing leading and
 # trailing white spaces using trim
@@ -49,7 +49,7 @@ print"${str1}\n";
 
 **输出:**
 
-```
+```perl
 The Original String is:
      Geeks----
 

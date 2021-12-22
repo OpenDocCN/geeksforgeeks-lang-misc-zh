@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```perl
 # Declaration and definition of Base class 
 use strict; 
 use warnings; 
@@ -58,7 +58,7 @@ $obj1->get_details();
 
 **Output:**
 
-```
+```perl
 Name is: Rahul
 Age is: 25
 Roll_no is: 12

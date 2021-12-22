@@ -7,7 +7,7 @@
 
 **例:**
 
-```
+```perl
 @number = (50, 70, 46);             
 @names = ("Geeks", "For", "Geeks");
 
@@ -15,7 +15,7 @@
 
 **数组创建:**在 Perl 编程中，每个数组变量都是使用变量名称前的**“@”**符号来声明的。单个数组也可以存储多种数据类型的元素。例如:
 
-```
+```perl
 # Define an array
 @arr = (1, 2, 3);
 @arr = (1, 2, 3, "Hello");
@@ -27,7 +27,7 @@
 
 **语法:**
 
-```
+```perl
 qw (Expression)
 qw /Expression/
 qw 'Expression'
@@ -37,7 +37,7 @@ qw {Expression}
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate qw function
 
 # using qw function
@@ -62,7 +62,7 @@ foreach $ele (@arr2)
 
 **输出:**
 
-```
+```perl
 Elements of arr1 are:
 This 
 is 
@@ -80,7 +80,7 @@ Tutorial
 
 **访问数组元素:**要访问数组元素，我们必须在**“{ content }”前加前缀；**数组变量名前的符号，后跟方括号内的索引。例如:
 
-```
+```perl
 # Define an array
 @arr = (1, 2, 3);
 
@@ -96,7 +96,7 @@ print "$arr[1]\n";
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate Array's
 # creation and accessing the array's elements
 
@@ -116,7 +116,7 @@ print "$fruits[3]\n";
 
 **输出:**
 
-```
+```perl
 apple banana pineapple kiwi
 apple
 banana
@@ -129,7 +129,7 @@ kiwi
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate 
 # negative index of array
 
@@ -144,7 +144,7 @@ print "$fruits[-2]\n";
 
 **输出:**
 
-```
+```perl
 kiwi
 pineapple
 ```
@@ -153,7 +153,7 @@ pineapple
 
 **示例:**
 
-```
+```perl
 @array = (1..9); # array with numbers from 1 to 9
 @array = (a..h); # array with letters from a to h
 
@@ -161,7 +161,7 @@ pineapple
 
 **程序:**
 
-```
+```perl
 # Perl program to demonstrate
 # Sequential Number Arrays
 
@@ -179,7 +179,7 @@ print "@letters\n";  
 
 **输出:**
 
-```
+```perl
 1 2 3 4 5 6 7 8 9
 a b c d e f g h
 
@@ -189,13 +189,13 @@ a b c d e f g h
 
 1.  **隐式标量上下文**
 
-    ```
+    ```perl
     $size = @array;
     ```
 
 2.  **使用关键字标量的显式标量上下文**
 
-    ```
+    ```perl
     $size = scalar @array;
     ```
 
@@ -203,7 +203,7 @@ a b c d e f g h
 
 **示例:**
 
-```
+```perl
 # Perl program to demonstrate 
 # the length of an array
 
@@ -226,7 +226,7 @@ print "Size of arr(exp_size) $exp_size";
 
 **输出:**
 
-```
+```perl
 Size of arr(imp_size) 6
 Size of arr(exp_size) 6
 
@@ -234,7 +234,7 @@ Size of arr(exp_size) 6
 
 **注意:**在 Perl 数组中，数组的大小总是等于(maximum_index + 1)，即
 
-```
+```perl
 size = maximum_index + 1
 ```
 
@@ -242,7 +242,7 @@ size = maximum_index + 1
 
 **示例:**
 
-```
+```perl
 # Perl program to find size and 
 # maximum index of an array
 
@@ -265,7 +265,7 @@ print "The Size of the Array:  $size_of_array\n";
 
 **输出:**
 
-```
+```perl
 Maximum Index of the Array: 4
 The Size of the Array:  5
 
@@ -277,7 +277,7 @@ The Size of the Array:  5
 
     **示例:**
 
-    ```
+    ```perl
     # Perl program to illustrate 
     # iteration through range
 
@@ -295,7 +295,7 @@ The Size of the Array:  5
 
     **输出:**
 
-    ```
+    ```perl
     @arr[0] = 11
     @arr[1] = 22
     @arr[2] = 33
@@ -308,7 +308,7 @@ The Size of the Array:  5
 
     **示例:**
 
-    ```
+    ```perl
     # Perl program to illustrate Iterating 
     # through elements(foreach Loop)
 
@@ -324,7 +324,7 @@ The Size of the Array:  5
 
     **输出:**
 
-    ```
+    ```perl
     11 22 33 44 55
 
     ```

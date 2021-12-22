@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```perl
 #!/usr/bin/perl -w
 
 # Perl Program to find the frequency
@@ -30,14 +30,14 @@ print "Frequency of E in the Array: $c";
 
 **Output:**
 
-```
+```perl
 Frequency of E in the Array: 2
 
 ```
 
 **例 2:**
 
-```
+```perl
 #!/usr/bin/perl
 $i = 0;
 
@@ -70,7 +70,7 @@ while ( $i < 3 ) {
 
 **Output:**
 
-```
+```perl
 i =  0 and j =  0
 As i == j, hence going back to outer loop
 

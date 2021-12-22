@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```perl
 Input : mat1[][] = {{2, 4}, 
                     {3, 4}}
         mat2[][] = {{1, 2}, 
@@ -21,7 +21,7 @@ Output : {{6, 16},
 
 ## Perl
 
-```
+```perl
 print "Enter the Dimensions of matrices: ";
 my $a = <STDIN>, my $b = <STDIN>,
 my $c = <STDIN>, my $d = <STDIN>;

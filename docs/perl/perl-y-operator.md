@@ -11,7 +11,7 @@
 
 **示例 1:** 本示例使用 y 运算符从小写转换为大写。
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising some strings
@@ -29,7 +29,7 @@ print "$string2\n";
 
  **输出:**
 
-```
+```perl
 GFG IS A COMPUTER SCIENCE PORTAL
 GEEKSFORGEEKS
 
@@ -37,7 +37,7 @@ GEEKSFORGEEKS
 
 **示例 2:** 本示例使用 y 运算符从大写转换为小写。
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising some strings
@@ -55,7 +55,7 @@ print "$string2\n";
 
 **输出:**
 
-```
+```perl
 gfg is a computer science portal
 geeksforgeeks
 ```
@@ -64,7 +64,7 @@ geeksforgeeks
 
 **示例 3:** 本示例使用 y 运算符将大写转换为数字形式。
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initialising some strings
@@ -82,7 +82,7 @@ print "$string2\n";
 
 **输出:**
 
-```
+```perl
 656 89 0 29999949 9284924 999909
 6449959964499
 

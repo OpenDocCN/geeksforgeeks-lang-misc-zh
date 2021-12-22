@@ -13,7 +13,7 @@ Regex 中主要有两种断言类型，进一步划分:
 
     **前瞻断言的语法:**
 
-    ```
+    ```perl
     /(?=pattern)/
     ```
 
@@ -22,7 +22,7 @@ Regex 中主要有两种断言类型，进一步划分:
     *   **正向前瞻(？=pattern):** **正向前瞻**就像正常的前瞻断言一样，它确保模式**确实存在于我们正在匹配的给定字符串中**。
         **例:**
 
-    ```
+    ```perl
     # Perl code for demonstrating 
     # Positive Lookahead Modules used 
     use strict; 
@@ -41,14 +41,14 @@ Regex 中主要有两种断言类型，进一步划分:
 
     **输出:**
 
-    ```
+    ```perl
     chocolate cake
     ```
 
 2.  **Negative Lookahead(?!pattern):** In **Negative Lookahead**, it Lookaheads the pattern and makes sure that the pattern **doesnot exist** in the given string which we are matching. To make Lookahead assertion as Negative Lookahead we just replace the ‘='(Equal) with ‘!'(Exclamation).
     **Example:**
 
-    ```
+    ```perl
     # Perl code for demonstrating 
     # Negative Lookahead Modules used 
     use strict; 
@@ -67,14 +67,14 @@ Regex 中主要有两种断言类型，进一步划分:
 
     **输出:**
 
-    ```
+    ```perl
     chocolate cake
     ```
 
 3.  **Lookbehind Assertions:** In this type of assertion we **look behind** the current match position, means will search the string **before** the current match position or the **preceding** string, without moving the current match position.
     **Syntax for Lookbehind Assertions:**
 
-    ```
+    ```perl
     /(?<=pattern)/
     ```
 
@@ -83,7 +83,7 @@ Regex 中主要有两种断言类型，进一步划分:
     *   **Positive Lookbehind(?<=pattern):****Positive Lookbehind**, it makes sure that the pattern **does exist** in the given string we are matching.
         **Example:**
 
-        ```
+        ```perl
         # Perl code for demonstrating 
         # Positive Lookbehind Modules used 
         use strict; 
@@ -102,7 +102,7 @@ Regex 中主要有两种断言类型，进一步划分:
 
         **输出:**
 
-        ```
+        ```perl
         chocolate cake
         ```
 
@@ -110,7 +110,7 @@ Regex 中主要有两种断言类型，进一步划分:
 
         **示例:**
 
-        ```
+        ```perl
         # Perl code for demonstrating 
         # Negative Lookbehind Modules used 
         use strict; 
@@ -129,6 +129,6 @@ Regex 中主要有两种断言类型，进一步划分:
 
         **输出:**
 
-        ```
+        ```perl
         chocolate cake
         ```

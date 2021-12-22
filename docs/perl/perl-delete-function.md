@@ -14,7 +14,7 @@
 
 **示例 1:** 在哈希上实现 delete()
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing hash 
@@ -34,7 +34,7 @@ print "Deleted element: $deleted_element";
 
 **输出:**
 
-```
+```perl
 45
 
 40
@@ -43,7 +43,7 @@ Deleted element: 30
 
 **示例 2:** 在数组上实现 delete()
 
-```
+```perl
 #!/usr/bin/perl
 
 # Initializing array
@@ -61,7 +61,7 @@ print "\nDeleted element: $deleted_element";
 
 **输出:**
 
-```
+```perl
 Updated Array: 10 20  40 50 60
 Deleted element: 30
 ```

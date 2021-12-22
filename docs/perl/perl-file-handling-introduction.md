@@ -64,7 +64,7 @@ Perl 中的三个基本文件句柄是 STDIN、STDOUT 和 STDERR，它们分别�
 1.  **Mode = “<"**
     This is read-only Mode. This mode is used to Read the content line by line from the file.
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # Opening a File in Read-only mode
@@ -83,7 +83,7 @@ Perl 中的三个基本文件句柄是 STDIN、STDOUT 和 STDERR，它们分别�
 2.  **Mode = “>”**
     This is write-only Mode. Original contents of the File are cleared once it is opened in this Mode. It creates a new File with the same name, if one is not found.
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # Opening File Hello.txt in Read mode
@@ -122,7 +122,7 @@ Perl 中的三个基本文件句柄是 STDIN、STDOUT 和 STDERR，它们分别�
 3.  **Mode=”>>”**
     This is Append Mode. Original content of the File is not cleared when it is opened in this Mode. This Mode cannot be used to overwrite as the String always attaches at the End. It creates a new File with the same name, if one is not found.
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # Opening File Hello.txt in Read mode
@@ -161,7 +161,7 @@ Perl 中的三个基本文件句柄是 STDIN、STDOUT 和 STDERR，它们分别�
 4.  **Mode = “+<“**
     This is Read-Write Mode. This can be used to overwrite an existing String in File. It cannot create a new File.
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # Open Hello.txt in Read-Write Mode
@@ -191,7 +191,7 @@ Perl 中的三个基本文件句柄是 STDIN、STDOUT 和 STDERR，它们分别�
 5.  **Mode = “+>”**
     This is Read-Write Mode. The difference between “+<” and “+>” is that “+>” can create a new File, if one with the name is not found, but a “+<” cannot.
 
-    ```
+    ```perl
     #!/usr/bin/perl
 
     # Opening File Hello.txt in Read mode
@@ -228,7 +228,7 @@ Perl 中的三个基本文件句柄是 STDIN、STDOUT 和 STDERR，它们分别�
 6.  **Mode = “+>>”**
     This is Read-Append Mode. This can be used to Read from a File as well as Append to it. A new File with same name is created, if one is not Found.
 
-    ```
+    ```perl
     # Open Hello.txt in Read-Append Mode
     open(ra, "+>>", "Hello.txt"); 
 
@@ -275,7 +275,7 @@ Perl 中的三个基本文件句柄是 STDIN、STDOUT 和 STDERR，它们分别�
 
     **例:**
 
-    ```
+    ```perl
     # Open a FileHandle in Write Mode.
     open(File, ">", "Hello.txt"); 
 
