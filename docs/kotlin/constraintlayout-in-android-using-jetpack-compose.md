@@ -28,7 +28,7 @@
 
 ## 科特林
 
-```
+```kt
 ConstraintLayout(
         modifier = Modifier
             .fillMaxSize()
@@ -45,7 +45,7 @@ val (logo, topBar, companyName) = createRefs()
 
 ## 科特林
 
-```
+```kt
 // TopAppBar Composable
 TopAppBar(
           modifier = Modifier

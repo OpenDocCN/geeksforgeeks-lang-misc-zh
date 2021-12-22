@@ -16,7 +16,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -54,7 +54,7 @@
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.InputType

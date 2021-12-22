@@ -18,7 +18,7 @@
 
 **代码#1:** 以浮点和双数据类型为参数。
 
-```
+```kt
 // Kotlin program to illustrate
 // working of Math.abs() method 
 import kotlin.math.abs
@@ -38,7 +38,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 45.23
 999.32
 
@@ -46,7 +46,7 @@ fun main(args : Array<String>){
 
 **代码#2:** 以 int 和 long 数据类型为参数。
 
-```
+```kt
 // Kotlin program to illustrate
 // working of Math.abs() method 
 import kotlin.math.abs
@@ -68,7 +68,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 0
 -2147483648
 

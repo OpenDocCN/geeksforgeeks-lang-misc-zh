@@ -15,7 +15,7 @@
 
 **检查线程的当前优先级:**
 
-```
+```kt
 val t1 = Thread(Runnable{
     // Some Activity
 })
@@ -28,7 +28,7 @@ val t1 = Thread(Runnable{
         println("${t1.priority} ${t2.priority}")
 ```
 
-```
+```kt
 Output: 5 5
 
 ```
@@ -37,7 +37,7 @@ Output: 5 5
 **给线程分配新的优先级:**
 下面两个线程被分配不同的优先级。线程 t1 被分配 1，线程 t2 被分配 10。由于线程 **t1** 优先级更高，所以先启动，其余线程按优先级启动。优先级可以隐式或显式声明。
 
-```
+```kt
 val t1 = Thread(Runnable{
     // Some Activity
 })
@@ -52,7 +52,7 @@ val t1 = Thread(Runnable{
     println("${t1.priority} ${t2.priority}")
 ```
 
-```
+```kt
 Output : 1 10
 
 ```
@@ -61,7 +61,7 @@ Output : 1 10
 **Android 中的例子:**
 尝试在 Android 中运行下面的程序，检查代码内声明的两个线程的优先级。当用户点击按钮时，优先级更高的线程启动。
 
-```
+```kt
 package com.example.gfg
 
     import androidx.appcompat.app.AppCompatActivity import android.os.Bundle import android.widget.Button import android.widget.TextView
@@ -97,7 +97,7 @@ package com.example.gfg
 
 下面的 XML 代码用于布局。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"

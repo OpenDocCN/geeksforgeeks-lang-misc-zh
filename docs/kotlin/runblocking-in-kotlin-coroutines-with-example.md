@@ -17,7 +17,7 @@
 
 ## 我的锅
 
-```
+```kt
 // sample program in android studio to demonstrate coroutines
 package com.example.gfgcoroutines
 
@@ -57,7 +57,7 @@ runBlocking 的另一个用例是用于 JUnit 的测试，其中需要从测试�
 
 ## 我的锅
 
-```
+```kt
 package com.example.gfgcoroutines
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() 
 
 ## 我的锅
 
-```
+```kt
 package com.example.gfgcoroutines
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

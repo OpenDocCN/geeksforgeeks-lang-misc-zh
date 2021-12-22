@@ -24,7 +24,7 @@
 
 ## 修改 activity_main.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -68,7 +68,7 @@
 
 **slide_up.xml**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
@@ -80,7 +80,7 @@
 
 **slide_down.xml**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
@@ -94,7 +94,7 @@
 
 打开 app/src/main/Java/your package name/main activity . kt 并进行以下更改:
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="i.apps.slideup">

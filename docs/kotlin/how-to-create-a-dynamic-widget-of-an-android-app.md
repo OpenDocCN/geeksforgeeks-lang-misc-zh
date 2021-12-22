@@ -33,7 +33,7 @@
 
 ## **NewAppWidget.kt**
 
-```
+```kt
 package org.geeksforgeeks.widget_dynamic
 
 import android.appwidget.AppWidgetManager

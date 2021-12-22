@@ -4,7 +4,7 @@
 
 **正则表达式**几乎是每种编程语言的基础部分，科特林也不例外。在 Kotlin 中，对正则表达式的支持是通过**正则表达式**类提供的。此类的对象表示正则表达式，可用于字符串匹配目的。
 
-```
+```kt
 class Regex
 ```
 
@@ -29,7 +29,7 @@ class Regex
 
 **contains matchin()–**该函数返回一个布尔值，指示输入中是否存在我们的模式匹配。
 
-```
+```kt
 fun containsMatchIn(input: CharSequence): Boolean
 ```
 
@@ -37,7 +37,7 @@ fun containsMatchIn(input: CharSequence): Boolean
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main()
 {
     // Regex to match any string starting with 'a'

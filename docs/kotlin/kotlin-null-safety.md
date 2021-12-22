@@ -16,14 +16,14 @@ Kotlin 的类型系统旨在消除代码中空引用的危险，因为这是一�
 Kotlin 类型系统区分了两种类型引用，一种可以保存 null(可空引用)，另一种不能保存 null(非空引用)。
 字符串类型的变量不能保存**空值**。如果我们试图给变量赋空值，就会产生编译器错误。
 
-```
+```kt
 var s1: String = "Geeks"
 s1 = null // compilation error
 ```
 
 为了允许变量为空，我们可以将变量声明为可空字符串，写成 **String？**
 
-```
+```kt
 var s2: String? = "GeeksforGeeks"
 s2 = null // ok
 print(s2)
@@ -31,13 +31,13 @@ print(s2)
 
 现在，如果我们想访问字符串 s1 的长度，它保证不抛出 NPE，所以我们可以放心地说:
 
-```
+```kt
 val l = s1.length
 ```
 
 但是如果我们想访问字符串 s2 的长度，那就不安全了，编译器会报告一个错误:
 
-```
+```kt
 val l = s2.length         // error: variable 's2' can be null
 ```
 
@@ -45,7 +45,7 @@ val l = s2.length         // error: variable 's2' can be null
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>){
     // variable is declared as non-nullable
     var s1 : String = "Geeks"
@@ -58,7 +58,7 @@ fun main(args: Array<String>){
 
 **输出:**
 
-```
+```kt
 The length of string s1 is: 5
 ```
 
@@ -67,7 +67,7 @@ The length of string s1 is: 5
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>) {
     // variable is declared as nullable
     var s2: String? = "GeeksforGeeks" 
@@ -80,7 +80,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Error:(8, 15) Kotlin: Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type String?
 ```
 
@@ -93,7 +93,7 @@ Error:(8, 15) Kotlin: Only safe (?.) or non-null asserted (!!.) calls are allowe
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>) {
     // variable declared as nullable
     var s: String? = "GeeksforGeeks"
@@ -116,7 +116,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 String of length 13
 null
@@ -130,13 +130,13 @@ Null String
 空值比较很简单，但是嵌套的 if-else 表达式的数量可能很大。科特林有安全呼叫接线员吗？。这降低了复杂性，并且仅当特定引用包含非空值时才执行操作..它允许我们在一个表达式中组合一个空值检查和一个方法调用。
 以下表达式:
 
-```
+```kt
 firstName?.toUpperCase()
 ```
 
 相当于:
 
-```
+```kt
 if(firstName != null) 
     firstName.toUpperCase()
 else
@@ -147,7 +147,7 @@ else
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>) {
     // variable declared as nullable
     var firstName: String? = "Praveen"
@@ -161,7 +161,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 PRAVEEN
 7
 null
@@ -171,7 +171,7 @@ null
 **let()方法–**
 要仅在引用包含不可空值时执行操作，我们可以使用 let 运算符。仅当变量 firstName 不为空时，才会执行字母内部的 lambda 表达式。
 
-```
+```kt
 val firstName: String? = null
 firstName?.let { println(it.toUpperCase()) }
 ```
@@ -181,7 +181,7 @@ firstName?.let { println(it.toUpperCase()) }
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>) {
     // created a list contains names
     var stringlist: List<String?> = listOf("Geeks","for", null, "Geeks")
@@ -200,7 +200,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks
 for
 Geeks
@@ -212,7 +212,7 @@ Geeks
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>) {
     // created a list contains names
     var stringlist: List<String?> = listOf("Geeks","for", null, "Geeks")
@@ -228,7 +228,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks
 for
 Geeks
@@ -240,7 +240,7 @@ Geeks
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>) {
     // created a list contains names
     var stringlist: List<String?> = listOf("Geeks","for", null, "Geeks")
@@ -256,7 +256,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks
 for
 Geeks
@@ -267,13 +267,13 @@ Geeks
 当原始变量为空时，埃尔维斯运算符用于返回非空值或默认值。换句话说，如果左表达式不为空，那么 elvis 运算符返回它，否则返回右表达式。只有当发现左侧为空时，才会计算右侧表达式。
 以下表达式:
 
-```
+```kt
 val name = firstName ?: "Unknown"
 ```
 
 相当于:
 
-```
+```kt
 val name = if(firstName!= null) 
          firstName
       else 
@@ -282,7 +282,7 @@ val name = if(firstName!= null)
 
 而且我们还可以使用**抛出**和**返回**表达式在猫王操作符右侧，在函数中非常有用。因此，我们可以抛出一个异常，而不是在猫王操作符的右侧返回一个默认值。
 
-```
+```kt
 val name = firstName ?: throw IllegalArgumentException("Enter valid name")
 ```
 
@@ -290,7 +290,7 @@ val name = firstName ?: throw IllegalArgumentException("Enter valid name")
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>) {
     var str : String?  = "GeeksforGeeks"
     println(str?.length)
@@ -302,7 +302,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 13
 -1
 ```
@@ -314,7 +314,7 @@ fun main(args: Array<String>) {
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>) {
     var str : String?  = "GeeksforGeeks"
     println(str!!.length)
@@ -325,7 +325,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 13
 Exception in thread "main" kotlin.KotlinNullPointerException
     at FirstappKt.main(firstapp.kt:8)

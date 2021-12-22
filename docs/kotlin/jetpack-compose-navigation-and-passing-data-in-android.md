@@ -33,7 +33,7 @@
 
 ## 我的锅
 
-```
+```kt
 // It contains route names to all three screens
 sealed class Routes(val route: String) {
     object Home : Routes("home")
@@ -48,7 +48,7 @@ sealed class Routes(val route: String) {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun Home(navController: NavHostController) {
 
@@ -104,7 +104,7 @@ fun Home(navController: NavHostController) {
 
 ## 我的锅
 
-```
+```kt
 // Composable function which contains
 // basic Composable functions
 @Composable
@@ -131,7 +131,7 @@ fun Profile() {
 
 ## 我的锅
 
-```
+```kt
 // Settings Composable which receives counter as parameter
 // passed down as arguments from home screen
 @Composable
@@ -162,7 +162,7 @@ fun Setting(counter: String?) {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun ScreenMain() {
 
@@ -203,7 +203,7 @@ fun ScreenMain() {
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

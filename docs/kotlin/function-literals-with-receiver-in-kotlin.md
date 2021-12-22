@@ -27,7 +27,7 @@
 
 ## 我的锅
 
-```
+```kt
 fun main (args: Array<String>) {
   var s = "gonna do "
   val addS = fun String. (successor: String) : String {
@@ -42,7 +42,7 @@ fun main (args: Array<String>) {
 
 ## 我的锅
 
-```
+```kt
 fun main (args: Array<String>) {
   var s = "gonna do "
   val addS = fun String. (successor: String) : Int {

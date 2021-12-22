@@ -36,7 +36,7 @@
 
 在这个文件中，我们将添加自动完成文本视图和按钮小部件，并设置它们的属性，以便可以在 kotlin 文件中访问它们。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http:// schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -65,7 +65,7 @@
 
 在这里，我们将指定活动的名称，并定义可以在活动的不同位置使用的其他字符串。另一件重要的事情是，我们将定义 **string_array** ，它包含**自动完成文本视图**的建议列表的项目。
 
-```
+```kt
 <resources>
     <string name="app_name">AutoCompleteTextViewInKotlin</string>
     <string name="hint">Please type language...</string>
@@ -90,19 +90,19 @@
 
 首先，我们声明一个变量*autoxtview*从 XML 布局中访问小部件。
 
-```
+```kt
 val autotextView = findViewById<AutoCompleteTextView>(R.id.autoTextView)
 ```
 
 然后，我们声明另一种变量语言，从 strings.xml 文件中获取字符串数组的项。
 
-```
+```kt
 val languages = resources.getStringArray(R.array.Languages)
 ```
 
 创建一个适配器，并使用
 
-```
+```kt
 val adapter = ArrayAdapter(this,
        android.R.layout.simple_list_item_1, languages)
         autotextView.setAdapter(adapter)
@@ -111,7 +111,7 @@ val adapter = ArrayAdapter(this,
 
 我们熟悉前面文章中的进一步活动，如访问按钮和设置 OnClickListener 等。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
     import android.os.Bundle import android.view.View import androidx.appcompat.app.AppCompatActivity import android.widget.ArrayAdapter import android.widget.AutoCompleteTextView import android.widget.Button import android.widget.Toast
@@ -147,7 +147,7 @@ package com.geeksforgeeks.myfirstkotlinapp
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http:// schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

@@ -32,7 +32,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <!--Give it an ID as we will call this in the Main code-->
 <fragment
   android:layout_width="match_parent"
@@ -53,7 +53,7 @@
 
 ## 我的锅
 
-```
+```kt
 if (!Places.isInitialized()) {
             Places.initialize(applicationContext, apiKey)
         }

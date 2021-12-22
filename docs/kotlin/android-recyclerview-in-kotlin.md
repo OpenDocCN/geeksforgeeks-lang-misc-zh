@@ -16,7 +16,7 @@
 
 转到**应用程序<梯度脚本<梯度构建(模块:应用程序**)并添加以下依赖项。
 
-```
+```kt
 dependencies{
   // for adding recyclerview
   implementation 'androidx.recyclerview:recyclerview:1.2.0'
@@ -32,7 +32,7 @@ dependencies{
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -58,7 +58,7 @@ dependencies{
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView 
     xmlns:android="http://schemas.android.com/apk/res/android"

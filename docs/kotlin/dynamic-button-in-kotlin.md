@@ -24,7 +24,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -51,7 +51,7 @@
 
 首先，我们定义按钮并设置其属性。
 
-```
+```kt
 val button = Button(this)
         // setting layout_width and layout_height using layout parameters
         button.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
@@ -61,7 +61,7 @@ val button = Button(this)
 
 然后，使用 **addView()** 在布局中添加按钮
 
-```
+```kt
 
  val layout = findViewById(R.id.layout) as LinearLayout
  // add Button to LinearLayout
@@ -70,7 +70,7 @@ val button = Button(this)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="i.apps.button">

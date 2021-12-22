@@ -22,7 +22,7 @@
 
 ## 我的锅
 
-```
+```kt
 // sample kotlin program in kotlin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 // sample kotlin program for demonstrating job.join method
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 // sample kotlin program
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -150,7 +150,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 // sample kotlin program 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -203,7 +203,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 // sample kotlin program 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -260,7 +260,7 @@ Kotlin coroutine 对上述问题提出了一个很好的解决方案，即 corou
 
 ## 我的锅
 
-```
+```kt
 // sample kotlin program
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

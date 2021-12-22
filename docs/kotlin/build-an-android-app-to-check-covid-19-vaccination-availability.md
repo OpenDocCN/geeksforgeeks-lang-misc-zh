@@ -37,7 +37,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#0F9D58</color>
@@ -54,7 +54,7 @@
 
 转到**梯度脚本>构建.梯度(模块:应用)**部分，导入以下依赖项，并单击上面弹出窗口中的“立即同步”。我们在这个项目中使用了凌空库。
 
-```
+```kt
 // Volley library
 implementation 'com.android.volley:volley:1.1.1'
 ```
@@ -65,7 +65,7 @@ implementation 'com.android.volley:volley:1.1.1'
 
 ## 可扩展标记语言
 
-```
+```kt
 <!--Allow Internet Permission-->
 <uses-permission android:name="android.permission.INTERNET" />
 ```
@@ -76,7 +76,7 @@ implementation 'com.android.volley:volley:1.1.1'
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,7 +133,7 @@ implementation 'com.android.volley:volley:1.1.1'
 
 ## 我的锅
 
-```
+```kt
 data class CenterRvModal(
 
         // string variable for center name.
@@ -170,7 +170,7 @@ data class CenterRvModal(
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -302,7 +302,7 @@ data class CenterRvModal(
 
 ## 我的锅
 
-```
+```kt
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -376,7 +376,7 @@ class CenterRVAdapter(private val centerList: List<CenterRvModal>) :
 
 ## 我的锅
 
-```
+```kt
 import android.app.DatePickerDialog
 import android.os.Bundle
 import android.util.Log

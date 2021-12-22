@@ -21,7 +21,7 @@
 
 ## 我的锅
 
-```
+```kt
 class MainViewModel : ViewModel() {
     var text = " Welcome to my application "
 
@@ -35,7 +35,7 @@ class MainViewModel : ViewModel() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -78,7 +78,7 @@ class MainViewModel : ViewModel() {
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding

@@ -20,7 +20,7 @@ Firebase 是一个移动和 web 应用程序开发平台。它提供 web 应用�
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -113,7 +113,7 @@ Firebase 是一个移动和 web 应用程序开发平台。它提供 web 应用�
 
 ## 我的锅
 
-```
+```kt
 package com.ayush.quizapp.activity.activity
 
 import android.content.Intent
@@ -201,7 +201,7 @@ class SignUpActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -277,7 +277,7 @@ class SignUpActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 package com.ayush.quizapp.activity.activity
 
 import android.content.Intent

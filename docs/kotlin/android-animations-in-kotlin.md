@@ -51,7 +51,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -167,7 +167,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -196,7 +196,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:interpolator="@android:anim/linear_interpolator">
@@ -213,7 +213,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:interpolator="@android:anim/linear_interpolator">
@@ -230,7 +230,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <rotate xmlns:android="http://schemas.android.com/apk/res/android"
     android:duration="1000"
@@ -248,7 +248,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
@@ -264,7 +264,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
         android:duration="1000"
@@ -279,7 +279,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillAfter="true">
@@ -301,7 +301,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillAfter="true" >
@@ -326,7 +326,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package net.geeksforgeeks.animationsinkotlin
 
 import androidx.appcompat.app.AppCompatActivity
@@ -384,13 +384,13 @@ As， **AndroidManifest.xml** 文件是安卓应用中非常重要的文件，�
 
 ### AndroidManifest.xml 文件
 
-```
+```kt
 Code inside src/main/AndroidManifest.xml file would look like below
 ```
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.geeksforgeeks.animationsinkotlin">

@@ -19,7 +19,7 @@
 
 在这个文件中，我们使用线性布局，不能手动添加开关小部件，因为它将在 Kotlin 文件中动态创建。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -35,7 +35,7 @@
 **在 strings.xml 文件中添加应用程序名称**
 在这里，我们可以将应用程序中可以使用的所有字符串放在任何文件中。因此，我们更新了 app_name，它可以在活动的顶部看到。
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicSwitchInKotlin</string>
 </resources>
@@ -45,7 +45,7 @@
 
 在这里，我们初始化并定义了两个开关，并通过调用 linearLayout 进行动态添加。
 
-```
+```kt
 linearLayout?.addView(switch1)
 linearLayout?.addView(switch2)
 
@@ -53,7 +53,7 @@ linearLayout?.addView(switch2)
 
 然后，将两个开关上的**设置为 OnClickListener** ，以像这样切换按钮和吐司消息。
 
-```
+```kt
 switch1.setOnCheckedChangeListener { buttonView, isChecked ->
             val msg = if (isChecked) "SW1:ON" else "SW1:OFF"
             Toast.makeText(this@MainActivity, msg,
@@ -64,7 +64,7 @@ switch1.setOnCheckedChangeListener { buttonView, isChecked ->
 
 科特林文件的完整代码如下。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

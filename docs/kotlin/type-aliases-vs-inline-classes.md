@@ -10,7 +10,7 @@
 这里，**类型别名**进入图片，类型别名提供了一种方法来为我们复杂或太长的类名定义一个替代名称。类型别名不会引入新类型。它们与相应的底层类型相同。
 在上面的场景中，我们可以做到:
 
-```
+```kt
 typealias geek = com.gfg.apps.geek 
 ```
 
@@ -19,7 +19,7 @@ typealias geek = com.gfg.apps.geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // here we define a type alias named key_values
 // which will take two parameters int and string
 typealias Key_values = Pair<Int, String>
@@ -37,7 +37,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 (1, Cricket)
 (2, Football)
 ```
@@ -50,7 +50,7 @@ fun main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 interface Print {
     fun geekPrint(): String
 }
@@ -67,6 +67,6 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Hello World!
 ```

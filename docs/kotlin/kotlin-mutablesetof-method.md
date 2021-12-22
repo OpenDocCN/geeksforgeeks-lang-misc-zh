@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```kt
 fun <T> mutableSetOf( vararg elements: T): MutableSet<T>
 ```
 
@@ -20,7 +20,7 @@ fun <T> mutableSetOf( vararg elements: T): MutableSet<T>
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>)
 {
     //declaring a mutable set of integers

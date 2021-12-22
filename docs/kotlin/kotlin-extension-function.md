@@ -6,7 +6,7 @@ Kotlin 让程序员能够通过**给现有的类增加更多的功能**，而无
 
 要向类添加扩展函数，定义一个追加到类名的**新函数**，如下例所示:
 
-```
+```kt
 package kotlin1.com.programmingKotlin.chapter1
 
 // A sample class to demonstrate extension functions
@@ -32,7 +32,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 Area of the circle is 19.634954084936208
 Perimeter of the circle is 15.707963267948966
 
@@ -47,7 +47,7 @@ Kotlin 不仅允许扩展用户定义的类，还允许扩展**库类**。扩展
 
 以下示例演示了为用户定义的类创建的扩展函数-
 
-```
+```kt
 fun main(){
 
     // Extension function defined for Int type
@@ -62,7 +62,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 4
 4
 
@@ -76,7 +76,7 @@ fun main(){
 
 下面的例子将使上述论点变得清晰:
 
-```
+```kt
 // Open class created to be inherited
 open class A(val a:Int, val b:Int){
 }
@@ -108,7 +108,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 10
 
 ```
@@ -122,7 +122,7 @@ fun main(){
 
 作为可空接收器的扩展函数示例–
 
-```
+```kt
 // A sample class to display name name
 class AB(val name: String){
     override fun toString(): String {
@@ -151,7 +151,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 Name is Charchit
 Null
 
@@ -163,7 +163,7 @@ Null
 
 **伴随对象声明–**
 
-```
+```kt
 class MyClass {
     // companion object declaration
     companion object {
@@ -180,14 +180,14 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Function declared in companion object
 ```
 
 就像调用伴随对象的常规成员函数一样，只使用类名作为限定符就可以调用扩展函数。
 **伴随对象扩展示例–**
 
-```
+```kt
 class MyClass {
     companion object {
         // member function of companion object
@@ -210,7 +210,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Function declared in companion object
 Extension function of companion object
 

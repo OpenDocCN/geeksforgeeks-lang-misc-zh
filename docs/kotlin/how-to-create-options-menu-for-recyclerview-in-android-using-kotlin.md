@@ -28,7 +28,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +56,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,7 +133,7 @@
 
 ## 我的锅
 
-```
+```kt
 // this is the Language model class
 class Language(
     val name : String ="",
@@ -147,7 +147,7 @@ class Language(
 
 ## 我的锅
 
-```
+```kt
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -208,7 +208,7 @@ class RvAdapter(
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem

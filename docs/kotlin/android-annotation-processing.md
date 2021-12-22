@@ -57,7 +57,7 @@
 
 ## 我的锅
 
-```
+```kt
 annotation class AdapterModule(val layoutId: Int)
 ```
 

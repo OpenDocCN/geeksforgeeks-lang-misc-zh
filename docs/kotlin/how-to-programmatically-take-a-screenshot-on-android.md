@@ -16,7 +16,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -46,7 +46,7 @@
 
 ## 我的锅
 
-```
+```kt
 private fun takeScreenShot(view: View): Bitmap {
     val thescreenshot = Bitmap.createBitmap(view.width, view.height, Bitmap.Config.ARGB_8888)
     val draw = Canvas(thescreenshot)
@@ -66,7 +66,7 @@ private fun takeScreenShot(view: View): Bitmap {
 
 ## 我的锅
 
-```
+```kt
 class GeeksforGeeksActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

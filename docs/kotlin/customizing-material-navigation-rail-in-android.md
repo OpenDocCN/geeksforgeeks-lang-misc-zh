@@ -40,7 +40,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -76,7 +76,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -106,7 +106,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.navigationrail.NavigationRailView
@@ -135,7 +135,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 val badgeDrawable = navigationRail.getBadge(R.id.images)
 if (badgeDrawable != null) {
     badgeDrawable.isVisible = false
@@ -153,7 +153,7 @@ if (badgeDrawable != null) {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -200,7 +200,7 @@ if (badgeDrawable != null) {
 
 ## 可扩展标记语言
 
-```
+```kt
 <style name="TextAppearance.MdcTypographyStyles.Caption" parent="TextAppearance.MaterialComponents.Caption">
     <item name="fontFamily">@font/poppins_regular</item>
     <item name="android:fontFamily">@font/poppins_regular</item>

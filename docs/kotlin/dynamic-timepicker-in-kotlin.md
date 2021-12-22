@@ -17,7 +17,7 @@
 
 在这个文件中，我们使用了 RelativeLayout 内部的 LinearLayout，它将在 Kotlin 文件中被访问。还可以设置布局的属性，如标识、方向等。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -41,7 +41,7 @@
 
 这里，我们使用字符串标签更新应用程序的名称。
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicTimePickerInKotlin</string>
 </resources>
@@ -51,7 +51,7 @@
 
 首先，我们声明两个变量 **txtView** 和 **timePicker** 来创建小部件。
 
-```
+```kt
 val txtView = TextView(this)
 val timePicker = TimePicker(this)
 
@@ -59,7 +59,7 @@ val timePicker = TimePicker(this)
 
 然后，我们应该使用将它们添加到 Linearlayout 中
 
-```
+```kt
 val linearLayout = findViewById(R.id.linear_layout)
         linearLayout?.addView(timePicker)
         linearLayout?.addView(txtView) 
@@ -67,7 +67,7 @@ val linearLayout = findViewById(R.id.linear_layout)
 
 如何显示时间及其逻辑已经在前一个主题中介绍过了。
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -125,7 +125,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.myfirstKotlinapp">

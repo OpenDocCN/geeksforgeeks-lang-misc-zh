@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```kt
 HashMap hashMapOf(vararg pairs: Pair)  
 ```
 
@@ -22,7 +22,7 @@ HashMap hashMapOf(vararg pairs: Pair)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array) {
     var hashmap:HashMap = hashMapOf(1 to "Geeks", 2 to "For", 3 to "Geeks")
     for (i in hashmap.keys) {

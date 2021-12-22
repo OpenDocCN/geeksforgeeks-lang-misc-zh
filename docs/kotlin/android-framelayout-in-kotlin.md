@@ -10,7 +10,7 @@
 
 可以使用下面的代码定义**框架布局**:
 
-```
+```kt
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,7 +26,7 @@
 
 首先，我们在背景中添加一个图像，并在顶部添加其他小部件。在屏幕上，我们可以看到漂亮的登录页面，背景中有一个图像。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -88,7 +88,7 @@
 
 创建布局后，我们需要从活动 **onCreate()** 回调方法中加载 XML 布局资源，并使用**findwiewbyid**从 XML 中访问 UI 元素。
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity

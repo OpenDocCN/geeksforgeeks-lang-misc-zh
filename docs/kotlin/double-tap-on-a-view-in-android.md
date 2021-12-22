@@ -10,7 +10,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -36,7 +36,7 @@
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.viewdoubletap
 
 import android.os.Bundle

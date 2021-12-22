@@ -34,7 +34,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -65,7 +65,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <resources>
     <string name="app_name">SpinnerInKotlin</string>
     <string name="selected_item">Selected item:</string>
@@ -85,13 +85,13 @@
 
 首先，我们声明变量**语言**来访问 strings.xmnl 文件中的字符串项。
 
-```
+```kt
 val languages = resources.getStringArray(R.array.Languages)
 ```
 
 然后，我们访问微调器并设置 **ArrayAdaptor** 来控制项目列表。
 
-```
+```kt
 val spinner = findViewById(R.id.spinner)
         if (spinner != null) {
             val adapter = ArrayAdapter(this,
@@ -101,7 +101,7 @@ val spinner = findViewById(R.id.spinner)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

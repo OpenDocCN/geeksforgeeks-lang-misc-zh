@@ -78,7 +78,7 @@ coroutine 是一个轻量级线程，我们使用 coroutine 在其他线程上�
 
 ## 我的锅
 
-```
+```kt
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
@@ -153,7 +153,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```kt
 <resources>
     <string name="app_name">Fresh Basket</string>
 
@@ -178,7 +178,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0AD042</color>
@@ -197,7 +197,7 @@ entities 类包含数据库中的所有列，应该用@Entity(tablename =“表�
 
 ## 我的锅
 
-```
+```kt
 package com.example.grocerylist.Database.Entity
 
 import androidx.room.ColumnInfo

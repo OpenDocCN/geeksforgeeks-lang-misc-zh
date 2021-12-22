@@ -49,7 +49,7 @@
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun LottieExample() {
   // codes to be added here
@@ -64,7 +64,7 @@ fun LottieExample() {
 
 ## 我的锅
 
-```
+```kt
 // to keep track if the animation is playing
 // and play pause accordingly
 var isPlaying by remember {
@@ -79,7 +79,7 @@ var speed by remember {
 
 ## 我的锅
 
-```
+```kt
 // remember lottie composition, which
 // accepts the lottie composition result
 val composition by rememberLottieComposition(

@@ -25,7 +25,7 @@
 
 ## 科特林
 
-```
+```kt
 // An example for immutable list
 fun main(args: Array<String>) {
     val immutableList = listOf("Mahipal","Nikhil","Rahul")

@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <!--We are going to use Constraintlayout-->
 <androidx.constraintlayout.widget.ConstraintLayout 
@@ -95,7 +95,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
@@ -124,7 +124,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
@@ -158,7 +158,7 @@
 
 ## 我的锅
 
-```
+```kt
 package com.example.flippingcard
 
 import android.animation.AnimatorInflater

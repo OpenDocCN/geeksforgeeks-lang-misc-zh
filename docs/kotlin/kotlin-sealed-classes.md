@@ -6,7 +6,7 @@ Kotlin 提供了一种重要的新型类，这种类在 Java 中是不存在的�
 
 **密封等级申报–**
 
-```
+```kt
 sealed class Demo
 ```
 
@@ -14,7 +14,7 @@ sealed class Demo
 
 密封类是隐式的**抽象的**，因此不能被实例化。
 
-```
+```kt
 sealed class Demo
 fun main(args: Array)
 {
@@ -24,7 +24,7 @@ fun main(args: Array)
 
 **密封级科特林程序–**
 
-```
+```kt
 sealed class Demo {
     class A : Demo() {
         fun display()
@@ -51,7 +51,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 Subclass B of sealed class Demo
 Subclass A of sealed class Demo
 
@@ -61,7 +61,7 @@ Subclass A of sealed class Demo
 
 **示例:**
 
-```
+```kt
 // A sealed class with a single subclass defined inside
 sealed class ABC {
  class X: ABC(){...}
@@ -80,7 +80,7 @@ class Y: ABC() {
 
 **用 when 子句演示密封类的示例:**
 
-```
+```kt
 // A sealed class with a string property
 sealed class Fruit
     (val x: String)
@@ -119,7 +119,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 Apple is good for iron
 Mango is delicious
 Pomegranate is good for vitamin d

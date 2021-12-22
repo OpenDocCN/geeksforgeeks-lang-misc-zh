@@ -48,7 +48,7 @@ Coroutines 是安卓上**异步编程的推荐解决方案。**花冠的一些�
 
  [**## 柯特林
 
-```
+```kt
 // dependencies to import in project 
 dependencies 
 {
@@ -69,7 +69,7 @@ dependencies 
 
 ## 科特林
 
-```
+```kt
 // pseudo kotlin code for demonstration
 // involves a series of callbacks from fetchAndShowUser 
 // to fetchUser and then to showUser
@@ -86,7 +86,7 @@ fun fetchAndShowUser() 
 
 ## 柯特林
 
-```
+```kt
 //pseudo kotlin code for demonstration
 suspend fun fetchAndShowUser() 
 {

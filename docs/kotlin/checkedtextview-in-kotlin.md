@@ -30,7 +30,7 @@
 
 在这个文件中，我们将添加 CheckedTextView，并使用不同的属性，如 checked，gravity 等。稍后，它将在 Kotlin 文件中被调用，以添加更多功能。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -54,7 +54,7 @@
 
 **对 strings.xml 文件进行一些修改，比如 app_name 和 Kotlin 文件中使用的其他字符串。**
 
-```
+```kt
 <resources>
     <string name="app_name">CheckedTextViewInKotlin</string>
     <string name="msg_shown">CTView is:</string>
@@ -68,13 +68,13 @@
 
 这里，我们首先声明一个 checkedTextView 变量，并使用 id 找到 xml checkedTextView。
 
-```
+```kt
 val CTView = findViewById(R.id.ctv)
 ```
 
 然后，使用条件语句进行检查，如
 
-```
+```kt
 if (CTView.isChecked)
     android.R.drawable.checkbox_on_background
 else
@@ -84,7 +84,7 @@ else
 
 最后，当我们检查文本视图时，我们声明一个变量 msg 来打印该值。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
 
 该文件包含字符串. xml 中指定的 app_name 等信息以及其他重要的 android 信息。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

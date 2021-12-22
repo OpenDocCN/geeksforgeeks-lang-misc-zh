@@ -22,7 +22,7 @@
 
 ## **我的锅**
 
-```
+```kt
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
@@ -45,7 +45,7 @@ class SharedViewModel : ViewModel() {
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -92,7 +92,7 @@ class MessageSenderFragment : Fragment() {
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -128,7 +128,7 @@ class MessageSenderFragment : Fragment() {
 
 ## **我的锅**
 
-```
+```kt
 class MessageReceiverFragment : Fragment() {
     // to contain and display shared message
     lateinit var displayMsg: TextView
@@ -160,7 +160,7 @@ class MessageReceiverFragment : Fragment() {
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -197,7 +197,7 @@ class MessageReceiverFragment : Fragment() {
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -244,7 +244,7 @@ class MessageReceiverFragment : Fragment() {
 
 ## **我的锅**
 
-```
+```kt
 mport androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 

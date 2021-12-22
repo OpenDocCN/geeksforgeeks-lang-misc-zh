@@ -36,7 +36,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set 
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -60,7 +60,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -91,7 +91,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -140,7 +140,7 @@ class SplashScreen : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.animatedsplashscreen">
@@ -173,7 +173,7 @@ class SplashScreen : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -205,7 +205,7 @@ class SplashScreen : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast

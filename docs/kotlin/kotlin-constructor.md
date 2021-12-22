@@ -14,7 +14,7 @@ Kotlin 中的类最多只能有一个主构造函数和一个或多个辅助构�
 
 使用**构造函数**关键字，在类名之后初始化主构造函数。参数在主构造函数中是可选的。
 
-```
+```kt
 class Add constructor(val a: Int, val b: Int) {
      // code
 }
@@ -22,7 +22,7 @@ class Add constructor(val a: Int, val b: Int) {
 
 如果没有指定注释或访问修饰符，构造函数关键字可以省略**。** 
 
-```
+```kt
 class Add(val a: Int, val b: Int) {
      // code
 }
@@ -32,7 +32,7 @@ class Add(val a: Int, val b: Int) {
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 //main function
 fun main(args: Array<String>)
 {
@@ -48,7 +48,7 @@ class Add constructor(a: Int,b:Int)
 
 ****输出:**** 
 
-```
+```kt
 The Sum of two numbers is: 11
 ```
 
@@ -63,7 +63,7 @@ The Sum of two numbers is: 11
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 fun main(args: Array<String>) {
     val emp = employee(18018, "Sagnik")
 }
@@ -84,7 +84,7 @@ class employee(emp_id : Int , emp_name: String) {
 
 ****输出:**** 
 
-```
+```kt
 Employee id is: 18018
 Employee name: Sagnik
 ```
@@ -100,7 +100,7 @@ Initializer 块在对象创建时执行，不仅初始化属性，还打印到�
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 fun main(args: Array<String>) {
     val emp = employee(18018, "Sagnik")
     // default value for emp_name will be used here
@@ -127,7 +127,7 @@ class employee(emp_id : Int = 100 , emp_name: String = "abc") {
 
 ****输出:**** 
 
-```
+```kt
 Employee id is: 18018, Employee name: Sagnik
 
 Employee id is: 11011, Employee name: abc
@@ -147,7 +147,7 @@ Employee id is: 100, Employee name: abc
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 //main function
 fun main(args: Array<String>)
 {
@@ -166,7 +166,7 @@ class Add
 
 ****输出:**** 
 
-```
+```kt
 The sum of numbers 5 and 6 is: 11
 ```
 
@@ -175,7 +175,7 @@ The sum of numbers 5 and 6 is: 11
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 fun main(args: Array<String>) {
     employee(18018, "Sagnik")
     employee(11011,"Praveen",600000.5)
@@ -203,7 +203,7 @@ class employee {
 
 ****输出:**** 
 
-```
+```kt
 Employee id is: 18018, Employee name: Sagnik
 
 Employee id is: 11011, Employee name: Praveen, Employee name: 600000.5
@@ -213,7 +213,7 @@ Employee id is: 11011, Employee name: Praveen, Employee name: 600000.5
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 //main function
 fun main(args: Array<String>)
 {
@@ -244,7 +244,7 @@ class Add
 
 ****输出:**** 
 
-```
+```kt
 Sum of 5, 6 = 11
 Sum of 5, 6, 7 = 18
 Sum of 5, 6, 7, 8 = 26
@@ -257,7 +257,7 @@ Sum of 5, 6, 7, 8 = 26
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 //main function
 fun main(args: Array<String>)
 {
@@ -279,7 +279,7 @@ class Add {
 
 ****输出:**** 
 
-```
+```kt
 The sum of three numbers 5,6 and 7 is: 18
 The sum of two numbers 5 and 6 is: 11
 ```
@@ -290,7 +290,7 @@ The sum of two numbers 5 and 6 is: 11
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 fun main(args: Array<String>) {
     Child(18018, "Sagnik")
 }
@@ -317,7 +317,7 @@ class Child : Parent {
 
 ****输出:**** 
 
-```
+```kt
 Employee id is: 18018
 Employee name: Sagnik
 Employee salary: 500000.55

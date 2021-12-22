@@ -39,7 +39,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -87,7 +87,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <resources>
     <string name="app_name">TextClockInKotlin</string>
 </resources>
@@ -97,14 +97,14 @@
 
 首先，我们声明两个变量**txt lock**和 **txtView** 来使用 id 从 XML 布局中访问小部件。
 
-```
+```kt
 val txtClock = findViewById<TextClock>(R.id.txtClok)
         val txtView = findViewById<TextView>(R.id.textview)
 ```
 
 然后，我们访问按钮，设置 **OnClickListener** 在点击按钮的同时显示时间。
 
-```
+```kt
 val btn = findViewById<Button>(R.id.btn)
     btn?.setOnClickListener {
     txtView?.text = "Time: " + txtClock?.text
@@ -112,7 +112,7 @@ val btn = findViewById<Button>(R.id.btn)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -143,7 +143,7 @@ class MainActivity : AppCompatActivity() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.myfirstKotlinapp">

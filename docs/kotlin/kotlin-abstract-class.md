@@ -6,7 +6,7 @@
 
 **抽象类声明:**
 
-```
+```kt
 abstract class className {
     .........
 } 
@@ -22,7 +22,7 @@ abstract class className {
 
 抽象类可以包含抽象和非抽象成员，如下所示:
 
-```
+```kt
 abstract class className(val x: String) {   // Non-Abstract Property
 
     abstract var y: Int      // Abstract Property
@@ -38,7 +38,7 @@ abstract class className(val x: String) {   // Non-Abstract Property
 
 **在抽象类中同时使用抽象和非抽象成员的 Kotlin 程序-**
 
-```
+```kt
 //abstract class
 abstract class Employee(val name: String,val experience: Int) {   // Non-Abstract
                                                                   // Property
@@ -71,7 +71,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name of the employee: Praveen
 Experience in years: 2
 Annual Salary: 500000.0
@@ -92,7 +92,7 @@ Date of Birth is: 02 December 1994
 
 **用抽象类覆盖非抽象开放函数的柯特林程序–**
 
-```
+```kt
 open class Livingthings {
     open fun breathe() {
         println("All living things breathe")
@@ -116,7 +116,7 @@ fun main(args: Array<String>){
 
 **输出:**
 
-```
+```kt
 All living things breathe
 Dog can also breathe
 
@@ -128,7 +128,7 @@ Dog can also breathe
 
 **在多个派生类中重写抽象函数的柯特林程序–**
 
-```
+```kt
 // abstract class
 abstract class Calculator {
     abstract fun cal(x: Int, y: Int) : Int
@@ -166,7 +166,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Addition of two numbers 10
 Subtraction of two numbers 4
 Multiplication of two numbers 120

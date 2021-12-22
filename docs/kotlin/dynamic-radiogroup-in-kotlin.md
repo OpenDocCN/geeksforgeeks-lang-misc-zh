@@ -19,7 +19,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -40,7 +40,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <resources>
     <string name="app_name">My Application</string>
     <string name="java">Java</string>
@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest package="com.tutorialwing.dynamicradiogroup"
 xmlns:android="<a class="vglnk" href="http://schemas.android.com/apk/res/android" rel="nofollow">

@@ -6,7 +6,7 @@
 
 **例如:**如果我们必须计算两个数的和，那么定义一个有趣的 **`sum()`** 。
 
-```
+```kt
 fun sum(a: Int, b: Int): Int {
     return a + b
 }
@@ -25,7 +25,7 @@ fun sum(a: Int, b: Int): Int {
 
 在下面的程序中，我们将使用内置功能*`arrayOf()`**`sum()`*和 *`println()`* 。函数 *`arrayOf()`* 需要像整数、双精度等一些参数来创建一个数组，我们可以使用不需要任何参数的 *`sum()`* 来找到所有元素的总和。
 
-```
+```kt
 fun main(args: Array<String>) {
     var sum = arrayOf(1,2,3,4,5,6,7,8,9,10).sum()
 
@@ -35,13 +35,13 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The sum of all the elements of an array is: 55
 ```
 
 在下面的程序中，我们将使用 **rem()** 来寻找余数。
 
-```
+```kt
 fun main(args: Array<String>) {
     var num1 = 26
     var num2 = 3
@@ -53,7 +53,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The remainder when 26 is divided by 3 is: 2
 
 ```
@@ -77,7 +77,7 @@ The remainder when 26 is divided by 3 is: 2
 
 通常，我们将函数定义为:
 
-```
+```kt
 fun fun_name(a: data_type, b: data_type, ......): return_type  {
     // other codes
     return
@@ -93,7 +93,7 @@ fun fun_name(a: data_type, b: data_type, ......): return_type  {
 
 **柯特林函数`mul()`将两个参数类型相同的数字相乘-**
 
-```
+```kt
 fun mul(num1: Int, num2: Int): Int {
     var number = num1.times(num2)
     return number
@@ -102,7 +102,7 @@ fun mul(num1: Int, num2: Int): Int {
 
 **说明:**我们在上面定义了一个函数，从 **fun** 关键字开始，返回类型为 Integer。
 
-```
+```kt
 >> mul() is the name of the function
 >> num1 and num2 are names of the parameters being accepted by the function
   and both are Integer type.
@@ -111,7 +111,7 @@ fun mul(num1: Int, num2: Int): Int {
 
 **柯特林函数`student()`具有不同类型的参数-**
 
-```
+```kt
 fun student(name: String , roll_no: Int , grade: Char) {
     println("Name of the student is : $name")
     println("Roll no of the student is: $roll_no")
@@ -121,7 +121,7 @@ fun student(name: String , roll_no: Int , grade: Char) {
 
 **解释-** 我们已经使用 fun 关键字定义了一个函数，默认情况下，fun 关键字的返回类型是 Unit。
 
-```
+```kt
 >> student is the name of the function.
 >> name is the parameter of String data type.
 >> roll_no is the parameter of Integer data type
@@ -143,7 +143,7 @@ fun student(name: String , roll_no: Int , grade: Char) {
 
 **柯特林程序通过传递两个参数调用`mul()`函数-**
 
-```
+```kt
 fun mul(a: Int, b: Int): Int {
     var number = a.times(b)
     return number
@@ -156,7 +156,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The multiplication of two numbers is: 15 
 ```
 
@@ -165,7 +165,7 @@ The multiplication of two numbers is: 15
 
 **Kotlin 程序通过传递所有参数调用 student()函数-**
 
-```
+```kt
 fun student( name: String , grade: Char , roll_no: Int) {
     println("Name of the student is : $name")
     println("Grade of the student is: $grade")
@@ -183,7 +183,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name of the student is : Praveen
 Grade of the student is: A
 Roll no of the student is: 25

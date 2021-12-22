@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 ```
@@ -29,7 +29,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -63,7 +63,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.content.Context
 import android.location.LocationManager
 import androidx.appcompat.app.AppCompatActivity

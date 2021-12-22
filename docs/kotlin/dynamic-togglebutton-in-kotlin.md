@@ -35,7 +35,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:id="@+id/layout"
@@ -53,7 +53,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package gfg.apps.togglebutton
 
 import androidx.appcompat.app.AppCompatActivity
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="gfg.apps.togglebutton">

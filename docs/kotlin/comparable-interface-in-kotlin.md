@@ -9,7 +9,7 @@
 **compare to()–**
 这个函数比较调用对象和传递的对象。它返回**零**，如果两者相等，如果传递的对象更大，则返回一个**负**数，否则返回一个**正**数。
 
-```
+```kt
 abstract operator fun compareTo(other: T): Int
 
 ```
@@ -19,7 +19,7 @@ abstract operator fun compareTo(other: T): Int
 **强制至少()–**
 该函数检查调用对象是否大于某个最小对象。如果大于当前对象，则返回当前对象，否则返回最小对象
 
-```
+```kt
 fun <T : Comparable> T.coerceAtLeast(minimumValue: T): T
 
 ```
@@ -27,14 +27,14 @@ fun <T : Comparable> T.coerceAtLeast(minimumValue: T): T
 **强制大气()–**
 该函数检查调用对象是否比给定的最大对象小**。如果当前对象较小，则返回当前对象，否则返回最大对象。**
 
-```
+```kt
 fun <T : Comparable> T.coerceAtMost(maximumValue: T): T 
 ```
 
 ****胁迫()–**
 该功能检查调用对象是否在某个**最小值**和**最大值**范围内。如果对象在该范围内，则返回该对象，否则如果对象小于最小值，则返回最小值，否则返回最大值。**
 
-```
+```kt
 fun <T : Comparable> T.coerceIn(
     minimumValue: T?, 
     maximumValue: T?
@@ -43,7 +43,7 @@ fun <T : Comparable> T.coerceIn(
 
 ****演示可比界面的示例–****
 
-```
+```kt
 class Rectangle(val length: Int, val breadth: Int): Comparable<Rectangle>{
     override fun compareTo(other: Rectangle): Int {
         val area1 = length * breadth
@@ -82,7 +82,7 @@ fun main(){
 
 ****输出:****
 
-```
+```kt
 Is rectangle one greater than equal to rectangle two? true
 Is rectangle one greater than the minimum sized rectangle? true 
 Is rectangle two smaller than the maximum sized rectangle? false
@@ -92,7 +92,7 @@ Is rectangle one within the bounds? true
 ****range to()–**
 该功能检查数值是否在范围内。如果在范围内找不到值，则返回 false，否则返回 true。这里的数字是根据 IEEE-754 标准进行比较的。**
 
-```
+```kt
 operator fun <t :="" comparable="">> T.rangeTo(
     that: T
 ): ClosedRange</t>
@@ -100,7 +100,7 @@ operator fun <t :="" comparable="">> T.rangeTo(
 
 ****使用 rangeTo()函数的 Kotlin 程序–****
 
-```
+```kt
 fun main(args : Array<String>) {
     val range = 1..1000
     println(range)
@@ -112,7 +112,7 @@ fun main(args : Array<String>) {
 
 ****输出:****
 
-```
+```kt
 1..1000
 Is 55 within the range? true
 Is 100000 within the range? false 

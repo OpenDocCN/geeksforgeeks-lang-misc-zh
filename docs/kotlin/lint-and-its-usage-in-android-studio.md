@@ -56,7 +56,7 @@ Lint 是 Android Studio 提供的代码扫描工具，可以识别、建议和�
 
 **这里有一个 lint.xml 文件的例子:**
 
-```
+```kt
 <?xml version="1.0" encoding="UTF-8"?>
 <lint>
     <issue id="GeeksIconMissing" severity="error" />
@@ -83,7 +83,7 @@ Lint 是 Android Studio 提供的代码扫描工具，可以识别、建议和�
 
 ## 我的锅
 
-```
+```kt
 fun someUIUpdate() {
    // your UI code goes here
    proceessSomething()
@@ -101,7 +101,7 @@ fun processSomething() {
 
 ## 我的锅
 
-```
+```kt
 @UiThread
 fun someUIUpdate() {
     // your code bugs here
@@ -119,7 +119,7 @@ fun processChanges() {
 
 **要在项目中包含基线，请在 build.gradle 文件中添加以下行:**
 
-```
+```kt
 android {
   lintOptions {
     baseline file("lint-geeksforgeeks-example.xml")

@@ -39,7 +39,7 @@ COIL 图像加载库由 [Kotlin Coroutines](https://www.geeksforgeeks.org/kotlin
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -66,7 +66,7 @@ COIL 图像加载库由 [Kotlin Coroutines](https://www.geeksforgeeks.org/kotlin
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView

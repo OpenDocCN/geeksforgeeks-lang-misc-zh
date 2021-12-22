@@ -39,7 +39,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -71,7 +71,7 @@
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.widget_buttons
 
 import android.app.PendingIntent
@@ -144,7 +144,7 @@ internal fun updateAppWidget(
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -166,7 +166,7 @@ internal fun updateAppWidget(
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.widget_buttons
 
 import androidx.appcompat.app.AppCompatActivity
@@ -182,7 +182,7 @@ class Activity1 : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -204,7 +204,7 @@ class Activity1 : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.widget_buttons
 
 import androidx.appcompat.app.AppCompatActivity
@@ -224,7 +224,7 @@ class Activity2 : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -248,7 +248,7 @@ class Activity2 : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.widget_buttons
 
 import androidx.appcompat.app.AppCompatActivity

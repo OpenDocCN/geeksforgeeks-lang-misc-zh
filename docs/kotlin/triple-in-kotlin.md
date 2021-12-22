@@ -10,7 +10,7 @@ Kotlin 语言提供了一种简单的数据类型，可以在单个实例中存�
 
 **类别定义:**
 
-```
+```kt
 data class Triple<out A, out B, out C> : Serializable
 ```
 
@@ -24,7 +24,7 @@ data class Triple<out A, out B, out C> : Serializable
 
 **在柯特林中，[构造函数](https://www.geeksforgeeks.org/kotlin-constructor/)是一个特殊的成员函数，在创建类的对象时调用，主要用于初始化变量或属性。要创建三元组的新实例，我们使用:**
 
-```
+```kt
 Triple(first: A, second: B, third: C)
 ```
 
@@ -32,7 +32,7 @@ Triple(first: A, second: B, third: C)
 
 ## **我的锅**
 
-```
+```kt
 fun main() {
     val (x, y, z) = Triple(1, "Geeks", 2.0)
     println(x)
@@ -43,7 +43,7 @@ fun main() {
 
 ****输出:****
 
-```
+```kt
 1
 Geeks
 2.0
@@ -61,7 +61,7 @@ Geeks
 
 ## **我的锅**
 
-```
+```kt
 fun main() {
     // declare triple
     var triple = Triple("Hello Geeks",
@@ -75,7 +75,7 @@ fun main() {
 
 ****输出:****
 
-```
+```kt
 Hello Geeks
 This is Kotlin tutorial
 [10, 20, 30]
@@ -85,7 +85,7 @@ This is Kotlin tutorial
 
 ****toString():** 这个函数返回与 Triple 等价的字符串。**
 
-```
+```kt
 fun toString(): String
 ```
 
@@ -93,7 +93,7 @@ fun toString(): String
 
 ## **我的锅**
 
-```
+```kt
 fun main() {
     // first triple
     val triple = Triple(5, 5, 5)
@@ -109,7 +109,7 @@ fun main() {
 
 ****输出:****
 
-```
+```kt
 String representation is (5, 5, 5)
 Another string representation is (Geeks, [Praveen, Gaurav, Abhi], 12345)
 ```
@@ -120,7 +120,7 @@ Another string representation is (Geeks, [Praveen, Gaurav, Abhi], 12345)
 
 ****toList():** 该函数返回给定三元组的列表等价物。**
 
-```
+```kt
 fun <T>Triple<T, T, T>.toList(): List<T>
 ```
 
@@ -128,7 +128,7 @@ fun <T>Triple<T, T, T>.toList(): List<T>
 
 ## **我的锅**
 
-```
+```kt
 fun main() {
     // first triple
     var obj = Triple(1, 2, 3)
@@ -145,7 +145,7 @@ fun main() {
 
 ****输出:****
 
-```
+```kt
 [1, 2, 3]
 [Hello, 2.0, [10, 20, 30]]
 ```

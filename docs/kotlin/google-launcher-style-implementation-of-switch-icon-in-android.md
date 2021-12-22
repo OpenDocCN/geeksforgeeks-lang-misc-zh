@@ -16,7 +16,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 allprojects {
     repositories {
         google()
@@ -38,7 +38,7 @@ allprojects {
 
 ## 可扩展标记语言
 
-```
+```kt
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="32dp"
     android:height="32dp"

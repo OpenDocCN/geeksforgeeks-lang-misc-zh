@@ -29,7 +29,7 @@
 
 ## 我的锅
 
-```
+```kt
 // Row Item with item Number 
 @Composable
 fun RowItem(number: Int) {
@@ -105,7 +105,7 @@ fun ColumnItem(number: Int) {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun LazyRowExample(numbers: Array<Int>) {
 
@@ -150,7 +150,7 @@ fun LazyRowExample(numbers: Array<Int>) {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun ColumnExample(numbers: Array<Int>) {
 
@@ -193,7 +193,7 @@ fun ColumnExample(numbers: Array<Int>) {
 
 ## 我的锅
 
-```
+```kt
 // add the annotation, 
 // since [LazyVerticalGrid] is Experimental Api
 @ExperimentalFoundationApi
@@ -229,7 +229,7 @@ fun GridExample(numbers: Array<Int>) {
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : ComponentActivity() {
 
     // Creates array as [0,1,2,3,4,5,.....99]
@@ -295,7 +295,7 @@ class MainActivity : ComponentActivity() {
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent

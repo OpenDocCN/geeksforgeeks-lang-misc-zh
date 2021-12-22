@@ -52,7 +52,7 @@ ViewModel 是[安卓架构组件](https://www.geeksforgeeks.org/jetpack-architec
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -95,7 +95,7 @@ ViewModel 是[安卓架构组件](https://www.geeksforgeeks.org/jetpack-architec
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -141,7 +141,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 import androidx.lifecycle.ViewModel
 
 class MainActivityViewModel : ViewModel() {
@@ -160,7 +160,7 @@ class MainActivityViewModel : ViewModel() {
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider

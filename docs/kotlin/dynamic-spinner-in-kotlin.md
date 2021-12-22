@@ -18,7 +18,7 @@
 
 **在这个文件中，我们使用了文本视图小部件，并设置了它的属性。**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -41,7 +41,7 @@
 
 **这里，我们使用字符串标签更新应用程序的名称。我们还创建了将在下拉菜单中使用的项目列表。**
 
-```
+```kt
 <resources>
     <string name="app_name">SpinnerInKotlin</string>
     <string name="selected_item">Selected item:</string>
@@ -61,13 +61,13 @@
 
 **首先，我们声明一个变量**语言**来访问 strings.xmnl 文件中的字符串项。**
 
-```
+```kt
 val languages = resources.getStringArray(R.array.Languages) 
 ```
 
 **然后，我们可以使用**
 
-```
+```kt
 val spinner = Spinner(this)
     spinner.layoutParams = LinearLayout.LayoutParams(
             ViewGroup.LayoutParams.WRAP_CONTENT,
@@ -76,13 +76,13 @@ val spinner = Spinner(this)
 
 **使用在线性布局中添加微调器**
 
-```
+```kt
 val linearLayout = findViewById<LinearLayout>(R.id.linear_layout)
         //add spinner in linear layout
         linearLayout?.addView(spinner) 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -134,7 +134,7 @@ class MainActivity : AppCompatActivity() {
 
 ## **AndroidManifest.xml 文件**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

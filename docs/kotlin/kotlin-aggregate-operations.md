@@ -8,7 +8,7 @@
 
     **使用一些聚合函数的柯特林程序–**
 
-    ```
+    ```kt
     //Functions that used aggregate operations
     fun main(args: Array<String>) {
         val numbers = listOf(6,34,57,78,12,4,5,5)
@@ -23,7 +23,7 @@
 
     **输出:**
 
-    ```
+    ```kt
     Count the number of element in the list: 8
     Sum of the elements in the list: 201
     Min value in the list: 4
@@ -34,7 +34,7 @@
 
     **使用 sumBy()和 sumByDouble()函数的 Kotlin 程序-**
 
-    ```
+    ```kt
     //Functions that used aggregate operations
     fun main(args: Array<String>) {
         val numbers = listOf(6,34,57,78,12,4,5,5)
@@ -45,7 +45,7 @@
 
     **输出:**
 
-    ```
+    ```kt
     Multiply each element with 3 and sum: 603
     100.5
 
@@ -53,7 +53,7 @@
 
     **使用 minBy()和 maxWith()函数的 Kotlin 程序–**
 
-    ```
+    ```kt
     //Functions that used aggregate operations
     fun main(args: Array<String>) {
         val numbers = listOf(6,34,57,78,12,4,5,5)
@@ -68,7 +68,7 @@
 
     **输出:**
 
-    ```
+    ```kt
     Minimum remainder returned by: 12
     String with max length is: Football
 
@@ -87,7 +87,7 @@
 
     **使用 fold()和 reduce()函数的 Kotlin 程序–**
 
-    ```
+    ```kt
     //Fold and Reduce Functions
     fun main(args: Array<String>) {
         val numbers = listOf(57,78,12,4,5,5, 42)
@@ -100,7 +100,7 @@
 
     **输出:**
 
-    ```
+    ```kt
     The sum of all elements in list 203
     Multiply each element with 3 and sum 609
 
@@ -108,7 +108,7 @@
 
     **使用 foldRight()函数的 Kotlin 程序–**
 
-    ```
+    ```kt
     //Fold and Reduce Functions
     fun main(args: Array<String>) {
         val numbers = listOf(6,34,57,78,12,4,5,5, 4)
@@ -119,13 +119,13 @@
 
     **输出:**
 
-    ```
+    ```kt
     The sum of the numbers from the right side: 615
     ```
 
     **使用文件夹索引()和文件夹索引()的柯特林程序–**
 
-    ```
+    ```kt
     //Fold and Reduce Functions
     fun main(args: Array<String>) {
         val numbers = listOf(6,34,57,78,12,4,5,5, 42, 10, 4)
@@ -141,7 +141,7 @@
 
     **输出:**
 
-    ```
+    ```kt
     Sum of even numbers: 126
     Sum of even numbers from Right side: 126
 

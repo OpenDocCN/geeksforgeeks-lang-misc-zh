@@ -40,7 +40,7 @@
 
 在这个文件中，我们将使用线性布局和其中的两个开关。设置每个开关的属性，如开关 id、文本等。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -64,7 +64,7 @@
 
 **在 *strings.xml* 中添加应用名称。**
 
-```
+```kt
 <resources>
     <string name="app_name">SwitchInKotlin</string>
 </resources>
@@ -75,13 +75,13 @@
 在这里，我们将通过使用开关各自的 id 来访问开关，并且如果开关处于选中(开)状态，则设置点击监听器和土司消息。
 首先，声明一个变量，用它的 id 得到开关。
 
-```
+```kt
 val sw1 = findViewById(R.id.switch1)
 ```
 
 然后，将**设置为 on 点击开关上的**监听器，并使用 if 条件检查按钮的状态。
 
-```
+```kt
 
 sw1?.setOnCheckedChangeListener({ _ , isChecked ->
             val message = if (isChecked) "Switch1:ON" else "Switch1:OFF"
@@ -93,7 +93,7 @@ sw1?.setOnCheckedChangeListener({ _ , isChecked ->
 
 对 kotlin 文件中的另一个开关重复该过程。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 import android.os.Bundle
 import android.widget.Switch
@@ -125,7 +125,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

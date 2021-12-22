@@ -34,7 +34,7 @@
 
 首先，我们应该使用下面的代码在布局文件中声明 RelativeLayout。
 
-```
+```kt
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -49,7 +49,7 @@
 
 下面是 xml 文件中 RelativeLayout 的代码。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -107,7 +107,7 @@
 
 当我们创建了布局之后，我们需要从我们的活动 **onCreate()** 回调方法中加载 XML 布局资源，并使用 findViewById 从 XML 中访问 UI 元素。
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity

@@ -17,7 +17,7 @@
 
 在这个文件中，我们使用线性布局小部件和一个按钮来启动或停止血糖仪，并为它们设置属性。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -55,7 +55,7 @@
 
 这里，我们使用字符串标签更新应用程序的名称。我们也有其他可以在 MainActivity.kt 文件中使用的字符串。
 
-```
+```kt
 <resources>
     <string name="app_name">ChronometerInKotlin</string>
     <string name="stop">Stop Timer</string>
@@ -69,7 +69,7 @@
 
 首先，我们声明一个变量**米**来创建 Kotlin 文件中的计时表。
 
-```
+```kt
 val meter = Chronometer(this)
         // set color and size of the text
         meter.setTextColor(Color.BLUE)
@@ -79,20 +79,20 @@ val meter = Chronometer(this)
 
 此外，使用在布局中添加计时器
 
-```
+```kt
 val linearLayout = findViewById(R.id.l_layout)
         linearLayout?.addView(meter) 
 ```
 
 然后，我们从 xml 文件中访问按钮，并设置 **setOnClickListener** 来启动和停止计时器。
 
-```
+```kt
 val btn = findViewById<Button>(R.id.btn)
         btn?.setOnClickListener(object : View.OnClickListener {...}
 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import android.graphics.Color
@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

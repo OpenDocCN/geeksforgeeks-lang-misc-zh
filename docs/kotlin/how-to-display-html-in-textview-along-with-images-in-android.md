@@ -23,7 +23,7 @@
 
 ## 
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0F9D58</color>
@@ -35,7 +35,7 @@
 
 *   **转到**[**build . gradle(Module:app)**](https://www.geeksforgeeks.org/android-build-gradle/)文件，添加以下依赖项。
 
-```
+```kt
 
 // Picasso library to downloading images 
 implementation 'com.squareup.picasso:picasso:2.71828'
@@ -58,7 +58,7 @@ process in background thread implementation
 
 ## 
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -122,7 +122,7 @@ process in background thread implementation
 
 ****ImageGetter.kt****
 
-```
+```kt
 import android.content.res.Resources
 import android.graphics.Bitmap
 import android.graphics.Canvas

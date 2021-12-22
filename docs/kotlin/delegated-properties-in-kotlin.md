@@ -14,7 +14,7 @@
 
 ## 我的锅
 
-```
+```kt
 // Defining an inmutable variable in kotlin
 val lazyValue: String by lazy
 {
@@ -33,7 +33,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 GeeksforGeeks
 GeeksforGeeks
@@ -49,7 +49,7 @@ GeeksforGeeks
 
 ## 我的锅
 
-```
+```kt
 import kotlin.properties.Delegates
 
 class Myself
@@ -79,7 +79,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 company name -> Previous to
 Previous to -> New Value
 ```
@@ -93,7 +93,7 @@ Previous to -> New Value
 
 ## 我的锅
 
-```
+```kt
 var max: Int by Delegates.vetoable(0)
 {
   // Defining variable max with vetoable default value as 0
@@ -119,7 +119,7 @@ println(max)
 
 **输出:**
 
-```
+```kt
 0
 10
 10
@@ -135,7 +135,7 @@ println(max)
 
 ## 我的锅
 
-```
+```kt
 class Myself(val map: Map<String, Any?>)
 {
   // defining class Myself
@@ -161,7 +161,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 50
 ```

@@ -19,7 +19,7 @@
 
 首先在 Linearlayout 中定义 RadioGroup，并访问 Kotlin 文件。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -42,7 +42,7 @@
 
 上述代码仍会产生一些错误，要解决这些问题，请将以下代码片段添加到**app/RES/values/strings . XML**中
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicRadioButton</string>
     <string name="black">Black</string>
@@ -57,20 +57,20 @@
 
 这里，我们为颜色定义了三个单选按钮，并设置了它们的属性。
 
-```
+```kt
  val radioButton1 = RadioButton(this)
 ```
 
 然后，使用代码将它们使用到 RadioGroup 中:
 
-```
+```kt
 radioGroup.addView(radioButton1)
 radioGroup.addView(radioButton2)
 radioGroup.addView(radioButton3)
 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
@@ -135,7 +135,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

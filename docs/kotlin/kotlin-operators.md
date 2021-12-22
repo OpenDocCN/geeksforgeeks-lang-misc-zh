@@ -27,7 +27,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     var a = 20 var b = 4 println("a + b = " + (a + b))
@@ -40,7 +40,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 a + b = 24
 a - b = 16
 a * b = 80
@@ -65,7 +65,7 @@ a % b = 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     var c = 30
@@ -81,7 +81,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 c > d = false
 c < d = true
 c >= d = false
@@ -106,7 +106,7 @@ c != d = true
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args : Array<String>){
  var a = 10
     var b = 5
@@ -126,7 +126,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 15
 10
 50
@@ -147,7 +147,7 @@ fun main(args : Array<String>){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args : Array<String>){
     var e=10
     var flag = true
@@ -160,7 +160,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 First print then increment: 10
 First increment then print: 12
 First print then decrement: 12
@@ -181,7 +181,7 @@ First decrement then print: 10
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args : Array<String>){
     var x = 100
     var y = 25
@@ -198,7 +198,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 100
 25
 Logical operators
@@ -222,7 +222,7 @@ Logical operators
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     println("5 signed shift left by 1 bit: " + 5.shl(1))
@@ -237,7 +237,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 5 signed shift left by 1 bit: 10
 10 signed shift right by 2 bits: : 2
 12 unsigned shift right by 2 bits:  3

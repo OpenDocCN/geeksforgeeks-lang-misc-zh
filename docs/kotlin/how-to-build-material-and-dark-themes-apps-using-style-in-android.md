@@ -142,7 +142,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```kt
 **<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
@@ -175,7 +175,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```kt
 **<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.GFGArticle" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -198,7 +198,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```kt
 **<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.GFGArticle" parent="Theme.MaterialComponents.DayNight.DarkActionBar">

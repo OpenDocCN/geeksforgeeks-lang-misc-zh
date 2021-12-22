@@ -11,7 +11,7 @@ T3【科特林程序的使用元素 At()方法–T5】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val list=listOf("GeeksforGeeks","A","Computer","Science","Portal")
     // we know the place of GeeksforGeeks thus we use
@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 ```
 
@@ -33,7 +33,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val list=listOf("GeeksforGeeks","A","Computer","Science","Portal")
     // we are trying to access the elements out of bounds
@@ -46,7 +46,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 null
 Element index not found
 ```
@@ -58,7 +58,7 @@ Element index not found
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val list=listOf("GeeksforGeeks","A","Computer","Science","Portal")
     // accessing the first element
@@ -70,7 +70,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 Portal
 ```
@@ -81,7 +81,7 @@ Portal
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val numbers = listOf("Geeks","for","Geek","A","Computer","Science","Portal")
     // retrieve the first element having string length > 5
@@ -93,7 +93,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Computer
 Geek
 ```
@@ -102,7 +102,7 @@ Geek
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val numbers = listOf("Geeks","for","Geek","A","Computer","Science","Portal")
     // retrieve the first element having string length > 5
@@ -114,7 +114,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 null
 null
 ```
@@ -127,7 +127,7 @@ null
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val strings = listOf("Geeks","for","Geek","A","Computer","Science","Portal")
     //Example of random outputs of letters in list new each time
@@ -137,7 +137,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Computer (output can be same or different)
 ```
 
@@ -152,7 +152,7 @@ Computer (output can be same or different)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val list=listOf("Geeks","for","Geek","A","Computer","Science","Portal")
     //checking the string is in list or not
@@ -165,7 +165,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 false
 true
 false

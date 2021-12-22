@@ -6,7 +6,7 @@
 
 柯特林中循环的*语法:*
 
-```
+```kt
 for(item in collection) {
        // code to execute
 }
@@ -27,7 +27,7 @@ for(item in collection) {
 
 *   **Iterate through range to print the values:**
 
-    ```
+    ```kt
     fun main(args: Array<String>)
     {
         for (i in 1..6) {
@@ -38,13 +38,13 @@ for(item in collection) {
 
     **输出:**
 
-    ```
+    ```kt
     1 2 3 4 5 6
     ```
 
 *   **Iterate through range to jump using step-3 :**
 
-    ```
+    ```kt
     fun main(args: Array<String>)
     {
         for (i in 1..10 step 3) {
@@ -55,13 +55,13 @@ for(item in collection) {
 
     **输出:**
 
-    ```
+    ```kt
     1 4 7 10
     ```
 
 *   **You can not iterate through Range from top to down without using *DownTo* :**
 
-    ```
+    ```kt
     fun main(args: Array<String>)
     {
         for (i in 5..1) {
@@ -73,13 +73,13 @@ for(item in collection) {
 
     **输出:**
 
-    ```
+    ```kt
     It prints nothing
     ```
 
 *   **Iterate through Range from top to down with using *downTo* :**
 
-    ```
+    ```kt
     fun main(args: Array<String>)
     {
         for (i in 5 downTo 1) {
@@ -90,13 +90,13 @@ for(item in collection) {
 
     **输出:**
 
-    ```
+    ```kt
     5 4 3 2 1
     ```
 
 *   **Iterate through Range from top to down with using *downTo* and *step 3*:**
 
-    ```
+    ```kt
     fun main(args: Array<String>)
     {
         for (i in 10 downTo 1 step 3) {
@@ -107,7 +107,7 @@ for(item in collection) {
 
     **输出:**
 
-    ```
+    ```kt
     10 7 4 1
     ```
 
@@ -122,7 +122,7 @@ for(item in collection) {
     *   与索引库函数一起使用
     *   **Traverse an array without using index property:**
 
-        ```
+        ```kt
         fun main(args: Array<String>) {
             var numbers = arrayOf(1,2,3,4,5,6,7,8,9,10)
 
@@ -136,13 +136,13 @@ for(item in collection) {
 
         **输出:**
 
-        ```
+        ```kt
         2 4 6 8 10
         ```
 
     *   **Traverse an array with using index property:**
 
-        ```
+        ```kt
         fun main(args: Array<String>) {
 
             var planets = arrayOf("Earth", "Mars", "Venus", "Jupiter", "Saturn")
@@ -155,7 +155,7 @@ for(item in collection) {
 
         **输出:**
 
-        ```
+        ```kt
         Earth
         Mars
         Venus
@@ -166,7 +166,7 @@ for(item in collection) {
 
     *   **Traverse an array using `withIndex()` Library Function:**
 
-        ```
+        ```kt
         fun main(args: Array<String>) {
             var planets = arrayOf("Earth", "Mars", "Venus", "Jupiter", "Saturn")
 
@@ -178,7 +178,7 @@ for(item in collection) {
 
         **输出:**
 
-        ```
+        ```kt
         Element at 0 th index is Earth
         Element at 1 th index is Mars
         Element at 2 th index is Venus
@@ -197,7 +197,7 @@ for(item in collection) {
 *   使用索引属性
 *   与索引库函数一起使用
 
-```
+```kt
 fun main(args: Array<String>) {
     var name = "Geeks"
     var name2 = "forGeeks"
@@ -217,7 +217,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 G e e k s f o r G e e k s  
 Element at 0 th index is G
 Element at 1 th index is e
@@ -234,7 +234,7 @@ Element at 4 th index is s
 
 **下面是使用 for 循环遍历列表的程序。**
 
-```
+```kt
 fun main(args: Array<String>) {
 
     // read only, fix-size
@@ -248,7 +248,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 1
 2
 3

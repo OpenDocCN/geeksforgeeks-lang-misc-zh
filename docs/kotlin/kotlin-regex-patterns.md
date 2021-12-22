@@ -9,7 +9,7 @@
 **柯特林正则表达式**
 在柯特林中，我们用正则表达式构建正则表达式。
 
-```
+```kt
 Regex("pen")
 "pen".toRegex()
 Regex.fromLiteral("pen")
@@ -42,7 +42,7 @@ Regex.fromLiteral("pen")
 
 **使用查找方法的柯特林程序–**
 
-```
+```kt
 fun main(args : Array<String>) {
 
     val company = "GeeksforGeeks : A computer science portal for students"
@@ -61,7 +61,7 @@ fun main(args : Array<String>) {
 
 **输出:**
 
-```
+```kt
 science found at indexes: 27..33
 ```
 
@@ -71,7 +71,7 @@ science found at indexes: 27..33
 
 **使用 findAll 方法的 Kotlin 程序–**
 
-```
+```kt
 fun main(args : Array<String>) {
 
     val company = "GeeksforGeeks"
@@ -90,7 +90,7 @@ fun main(args : Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks indexes are: 0..4
 Geeks indexes are: 8..1
 
@@ -101,7 +101,7 @@ Geeks indexes are: 8..1
 点(。)元字符表示文本中的任何单个字符。
 **科特林计划–**
 
-```
+```kt
 fun main(args : Array<String>) {
 
     val names = listOf("GeeksforGeeks", "GeekyAnts", "McGeek")
@@ -119,7 +119,7 @@ fun main(args : Array<String>) {
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks matches
 McGeek matches
 

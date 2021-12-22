@@ -6,7 +6,7 @@
 
 ## 我的锅
 
-```
+```kt
 // Kotlin program
 fun main(args: Array<String>) 
 {
@@ -30,7 +30,7 @@ class GFG
 
 ## 我的锅
 
-```
+```kt
 // Kotlin program
 fun main(args: Array<String>)
 {
@@ -53,7 +53,7 @@ object  GFG
 
 ## 我的锅
 
-```
+```kt
 // Kotlin program
 fun main(args: Array<String>) 
 {
@@ -101,7 +101,7 @@ object  GFG
 
 ## 我的锅
 
-```
+```kt
 // sample android application program in kotlin
 // showing use of singleton object
 package com.example.retrofitexample

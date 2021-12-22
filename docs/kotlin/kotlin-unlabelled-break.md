@@ -12,7 +12,7 @@ Kotlin 中有两种类型的 *break* 表达式:
 当循环满足特定条件而不检查测试表达式时，使用无标记断点退出循环。然后，将控制转移到 while 块的以下语句。
 **while 循环的中断语法–**
 
-```
+```kt
 while(test expression) {
        // code to run
             if(break condition) {
@@ -30,7 +30,7 @@ while(test expression) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var sum = 0
     var i = 1
@@ -47,7 +47,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The sum of integers from 1 to 10: 55
 ```
 
@@ -59,7 +59,7 @@ The sum of integers from 1 to 10: 55
 在 do-while 循环中，我们还可以使用 break 表达式退出循环，而无需检查测试表达式。
 **边做边循环中断的语法–**
 
-```
+```kt
 do {
    //code to run
      if(break condition) {
@@ -76,7 +76,7 @@ while(test expression)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var names = arrayOf("Earth","Mars","Venus","Jupiter","Saturn","Uranus")
     var i = 0
@@ -93,7 +93,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The name of 0 th planet: Earth
 The name of 1 th planet: Mars
 The name of 2 th planet: Venus
@@ -108,7 +108,7 @@ The name of 3 th planet: Jupiter
 我们可以在数组或字符串中遍历 for 循环时使用 break 表达式。
 **破门而入的语法为循环-**
 
-```
+```kt
 for(iteration through iterator) {
                // code to run
       if(break condition){
@@ -126,7 +126,7 @@ for(iteration through iterator) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
 
     var name = "GeeksforGeeks"
@@ -141,6 +141,6 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks
 ```

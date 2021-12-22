@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```kt
 Input  : N = 76 
 Output : Automorphic
 Explanation: As 76*76 = 5776
@@ -32,7 +32,7 @@ As 7*7 = 49
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -105,7 +105,7 @@ As 7*7 = 49
 
 ## 我的锅
 
-```
+```kt
 import android.R.bool
 import android.os.Bundle
 import android.widget.Button

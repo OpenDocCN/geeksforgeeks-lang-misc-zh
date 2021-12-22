@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```kt
 val result = collection1 + collection2
 ```
 
 **Kotlin 示例演示了对元素列表使用加减运算符–**
 
-```
+```kt
 fun main(args: Array<String>) {
     // initialize collection with string elements
     val firstcollection = listOf("three", "one", "twenty")
@@ -32,7 +32,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Result of plus operator is : [three, one, twenty, zero]
 Result of minus operator is : [one, twenty]
 
@@ -44,7 +44,7 @@ Result of minus operator is : [one, twenty]
 
 **Kotlin 示例演示了两种运算符在地图上的使用–**
 
-```
+```kt
 fun main(args : Array<String>) {
     // create and initialize map with keys and values
     val firstMap = mapOf("one" to 1, "two" to 2, "three" to 3)
@@ -59,7 +59,7 @@ fun main(args : Array<String>) {
 
 **输出:**
 
-```
+```kt
 {one=1, two=2, three=3, four=4}
 {two=2, three=3}
 

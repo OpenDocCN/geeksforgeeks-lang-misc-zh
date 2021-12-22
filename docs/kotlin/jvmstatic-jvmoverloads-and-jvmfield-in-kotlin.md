@@ -6,7 +6,7 @@
 
 ## 科特林
 
-```
+```kt
 // Kotlin Class
 class GeeksforGeeks
 // Calling from Kotlin
@@ -15,7 +15,7 @@ val article = Article()
 
 ## 爪哇
 
-```
+```kt
 // Class in Java being called
 Article geeksforgeeks = new Article();
 ```
@@ -28,7 +28,7 @@ Article geeksforgeeks = new Article();
 
 ## 我的锅
 
-```
+```kt
 object GeeksforGeeks {
     fun useSomeLogic() {
         // your code goes here
@@ -40,7 +40,7 @@ object GeeksforGeeks {
 
 ## 科特林
 
-```
+```kt
 GeeksforGeeks.useSomeLogic()
 ```
 
@@ -48,7 +48,7 @@ GeeksforGeeks.useSomeLogic()
 
 ## 【Java】
 
-```
+```kt
 GeeksforGeeks.INSTANCE.useSomeLogic();
 ```
 
@@ -58,7 +58,7 @@ GeeksforGeeks.INSTANCE.useSomeLogic();
 
 ## 科特林
 
-```
+```kt
 object GeeksforGeeks {
     @JvmStatic
     fun useSomeLogic() {

@@ -15,7 +15,7 @@
 
 首先，我们应该使用下面的代码在布局文件中声明 LinearLayout。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http:// schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -32,7 +32,7 @@
 
 下面是 xml 文件中 LinearLayout 的代码。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http:// schemas.android.com/apk/res/android"
@@ -74,7 +74,7 @@
 
 创建布局后，我们需要从活动 **onCreate()** 回调方法中加载 XML 布局资源，并使用**findwiewbyid**从 XML 中访问 UI 元素。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
     import androidx.appcompat.app.AppCompatActivity import android.os.Bundle import android.widget.Button import android.widget.EditText import android.widget.TextView

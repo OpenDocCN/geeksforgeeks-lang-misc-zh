@@ -36,7 +36,7 @@
 
 ***步骤 3:使用 colors.xml 文件***
 
-```
+```kt
 *<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#008577</color>
@@ -54,7 +54,7 @@
 
 *在 values 文件夹中创建一个 **array.xml** 文件。右键单击，然后单击**新建>值资源文件**，然后创建一个名为**数组**的文件。*
 
-```
+```kt
 *<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer-array name="star_colors">
@@ -78,7 +78,7 @@
 
 ## *可扩展标记语言*
 
-```
+```kt
 *<?xml version="1.0" encoding="utf-8"?>
 <shape 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -97,7 +97,7 @@
 
 ## *可扩展标记语言*
 
-```
+```kt
 *<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -130,7 +130,7 @@
 
 ## *我的锅*
 
-```
+```kt
 *import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*

@@ -50,7 +50,7 @@ LifecycleObserever is Observer 是 Jetpack 架构组件之一，是一个根据�
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -82,7 +82,7 @@ LifecycleObserever is Observer 是 Jetpack 架构组件之一，是一个根据�
 
 ## **我的锅**
 
-```
+```kt
 import android.util.Log
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
@@ -118,7 +118,7 @@ class MainActivityObserver : LifecycleObserver {
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 

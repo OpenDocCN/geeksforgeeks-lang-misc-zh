@@ -49,7 +49,7 @@ BlinkLibrary 被添加到结构中
 
 ## 我的锅
 
-```
+```kt
 import android.animation.ArgbEvaluator
 import android.animation.ObjectAnimator
 import android.graphics.Color
@@ -111,14 +111,14 @@ object BlinkEffect {
 
 **右键点击**上面的项目名称 **BlinkEffectExample** 然后前往 **Git >添加。**您将观察到所有文件名的颜色变为绿色。现在打开你的安卓工作室的**终端**(找到安卓工作室底部的终端)。执行以下操作来添加、提交和推送代码。
 
-```
+```kt
 -> git add .
 -> git commit -m "blink library added"
 ```
 
 ![](img/aeb2f6aaa4e72c5a8164a39f07b1d085.png)
 
-```
+```kt
 -> git remote add origin " Paste Your-Repository-Address"
 -> git push origin master
 -> Give your GitHub id name & password
@@ -132,7 +132,7 @@ object BlinkEffect {
 
 您也可以遵循另一种方法来推送代码(当 git 和 GitHub 没有在 android studio 中设置时)。打开系统终端，确保当前目录在“BlinkEffectExample”(项目的文件夹名)中，并执行以下命令:
 
-```
+```kt
 -> git init
 -> git add
 -> git commit -m "blink library added"
@@ -140,7 +140,7 @@ object BlinkEffect {
 
 现在通过执行以下操作来添加您的远程原点
 
-```
+```kt
 -> git remote add origin “Paste Your-Repository-Address”
 -> git remote -v
 -> git push origin master
@@ -212,7 +212,7 @@ object BlinkEffect {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -242,7 +242,7 @@ object BlinkEffect {
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button

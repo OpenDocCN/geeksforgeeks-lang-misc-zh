@@ -42,7 +42,7 @@
 
 下面是`**activity_main.xml**`文件添加 5 个 CheckBox 的代码。还添加了一个普通的“提交”按钮，以显示一条记录了用户响应的祝酒信息。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -147,7 +147,7 @@
 
 以下是`**MainActivity.kt**`文件的代码，用于访问 kotlin 文件中的 CheckBox 小部件，并在用户单击提交按钮时显示适当的消息。
 
-```
+```kt
 package com.example.checkboxinkotlin
 
 import androidx.appcompat.app.AppCompatActivity
@@ -179,7 +179,7 @@ class MainActivity : AppCompatActivity() {
 
 活动中使用的所有字符串，从文本视图到复选框文本，都列在此文件中。
 
-```
+```kt
 <resources>
     <string name="app_name">CheckBox in Kotlin</string>
     <string name="Heading">Services provided by GeeksforGeeks</string>
@@ -197,7 +197,7 @@ class MainActivity : AppCompatActivity() {
 
 以下是`**AndroidManifest.xml**`文件的代码。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http:// schemas.android.com/apk/res/android"
     package="com.example.checkboxinkotlin">

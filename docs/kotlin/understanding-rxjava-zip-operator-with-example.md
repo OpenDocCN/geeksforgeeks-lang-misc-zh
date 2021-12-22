@@ -14,7 +14,7 @@
 
 ## 我的锅
 
-```
+```kt
 fun getGfGCoursesData(): Observable<List<User>> {
     return networkService.getGfGCoursesData()
 }

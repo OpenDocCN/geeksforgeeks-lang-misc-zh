@@ -17,7 +17,7 @@
 
 *   **步骤 1:** 在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。
 
-    ```
+    ```kt
     implementation 'com.akexorcist:snap-time-picker:1.0.0'      
     ```
 
@@ -25,7 +25,7 @@
 
     ## 
 
-    ```
+    ```kt
 
     <resources>
         <string name="app_name">GFG | SnapTimePicker</string>
@@ -50,7 +50,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```kt
 
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -115,7 +115,7 @@
 
     ## MainActivity.kt 公司
 
-    ```
+    ```kt
     package com.madhav.maheshwari.snaptimepicker
 
     import android.os.Bundle

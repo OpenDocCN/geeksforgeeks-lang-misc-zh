@@ -30,7 +30,7 @@ RatingBar 可以手动创建，也可以通过编程创建，但是我们将讨�
 
 在这个文件中，我们在线性布局中添加了评级栏和按钮。还为两个小部件设置属性，如 id、步长、背景等。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -62,7 +62,7 @@ RatingBar 可以手动创建，也可以通过编程创建，但是我们将讨�
 
 **应用程序的名称可以放在 *strings.xml* 文件**中
 
-```
+```kt
 <resources>
     <string name="app_name">RatingkBarInKotlin</string>
 </resources>
@@ -72,19 +72,19 @@ RatingBar 可以手动创建，也可以通过编程创建，但是我们将讨�
 
 首先，我们将声明变量 **rBar** 来使用类似的 id 访问评级
 
-```
+```kt
 val rBar = findViewById<RatingBar>(R.id.rBar)
 ```
 
 然后，声明另一个变量**按钮**，并使用其 id 访问该按钮。
 
-```
+```kt
 val button = findViewById<Button>(R.id.button)
 ```
 
 最后，为了在提交评级时显示吐司消息，我们这样编码
 
-```
+```kt
 button?.setOnClickListener {
       val msg = rBar.rating.toString()
       Toast.makeText(this@MainActivity,
@@ -92,7 +92,7 @@ button?.setOnClickListener {
 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

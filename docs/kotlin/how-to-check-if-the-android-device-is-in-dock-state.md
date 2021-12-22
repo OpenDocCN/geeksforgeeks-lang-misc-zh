@@ -16,7 +16,7 @@
 
 ## XML
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -42,7 +42,7 @@
 
 ## 科特林
 
-```
+```kt
 import android.content.Intent
 import android.content.Intent.EXTRA_DOCK_STATE
 import android.content.IntentFilter

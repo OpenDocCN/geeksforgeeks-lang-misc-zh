@@ -9,7 +9,7 @@
 这是一个通用变量。使用 var 声明的变量值可以在整个程序中随时更改。var 也称为**可变**和**非最终变量**，因为它们的值可以随时更改。
 **例:**
 
-```
+```kt
 fun main()
  {
    var marks = 10
@@ -21,7 +21,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 Previous marks is 10
 New marks 30
 ```
@@ -32,7 +32,7 @@ New marks 30
 
 **例 1:**
 
-```
+```kt
 fun main()
 {
     val marks = 10 
@@ -44,14 +44,14 @@ fun main()
 
 输出:
 
-```
+```kt
 Val cannot be reassigned
 
 ```
 
 **例 2:**
 
-```
+```kt
 // Changing values of val object
 fun main()
 {
@@ -66,7 +66,7 @@ data class Book(var name : String = "",
 
 输出:
 
-```
+```kt
 Book(name=Java, price=1000)
 Book(name=Kotlin, price=1000)
 

@@ -10,7 +10,7 @@
 
 **嵌套尝试块的语法–**
 
-```
+```kt
 // outer try block
 try    
 {    
@@ -33,7 +33,7 @@ catch(e: SomeException)
 
 **嵌套试块的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val numbers = arrayOf(1,2,3,4)
 
@@ -55,7 +55,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 2
 3
 java.lang.ArithmeticException: / by zero
@@ -71,7 +71,7 @@ java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
 
 **多重捕获的语法–**
 
-```
+```kt
 try {
     // code may throw exception
 } catch(e: ExceptionNameOne) {
@@ -84,7 +84,7 @@ try {
 
 **多个捕捉块的柯特林程序–**
 
-```
+```kt
 import java.util.Scanner
 
 object Test {
@@ -106,25 +106,25 @@ object Test {
 
 **输入 1:**
 
-```
+```kt
 GeeksforGeeks
 ```
 
 **输出 1:**
 
-```
+```kt
 java.lang.NumberFormatException: For input string: "GeeksforGeeks"
 ```
 
 **输入 2:**
 
-```
+```kt
 0
 ```
 
 **输出 2:**
 
-```
+```kt
 java.lang.ArithmeticException: / by zero
 ```
 
@@ -135,7 +135,7 @@ java.lang.ArithmeticException: / by zero
 
 在 Kotlin 中，我们可以使用 when 表达式来替换多个 catch 块。在下面，我们将展示如何使用当表达式。
 
-```
+```kt
 import java.lang.NumberFormatException
 import java.util.Scanner
 
@@ -159,24 +159,24 @@ object Test {
 
 **输入 1:**
 
-```
+```kt
 GeeksforGeeks
 ```
 
 **输出 1:**
 
-```
+```kt
 Number Format Exception 
 ```
 
 **输入 2:**
 
-```
+```kt
 0
 ```
 
 **输出 2:**
 
-```
+```kt
 Arithmetic Exception: Divide by zero
 ```

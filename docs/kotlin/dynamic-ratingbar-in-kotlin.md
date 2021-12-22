@@ -19,7 +19,7 @@ RatingBar 可以手动或编程创建，但我们将讨论*编程*或*动态*。
 
 在这个文件中，我们使用 LinearLayout 并设置它的属性，如 id、填充等，它可以在 Kotlin 文件中使用 id 访问。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -38,7 +38,7 @@ RatingBar 可以手动或编程创建，但我们将讨论*编程*或*动态*。
 **在 *strings.xml* 文件**
 中添加应用程序名称在这里，我们可以将应用程序中可以使用的所有字符串放在任意文件中。因此，我们更新了 app_name，它可以在活动的顶部看到。
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicRatingBarInKotlin</string>
 </resources>
@@ -48,7 +48,7 @@ RatingBar 可以手动或编程创建，但我们将讨论*编程*或*动态*。
 
 首先，我们声明变量 rBar 来创建 RatingBar，并使用它设置其属性。
 
-```
+```kt
 
 val rBar = RatingBar(this)
         val layoutParams = LinearLayout.LayoutParams(
@@ -62,7 +62,7 @@ val rBar = RatingBar(this)
 
 然后，我们声明另一个变量来创建这样一个按钮
 
-```
+```kt
 val button = Button(this)
         val layoutParams1 = LinearLayout.LayoutParams(
             ViewGroup.LayoutParams.MATCH_PARENT,
@@ -73,13 +73,13 @@ val button = Button(this)
 
 之后，使用语句将工具栏和按钮添加到线性布局中
 
-```
+```kt
 linearLayout?.addView(rBar)
 linearLayout?.addView(button)
 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -128,7 +128,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

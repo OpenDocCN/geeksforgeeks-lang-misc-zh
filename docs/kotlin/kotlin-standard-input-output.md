@@ -11,7 +11,7 @@
 Kotlin 标准输出是将字节流从主存储器流向输出设备的基本操作。您可以在系统屏幕上输出任何数据类型整数、浮点和任何模式或字符串。
 可以使用以下任一功能在屏幕上显示输出。
 
-```
+```kt
 print() function 
 println() function
 ```
@@ -20,7 +20,7 @@ println() function
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>)
 {
     print("Hello, Geeks! ")

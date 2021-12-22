@@ -28,7 +28,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This linear layout is used to show elements
      in vertical or in horizontal linear manner -->
@@ -55,7 +55,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This linear layout is used to show elements
      in vertical or in horizontal linear manner -->
@@ -92,7 +92,7 @@
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -118,7 +118,7 @@ class LoginFragment : Fragment() {
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -150,7 +150,7 @@ class SignupFragment : Fragment() {
 
 ## **可扩展标记语言**
 
-```
+```kt
 <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

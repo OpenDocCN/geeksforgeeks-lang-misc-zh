@@ -24,11 +24,11 @@
 
 ## 修改 activity_main.xml 文件
 
-```
+```kt
 Open res/layout/activity_main.xml file and add code into it.
 ```
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:id="@+id/activity_main"
@@ -62,7 +62,7 @@ Open res/layout/activity_main.xml file and add code into it.
 打开 app/src/main/Java/net . geeksforgeeks . dynamiceditextkotlin/main activity . kt 文件
 并在其中添加以下代码。
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -107,7 +107,7 @@ As， **AndroidManifest.xml** 文件是安卓应用中非常重要的文件，�
 
 src/main/AndroidManifest.xml 文件中的代码如下所示。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.geeksforgeeks.dynamicedittextkotlin">

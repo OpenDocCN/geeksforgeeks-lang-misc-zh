@@ -27,7 +27,7 @@
 
 ## App.kt
 
-```
+```kt
 package com.gfg.progressnotificationdemo
 
 import android.app.Application
@@ -69,7 +69,7 @@ T3】
 
 ## MainActivity.kt 公司
 
-```
+```kt
 package com.gfg.progressnotificationdemo
 
 import android.app.PendingIntent
@@ -154,7 +154,7 @@ class MainActivity : AppCompatActivity(){
 
 布局由一个按钮组成。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"

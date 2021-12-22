@@ -16,7 +16,7 @@ Kotlin HashMap 提供了 4 个构造函数和访问修饰符，每个都是公�
 
     **使用函数 hashmap()的 Kotlin 程序，HashMap(原文:Map)，遍历 HashMap，HashMap . get()–**
 
-    ```
+    ```kt
     fun main(args: Array<String>) {
         //A simple example of HashMap class define
         // with empty "HashMap of <String, Int>"
@@ -78,7 +78,7 @@ Kotlin HashMap 提供了 4 个构造函数和访问修饰符，每个都是公�
 
     **输出:**
 
-    ```
+    ```kt
     hashMap is empty : {}
 
     hashMap : {Thor=100, HawkEye=1300, NickFury=1200, IronMan=3000, SpiderMan=1100}
@@ -104,7 +104,7 @@ Kotlin HashMap 提供了 4 个构造函数和访问修饰符，每个都是公�
 
     **使用 HashMap 初始容量的 Kotlin 程序，HashMap . size–**
 
-    ```
+    ```kt
     fun main(args: Array<String>) {
         //HashMap can also be initialize
         // with its initial capacity.
@@ -137,7 +137,7 @@ Kotlin HashMap 提供了 4 个构造函数和访问修饰符，每个都是公�
 
     **输出:**
 
-    ```
+    ```kt
     Element at key Thor : 100
     Element at key IronMan : 3000
     Element at key NickFury : 1200
@@ -156,7 +156,7 @@ Kotlin HashMap 提供了 4 个构造函数和访问修饰符，每个都是公�
 
     **使用函数 HashMap.get(key)、HashMap.replace()、hashmap . put()–**的 Kotlin 程序
 
-    ```
+    ```kt
     fun main(args: Array<String>) {
         var hashMap : HashMap<String, Int> 
                 = HashMap<String, Int> ()
@@ -194,7 +194,7 @@ Kotlin HashMap 提供了 4 个构造函数和访问修饰符，每个都是公�
 
     **输出:**
 
-    ```
+    ```kt
     Element at key Thor : 100
     Element at key Cap : 1200
     Element at key IronMan : 3000

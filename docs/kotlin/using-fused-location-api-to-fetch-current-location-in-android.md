@@ -38,7 +38,7 @@
 
 要使用融合位置应用编程接口，您必须首先添加位置依赖项。因此，将以下依赖项添加到应用程序的 [build.gradle](https://www.geeksforgeeks.org/android-build-gradle/) 文件中:
 
-```
+```kt
 dependencies {
     // Others
     implementation 'com.google.android.gms:play-services-location:17.5.0'
@@ -49,7 +49,7 @@ dependencies {
 
 为了使用位置服务，您必须向 AndroidManifest.xml 文件添加位置权限。根据您的需要，您可以使用**访问粗略位置**或**访问精细位置:**
 
-```
+```kt
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 ```
 
@@ -59,7 +59,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -113,7 +113,7 @@ dependencies {
 
 ## 我的锅
 
-```
+```kt
 object PermissionUtils {
     fun asktAccessFineLocationPermission(activity: AppCompatActivity, requestId: Int) {
         ActivityCompat.requestPermissions(
@@ -157,7 +157,7 @@ object PermissionUtils {
 
 ## 我的锅
 
-```
+```kt
 override fun onStart() {
     super.onStart()
     when {
@@ -185,7 +185,7 @@ override fun onStart() {
 
 ## 我的锅
 
-```
+```kt
 // getting location every 5 secs, for something very accurate
 val gfgLocationRequest = LocationRequest().setInterval(5000).setFastestInterval(5000)
         .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
@@ -195,7 +195,7 @@ val gfgLocationRequest = LocationRequest().setInterval(5000).setFastestInterval(
 
 ## 我的锅
 
-```
+```kt
 private fun setLocationListner() {
     val fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
     // for getting the current location update after every 2 seconds with high accuracy
@@ -223,7 +223,7 @@ private fun setLocationListner() {
 
 ## 我的锅
 
-```
+```kt
 override fun onRequestPermissionsResult(
         requestCode: GfgInt,
         // A random request code to listen on later

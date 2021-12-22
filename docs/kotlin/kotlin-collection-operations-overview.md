@@ -38,7 +38,7 @@ Kotlin 标准库提供了对集合执行操作的广泛功能。它包括简单�
 
 **使用过滤操作的柯特林程序–**
 
-```
+```kt
 fun main() {
     val str = mutableListOf("Geeks", "for", "Geeks", "A", "Computer", "Portal")
 
@@ -54,7 +54,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Original collection elements still unchanged [Geeks, for, Geeks, A, Computer, Portal]
 New Collection obtains after filtering [Geeks, Geeks, Computer, Portal]
 
@@ -64,7 +64,7 @@ New Collection obtains after filtering [Geeks, Geeks, Computer, Portal]
 
 **使用目标对象的柯特林程序–**
 
-```
+```kt
 fun main() {
 
     val str = listOf("Geeks", "for", "Geeks", "A", "Computer", "Portal")
@@ -81,7 +81,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Combined Result of both operations [Computer, Portal, Geeks]
 ```
 
@@ -89,7 +89,7 @@ Combined Result of both operations [Computer, Portal, Geeks]
 
 **在 Hashset 中存储结果的 Kotlin 程序–**
 
-```
+```kt
 fun main() {
     val str = listOf("Geeks", "for", "Geeks", "A", "Computer", "Portal")
 
@@ -104,7 +104,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Only Distinct item length return by hashset [1, 3, 5, 6, 8]
 ```
 
@@ -118,7 +118,7 @@ Only Distinct item length return by hashset [1, 3, 5, 6, 8]
 
 **使用 sort()和 sorted()操作的 Kotlin 程序–**
 
-```
+```kt
 fun main() {
     val units = mutableListOf("Ten","Hundred","Thousand","Lakh","Crore")
     // sorted() creates new collection and sort
@@ -134,7 +134,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 false
 true
 

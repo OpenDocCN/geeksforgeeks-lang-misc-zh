@@ -8,7 +8,7 @@
 
 **比较:**该函数比较一个类型的两个实例，如果两个实例相等，则返回零，如果第二个实例更大，则返回负数，否则返回正数。
 
-```
+```kt
 abstract fun compare(a: T, b: T): Int
 
 ```
@@ -17,14 +17,14 @@ abstract fun compare(a: T, b: T): Int
 
 **反转:**该函数以一个比较器作为参数，返回与传递的比较器顺序相反的比较器。
 
-```
+```kt
 fun <T> Comparator<T>.reversed(): Comparator<T>
 
 ```
 
 **然后:**这个函数结合了两个比较器，第二个只有在根据第一个比较器的值相等时才使用。
 
-```
+```kt
 infix fun <T> Comparator<T>.then(
     comparator: Comparator<in T>
 ): Comparator<T>
@@ -33,7 +33,7 @@ infix fun <T> Comparator<T>.then(
 
 **示例演示比较、然后和反转功能。**
 
-```
+```kt
 // A simple class to represent a name
 class Name(val firstName: String,val lastName: String){
     override fun toString(): String {
@@ -94,7 +94,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 The list is:
 [Steve Waugh, Steve Smith, Virat Kohli, Kane Williamson, Joe Root]
 List sorted according to first name
@@ -108,7 +108,7 @@ List reverse sorted
 
 **然后通过:**该函数将类型实例转换为可比较类型的实例，然后使用这些实例对它们进行比较。
 
-```
+```kt
 fun <T> Comparator<T>.thenBy(
     selector: (T) -> Comparable<*>?
 ): Comparator<T>
@@ -117,7 +117,7 @@ fun <T> Comparator<T>.thenBy(
 
 **然后按降序:**该函数返回一个降序比较器，该比较器将一个值转换为可比较类型的实例，然后比较这些实例。
 
-```
+```kt
 inline fun <T> Comparator<T>.thenByDescending(
     crossinline selector: (T) -> Comparable<*>?
 ): Comparator<T>
@@ -126,7 +126,7 @@ inline fun <T> Comparator<T>.thenByDescending(
 
 **演示 thenBy 和 then by 降序功能的示例**
 
-```
+```kt
 class Person(val height: Int,val weight: Int){
     override fun toString(): String {
         return "Height = ${height}, Weight = ${weight}"
@@ -156,7 +156,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Sorted first according to height then by weight
 [Height = 2, Weight = 10, Height = 3, Weight = 25, Height = 3, Weight = 45, Height = 4, Weight = 10, Height = 5, Weight = 50, Height = 7, Weight = 95]
 Sorted first according to weight then by descending order in height
@@ -166,7 +166,7 @@ Sorted first according to weight then by descending order in height
 
 **然后比较器:**该函数返回一个比较器，该比较器使用主比较器和一个函数来执行比较。
 
-```
+```kt
 fun <T> Comparator<T>.thenComparator(
     comparison: (a: T, b: T) -> Int
 ): Comparator<T>
@@ -175,7 +175,7 @@ fun <T> Comparator<T>.thenComparator(
 
 **thenDescending:** 这个函数结合了两个比较器，第二个只在根据第一个比较器的值相等时使用，并且按照降序对元素进行排序。
 
-```
+```kt
 infix fun <T> Comparator<T>.thenDescending(
     comparator: Comparator<in T>
 ): Comparator<T>
@@ -184,7 +184,7 @@ infix fun <T> Comparator<T>.thenDescending(
 
 **演示比较器和下降功能的示例。**
 
-```
+```kt
 fun main(){
     val list = listOf<Pair<String,Int>>(
         Pair("A",3),
@@ -210,7 +210,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 Pairs sorted by String then by Integers
 [(A, 0), (A, 3), (B, 1), (E, 20), (G, 345), (J, 0)]
 Pairs sorted by Integers then by Strings in Descending order

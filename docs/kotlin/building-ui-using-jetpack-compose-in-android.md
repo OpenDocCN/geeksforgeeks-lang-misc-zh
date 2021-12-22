@@ -32,7 +32,7 @@ Jetpack Compose 是一个现代用户界面工具包，旨在简化安卓用户�
 
 ## 我的锅
 
-```
+```kt
 package com.cuid.geekscourse.ui.theme
 
 import androidx.compose.foundation.background
@@ -113,7 +113,7 @@ fun GreetingSection(
 
 ## 我的锅
 
-```
+```kt
 // This is how we can create chip seaction at the top of app
 
 @Composable
@@ -156,7 +156,7 @@ fun ChipSection(
 
 ## 我的锅
 
-```
+```kt
 // This function is for suggestion secation
 
 @Composable
@@ -219,7 +219,7 @@ fun SuggestionSection(
 
 ## **我的锅**
 
-```
+```kt
 package com.cuid.geekscourses
 
 import androidx.annotation.DrawableRes
@@ -234,7 +234,7 @@ data class BottomMenuContent(
 
 ## **我的锅**
 
-```
+```kt
 @Composable
 // this function tells us that
 // how menu item should look like

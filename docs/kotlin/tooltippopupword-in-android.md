@@ -19,7 +19,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 allprojects {          
  repositories {          
         maven { url 'https://jitpack.io' }          
@@ -31,7 +31,7 @@ allprojects {          
 
 ## 可扩展标记语言
 
-```
+```kt
 dependencies {          
   implementation 'com.github.EusebiuCandrea:ToolTipPopupWordTV:1.0.1'         
 }         

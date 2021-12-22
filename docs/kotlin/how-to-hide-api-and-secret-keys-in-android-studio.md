@@ -48,7 +48,7 @@
 
 现在转到 build.gradle 文件，在插件中添加下面的插件，如图所示。
 
-```
+```kt
 plugins {
     id 'com.google.secrets_gradle_plugin' version '0.4'
 }
@@ -64,7 +64,7 @@ plugins {
 
 ## 可扩展标记语言
 
-```
+```kt
 <application>
         .
         .
@@ -92,7 +92,7 @@ plugins {
 
 ## 我的锅
 
-```
+```kt
 package com.geeksforgeeks.hidingapikeysandroid
 
 import android.content.pm.ApplicationInfo
@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <!--There's nothing to change in the front-end-->
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 

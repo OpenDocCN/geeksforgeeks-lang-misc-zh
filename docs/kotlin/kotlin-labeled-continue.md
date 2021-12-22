@@ -12,7 +12,7 @@
 标记为**继续**用于在所需块满足特定条件时跳过该块的迭代，而不检查 while 循环中的条件。如果您使用标签 outer@标记外环，使用 inner@标记内环，那么您可以使用条件块中的 **continue@outer** 轻松跳过特定条件。
 **标记为 while 循环中继续的语法-**
 
-```
+```kt
 outer@ while(firstcondition) {
       // code
       inner@ while(secondcondition) {
@@ -28,7 +28,7 @@ outer@ while(firstcondition) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
 
     var num1 = 4
@@ -48,7 +48,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 num1 = 3, num2 = 4
 num1 = 3, num2 = 3
 num1 = 3, num2 = 2
@@ -60,7 +60,7 @@ num1 = 3, num2 = 1
 我们也可以在 do-while 循环中使用标记的 continue。在下面的程序中，我们使用了一个嵌套的 do-while 循环，并用 outer@标记了外部循环，用 inner@标记了内部循环。在内部边做边循环中继续通过的条件。如果条件变为真，则*继续@外部*跳过以下语句或表达式，并将控制权交给外部 do-while 进行重复。
 **在边做边循环中标记为继续的语法-**
 
-```
+```kt
 outer@ do {
        // code
        inner@ do {
@@ -75,7 +75,7 @@ outer@ do {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
 
     var num1 = 4
@@ -96,7 +96,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 num1 = 3; num2 = 4
 num1 = 3; num2 = 3
 num1 = 3; num2 = 2
@@ -108,7 +108,7 @@ num1 = 3; num2 = 1
 我们也可以使用标记为*的继续*进行循环。在下面的程序中，我们对循环使用了嵌套，并用外部@标记了外部循环，用内部@标记了内部循环。内部 for 循环中继续传递的条件。如果条件变为真，则它跳过以下语句，并将控制传递给外部 for 循环，以便进一步迭代。
 标记为继续循环的语法**-**标记为 T5】
 
-```
+```kt
 outer@ for(iteration through iterator) {
     // code
       inner@ for(iteration through iterator) {
@@ -124,7 +124,7 @@ outer@ for(iteration through iterator) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     outer@ for (num1 in 4 downTo 1) {
 
@@ -139,7 +139,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 num1 = 4; num2 = 4
 num1 = 4; num2 = 3
 num1 = 4; num2 = 2

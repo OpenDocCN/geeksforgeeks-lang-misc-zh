@@ -6,7 +6,7 @@
 
 **继承语法:**
 
-```
+```kt
 open class baseClass (x:Int ) {
       ..........
 }
@@ -22,7 +22,7 @@ class derivedClass(x:Int) : baseClass(x) {
 
 ## 我的锅
 
-```
+```kt
 //base class
 open class baseClass{
     val name = "GeeksforGeeks"

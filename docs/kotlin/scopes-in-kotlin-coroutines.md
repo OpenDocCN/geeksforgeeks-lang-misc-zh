@@ -33,7 +33,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 // program for main activity which intent to another activity
 // it uses global scope to launch the coroutine
 
@@ -139,7 +139,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -171,7 +171,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 // program for second activity
 
 import android.os.Bundle
@@ -203,7 +203,7 @@ class SecondActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 // program to show how lifecycle scope works
 
 import android.content.Intent

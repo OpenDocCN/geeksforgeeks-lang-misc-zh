@@ -10,7 +10,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 
 dependencies {         
        implementation 'com.github.armcha:ElasticView:0.2.0'    
@@ -21,7 +21,7 @@ dependencies {         
 
 ## activity_main.xml
 
-```
+```kt
 
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
@@ -54,7 +54,7 @@ dependencies {         
 
 ## MainActivity.kt 公司
 
-```
+```kt
 
 package com.madhav.maheshwari.wavelineview;
 

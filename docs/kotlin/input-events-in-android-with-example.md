@@ -49,7 +49,7 @@
 
 ## 我的锅
 
-```
+```kt
 protected void onCreate(savedValues: Bundle) {
     ...
     val button: Button = findViewById(R.id.button)
@@ -101,7 +101,7 @@ protected void onCreate(savedValues: Bundle) {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -144,7 +144,7 @@ protected void onCreate(savedValues: Bundle) {
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.view.View
 import android.widget.Button

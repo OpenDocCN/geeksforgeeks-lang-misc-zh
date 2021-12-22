@@ -42,7 +42,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:id="@+id/layout"
@@ -61,7 +61,7 @@
 1.  **我们可以在本地系统上存储一个视频文件:**
     在 res 文件夹中创建一个名为“ **Raw** 的文件夹。在其中添加视频文件，并使用以下代码片段。
 
-    ```
+    ```kt
     // val path = "android.resource://" + packageName + "/" + R.raw.your_videoFile_name
     // videoView.setVideoURI(Uri.parse(path)) 
 
@@ -69,7 +69,7 @@
 
 2.  **我们可以使用任何网络资源的视频文件:**
 
-    ```
+    ```kt
     // Uri uri = Uri.parse("your_custom_URL");
     // videoView.setVideoURI(uri) 
 
@@ -81,7 +81,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package gfg.apps.videoview
 
 import android.net.Uri
@@ -124,7 +124,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="gfg.apps.videoview">

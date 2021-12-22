@@ -8,7 +8,7 @@ Kotlin 标准库中有几个函数有助于在对象上下文中执行代码块�
 
 ## 我的锅
 
-```
+```kt
 class Company() {
     lateinit var name: String
     lateinit var objective: String
@@ -32,7 +32,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 ```
 
@@ -40,7 +40,7 @@ GeeksforGeeks
 
 ## 我的锅
 
-```
+```kt
 class Company() {
     lateinit var name: String
     lateinit var objective: String
@@ -62,7 +62,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 ```
 
@@ -147,7 +147,7 @@ GeeksforGeeks
 
 ### 1.字母函数
 
-```
+```kt
 Context object  :   it 
 Return value    :   lambda result
 ```
@@ -160,7 +160,7 @@ let 函数通常用于提供空安全调用。使用**安全呼叫接线员(？�
 
 ## 我的锅
 
-```
+```kt
 fun main() {
     // nullable variable a
     // with value as null
@@ -183,7 +183,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 2
 ```
 
@@ -193,7 +193,7 @@ fun main() {
 
 ### 2.应用函数
 
-```
+```kt
 Context object   :    this
 Return value     :    context object
 ```
@@ -206,7 +206,7 @@ Return value     :    context object
 
 ## 我的锅
 
-```
+```kt
 class Company() {
     lateinit var name: String
     lateinit var objective: String
@@ -225,7 +225,7 @@ fun main() {
 
 ### 3.带功能
 
-```
+```kt
 Context object  :   this
 Return value    :   lambda result
 ```
@@ -238,7 +238,7 @@ Return value    :   lambda result
 
 ## 我的锅
 
-```
+```kt
 class Company() {
     lateinit var name: String
     lateinit var objective: String
@@ -262,13 +262,13 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 ```
 
 ### 4.运行函数
 
-```
+```kt
 Context object   :    this
 Return value     :    lambda result
 ```
@@ -283,7 +283,7 @@ Return value     :    lambda result
 
 ## 我的锅
 
-```
+```kt
 class Company() {
     lateinit var name: String
     lateinit var objective: String
@@ -315,7 +315,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Company Name : 
 
 Company Name : GeeksforGeeks
@@ -327,7 +327,7 @@ Company Name : GeeksforGeeks
 
 ### 5.也起作用
 
-```
+```kt
 Context object   :    it
 Return value     :    context object
 ```
@@ -340,7 +340,7 @@ Return value     :    context object
 
 ## 我的锅
 
-```
+```kt
 fun main() {
     // initialized
     val list = mutableListOf<Int>(1, 2, 3)
@@ -358,7 +358,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 [1, 3, 4]
 ```
 
@@ -374,7 +374,7 @@ fun main() {
 
 ## 我的锅
 
-```
+```kt
 Company().apply {
    // same as : name = "GeeksforGeeks"
    this.name = "GeeksforGeeks"   
@@ -393,7 +393,7 @@ let’和‘还’函数将对象的上下文作为 **lambda 参数。**
 
 ## 我的锅
 
-```
+```kt
 Company().let {
    it.name = "GeeksforGeeks"
    it.founder = "Sandeep Jain"

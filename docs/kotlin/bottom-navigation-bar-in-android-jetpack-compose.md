@@ -46,7 +46,7 @@
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun HomeScreen() {
 
@@ -75,7 +75,7 @@ fun HomeScreen() {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun SearchScreen() {
     // Column Composable,
@@ -103,7 +103,7 @@ fun SearchScreen() {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun ProfileScreen() {
     // Column Composable,
@@ -133,7 +133,7 @@ fun ProfileScreen() {
 
 ## 我的锅
 
-```
+```kt
 import androidx.compose.ui.graphics.vector.ImageVector
 
 data class BottomNavItem(

@@ -30,7 +30,7 @@
 
 **例 1:不使用终止条件**求一个数的阶乘
 
-```
+```kt
 // Kotlin program of factorial using recursion
 fun Fact(num: Int):Long{
     return  num*Fact(num-1)  // no terminate condition
@@ -44,13 +44,13 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Exception in thread "main" java.lang.StackOverflowError
 ```
 
 **例 2:使用终止条件求一个数的阶乘。**
 
-```
+```kt
 // Kotlin program of factorial using recursion
 fun Fact(num: Int):Long{
     return if(num==1) num.toLong()        // terminate condition
@@ -65,7 +65,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Factorial of 5 is: 120
 ```
 
@@ -77,7 +77,7 @@ Fact()的递归调用在下图中逐步说明:-
 
 **例 3:用递归求数组元素的和**
 
-```
+```kt
         // two parameters passed an array and size of array
 fun sum(args: Array<Int> , index:Int ):Int{    
     return if(index<=0) 0
@@ -96,7 +96,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 The sum of array elements is: 55
 ```
 

@@ -34,7 +34,7 @@
 
 在这个文件中，我们包含了 Edittext 和 ImageButton，并设置了它们的属性，如 id、layout_width、提示等。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -69,7 +69,7 @@
 
 **修改 *strings.xml* 文件添加应用程序名称**
 
-```
+```kt
 <resources>
     <string name="app_name">ImageButtonInKotlin</string>
 </resources>
@@ -79,14 +79,14 @@
 
 中访问 ImageButton 和 EditText 首先，我们为两个 edittext 声明两个变量 num1 和 num2，并使用 ids 访问它们。
 
-```
+```kt
 val num1 = findViewById(R.id.Num1)
 val num2 = findViewById<edittext>(R.id.Num2)</edittext> 
 ```
 
 然后，我们为 ImageButton 声明变量 **imgbtn** 并设置 OnCLickListener 来检查填充是否为空
 
-```
+```kt
 val imgbtn = findViewById(R.id.imageBtn)
     imgbtn.setOnClickListener {
      if (num1.text.toString().isEmpty() || num2.text.toString().isEmpty()) {
@@ -95,7 +95,7 @@ val imgbtn = findViewById(R.id.imageBtn)
     } 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import android.os.Bundle
@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity() {
 
 ## androidmanifest . XML 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

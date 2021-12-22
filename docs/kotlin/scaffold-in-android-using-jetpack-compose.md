@@ -19,7 +19,7 @@
 
 ## 我的锅
 
-```
+```kt
 // A function which will receive a 
 // callback to trigger to opening the drawer
 @Composable
@@ -55,7 +55,7 @@ fun TopBar(onMenuClicked: () -> Unit) {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun BottomBar() {
     // BottomAppBar Composable
@@ -73,7 +73,7 @@ fun BottomBar() {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun Drawer() {
     // Column Composable
@@ -97,7 +97,7 @@ fun Drawer() {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun Body() {
     Column(
@@ -120,7 +120,7 @@ fun Body() {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun ScaffoldExample() {
 
@@ -202,7 +202,7 @@ fun ScaffoldExample() {
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -222,7 +222,7 @@ class MainActivity : ComponentActivity() {
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.scaffoldjetpackcompose
 
 import android.os.Bundle

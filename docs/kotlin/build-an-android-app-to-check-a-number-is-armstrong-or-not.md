@@ -4,13 +4,13 @@
 
 **阿姆斯特朗的号码是多少？**如果一个数的位数之和与该数的位数之和的幂相加，则称该数为阿姆斯特朗数。给定一个数 x，确定给定的数是否是阿姆斯特朗的数。 **n 位数**的正整数称为**阶 n** 的阿姆斯壮数(阶是位数)if。
 
-```
+```kt
 abcd... = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + .... 
 ```
 
 **示例:**
 
-```
+```kt
 153 is an Armstrong number.
 1*1*1 + 5*5*5 + 3*3*3 = 153
 
@@ -36,7 +36,7 @@ abcd... = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + ....
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -109,7 +109,7 @@ abcd... = pow(a,n) + pow(b,n) + pow(c,n) + pow(d,n) + ....
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button

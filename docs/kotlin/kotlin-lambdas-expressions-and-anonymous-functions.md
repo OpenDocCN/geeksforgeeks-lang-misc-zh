@@ -14,7 +14,7 @@ Lambdas 表达式和 Anonymous 函数都是*函数文字*表示这些函数没�
 
 ## 科特林
 
-```
+```kt
 fun main(args: Array<String>) {
     val company = { println("GeeksforGeeks")}
 

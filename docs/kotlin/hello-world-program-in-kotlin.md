@@ -8,7 +8,7 @@
 
 打开您最喜欢的编辑器记事本或 notepad++并用以下代码创建一个名为 firstapp.kt 的文件。
 
-```
+```kt
 // Kotlin Hello World Program
 fun main(args: Array<String>) {
     println("Hello, World!")
@@ -18,13 +18,13 @@ fun main(args: Array<String>) {
 
 您可以在命令行编译器中编译程序。
 
-```
+```kt
 $ kotlinc firstapp.kt
 ```
 
 现在运行程序，在命令行编译器中查看输出。
 
-```
+```kt
 $kotlin firstapp.kt
 Hello, World!
 
@@ -41,14 +41,14 @@ Kotlin supports two type of comments –
 
 1.  **单行评论**
 
-    ```
+    ```kt
                    // single line comment
 
     ```
 
 2.  **可磨线 comment**
 
-    ```
+    ```kt
                   /*   This is 
                        multi line 
                        comment 
@@ -59,7 +59,7 @@ Kotlin supports two type of comments –
 **第 2 行:**
 第 2 行定义主要功能
 
-```
+```kt
  fun main(args: Array<String>) {
     // ...
 }
@@ -72,7 +72,7 @@ Kotlin supports two type of comments –
 **第三行:**
 第三行是一个语句，它打印“你好，世界！”到程序的标准输出。
 
-```
+```kt
 println("Hello, World!")
 
 ```

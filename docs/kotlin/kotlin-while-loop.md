@@ -9,7 +9,7 @@
 
 ***而*** 的语法循环——
 
-```
+```kt
 while(condition) {
            // code to run
 }
@@ -24,7 +24,7 @@ while(condition) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var number = 1
 
@@ -37,7 +37,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 1
 2
 3
@@ -56,7 +56,7 @@ fun main(args: Array<String>) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var names = arrayOf("Praveen","Gaurav","Akash","Sidhant","Abhi","Mayank")
     var index = 0
@@ -70,7 +70,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Praveen
 Gaurav
 Akash

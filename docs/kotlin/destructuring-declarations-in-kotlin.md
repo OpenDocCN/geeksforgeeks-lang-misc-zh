@@ -5,13 +5,13 @@
 [Kotlin](https://www.geeksforgeeks.org/introduction-to-kotlin/) 以*析构声明*的形式，为程序员提供了一种处理类实例的独特方式。一个**析构声明**是一次创建并初始化多个变量的声明。
 **例如:**
 
-```
+```kt
 val (emp_id,salary) = employee
 ```
 
 这多个变量对应于与实例关联的类的属性。这些变量可以按照您想要的任何方式独立使用。
 
-```
+```kt
 println(emp_id+" "+salary)
 ```
 
@@ -19,7 +19,7 @@ println(emp_id+" "+salary)
 
 编译为以下代码的析构声明:-
 
-```
+```kt
 val emp_id = employee.component1()
 val salary = employee.component2()
 
@@ -27,7 +27,7 @@ val salary = employee.component2()
 
 **从函数返回两个值的科特林程序–**
 
-```
+```kt
 // A sample data class
 data class Data(val name:String,val age:Int)
 
@@ -68,7 +68,7 @@ fun main(){
 
 **使用 lambda 参数的析构声明的 Kotlin 程序–**
 
-```
+```kt
 fun main(){
     val map = mutableMapOf<Int,String>()
     map.put(1,"Ishita")
@@ -99,6 +99,6 @@ fun main(){
 
 如果析构参数的一个组件没有被使用，我们可以用下划线替换它，以避免调用组件函数:
 
-```
+```kt
 map.mapValues { (_,value) -> "${value}" }
 ```

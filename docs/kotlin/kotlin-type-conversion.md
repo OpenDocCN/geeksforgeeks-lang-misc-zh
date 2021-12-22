@@ -7,7 +7,7 @@
 众所周知，Java 支持从较小数据类型到较大数据类型的隐式类型转换。整数值可以赋给长数据类型。
 **例如:**
 
-```
+```kt
 var myNumber = 100
 var myLongNumber: Long = myNumber            // Compiles Successfully
 
@@ -15,7 +15,7 @@ var myLongNumber: Long = myNumber            // Compiles Successfully
 
 但是，Kotlin 不支持隐式类型转换。整数值不能赋给长数据类型。
 
-```
+```kt
 var myNumber = 100
 var myLongNumber: Long = myNumber       // Compiler error
 // Type mismatch: inferred type is Int but Long was expected
@@ -26,7 +26,7 @@ var myLongNumber: Long = myNumber       // Compiler error
 
 **例如:**
 
-```
+```kt
 var myNumber = 100
 var myLongNumber: Long = myNumber.toLong()     // compiles successfully
 
@@ -46,7 +46,7 @@ var myLongNumber: Long = myNumber.toLong()     // compiles successfully
 
 **从大数据类型到小数据类型的转换–**
 
-```
+```kt
 var myLongNumber = 10L
 var myNumber2: Int = myLongNumber1.toInt()
 
@@ -54,7 +54,7 @@ var myNumber2: Int = myLongNumber1.toInt()
 
 柯特林程序将一种数据类型转换成另一种数据类型:
 
-```
+```kt
 fun main(args: Array<String>)
 {
 
@@ -71,7 +71,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 259 to byte: 3
 50000 to short: -15536
 21474847499 to Int: 11019

@@ -20,7 +20,7 @@
 
 数据绑定作为一个单独的术语，是指连接来自最终消费者和用户的数据，然后保持它们同步的技术。安卓的数据绑定库允许开发人员将用户界面保留在布局 XML 文件中，并从中生成代码。该库还负责将视图与来自视图模型的数据同步。为了给你的普通安卓项目添加数据绑定，你需要在你的应用的 [build.gradle](https://www.geeksforgeeks.org/android-build-gradle/) 文件中添加以下几行:
 
-```
+```kt
 android {
 ...
 dataBinding {
@@ -33,7 +33,7 @@ dataBinding {
 
 ## 【XML】
 
-```
+```kt
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
@@ -51,7 +51,7 @@ dataBinding {
 
 ## 爪哇
 
-```
+```kt
 class ViewModelActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +67,7 @@ class ViewModelActivity extends AppCompatActivity {
 
 ## 科特林
 
-```
+```kt
 class ViewModelActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 

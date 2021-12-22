@@ -26,7 +26,7 @@
 
 导航到**Gradle Scripts>build . Gradle(模块:** **app)** ，在依赖项部分添加库，并同步项目。
 
-```
+```kt
 dependencies {
       implementation 'androidx.browser:browser:1.3.0'
 }
@@ -38,7 +38,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -67,7 +67,7 @@ dependencies {
 
 ## 我的锅
 
-```
+```kt
 import android.content.Context
 import android.content.pm.PackageManager
 import android.net.Uri

@@ -11,7 +11,7 @@
 
 **当循环-** 时*的语法*
 
-```
+```kt
 do {
       // code to run
 {
@@ -25,7 +25,7 @@ while(condition)
 
 **Kotlin 程序，使用 do-while 循环找到一个数的阶乘–**
 
-```
+```kt
 fun main(args: Array<String>) {
     var number = 6
     var factorial = 1
@@ -40,13 +40,13 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Factorial of 6 is 720
 ```
 
 **科特林程序使用边做边循环打印表 2–**
 
-```
+```kt
 fun main(args: Array<String>) {
     var num = 2
     var i = 1
@@ -60,7 +60,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 2 * 1 = 2
 2 * 2 = 4
 2 * 3 = 6

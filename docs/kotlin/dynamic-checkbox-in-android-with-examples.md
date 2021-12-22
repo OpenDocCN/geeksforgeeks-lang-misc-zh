@@ -20,7 +20,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--This LinearLayout will serve as the root 
@@ -44,7 +44,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <resources>
    <string name="app_name">GFG | Dynamic Checkbox Demo</string>
    <string name="geek_message">TODO: Become A Geek</string>
@@ -53,7 +53,7 @@
 
 **该字符串可以在 MainActivity.kt 文件中使用以下命令引用:**
 
-```
+```kt
 getString(R.string.geek_message) 
 ```
 
@@ -74,7 +74,7 @@ getString(R.string.geek_message)
 
 ## **我的锅**
 
-```
+```kt
 package org.geeksforgeeks.dynamic_checkbox
 
 import androidx.appcompat.app.AppCompatActivity

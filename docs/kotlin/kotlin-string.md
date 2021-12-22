@@ -5,14 +5,14 @@
 字符数组称为字符串。 [Kotlin](https://www.geeksforgeeks.org/introduction-to-kotlin/) 字符串大多与 [Java 字符串](https://www.geeksforgeeks.org/strings-in-java/)相似，但有一些新的附加功能。柯特林弦也是**不变的**在本质上意味着我们不能改变弦的元素和长度。
 柯特林中的字符串类定义为:
 
-```
+```kt
 class String : Comparable<String>, CharSequence
 ```
 
 要在 Kotlin 中声明一个字符串，我们需要使用双引号(" ")，单引号不允许定义 string。
 **语法:**
 
-```
+```kt
 var variable_name = "Hello, Geeks"   
 or
 var variable_name : String = "GeeksforGeeks"
@@ -21,7 +21,7 @@ var variable_name : String = "GeeksforGeeks"
 **创建空字符串:**
 要在 Kotlin 中创建空字符串，我们需要创建一个 String 类的实例。
 
-```
+```kt
 var variable_name = String()
 ```
 
@@ -39,7 +39,7 @@ var variable_name = String()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>){
     // accessing string elements one by one
     var str = "Hello"
@@ -58,7 +58,7 @@ fun main(args: Array<String>){
 
 **输出:**
 
-```
+```kt
 H
 e
 l
@@ -72,7 +72,7 @@ G e e k s
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
 
     var n = 10
@@ -85,7 +85,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The value of n is 10
 Geeks is a string which length is 5
 ```
@@ -94,20 +94,20 @@ Geeks is a string which length is 5
 
 *   **长度:**返回字符串的长度。
 
-```
+```kt
 var s =" String"
 println(s.length)
 ```
 
 *   **获取(索引):**返回该特定索引处的字符。
 
-```
+```kt
 s.get(3) // Output: - i
 ```
 
 *   **子串(开始，结束):**返回从开始到结束但不包括结束的子串。
 
-```
+```kt
 s.subSequence(1, 4) // Output: - tri
 ```
 
@@ -117,7 +117,7 @@ s.subSequence(1, 4) // Output: - tri
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var g = "GeeksForGeeks"
     var e = "Geeks"
@@ -130,7 +130,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 13
 s
 Geeks
@@ -150,7 +150,7 @@ T4【科特林程序的转义串–
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     // escaped string
     val str = "World \n is \n amazing"
@@ -160,7 +160,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 World 
  is 
  amazing
@@ -172,7 +172,7 @@ World
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
 // raw string - multiline string
     var str = """My
@@ -186,7 +186,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 My
 name
 is
@@ -219,7 +219,7 @@ Kotlin 提供了一个额外的功能，可以用两种不同的方式比较特�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var x = "GeeksForGeeks"
     var y = "GeeksForGeeks"
@@ -232,7 +232,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 true
 false
 false

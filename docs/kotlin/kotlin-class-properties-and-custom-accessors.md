@@ -12,7 +12,7 @@
 
 ## 我的锅
 
-```
+```kt
 class Abc(
     val name: String,
     val ispassed : Boolean
@@ -28,7 +28,7 @@ class Abc(
 
 ## 我的锅
 
-```
+```kt
 class Abc(
     val name: String,
     val ispassed : Boolean
@@ -52,7 +52,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Bob
 true
 ```
@@ -65,7 +65,7 @@ true
 
 ## 我的锅
 
-```
+```kt
 class Rectangle(val height: Int, val width: Int)
 {
     val isSquare: Boolean
@@ -83,7 +83,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 false
 ```
 

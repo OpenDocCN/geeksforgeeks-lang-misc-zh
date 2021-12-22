@@ -18,7 +18,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -82,7 +82,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```kt
 **<?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
@@ -98,7 +98,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```kt
 **<?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
@@ -118,7 +118,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```kt
 **<?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
@@ -135,7 +135,7 @@
 
 ## ****我的锅****
 
-```
+```kt
 **import android.os.Bundle
 import android.view.View
 import android.view.animation.Animation

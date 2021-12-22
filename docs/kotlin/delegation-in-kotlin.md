@@ -15,7 +15,7 @@ Kotlin 中存在两种类型的委托:
 
 ## 我的锅
 
-```
+```kt
 // Kotlin program to illustrate the 
 // concept of delegation
 
@@ -57,7 +57,7 @@ fun main() 
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 Welcome, GFG!
 
@@ -69,7 +69,7 @@ Welcome, GFG!
 
 ## 我的锅
 
-```
+```kt
 // Kotlin program to illustrate the 
 // concept of delegation
 interface delegation
@@ -104,7 +104,7 @@ fun main() 
 
 **输出:**
 
-```
+```kt
 delegationimplementation y = Hello!GFG
 GeeksforGeeks
 

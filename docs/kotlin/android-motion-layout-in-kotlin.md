@@ -33,7 +33,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 **<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.motion.widget.MotionLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -88,7 +88,7 @@
 
 ## ****可扩展标记语言****
 
-```
+```kt
 ****<?xml version="1.0" encoding="utf-8"?>
 <MotionScene 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -149,7 +149,7 @@
 
 ## ****我的锅****
 
-```
+```kt
 ****package com.example.motionlayoutgfg1
 
 import androidx.appcompat.app.AppCompatActivity

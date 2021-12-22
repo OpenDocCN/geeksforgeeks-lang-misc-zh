@@ -27,7 +27,7 @@
 
 ## 我的锅
 
-```
+```kt
 object RegistrationUtil {
 
     private val existingUsers = listOf("Rahul" , "Rohan")
@@ -78,7 +78,7 @@ object RegistrationUtil {
 
 ## 我的锅
 
-```
+```kt
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 

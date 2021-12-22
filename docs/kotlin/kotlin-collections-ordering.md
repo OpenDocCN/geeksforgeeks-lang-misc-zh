@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 class Items(val big: Int, val small: Int): Comparable {
     override fun compareTo(other: Items): Int {
         if (this.big != other.big) {
@@ -44,7 +44,7 @@ class Items(val big: Int, val small: Int): Comparable {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 val lengthComparator = Comparator { str1: String,
                        str2: String -> str1.length - str2.length }
 println(listOf("aaa", "bb", "c").sortedWith(lengthComparator))
@@ -54,7 +54,7 @@ println(listOf("aaa", "bb", "c").sortedWith(lengthComparator))
 *比较器*也可以使用标准库中的 *compareBy()* 来定义。该函数采用一个 lambda 函数，该函数产生一个用于比较的值，并将自定义顺序定义为产生的值的自然顺序。
 使用*对比(*)、
 
-```
+```kt
 println(listOf("aaa", "bb", "c").sortedWith(compareBy { it.length }))
 ```
 
@@ -62,7 +62,7 @@ println(listOf("aaa", "bb", "c").sortedWith(compareBy { it.length }))
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 val numbers = listOf("one", "two", "three", "four")
 val sortedNumbers = numbers.sortedBy { it.length }
 println("Sorted by length ascending: $sortedNumbers")
@@ -74,7 +74,7 @@ println("Sorted by the last letter descending: $sortedByLast")
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 val numbers = listOf("one", "two", "three", "four")
 println("Sorted by length ascending: ${numbers.sortedWith(compareBy { it.length }
 ```
@@ -83,7 +83,7 @@ println("Sorted by length ascending: ${numbers.sortedWith(compareBy { it.length 
 
 使用*洗牌()*以随机顺序给出包含集合元素的新列表的函数。不需要参数或带有随机对象。
 
-```
+```kt
 val numbers = listOf("one", "two", "three", "four")
 println(numbers.shuffled())
 ```
@@ -94,7 +94,7 @@ println(numbers.shuffled())
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 val numbers = listOf("one", "two", "three", "four")
 println(numbers.reversed())
 val numbers = listOf("one", "two", "three", "four")

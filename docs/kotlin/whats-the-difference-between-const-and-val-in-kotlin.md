@@ -20,7 +20,7 @@ const 和 val 之间的主要区别在于 val 属性也可以在运行时初始�
 
 ## 我的锅
 
-```
+```kt
 const val gfgName = "Geeksforgeeks" // goes well
 val coursename = "Android" // goes well
 
@@ -36,7 +36,7 @@ val coursename = getcoursename() // not goes well
 
 ## 【科特林】
 
-```
+```kt
 GeeksforGeeksClass {
     companion object {   
         const val IMAGE_EXTENSION = ".jpg"   
@@ -52,7 +52,7 @@ GeeksforGeeksClass {
 
 ## 科特林
 
-```
+```kt
 public final String getIMAGENAME() {
    return "Geeks" + System.currentTimeMillis() + ".jpg";
 }

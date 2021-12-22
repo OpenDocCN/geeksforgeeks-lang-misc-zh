@@ -17,7 +17,7 @@
 ![](img/2c47e603fae6d6820dd78f43c7e4d7a9.png)
 **科特林代码–**
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 ![](img/8ba5bad8031216e5fbe22ef8b2725a90.png)
 **XML 代码–**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"

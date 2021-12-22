@@ -28,7 +28,7 @@
 
 ## **我的锅**
 
-```
+```kt
 object eSingleton {
   fun doing() {
     // ...

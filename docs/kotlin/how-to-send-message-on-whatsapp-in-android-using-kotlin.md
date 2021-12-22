@@ -15,7 +15,7 @@
 
 ## activity_main.xml
 
-```
+```kt
 <LinearLayout 
       xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -65,7 +65,7 @@
 
 *   写一个函数给 WhatsApp 发消息。用 **ACTION_SEND** 创建一个[意图](https://www.geeksforgeeks.org/android-implicit-and-explicit-intents-with-examples/)，并为此指定 whatsapp 包名，以便直接打开。 **com.whatsapp** 是官方 whatsapp 应用的包名。
 
-    ```
+    ```kt
     fun sendMessage(message:String){
 
              // Creating intent with action send
@@ -95,7 +95,7 @@
 
 *   使用按钮上的**设置点击监听器**发送信息。获取用户输入的文本，并调用函数在 whatsapp 上发送消息。
 
-    ```
+    ```kt
     // Setting on click listener
     submit.setOnClickListener {
         val message = messageEditText.text.toString()
@@ -109,7 +109,7 @@
 
 ## MainActivity.kt 公司
 
-```
+```kt
 package com.gfg
 
 import android.content.Intent

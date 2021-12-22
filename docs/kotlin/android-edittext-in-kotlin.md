@@ -40,7 +40,7 @@
 
 **步骤 1:** 打开 activity_main.xml 文件，使用 id *editText 创建一个 EditText。*
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -65,7 +65,7 @@
 
 **第二步:**在 activity_main.xml 文件中添加代码显示一个按钮。Final activity_main.xml 文件为
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -102,7 +102,7 @@
 
 **第三步:**打开 MainActivity.kt 文件，获取布局文件中定义的 Button 和 EditText 的引用。
 
-```
+```kt
         // finding the button
         val showButton = findViewById<Button>(R.id.showInput)
 
@@ -113,7 +113,7 @@
 
 将点击监听器设置为按钮
 
-```
+```kt
 showButton.setOnClickListener {
 
         }
@@ -122,7 +122,7 @@ showButton.setOnClickListener {
 
 获取用户输入的文本
 
-```
+```kt
 val text = editText.text
 
 ```
@@ -131,7 +131,7 @@ val text = editText.text
 
 最后，MainActivity.kt 文件是
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -167,7 +167,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.myfirstkotlinapp">

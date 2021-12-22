@@ -13,7 +13,7 @@
 
 ****例 1:用尾递归求一个数的阶乘。****
 
-```
+```kt
 // Kotlin program of factorial using tail-recursion
 fun Fact(num: Int, x:Int):Long{
 
@@ -31,7 +31,7 @@ fun main() {
 
 ****输出:****
 
-```
+```kt
 Factorial of 5 is: 120
 ```
 
@@ -41,7 +41,7 @@ Factorial of 5 is: 120
 
 ****例 2:用尾部递归求数组元素的和****
 
-```
+```kt
 // two parameters passed an array and size of array
 fun sum(args: Array<Int> , index:Int, s : Int = 0 ):Int{
     return if(index<=0) s
@@ -60,7 +60,7 @@ fun main() {
 
 ****输出:****
 
-```
+```kt
 The sum of array elements is: 55
 ```
 

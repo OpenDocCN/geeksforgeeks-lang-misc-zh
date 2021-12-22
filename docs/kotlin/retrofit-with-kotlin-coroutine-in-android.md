@@ -49,7 +49,7 @@
 
 ## 我的锅
 
-```
+```kt
 // data class QuoteList 
 // according to JSON response
 package com.ayush.retrofitexample
@@ -68,7 +68,7 @@ data class QuoteList(
 
 ## 我的锅
 
-```
+```kt
 package com.ayush.retrofitexample
 
 data class Result(
@@ -87,7 +87,7 @@ data class Result(
 
 ## 我的锅
 
-```
+```kt
 // Retrofit interface
 package com.ayush.retrofitexample
 
@@ -107,7 +107,7 @@ interface QuotesApi {
 
 ## 我的锅
 
-```
+```kt
 package com.ayush.retrofitexample
 
 import retrofit2.Retrofit
@@ -131,7 +131,7 @@ object RetrofitHelper {
 
 ## 我的锅
 
-```
+```kt
 package com.ayush.retrofitexample
 
 import androidx.appcompat.app.AppCompatActivity

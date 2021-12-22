@@ -80,7 +80,7 @@ SQLite
 
 ## 我的锅
 
-```
+```kt
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -100,7 +100,7 @@ data class User(
 
 ## 我的锅
 
-```
+```kt
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
@@ -134,7 +134,7 @@ interface UserDao {
 
 ## 我的锅
 
-```
+```kt
 import androidx.room.Database
 import androidx.room.RoomDatabase
 
@@ -150,7 +150,7 @@ abstract class UserDatabase : RoomDatabase() {
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.room.Room

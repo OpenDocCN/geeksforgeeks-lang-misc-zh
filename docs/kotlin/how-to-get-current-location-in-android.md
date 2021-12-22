@@ -29,7 +29,7 @@
 
 ## **我的锅**
 
-```
+```kt
 private fun isLocationPermissionGranted(): Boolean {
     return if (ActivityCompat.checkSelfPermission(
             this,
@@ -66,7 +66,7 @@ private fun isLocationPermissionGranted(): Boolean {
 
 ## **我的锅**
 
-```
+```kt
 private var currentLocation: Location? = null
 lateinit var locationManager: LocationManager
 locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
@@ -76,7 +76,7 @@ locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
 
 ## **我的锅**
 
-```
+```kt
 val hasGps = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)
 //------------------------------------------------------//
 val hasNetwork = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)

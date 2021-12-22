@@ -10,7 +10,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <!-- custom_layout is a separate layout xml file
      which can be shared, reused in many places-->
 <include
@@ -26,7 +26,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Button
@@ -84,7 +84,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -118,7 +118,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Button
@@ -146,7 +146,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.view.View
 import android.widget.Button

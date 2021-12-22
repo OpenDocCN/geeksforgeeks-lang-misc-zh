@@ -17,7 +17,7 @@
 
 **演示一元运算符重载的 Kotlin 程序–**
 
-```
+```kt
 class UnaryOverload(var str:String) {
     // overloading the function
     operator fun unaryMinus() {
@@ -36,7 +36,7 @@ fun main(args : Array<String>) {
 
 **输出:**
 
-```
+```kt
 Initial string is HELLO
 String after applying unary operator OLLEH
 
@@ -54,7 +54,7 @@ String after applying unary operator OLLEH
 
 **演示操作员过载的科特林程序–**
 
-```
+```kt
 class IncDecOverload(var str:String) {
     // overloading increment function
     operator fun inc(): IncDecOverload {
@@ -85,7 +85,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Hello
 Helloa
 Helloa
@@ -107,7 +107,7 @@ Hello
 
 **Kotlin 程序过载 plus 功能–**
 
-```
+```kt
 class Object(var objName: String) {
     // Overloading the function
     operator fun plus(b: Int) {
@@ -128,7 +128,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Name is Chair and data is 9
 
 ```

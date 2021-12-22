@@ -55,7 +55,7 @@
 
 ## XML
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -83,7 +83,7 @@
 
 ## 柯特林
 
-```
+```kt
 package com.geeksforgeeks.sampleDrag
 
 import android.os.Bundle

@@ -16,7 +16,7 @@
 
 **使用列表和地图集合过滤功能的科特林程序–**
 
-```
+```kt
 fun main(args: Array<String>)
 {
     //declaring a list of elements
@@ -39,7 +39,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 [geeks, geeks, hello, world]
 {key45=40, key55=50}
 
@@ -53,7 +53,7 @@ fun main(args: Array<String>)
 
 **使用 filterIndexed()和 filterNot()函数的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val words = listOf("geek","for","geeks","all","world")
 
@@ -71,7 +71,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [for, geeks, all, world]
 [geek, geeks, world]
 
@@ -84,7 +84,7 @@ fun main(args: Array<String>) {
 
 **使用分区的柯特林程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
 
     val words = listOf("geek","for","geeks","hello","world")
@@ -99,7 +99,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [geeks, hello, world]
 [geek, for]
 
@@ -118,7 +118,7 @@ fun main(args: Array<String>) {
 
 **使用任意()、无()和所有()函数的柯特林程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val words = listOf("geeks","for","geeeks","helo","world")
 
@@ -149,7 +149,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Any element matches? true
 No element matches? true
 All element match? false

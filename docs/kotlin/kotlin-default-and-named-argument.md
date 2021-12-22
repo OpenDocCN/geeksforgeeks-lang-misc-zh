@@ -5,7 +5,7 @@
 在大多数编程语言中，我们需要指定函数在调用该函数时接受的所有参数，但是在 Kotlin 中，我们不需要指定函数在调用该函数时接受的所有参数，因此它是最重要的特性之一。我们可以去掉这个约束，使参数成为可选的，即在调用函数时是否传递参数。
 在柯特林中，函数**参数**用逗号分隔，并用帕斯卡符号定义，即名称:data_type。
 
-```
+```kt
 fun fun_name(name1: data_type, name2: data_type )
 ```
 
@@ -32,7 +32,7 @@ fun fun_name(name1: data_type, name2: data_type )
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // default arguments in function definition name, standard and roll_no
 fun student(name: String="Praveen", standard: String="IX" , roll_no: Int=11) {       
     println("Name of the student is: $name")
@@ -49,7 +49,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name of the student is: Praveen
 Standard of the student is: IX
 Roll no of the student is: 11
@@ -65,7 +65,7 @@ Roll no of the student is: 11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // default arguments in function definition name,standard and roll_no
 fun student( name: String="Praveen", standard: String="IX" , roll_no: Int=11 ) {
     println("Name of the student is: $name")
@@ -83,7 +83,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name of the student is: Gaurav
 Standard of the student is: VIII
 Roll no of the student is: 11
@@ -99,7 +99,7 @@ Roll no of the student is: 11
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // default arguments in function definition name, standard and roll_no
 fun student( name: String="Praveen", standard: String="IX" , roll_no: Int=11 ) {
     println("Name of the student is: $name")
@@ -120,7 +120,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name of the student is: Gaurav
 Standard of the student is: VIII
 Roll no of the student is: 25
@@ -136,7 +136,7 @@ Roll no of the student is: 25
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // default arguments in function definition name,standard and roll_no
 fun student( name: String="Praveen", standard: String="IX" , roll_no: Int=11 ) {
     println("Name of the student is: $name")
@@ -156,7 +156,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Error:(12, 29) Kotlin: Type mismatch: inferred type is Int but String was expected
 ```
 
@@ -166,7 +166,7 @@ Error:(12, 29) Kotlin: Type mismatch: inferred type is Int but String was expect
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // default arguments in function definition
 // name,standard and roll_no
 fun student( name: String="Praveen", standard: String="IX" , roll_no: Int=11 ) {
@@ -187,7 +187,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name of the student is: Gaurav
 Standard of the student is: IX
 Roll no of the student is: 25

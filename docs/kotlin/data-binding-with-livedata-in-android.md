@@ -15,7 +15,7 @@
 
 ## 科特林
 
-```
+```kt
 class MainViewModel : ViewModel() {
     var text = MutableLiveData(" Welcome to my application ")
 

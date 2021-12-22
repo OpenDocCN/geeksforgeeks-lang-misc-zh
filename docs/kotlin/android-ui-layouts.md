@@ -40,7 +40,7 @@ view group-检视群组
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http:// schemas.android.com/apk/res/android"
@@ -76,7 +76,7 @@ view group-检视群组
 
 创建布局后，我们需要从活动 **onCreate()** 回调方法中加载 XML 布局资源，并使用**findwiewbyid**从 XML 中访问 UI 元素。
 
-```
+```kt
 override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -96,7 +96,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText

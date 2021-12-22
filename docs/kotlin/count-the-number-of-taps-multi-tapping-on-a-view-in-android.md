@@ -10,7 +10,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -34,7 +34,7 @@
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.tripletap
 
 import android.os.Bundle

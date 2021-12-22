@@ -19,7 +19,7 @@ Kotlin 中主要有两个功能来启动[协同程序](https://www.geeksforgeeks
 
 ## 我的锅
 
-```
+```kt
 // Kotlin Program For better understanding of launch
 fun GFG()
 {
@@ -56,7 +56,7 @@ suspend fun function2(): String
 
 ## 我的锅
 
-```
+```kt
 // pseudo kotlin code for demonstration of launch
 GlobalScope.launch(Dispatchers.Main)
 {
@@ -84,7 +84,7 @@ Async 也用于启动 coroutines，但是它在程序中 **await()** 函数的�
 
 ## 我的锅
 
-```
+```kt
 // kotlin program for demonstration of async
 fun GFG
 {

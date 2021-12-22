@@ -16,7 +16,7 @@
 
 ## 科特林
 
-```
+```kt
 var intent = Intent(this, SecondActivity:: class.java)
 startIntent(intent)
 ```
@@ -51,7 +51,7 @@ startIntent(intent)
 
 ## XML
 
-```
+```kt
 <intent-filter
   android:icon="drawable resource"
   android:label="string resource"
@@ -72,7 +72,7 @@ startIntent(intent)
 
 ## 【XML】
 
-```
+```kt
 <action android:name="string" />
 ```
 
@@ -89,6 +89,6 @@ startIntent(intent)
 
 ## XML
 
-```
+```kt
 <category android:name="string" />
 ```

@@ -17,7 +17,7 @@
 
 **在这个文件中，我们使用了文本切换器、按钮，并设置了它们的属性。**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,7 +57,7 @@
 
 **这里，我们使用字符串标签更新应用程序的名称。**
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicTextSwitcherInKotlin</string>
     <string name="next">Next</string>
@@ -69,25 +69,25 @@
 
 **首先，我们声明一个数组**语言**，它包含用于文本视图的语言列表。**
 
-```
+```kt
 private val textList = arrayOf("Java","Python","Kotlin","Scala","C++") 
 ```
 
 **然后，我们创建**文本切换器**并为文本视图设置属性，如文本颜色、文本大小。**
 
-```
+```kt
 val textSwitcher = findViewById<TextSwitcher>(R.id.textSwitcher) 
 ```
 
 **使用此在布局中添加**文本切换器****
 
-```
+```kt
 val c_Layout = findViewById<constraintlayout>(R.id.constraint_layout)
         //add textSwitcher in constraint layout
         c_Layout?.addView(textSwitcher)</constraintlayout> 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -152,7 +152,7 @@ class MainActivity : AppCompatActivity() {
 
 ## **AndroidManifest.xml 文件**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

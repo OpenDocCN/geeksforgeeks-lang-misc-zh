@@ -13,7 +13,7 @@ Android ProgressBar 是一个用户界面控件，用于指示操作的进度。
 
 ## 可扩展标记语言
 
-```
+```kt
 <ProgressBar
     android:id="@+id/pBar"
     style="?android:attr/progressBarStyleHorizontal"
@@ -28,7 +28,7 @@ Android ProgressBar 是一个用户界面控件，用于指示操作的进度。
 
 ## 可扩展标记语言
 
-```
+```kt
 <ProgressBar
     android:id="@+id/pBar"
     style="?android:attr/progressBarStyleHorizontal"
@@ -67,7 +67,7 @@ XML 属性
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -121,7 +121,7 @@ XML 属性
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -190,7 +190,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.myfirstkotlinapp">

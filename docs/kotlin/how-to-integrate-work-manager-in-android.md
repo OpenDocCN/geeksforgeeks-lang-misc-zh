@@ -14,7 +14,7 @@
 
 导航到**梯度脚本>构建.梯度(模块:应用)**并添加以下代码。
 
-```
+```kt
 implementation("androidx.work:work-runtime-ktx:2.7.0")
 ```
 
@@ -24,7 +24,7 @@ implementation("androidx.work:work-runtime-ktx:2.7.0")
 
 ## 我的锅
 
-```
+```kt
 import android.content.Context
 import android.util.Log
 import androidx.work.Worker
@@ -52,7 +52,7 @@ class WorkerClass(appContext: Context, workerParams: WorkerParameters): Worker(a
 
 ## 我的锅
 
-```
+```kt
 package com.mrtechy.gfg_workmanager
 
 import WorkerClass

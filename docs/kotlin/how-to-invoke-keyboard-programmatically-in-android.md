@@ -25,7 +25,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ao1">
@@ -59,7 +59,7 @@ android:windowSoftInputMode="stateVisible"
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity

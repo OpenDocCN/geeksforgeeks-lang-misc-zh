@@ -6,7 +6,7 @@
 在[科特林](https://www.geeksforgeeks.org/introduction-to-kotlin/)中，我们对此有一个解决方案，命名为**类型别名**。类型别名为现有类型提供了一个替代名称(在我们的例子中，它是一个类)。
 在上面的场景中，我们可以做到:
 
-```
+```kt
 typealias course = com.gfg_practice.apps.courses 
 ```
 
@@ -15,7 +15,7 @@ typealias course = com.gfg_practice.apps.courses
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // here we define a type alias named Login_details
 // which will take two strings as parameters
 typealias Login_detials = Pair <String, String>
@@ -33,7 +33,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 (Username1, Password1)
 (Username2, Password2)
 ```
@@ -42,7 +42,7 @@ fun main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 typealias Number<T> = (T) -> Boolean
 // defined a type alias named Number,  > is used as a separator here
 
@@ -59,6 +59,6 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Positive numbers in the list are: [11, 10, 55, 43]
 ```

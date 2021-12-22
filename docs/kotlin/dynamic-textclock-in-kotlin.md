@@ -19,7 +19,7 @@
 
 **在这个文件中，我们使用文本视图和按钮，并设置所有小部件的属性。**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -60,7 +60,7 @@
 
 **这里，我们使用字符串标签更新应用程序的名称。**
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicTextClockInKotlin</string>
 </resources>
@@ -70,25 +70,25 @@
 
 **首先，我们使用一个变量来创建这样的文本时钟**
 
-```
+```kt
 val textClock = TextClock(this)
 ```
 
 **然后，在布局中设置时钟显示的格式。**
 
-```
+```kt
 textClock.format12Hour = "hh:mm:ss a"
 ```
 
 **我们必须在线性布局中添加文本块**
 
-```
+```kt
 val linearLayout = findViewById<linearlayout>(R.id.linear_layout)
         //add textClock in Linear Layout
         linearLayout?.addView(textClock)</linearlayout> 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -132,7 +132,7 @@ class MainActivity : AppCompatActivity() {
 
 ## **AndroidManifest.xml 文件**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

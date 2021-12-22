@@ -24,7 +24,7 @@ Kotlin 中最基本的数据类型是*原始数据类型*，其他都是*引用�
 
 让我们编写一个程序来表示所有整数数据类型及其最小值和最大值。
 
-```
+```kt
 // Kotlin code
 fun main(args : Array<String>) {
     var myint = 35
@@ -58,7 +58,7 @@ fun main(args : Array<String>) {
 
 **输出:**
 
-```
+```kt
 My integer 35
 My long integer 23
 Smallest byte value: -128
@@ -83,7 +83,7 @@ Largest long integer value: 9223372036854775807
 
 让我们编写一个程序来表示浮点数据类型及其最小值和最大值。
 
-```
+```kt
 // Kotlin code
 fun main(args : Array<String>) {
     var myfloat = 54F                  // add suffix F for float
@@ -103,7 +103,7 @@ fun main(args : Array<String>) {
 
 **输出:**
 
-```
+```kt
 My float value 54.0
 Smallest Float value: 1.4E-45
 Largest Float value: 3.4028235E38
@@ -122,7 +122,7 @@ Largest Double value: 1.7976931348623157E308
 
 让我们编写一个程序来表示布尔数据类型。
 
-```
+```kt
 // Kotlin code
 fun main(args : Array<String>){
   if (true is Boolean){
@@ -133,7 +133,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Yes, true is a boolean value
 
 ```
@@ -148,7 +148,7 @@ Yes, true is a boolean value
 
 让我们编写一个程序来表示字符数据类型。
 
-```
+```kt
 // Kotlin code
 fun main(args : Array<String>){
      var alphabet: Char = 'C'
@@ -158,7 +158,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 C is a character : true
 
 ```

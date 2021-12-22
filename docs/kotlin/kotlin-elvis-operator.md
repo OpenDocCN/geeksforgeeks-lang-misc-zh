@@ -6,7 +6,7 @@
 
 在某些情况下，我们可以声明一个可以保存空引用的变量。如果一个变量 st 包含空引用，在程序中使用 st 之前，我们将检查它的可空性。如果变量 st 被发现不为 null，那么它的属性将使用其他非 null 值。
 
-```
+```kt
 // Kotlin Program without using Elvis Operator
 fun main(args: Array<String>)
 {  
@@ -21,13 +21,13 @@ println("Length of st1 is ${len2}")  
 
 **输出:**
 
-```
+```kt
 Length of st is -1
 Length of st1 is 15
 
 ```
 
-```
+```kt
 // Kotlin Program using Elvis Operator
 fun main(args: Array<String>)
 {    
@@ -43,7 +43,7 @@ println("Length of st1 is ${len2}")  
 
 **输出:**
 
-```
+```kt
 Length of st is -1
 Length of st1 is 15
 

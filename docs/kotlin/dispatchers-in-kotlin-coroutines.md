@@ -8,7 +8,7 @@
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 GlobalScope.launch(Dispatchers.Main) {
        Log.i("Inside Global Scope ",Thread.currentThread().name.toString())
            // getting the name of thread in which 
@@ -68,7 +68,7 @@ GlobalScope.launch(Dispatchers.Main) {
 
 ## 我的锅
 
-```
+```kt
 GlobalScope.launch(Dispatchers.IO) {
        Log.i("Inside IO dispatcher ",Thread.currentThread().name.toString())
            // getting the name of thread in which
@@ -85,7 +85,7 @@ GlobalScope.launch(Dispatchers.IO) {
 
 ## 我的锅
 
-```
+```kt
 GlobalScope.launch(Dispatchers.Default) {
         Log.i("Inside Default dispatcher ",Thread.currentThread().name.toString())
             // getting the name of thread in which 

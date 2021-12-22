@@ -45,7 +45,7 @@
 
 ## 我的锅
 
-```
+```kt
 override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
 
           // requested width and mode
@@ -93,7 +93,7 @@ override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
 
 ## 我的锅
 
-```
+```kt
 protected fun onDraw(canvas:Canvas) {
   // Grab canvas dimensions.
   val canvasWidth = canvas.getWidth()

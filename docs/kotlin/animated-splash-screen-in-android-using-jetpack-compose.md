@@ -4,7 +4,7 @@
 
 [Jetpack Compose](https://www.geeksforgeeks.org/basics-of-jetpack-compose-in-android/) 是安卓的高级工具包，用于以非常简单的形式创建唯物主义 UI。在安卓工作室中，它不需要任何类型的 XML 文件，也有助于创建本地应用程序。它最近在安卓工作室北极狐版本中推出。喷气背包合成函数声明为:
 
-```
+```kt
 @Composable
 fun MessageCard(name: String) {
     Text(text = "Hello $name!")
@@ -13,7 +13,7 @@ fun MessageCard(name: String) {
 
 预览合成功能:
 
-```
+```kt
 @Preview
 @Composable
 fun PreviewMessageCard() {
@@ -63,7 +63,7 @@ fun PreviewMessageCard() {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun Navigation() {
     val navController = rememberNavController()
@@ -86,7 +86,7 @@ fun Navigation() {
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun SplashScreen(navController: NavController) {
     val scale = remember {
@@ -121,7 +121,7 @@ fun SplashScreen(navController: NavController) {
 
 ## 我的锅
 
-```
+```kt
 package com.example.splashscreenjc
 
 import android.os.Bundle

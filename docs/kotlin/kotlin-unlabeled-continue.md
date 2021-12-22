@@ -11,7 +11,7 @@
 在 Kotlin 中，未标记的 continue 用于跳过最近的封闭 while 循环的当前迭代。如果继续的条件为真，则跳过以下继续指令，到达 while 循环的起点。同样，它将检查条件，并且循环将处于重复模式，直到变为假。
 **无标记继续 while 循环的语法-**
 
-```
+```kt
 while(condition) {
     //code
       if(condition for continue) {
@@ -29,7 +29,7 @@ while(condition) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var num = 0
     while (num <= 12) {
@@ -45,7 +45,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 1
 2
 4
@@ -63,7 +63,7 @@ fun main(args: Array<String>) {
 在 do-while 中，我们还可以使用*未标记的 continue* 跳过最近的闭合循环的迭代。这里，我们需要把继续的条件放在**做**块。如果条件变为假，它将跳过以下指令并将控制转移到 while 条件。
 **边做边循环中无标记继续的语法-**
 
-```
+```kt
 do{
      // codes 
      if(condition for continue) {
@@ -81,7 +81,7 @@ while(condition)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var num = 1
     do {
@@ -97,7 +97,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 6
 7
 8
@@ -116,7 +116,7 @@ fun main(args: Array<String>) {
 在 for 循环中，我们也可以使用未标记的 continue 跳过当前迭代到结束循环。在下面的程序中，我们取了一个字符串数组和遍历数组行星的迭代器。表达式(i < 2)跳过小于 2 的数组索引的迭代，这意味着它不打印存储在索引 0 和 1 的字符串。
 **无标记继续循环的语法-**
 
-```
+```kt
 for(iteration through iterator) 
 {  
    //code
@@ -134,7 +134,7 @@ for(iteration through iterator)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var planets = arrayOf("Earth", "Mars", "Venus", "Jupiter", "Saturn")
     for (i in planets.indices) {
@@ -148,7 +148,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Venus
 Jupiter
 Saturn

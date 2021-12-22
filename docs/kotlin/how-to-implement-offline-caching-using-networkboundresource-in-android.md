@@ -55,7 +55,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -135,7 +135,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -185,7 +185,7 @@
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.carlist.api
 
 import com.gfg.carlist.data.CarList
@@ -217,7 +217,7 @@ interface CarListAPI {
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.carlist.di
 
 import android.app.Application
@@ -265,7 +265,7 @@ object AppModule {
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.carlist.data
 
 import androidx.room.Entity
@@ -290,7 +290,7 @@ data class CarList(
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.carlist.data
 
 import androidx.room.Database
@@ -308,7 +308,7 @@ abstract class CarListDatabase : RoomDatabase() {
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.carlist.data
 
 import androidx.room.Dao
@@ -354,7 +354,7 @@ interface CarsDao {
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.carlist.data
 
 import androidx.room.withTransaction
@@ -404,7 +404,7 @@ cara adapter . kt
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.carlist.features.carlist
 
 import android.view.LayoutInflater
@@ -460,7 +460,7 @@ class CarAdapter : ListAdapter<CarList, CarAdapter.CarViewHolder>(CarListCompara
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.carlist.features.carlist
 
 import androidx.lifecycle.ViewModel

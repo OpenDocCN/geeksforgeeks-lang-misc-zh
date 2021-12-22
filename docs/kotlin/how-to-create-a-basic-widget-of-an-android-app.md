@@ -44,7 +44,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.appwidget.AppWidgetManager 
 import android.appwidget.AppWidgetProvider 
 import android.content.Context 
@@ -93,7 +93,7 @@ internal fun updateAppWidget( 
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
@@ -149,7 +149,7 @@ class NewAppWidget extends AppWidgetProvider {
 
 ## 可扩展标记语言
 
-```
+```kt
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -182,7 +182,7 @@ class NewAppWidget extends AppWidgetProvider {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?> 
 <resources> 
 
@@ -203,7 +203,7 @@ class NewAppWidget extends AppWidgetProvider {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?> 
 <appwidget-provider
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -222,7 +222,7 @@ class NewAppWidget extends AppWidgetProvider {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?> 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.geeksforgeeks.widget_basic"> 

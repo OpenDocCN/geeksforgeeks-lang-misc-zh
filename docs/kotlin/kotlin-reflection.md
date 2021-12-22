@@ -6,7 +6,7 @@
 除了 Java 反射 API 之外，Kotlin 还以简单的功能风格提供了自己的一套反射 API。标准的 [Java 反射](https://www.geeksforgeeks.org/reflection-in-java/)构造也可以在 Kotlin 中获得，并且可以完美地与它的代码一起工作。
 **柯特林反射可在:**获得
 
-```
+```kt
 kotlin.reflect package
 ```
 
@@ -25,7 +25,7 @@ kotlin.reflect package
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // A sample empty class
 class ReflectionDemo {
 }
@@ -44,7 +44,7 @@ fun main()
 
 **输出**
 
-```
+```kt
 This is a class reference class kotlin1.com.programmingKotlin.chapter1.ReflectionDemo
 This is a bounded class reference class kotlin1.com.programmingKotlin.chapter1.ReflectionDemo 
 ```
@@ -56,7 +56,7 @@ This is a bounded class reference class kotlin1.com.programmingKotlin.chapter1.R
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun add(a: Int,b: Int) : Int{
     return a+b;
 }
@@ -87,7 +87,7 @@ fun main(){
 
 **输出**
 
-```
+```kt
 [3, 6, 9]
 fun add(kotlin.String, kotlin.String): kotlin.String
 8 
@@ -100,7 +100,7 @@ fun add(kotlin.String, kotlin.String): kotlin.String
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 class Property(var a: Float){
 }
 
@@ -120,7 +120,7 @@ fun main(){
 
 **输出**
 
-```
+```kt
 10
 x
 5.899 
@@ -133,7 +133,7 @@ x
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 class Property(var a: Float){
 }
 fun main(){
@@ -145,6 +145,6 @@ fun main(){
 
 **输出**
 
-```
+```kt
 <init>
 ```

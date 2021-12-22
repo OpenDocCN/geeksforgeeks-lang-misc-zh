@@ -25,7 +25,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 dependencies {         
         implementation 'com.github.st235:expandablebottombar:1.1.8'     
 }
@@ -35,7 +35,7 @@ dependencies {         
 
 ## 可扩展标记语言
 
-```
+```kt
 <resources>
     <string name="algo">Algorithm</string>
     <string name="course">Course</string>
@@ -51,7 +51,7 @@ dependencies {         
 
 ## 片段 _ 算法. xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -75,7 +75,7 @@ dependencies {         
 
 ## fragment_course.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -98,7 +98,7 @@ dependencies {         
 
 ## fragment_profile.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -121,7 +121,7 @@ dependencies {         
 
 ## activity_main.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -157,7 +157,7 @@ dependencies {         
 
 ## MainActivity.kt 公司
 
-```
+```kt
 package org.geeksforgeeks.expandablebottombar
 
 import android.graphics.Color

@@ -23,7 +23,7 @@
 
 在这个文件中，我们将只添加 EditText，并为两者设置属性来访问 Kotlin 文件。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -51,7 +51,7 @@
 
 **修改 *strings.xml* 文件写入应用程序的名称**
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicImageButtonInKotlin</string>
 </resources>
@@ -61,19 +61,19 @@
 
 中我们将声明一个变量 **imgBtn** 来创建 ImageButton。
 
-```
+```kt
  val imgBtn = ImageButton(this)
 ```
 
 然后，使用
 
-```
+```kt
 imgBtn.setImageResource(R.drawable.ic_clear_black_24dp)
 ```
 
 为按钮设置图像资源最后，使用
 
-```
+```kt
 val linearLayout = findViewById(R.id.linear_layout)
   // Adding ImageButton in LinearLayout
   linearLayout.addView(imgBtn) 
@@ -81,7 +81,7 @@ val linearLayout = findViewById(R.id.linear_layout)
 
 将按钮添加到线形布局中其他过程类似于在布局中手动添加图像按钮。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import android.os.Bundle
@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AnDroidManifest . XML 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

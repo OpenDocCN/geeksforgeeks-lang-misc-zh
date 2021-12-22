@@ -5,13 +5,13 @@
 [Kotlin](https://www.geeksforgeeks.org/introduction-to-kotlin/)MultipleMap 是一个集合框架的接口，包含键和值形式的对象。它允许用户有效地检索对应于每个键的值。键和值可以是不同的对，如< Int、字符串>、< Char、字符串>等。
 为了使用可变地图界面，我们需要使用如下所示的功能
 
-```
+```kt
 mutableMapOf() or mutableMapOf <K, V>()
 ```
 
 用于声明可变映射接口
 
-```
+```kt
 interface MutableMap<K, V> : Map<K, V> (source)
 ```
 
@@ -19,7 +19,7 @@ interface MutableMap<K, V> : Map<K, V> (source)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val items = mutableMapOf("Box" to 12, "Books" to 18, "Table" to 13)
 

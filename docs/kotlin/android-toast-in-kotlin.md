@@ -20,7 +20,7 @@ A **Toast** 是安卓屏幕上短时间间隔显示的短提醒信息。安卓**
 
 现在您的 XML 应该是这样的。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -33,7 +33,7 @@ A **Toast** 是安卓屏幕上短时间间隔显示的短提醒信息。安卓**
 
 **第三步**:在布局中添加编辑文本。
 
-```
+```kt
 <EditText
     android:id="@+id/messageEditText"
     android:layout_width="0dp"
@@ -47,7 +47,7 @@ A **Toast** 是安卓屏幕上短时间间隔显示的短提醒信息。安卓**
 
 **第四步**:在布局中增加一个按钮。
 
-```
+```kt
 <Button
    android:id="@+id/toastButton"
    android:layout_width="0dp"
@@ -62,13 +62,13 @@ A **Toast** 是安卓屏幕上短时间间隔显示的短提醒信息。安卓**
 
 为按钮添加以下内容。
 
-```
+```kt
 app:layout_constraintStart_toEndOf="@+id/messageEditText"
 ```
 
 为编辑文本添加以下内容。
 
-```
+```kt
 app:layout_constraintEnd_toStartOf="@+id/toastButton"
 ```
 
@@ -79,7 +79,7 @@ app:layout_constraintEnd_toStartOf="@+id/toastButton"
 
 将以下方法添加到类中。
 
-```
+```kt
 fun toastMessage(view: View)
 {
     val messageEditText = findViewById<EditText>(R.id.messageEditText)
@@ -92,7 +92,7 @@ fun toastMessage(view: View)
 这里，messageEditText 是我们在步骤 3 的布局文件中创建的 EditText 的对象。为了获取编辑文本的内容，我们使用了文本属性，并将其存储在变量消息中。
 祝酒——这是本教程的核心，
 
-```
+```kt
 var toast = Toast.makeText(this, message, Toast.LENGTH_LONG)
 ```
 
@@ -107,7 +107,7 @@ var toast = Toast.makeText(this, message, Toast.LENGTH_LONG)
 **第 7 步**:现在我们将在按钮上添加一个点击事件监听器，并使其在点击/点击按钮时调用我们的**演讲会()**方法。
 返回 **activity_main.xml** 布局文件，并将该属性添加到按钮中
 
-```
+```kt
 android : onClick = "toastMessage"
 ```
 
@@ -115,7 +115,7 @@ android : onClick = "toastMessage"
 
 **点击吐司按钮后隐藏安卓软键盘**查看清晰的吐司
 
-```
+```kt
 fun hideKeyboard(activity: Activity)
 {
     val view = activity.findViewById<View>(android.R.id.content) if (view != null)

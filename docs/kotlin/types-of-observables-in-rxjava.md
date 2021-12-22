@@ -34,7 +34,7 @@ RxJava 中的许多类型的 Observables 如下:
 
 ## 我的锅
 
-```
+```kt
 fun downloadObserervable(): Observable<Int> {
     return Observable.create { gfgshooter ->
         // Declaring an emitter in name of gfgshooter.
@@ -68,7 +68,7 @@ fun downloadObserervable(): Observable<Int> {
 
 ## 我的锅
 
-```
+```kt
 fun getObserver(): Observer<Int> {
     return object : Observer<Int> {
         override fun onStart(d: Disposable) {
@@ -109,7 +109,7 @@ fun getObserver(): Observer<Int> {
 
 ## 我的锅
 
-```
+```kt
 fun singleObservable(): Single<String> {
     return Single.create { emitter ->
         // any code which has a task
@@ -124,7 +124,7 @@ fun singleObservable(): Single<String> {
 
 ## 我的锅
 
-```
+```kt
 fun singleObservable(): SingleObserver<String> {
     return object : SingleObserver<String> {
         override fun onSubscribe(d: Disposable) {
@@ -152,7 +152,7 @@ T1【也许】T3>观察者
 
 ## 我的锅
 
-```
+```kt
 fun maybeObservable(): Maybe<String> {
     return Maybe.create { gfgemitter ->
         // your code goes here

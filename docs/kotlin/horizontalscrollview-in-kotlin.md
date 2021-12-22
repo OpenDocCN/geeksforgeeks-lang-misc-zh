@@ -25,7 +25,7 @@
 
 ## 修改 activity_main.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <HorizontalScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -80,7 +80,7 @@
 
 打开 app/src/main/Java/your package name/main activity . kt 并进行以下更改:
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="i.apps.hscrollview">

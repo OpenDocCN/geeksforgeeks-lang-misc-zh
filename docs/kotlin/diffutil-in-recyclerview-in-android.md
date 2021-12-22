@@ -10,7 +10,7 @@
 
 ## 【XML】
 
-```
+```kt
 <androidx.constraintlayout.widget.ConstraintLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
@@ -35,7 +35,7 @@
 
 ## 我的锅
 
-```
+```kt
 data class GeeksCourses(val courseNumber: Int, val courseRating: Int, val courseName: String)
 ```
 
@@ -43,7 +43,7 @@ data class GeeksCourses(val courseNumber: Int, val courseRating: Int, val course
 
 ## 科特林
 
-```
+```kt
 object geeksforGeeks {
     val courseList: List<Course>
         get() {
@@ -60,7 +60,7 @@ object geeksforGeeks {
 
 ## 科特林
 
-```
+```kt
 class CourseAdapter : RecyclerView.Adapter<CourseAdapter.ViewHolder>() {
     private val courses = ArrayList<Course>()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -91,6 +91,6 @@ class CourseAdapter : RecyclerView.Adapter<CourseAdapter.ViewHolder>() {
 
 ## 【科特林】
 
-```
+```kt
 adapter.setData(/** any new data on courses**/)
 ```

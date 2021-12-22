@@ -23,7 +23,7 @@
 
 在这个文件中，我们在 LinearLayout 中声明 LisitView 并设置它的属性。稍后，我们将使用 id 访问 Kotlin 文件中的 ListView。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -42,7 +42,7 @@
 
 创建布局后，我们需要从活动 **onCreate()** 回调方法中加载 XML 布局资源，并使用**findwiewbyid**从 XML 中访问 UI 元素。
 
-```
+```kt
 import android.widget.ArrayAdapter
 import android.widget.ListView
 class MainActivity : AppCompatActivity() {
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"

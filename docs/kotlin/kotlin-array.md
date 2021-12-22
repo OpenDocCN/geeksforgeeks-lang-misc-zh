@@ -23,7 +23,7 @@
 我们可以使用库函数 **`arrayOf()`** 通过将元素的值传递给函数来创建一个数组。
 **语法:**
 
-```
+```kt
 val num = arrayOf(1, 2, 3, 4)   //implicit type declaration
 val num = arrayOf<Int>(1, 2, 3) //explicit type declaration
 
@@ -31,7 +31,7 @@ val num = arrayOf<Int>(1, 2, 3) //explicit type declaration
 
 **使用 arrayOf()和 arrayOf < Int >函数创建数组的 Kotlin 程序-**
 
-```
+```kt
 fun main()
 {
     // declaring an array using arrayOf()
@@ -52,7 +52,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
  1 2 3 4 5
  10 20 30 40 50
 
@@ -68,7 +68,7 @@ fun main()
 
 **语法:**
 
-```
+```kt
  val num = Array(3, {i-> i*1})
 ```
 
@@ -76,7 +76,7 @@ fun main()
 
 **使用构造函数创建数组的 Kotlin 程序–**
 
-```
+```kt
 fun main()
 {
     val arrayname = Array(5, { i -> i * 1 })
@@ -89,7 +89,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 0
 1
 2
@@ -102,7 +102,7 @@ fun main()
 
 例如，创建整数数组的工厂方法是:
 
-```
+```kt
 val num = intArrayOf(1, 2, 3, 4)
 
 ```
@@ -126,14 +126,14 @@ val num = intArrayOf(1, 2, 3, 4)
 **`get()`方法采用单个参数——元素的索引，并返回该项在该索引处的值。
 **语法:****
 
-```
+```kt
 val x = num.get(0) 
 ```
 
 **`set()`方法取 2 个参数:元素的索引和要插入的值。
 **语法:****
 
-```
+```kt
 num.set(1, 3) 
 ```
 
@@ -144,7 +144,7 @@ num.set(1, 3)
  ****`[ ]`** 运算符可用于访问和修改数组。
 要访问数组元素，语法应该是:
 
-```
+```kt
 val x = num[1]
 
 ```
@@ -153,7 +153,7 @@ val x = num[1]
 
 要修改数组元素，我们应该执行以下操作:
 
-```
+```kt
 num[2] = 5;
 
 ```
@@ -164,7 +164,7 @@ num[2] = 5;
 
 下面是一个 Kotlin 数组操作的工作示例，其中我们创建一个数组，修改它的值，并访问一个特定的元素:
 
-```
+```kt
 fun main()
 {   // declare an array using arrayOf()
     val num = arrayOf(1, 2, 3, 4, 5)
@@ -179,7 +179,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 10
 6
 
@@ -192,7 +192,7 @@ fun main()
 在遍历数组时，最简单也是最常用的习惯用法是使用 [for-loop](https://www.geeksforgeeks.org/kotlin-for-loop/) 。
 **语法:**
 
-```
+```kt
 for(i in num.indices){
       println(num[i])
   }
@@ -201,7 +201,7 @@ for(i in num.indices){
 
 **用于循环的数组遍历的柯特林程序-**
 
-```
+```kt
 // Traversing an array
 fun main()
 {
@@ -217,7 +217,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 10
 6
 3
@@ -229,7 +229,7 @@ fun main()
 或者，我们可以使用范围来达到相同的效果。在柯特林中，**范围**是两个值(开始和结束)之间的间隔，可以使用**(..)**操作员。然后可以使用关键字中的**遍历该范围。
 **范围语法:****
 
-```
+```kt
 for (i in 0..10){
     println(i)
 }
@@ -239,7 +239,7 @@ for (i in 0..10){
 数组中元素的范围定义为从 0 到 size-1。因此，为了使用 range 遍历数组，我们对数组名运行一个从 0 到 size-1 的循环。
 **科特林程序的数组遍历使用范围-**
 
-```
+```kt
 // Traversing an array
 fun main()
 {
@@ -253,7 +253,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 1
 2
 3
@@ -266,14 +266,14 @@ fun main()
 
 **语法:**
 
-```
+```kt
 arrayname.forEach({index->println(index)})
 
 ```
 
 **使用 foreach 循环遍历数组的 Kotlin 程序-**
 
-```
+```kt
 // Traversing an array
 fun main()
 {
@@ -284,7 +284,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 1
 2
 3

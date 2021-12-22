@@ -21,7 +21,7 @@
 
 你需要像这样在 app build.gradle 模块中应用插件 kotlin-android-extensions
 
-```
+```kt
 plugins {
 
    id 'com.android.application'
@@ -39,7 +39,7 @@ plugins {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -141,7 +141,7 @@ plugins {
 
 ## 我的锅
 
-```
+```kt
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast

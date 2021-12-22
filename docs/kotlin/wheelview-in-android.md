@@ -44,7 +44,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -80,7 +80,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import java.util.Arrays;
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import me.sujanpoudel.wheelview.WheelView

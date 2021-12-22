@@ -21,7 +21,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -51,7 +51,7 @@
 打开 app/src/main/Java/your package name/main activity . kt 并进行以下更改:
 像这样创建 ImageView 小部件:
 
-```
+```kt
  val imageView = ImageView(this)
         // setting height and width of imageview
         imageView.layoutParams = LinearLayout.LayoutParams(400, 400) 
@@ -61,7 +61,7 @@
 
 然后使用以下命令在布局中添加小部件
 
-```
+```kt
         //accessing our relative layout from activity_main.xml
         val layout = findViewById(R.id.layout) 
         // Add ImageView to LinearLayout
@@ -72,7 +72,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="i.apps.imageview">

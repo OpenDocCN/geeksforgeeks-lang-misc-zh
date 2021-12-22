@@ -24,12 +24,12 @@
 
 ## 科特林
 
-```
+```kt
 class Geeks
 class student:Geeks()
 ```
 
-```
+```kt
 error: This type is final, so it cannot be inherited
 ```
 
@@ -37,7 +37,7 @@ error: This type is final, so it cannot be inherited
 
 ## 柯特林
 
-```
+```kt
 // mark the class with "open"
 open class Geeks
 class student:Geeks()
@@ -49,7 +49,7 @@ class student:Geeks()
 
 ## 【科特林】
 
-```
+```kt
 open class geeks{
   fun student():string ="alok"
 }
@@ -60,7 +60,7 @@ class batch: geeks() {
 
 该代码将显示一个错误
 
-```
+```kt
 error: 'student' in 'geeks' is final and cannot be overridden
 ```
 
@@ -68,7 +68,7 @@ error: 'student' in 'geeks' is final and cannot be overridden
 
 ## 柯特林
 
-```
+```kt
 open class geeks{
  // mark the function with open 
  open fun student():string ="alok"

@@ -22,14 +22,14 @@ Kotlin Flow API 是异步处理按顺序执行的数据流的更好方法。通�
 
 导航到**梯度脚本>构建.梯度(模块:应用)**并添加以下代码。
 
-```
+```kt
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3"
 ```
 
 导航到**梯度脚本>构建.梯度(模块:项目)**并添加以下代码。
 
-```
+```kt
 classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.61"
 ```
 
@@ -39,7 +39,7 @@ classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.61"
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -70,7 +70,7 @@ classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.61"
 
 ## 我的锅
 
-```
+```kt
 package com.mrtechy.gfg_flow
 
 import android.content.ContentValues.TAG
@@ -151,7 +151,7 @@ class MainActivity : AppCompatActivity() {
 
 **对数猫输出：**
 
-```
+```kt
 flow Start
 Emitting value 0
 0

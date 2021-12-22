@@ -10,7 +10,7 @@
 
 XML 格式的视图存根:
 
-```
+```kt
 <ViewStub
     android:id="@+id/viewStubToLearn"
     android:layout_width="fill_parent"

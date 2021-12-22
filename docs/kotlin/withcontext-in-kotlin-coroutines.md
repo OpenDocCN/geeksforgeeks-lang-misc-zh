@@ -15,7 +15,7 @@
 
  **## 【科特林】
 
-```
+```kt
 // two kotlin suspend functions
 // Suppose we have two tasks like below
 

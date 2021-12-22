@@ -48,7 +48,7 @@
 
 ## 我的锅
 
-```
+```kt
 package com.example.gfgapp
 
 import android.graphics.drawable.shapes.Shape

@@ -8,7 +8,7 @@
 
 ## 我的锅
 
-```
+```kt
 fun higherfunc( str : String, mycall :(String)-> Unit) {
 
     // inovkes the print() by passing the string str
@@ -28,7 +28,7 @@ fun main(args: Array<String>) {
 
 在上面的字节码中，要关注的主要部分是:
 
-```
+```kt
 mycall.invoke(str)
 ```
 
@@ -36,7 +36,7 @@ mycall.invoke(str)
 
 **工作原理类似**
 
-```
+```kt
 mycall(new Function() {
         @Override
         public void invoke() {
@@ -51,7 +51,7 @@ mycall(new Function() {
 
 ## 我的锅
 
-```
+```kt
 inline fun higherfunc( str : String, mycall :(String)-> Unit){
     // inovkes the print() by passing the string str
     mycall(str)
@@ -77,7 +77,7 @@ inline fun higherfunc( str : String, mycall :(String)-> Unit){
 
 ## 我的锅
 
-```
+```kt
 var lambda = { println("Lambda expression") 
               return }      // normally lambda expression does not allow return
                            // statement, so gives compile time error
@@ -88,7 +88,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Error:(4, 5) Kotlin: 'return' is not allowed here
 ```
 
@@ -96,7 +96,7 @@ Error:(4, 5) Kotlin: 'return' is not allowed here
 
 ## 我的锅
 
-```
+```kt
 var lambda1 = { println("Lambda expression")}
 
 fun main(args: Array<String>) {
@@ -106,7 +106,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Lambda expression
 ```
 
@@ -116,7 +116,7 @@ Lambda expression
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>){
     println("Main function starts")
     inlinedFunc({ println("Lambda expression 1")

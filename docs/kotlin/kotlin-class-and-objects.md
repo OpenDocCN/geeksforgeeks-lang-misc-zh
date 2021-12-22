@@ -12,7 +12,7 @@ Kotlin 支持函数式和面向对象编程。在之前的文章中，我们已�
 类声明由类名、类头和用花括号括起来的类体组成。
 **类声明语法:**
 
-```
+```kt
 class className {      // class header
    // property
    // member function
@@ -24,14 +24,14 @@ class className {      // class header
 **类体:**用花括号括起来，包含成员函数和其他属性
 头和类体都是可选的；如果花括号之间没有任何内容，那么可以省略类体。
 
-```
+```kt
 class emptyClass
 ```
 
 如果我们想提供一个构造函数，我们需要在类名后面紧接着写关键字**构造函数**。
 **创建建造师:**
 
-```
+```kt
 class className constructor(parameters) {    
    // property
    // member function
@@ -42,7 +42,7 @@ class className constructor(parameters) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 class employee {
     // properties
     var name: String = ""
@@ -74,21 +74,21 @@ class employee {
 **创建一个对象-**
 我们可以使用类的引用创建一个对象。
 
-```
+```kt
 var obj = className()
 ```
 
 **访问类的属性-**
 我们可以使用一个对象来访问类的属性。首先使用类引用创建一个对象，然后访问属性。
 
-```
+```kt
 obj.nameOfProperty
 ```
 
 **访问类的成员函数-**
 我们可以使用对象访问类的成员函数。
 
-```
+```kt
 obj.funtionName(parameters)
 ```
 
@@ -96,7 +96,7 @@ obj.funtionName(parameters)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 class employee {// Constructor Declaration of Class
 
     var name: String = ""
@@ -139,7 +139,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name of the employee: Praveen
 Age of the employee: 50
 Gender: M

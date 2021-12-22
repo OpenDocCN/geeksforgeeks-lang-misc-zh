@@ -8,7 +8,7 @@
 
 **使用 if-else 块进行类型检查的 Kotlin 程序-**
 
-```
+```kt
 fun main(args: Array<String>) {
     var name = "Praveen"
     var age = 24
@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name: Praveen
 Age: 24
 Salary: 5000.55
@@ -46,7 +46,7 @@ Salary: 5000.55
 
 **柯特林程序的类型检查使用时–**
 
-```
+```kt
 fun main(args: Array<String>) {
     var name = "Praveen"
     var age = 24
@@ -67,7 +67,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name: Praveen 
 Age: 24
 Salary: 5000.55
@@ -81,7 +81,7 @@ Not an attribute
 
 让我们以 Java 为例，首先，我们使用运算符的[instance 检查变量的类型，然后将其转换为目标类型，如下所示–](https://www.geeksforgeeks.org/java-instanceof-and-its-applications/)
 
-```
+```kt
 Object ob = "GeeksforGeeks";
 
 if(ob instanceof String) {
@@ -94,7 +94,7 @@ if(ob instanceof String) {
 
 在科特林，智能类型铸造是最有趣的功能之一。我们使用 **`is`** 或 **`!is`** 运算符检查变量的类型，编译器自动将变量强制转换为目标类型，如下所示-
 
-```
+```kt
 fun main(args: Array<String>) {
     val str1: String? = "GeeksforGeeks"
     var str2: String? = null   // prints String is null
@@ -111,14 +111,14 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 length of String 13
 ```
 
 **使用`!is`运算符**
 同样使用 **`!is`** 运算符我们可以检查变量。
 
-```
+```kt
 fun main(args: Array<String>) {
     val str1: String? = "GeeksforGeeks"
     var str2: String? = null  // prints String is null
@@ -133,7 +133,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 length of String 13
 ```
 

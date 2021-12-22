@@ -25,7 +25,7 @@
 
 #### **如何使用**试捕**最后？**
 
-```
+```kt
 try
 {
   // your code which
@@ -46,7 +46,7 @@ finally
 
 ## 我的锅
 
-```
+```kt
 fun main()
 {
     try
@@ -75,7 +75,7 @@ fun divide(a : Int, b : Int)
 
 **输出:**
 
-```
+```kt
 Divide by zero
 
 ```
@@ -84,7 +84,7 @@ Divide by zero
 
 ## 我的锅
 
-```
+```kt
 fun main()
 {
     // first try block
@@ -132,7 +132,7 @@ fun divide(a : Int, b : Int)
 
 **输出:**
 
-```
+```kt
 Division is : 2
 I'm executed
 Divide by zero

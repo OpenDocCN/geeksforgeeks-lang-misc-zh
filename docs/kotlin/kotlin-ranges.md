@@ -16,7 +16,7 @@
 这是处理范围的最简单方法。它将创建从开始到结束的范围，包括开始和结束的值。它是 rangeTo()函数的运算符形式。使用(..)运算符我们可以为整数和字符创建范围。
 **柯特林程序的整数范围使用(..)操作员–**
 
-```
+```kt
 fun main(args : Array<String>){
 
     println("Integer range:")
@@ -29,7 +29,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Integer range:
 1
 2
@@ -41,7 +41,7 @@ Integer range:
 
 **柯特林程序的字符范围使用(..)操作员–**
 
-```
+```kt
 fun main(args : Array<String>){
 
     println("Character range:")
@@ -54,7 +54,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Character range:
 a
 b
@@ -69,7 +69,7 @@ e
 它类似于(..)运算符。它将创建一个直到作为参数传递的值的范围。它也用于创建整数和字符的范围。
 **使用 rangeTo()函数的整数范围的 Kotlin 程序–**
 
-```
+```kt
 fun main(args : Array<String>){
 
     println("Integer range:")
@@ -82,7 +82,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Integer range:
 1
 2
@@ -94,7 +94,7 @@ Integer range:
 
 **使用 rangeTo()函数对字符范围进行 Kotlin 编程–**
 
-```
+```kt
 fun main(args : Array<String>){
 
     println("Character  range:")
@@ -107,7 +107,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Character  range:
 a
 b
@@ -122,7 +122,7 @@ e
 它与范围 To()或(..)运算符。它以降序创建一个范围，即从较大的值到较小的值。下面我们以相反的顺序为整数和字符创建范围。
 **使用 downTo()函数的整数范围柯特林程序–**
 
-```
+```kt
 fun main(args : Array<String>){
 
     println("Integer range in descending order:")
@@ -135,7 +135,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Integer range in descending order:
 5
 4
@@ -147,7 +147,7 @@ Integer range in descending order:
 
 **使用 downTo()函数对字符范围进行 Kotlin 编程–**
 
-```
+```kt
 fun main(args : Array<String>){
 
     println("Character range in reverse order:")
@@ -160,7 +160,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Character range in reverse order:
 e
 d
@@ -174,7 +174,7 @@ a
 
 forEach 循环也用于遍历范围。
 
-```
+```kt
 fun main(args : Array<String>){
 
     println("Integer  range:")
@@ -185,7 +185,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Integer  range:
 2
 3
@@ -200,7 +200,7 @@ Integer  range:
 
 **使用步骤的柯特林程序–**
 
-```
+```kt
 fun  main(args: Array<String>) {
     //for iterating over the range
     var i = 2
@@ -219,7 +219,7 @@ fun  main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 3 5 7 9 
 11
 19
@@ -231,7 +231,7 @@ fun  main(args: Array<String>) {
 
 它用于反转给定的范围类型。我们可以使用 reverse()函数以降序打印范围，而不是 downTo()。
 
-```
+```kt
 fun main(args: Array<String>) {
     var range = 2..8
     for (x in range.reversed()){
@@ -242,7 +242,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 8 7 6 5 4 3 2 
 ```
 
@@ -250,7 +250,7 @@ fun main(args: Array<String>) {
 
 柯特林范围内有一些预定义函数:最小值()、最大值()、和()、平均值()。
 
-```
+```kt
 fun main() {
 
     val predefined = (15..20)
@@ -264,7 +264,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 The minimum value of range is: 15
 The maximum value of range is: 20
 The sum of all values of range is: 105
@@ -274,7 +274,7 @@ The average value of range is: 17.5
 
 ### 检查一个值是否在范围内？
 
-```
+```kt
 fun  main(args: Array<String>)
 {
     var i = 2
@@ -288,6 +288,6 @@ fun  main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 2 does not lie within the range
 ```

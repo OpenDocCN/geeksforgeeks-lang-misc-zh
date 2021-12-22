@@ -28,7 +28,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <resources>
 
     <!-- Base application theme. -->

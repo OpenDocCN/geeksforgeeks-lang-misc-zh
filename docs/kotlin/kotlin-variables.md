@@ -6,7 +6,7 @@
 
 对于局部变量，变量的类型可以从初始化的值中推断出来。
 
-```
+```kt
 var rollno = 55
 var name = "Praveen"
 println(rollno)
@@ -25,7 +25,7 @@ println(name)
 
 **不可变**也叫只读变量。因此，我们不能更改使用 *val* 关键字声明的变量的值。
 
-```
+```kt
 val myName = "Gaurav"
 myName = "Praveen"    // compile time error
 
@@ -35,7 +35,7 @@ myName = "Praveen"    // compile time error
 
 **注意:**不可变变量不是常量，因为可以用变量值初始化。这意味着不可变变量的值不需要在编译时知道，如果它是在重复调用的构造中声明的，它可以在每次函数调用时采用不同的值。
 
-```
+```kt
 var myBirthDate = "02/12/1993"
 val myNewBirthDate = myBirthDate
 println(myNewBirthDate)
@@ -46,7 +46,7 @@ println(myNewBirthDate)
 
 在**可变**变量中，我们可以改变变量的值。
 
-```
+```kt
 var myAge = 25
 myAge = 26            // compiles successfully
 println("My new Age is ${myAge}")
@@ -55,7 +55,7 @@ println("My new Age is ${myAge}")
 
 **输出:**
 
-```
+```kt
 My new Age is 26
 ```
 
@@ -65,7 +65,7 @@ My new Age is 26
 **命名约定–**
 每个变量都应该使用**lower case**来命名。
 
-```
+```kt
 val myBirthDate = "02/12/1994"
 
 ```

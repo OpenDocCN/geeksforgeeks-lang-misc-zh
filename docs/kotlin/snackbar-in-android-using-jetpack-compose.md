@@ -23,7 +23,7 @@ Snackbar 是一个轻量级的小部件，它们用于在应用程序的底部�
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

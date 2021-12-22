@@ -40,7 +40,7 @@
 *   We added some dependencies and plugins.
 *   And enable view binding.
 
-```
+```kt
 plugins {
    id 'com.android.application'
    id 'kotlin-android'
@@ -127,7 +127,7 @@ dependencies {
 
 在 SQLite 数据库中创建实体/表
 
-```
+```kt
 package com.example.searchViewInRoom.data
 
 import androidx.room.Entity

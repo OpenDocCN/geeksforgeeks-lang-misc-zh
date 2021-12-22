@@ -10,7 +10,7 @@
 
 在应用程序的 [build.gradle](https://www.geeksforgeeks.org/android-build-gradle/) 文件中，将以下行添加到依赖项部分:
 
-```
+```kt
 dependencies {
     ...
     implementation 'com.android.billingclient:billing:2.0.1'
@@ -21,7 +21,7 @@ dependencies {
 
 您还必须在安卓清单中提供计费权限:
 
-```
+```kt
 <uses-permission android:name="com.android.vending.BILLING" />
 ```
 
@@ -33,7 +33,7 @@ dependencies {
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : AppCompatActivity() {
     private lateinit var myBilled: BillingClient
     private val courseList = listOf("geeks_for_geeks_android_course", "geeks_for_geeks_dsa_course")
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : AppCompatActivity(), PurchasesUpdatedListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         ..........
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity(), PurchasesUpdatedListener {
 
 ## 我的锅
 
-```
+```kt
 private fun loadBillers() = if (myBiller.isReady) {
     val params = Billers
         .newBuilder()
@@ -125,7 +125,7 @@ private fun loadBillers() = if (myBiller.isReady) {
 
 ## 我的锅
 
-```
+```kt
 if (myBiller.responseCode == BillingClient.BillingResponseCode.OK && myBiller.isNotEmpty()) {
     for (myBillers in myBillers) {
         if (myBiller.sku == "gfg_product_one")
@@ -148,7 +148,7 @@ if (myBiller.responseCode == BillingClient.BillingResponseCode.OK && myBiller.is
 
 ## 我的锅
 
-```
+```kt
 override fun onPurchasesUpdated(
     myBiller: MyBiller?,
     purchases: MutableList<Purchase>?

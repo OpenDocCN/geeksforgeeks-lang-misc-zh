@@ -28,7 +28,7 @@ SafetyNet 是谷歌提供的一个简单且可扩展的解决方案，用于验�
 
 ## 我的锅
 
-```
+```kt
 def nav_version = "2.3.1"
 implementation 'androidx.core:core-ktx:1.6.0'
 implementation 'androidx.appcompat:appcompat:1.3.1'
@@ -52,7 +52,7 @@ implementation 'com.google.api-client:google-api-client:1.30.11'
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -98,7 +98,7 @@ implementation 'com.google.api-client:google-api-client:1.30.11'
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -125,7 +125,7 @@ implementation 'com.google.api-client:google-api-client:1.30.11'
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -165,7 +165,7 @@ implementation 'com.google.api-client:google-api-client:1.30.11'
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -278,7 +278,7 @@ implementation 'com.google.api-client:google-api-client:1.30.11'
 
 ## 我的锅
 
-```
+```kt
 package com.shanu.safetynetchecker.ui
 
 import android.os.Bundle
@@ -409,7 +409,7 @@ class Request : Fragment() {
 
 ## 我的锅
 
-```
+```kt
 package com.shanu.safetynetchecker.model
 
 import android.os.Parcelable
@@ -427,7 +427,7 @@ data class SafetynetResultModel(
 
 ## 我的锅
 
-```
+```kt
 package com.shanu.safetynetchecker.ui
 
 import android.os.Bundle

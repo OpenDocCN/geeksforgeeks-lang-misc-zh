@@ -8,7 +8,7 @@
 
 **等级体系**
 
-```
+```kt
 kotlin.Any
      android.view.View
           android.view.ViewGroup
@@ -28,7 +28,7 @@ kotlin.Any
 
 ## 可扩展标记语言
 
-```
+```kt
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -51,7 +51,7 @@ kotlin.Any
 
 ## 我的锅
 
-```
+```kt
 package com.example.webview_kotlin
 
 import android.os.Bundle
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"

@@ -19,7 +19,7 @@
 
 我们可以使用**安卓:timePickerMode** 只显示时钟视图。在下面的例子中，我们在时钟模式下使用时间选择器。
 
-```
+```kt
 <TimePicker
         android:id="@+id/timePicker1"
         android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
 
 我们也可以通过使用 **android:timePickerMode** 属性来使用微调器格式的 TimePicker。
 
-```
+```kt
 <TimePicker
         android:id="@+id/timePicker1"
         android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
 
 在这个文件中，我们将添加时间选择器和文本视图小部件，并设置它们的属性，以便可以在 kotlin 文件中访问它们。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -92,7 +92,7 @@
 
 在这个文件中，我们将添加时间选择器和文本视图小部件，并设置它们的属性，以便可以在 kotlin 文件中访问它们。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -121,7 +121,7 @@
 
 在这里，我们将指定活动的名称。
 
-```
+```kt
 <resources>
     <string name="app_name">TimePickerInKotlin</string>
 </resources>
@@ -131,18 +131,18 @@
 
 首先我们定义一个函数 *OnClickTime()* ，从 MainActivity 调用。
 
-```
+```kt
 private fun OnClickTime()
 ```
 
 然后，我们声明两个变量 *textView* 和 *timePicker* 来使用它们的 id 从 XML 布局中访问小部件。
 
-```
+```kt
 val textView = findViewById(R.id.textView)
 val timePicker = findViewById<timepicker>(R.id.timePicker)</timepicker> 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -188,7 +188,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

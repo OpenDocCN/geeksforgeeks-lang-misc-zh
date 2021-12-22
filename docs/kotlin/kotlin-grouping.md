@@ -7,7 +7,7 @@ Kotlin 标准库在扩展函数的帮助下帮助对集合元素进行分组。�
 
 **使用 groupBy()函数演示的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val fruits = listOf("apple", "apricot", "banana",
         "cherries", "berries", "cucumber")
@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 {A=[apple, apricot], B=[banana, berries], C=[cherries, cucumber]}
 {a=[APPLE, APRICOT], b=[BANANA, BERRIES], c=[CHERRIES, CUCUMBER]}
 
@@ -35,7 +35,7 @@ fun main(args: Array<String>) {
 
 **演示 groupingBy()功能的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val fruits = listOf("apple", "apricot", "banana",
         "cherries", "berries", "cucumber")
@@ -45,7 +45,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 {a=2, b=2, c=2}
 
 ```

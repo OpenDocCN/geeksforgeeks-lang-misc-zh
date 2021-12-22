@@ -25,7 +25,7 @@
 
 在 Room 中，一个用@Database 注释的*抽象*类在 SQLite 数据库上提供了一个抽象层。Room 的这个组件是应用程序中持久化的关系数据的主要访问资源。服务于此目的的类必须是抽象的，包括与数据库关联的实体列表，包含一个没有参数的抽象方法，返回类型与用@Dao 注释的接口相同。例如，下面的代码片段显示了一个名为*的注释类，它继承自 *RoomDatabase* 。*
 
-```
+```kt
 @Database(entities = [ToDoModel::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun toDoDao(): ToDoDao
@@ -38,7 +38,7 @@ abstract class AppDatabase : RoomDatabase() {
 
 实体只不过是一个将数据库表的列表示为数据字段的类。这个类用@Entity 注释进行了注释。类中的所有字段都必须是可访问的，即要么是公共的，要么是用 getter/setter 方法。还必须有一个构造函数来创建入口实例。在 Kotlin 中，最好的方法是使用一个数据类，该类提供构造函数、getter 和 setter 方法，这些方法都是内在实现的。从 SQL 的知识可知，每个实体类必须至少有一个主键。为此，该特定字段可以用@PrimaryKey 注释来定义单个字段主键，或者在有多个主键的情况下，可以使用多个字段的@Entity 注释的属性。如果我们不想保留这些字段，我们也可以用@忽略注释来注释这些字段。这里我们有一个待办事项模型类作为例子，它包含变量标题、描述和一个 id，该 id 是自动生成的并充当主键。
 
-```
+```kt
 @Entity
 data class ToDoModel (
         var title: String,
@@ -54,7 +54,7 @@ data class ToDoModel (
 
 如上所述，Room 允许开发人员以更加健壮和自然的方式使用 SQL 查询。当我们看到这一切发生的时候。Dao 是一个用@Dao 注释进行注释的接口，它拥有我们在使用中需要的所有 SQL 查询。这是使用各种注释完成的，如@插入、@更新、@查询、@删除等。这就像魔术一样减少了样板文件——使得添加或删除查询变得非常容易。它作为一个应用编程接口提供对数据库的访问。这些方法是在调用它们的线程上执行的，因此我们必须确保它们不是使用主(用户界面)线程调用的。如果我们需要处理多个实体，我们不需要将不同的方法从一个 Dao 复制到另一个 Dao，因为它也支持继承。为此，只需创建一个通用的 BaseDao <t>类，并在那里定义各种@Insert、@Update 和@Delete 方法。下面是一个简单的 Dao 接口，具有插入、更新和查询方法。</t>
 
-```
+```kt
 @Dao
 interface ToDoDao {
     @Insert()

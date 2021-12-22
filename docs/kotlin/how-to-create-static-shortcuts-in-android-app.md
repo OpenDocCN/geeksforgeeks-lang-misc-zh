@@ -36,7 +36,7 @@
 
 ## AndroidManifest.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.geeksforgeeks.static_shortcuts">
@@ -147,7 +147,7 @@
 
 ## 快捷方式. xml
 
-```
+```kt
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Shortcut 1:
@@ -211,7 +211,7 @@
 
 ## Activity1.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -234,7 +234,7 @@
 
 ## Activity1.kt
 
-```
+```kt
 package org.geeksforgeeks.static_shortcuts
 
 import androidx.appcompat.app.AppCompatActivity
@@ -250,7 +250,7 @@ class Activity1 : AppCompatActivity() {
 
 ## Activity2.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -273,7 +273,7 @@ class Activity1 : AppCompatActivity() {
 
 ## 活动 2.kt
 
-```
+```kt
 package org.geeksforgeeks.static_shortcuts
 
 import androidx.appcompat.app.AppCompatActivity
@@ -289,7 +289,7 @@ class Activity2 : AppCompatActivity() {
 
 ## Activity3.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -312,7 +312,7 @@ class Activity2 : AppCompatActivity() {
 
 ## Activity3.kt
 
-```
+```kt
 package org.geeksforgeeks.static_shortcuts
 
 import androidx.appcompat.app.AppCompatActivity
@@ -332,7 +332,7 @@ class Activity3 : AppCompatActivity() {
 
 ## activity_main.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -380,7 +380,7 @@ class Activity3 : AppCompatActivity() {
 
 ## MainActivity.kt 公司
 
-```
+```kt
 package org.geeksforgeeks.static_shortcuts
 
 import android.content.Intent
@@ -429,7 +429,7 @@ class MainActivity : AppCompatActivity() {
 
 ## **Strings.xml**
 
-```
+```kt
 <resources>
     <string name="app_name">Static_Shortcuts</string>
     <string name="compose_shortcut_short_label0">MainActivity</string>

@@ -7,7 +7,7 @@
 一个类在另一个类中声明，那么它被称为**嵌套**类。默认情况下，嵌套类是**静态的**，因此我们可以使用 dot()访问嵌套类属性或变量。)表示法，而不创建类的对象。
 **声明语法:**
 
-```
+```kt
 class outerClass {
        ............
       // outer class properties or member function
@@ -25,7 +25,7 @@ class outerClass {
 
 ## 我的锅
 
-```
+```kt
 // outer class declaration
 class outerClass {
     var str = "Outer class"
@@ -45,7 +45,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Praveen Ruhil
 ```
 
@@ -55,7 +55,7 @@ Praveen Ruhil
 
 ## 我的锅
 
-```
+```kt
 // outer class declaration
 class outerClass {
     var str = "Outer class"
@@ -80,7 +80,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Nested class member function call successful
 ```
 
@@ -94,7 +94,7 @@ Nested class member function call successful
 
 当我们可以使用关键字 **inner** 在另一个类中声明一个类时，那么它被称为 inner class。在内部类的帮助下，我们可以在内部类中访问外部类属性。
 
-```
+```kt
 class outerClass {
        ............
       // outer class properties or member function
@@ -111,7 +111,7 @@ class outerClass {
 
 ## 我的锅
 
-```
+```kt
 // outer class declaration
 class outerClass {
     var str = "Outer class"
@@ -136,7 +136,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Error:(9, 22) Kotlin: Unresolved reference: str
 ```
 
@@ -144,7 +144,7 @@ Error:(9, 22) Kotlin: Unresolved reference: str
 
 ## 我的锅
 
-```
+```kt
 // outer class declaration
 class outerClass {
     var str = "Outer class"
@@ -169,6 +169,6 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Outer class property accessed successfully from inner class
 ```

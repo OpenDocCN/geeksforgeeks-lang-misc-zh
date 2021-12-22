@@ -40,7 +40,7 @@ Kotlin 编程语言的 RadioGroup 类用于创建一个容纳多个[radio button
 
 下面是`**activity_main.xml**`文件添加一个 RadioGroup 及其 5 个 RadioButton 子代的代码。还添加了一个普通的提交按钮来接受和显示用户选择的响应。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -137,7 +137,7 @@ Kotlin 编程语言的 RadioGroup 类用于创建一个容纳多个[radio button
 
 以下是`**MainActivity.kt**`文件的代码，用于访问 kotlin 文件中的 RadioGroup 小部件，并在用户选择单选按钮时显示适当的消息。
 
-```
+```kt
 package com.example.sampleproject
 
 import androidx.appcompat.app.AppCompatActivity
@@ -189,7 +189,7 @@ class MainActivity : AppCompatActivity() {
 
 活动中使用的所有字符串，从应用程序名称到各种单选按钮的选项，都列在该文件中。
 
-```
+```kt
 <resources>
     <string name="app_name">RadioGroup in Kotlin</string>
     <string name="Heading">Choose a GfG course</string>

@@ -14,7 +14,7 @@
 用于指定要执行或不执行的语句块，即如果某个条件为真，则要执行的语句或语句块无法执行。
 **语法:**
 
-```
+```kt
 if(condition) {
 
        // code to run if condition is true
@@ -29,7 +29,7 @@ if(condition) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var a = 3
     if(a > 0){
@@ -40,7 +40,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Yes, number is positive
 ```
 
@@ -48,7 +48,7 @@ Yes, number is positive
 if-else 语句包含两个语句块。if 语句用于在条件为真时执行代码块，else 语句用于在条件为假时执行代码块。
 **语法:**
 
-```
+```kt
  if(condition) { 
         // code to run if condition is true
 }
@@ -65,7 +65,7 @@ else {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
         var a = 5
         var b = 10
@@ -80,7 +80,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Number 10 is larger than 5
 ```
 
@@ -90,7 +90,7 @@ Number 10 is larger than 5
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var a = 50
     var b = 40
@@ -111,7 +111,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Greater number is: 50
 ```
 
@@ -119,7 +119,7 @@ Greater number is: 50
 在这里，用户可以放多个条件。所有的 if 语句都是从上到下执行的。一个接一个地检查所有的条件，如果发现任何条件为真，那么与 if 语句相关的代码将被执行，所有其他语句将被旁路到块的末尾。如果这些条件都不成立，那么默认情况下将执行最终的 else 语句。
 **语法:**
 
-```
+```kt
 if(Firstcondition) { 
     // code to run if condition is true
 }
@@ -138,7 +138,7 @@ else{
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import java.util.Scanner
 
 fun main(args: Array<String>) {
@@ -165,7 +165,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Enter any number: 12
 12 is positive number
 
@@ -180,7 +180,7 @@ Enter any number: 0
 嵌套 if 语句意味着一个 if 语句位于另一个 if 语句内部。如果第一个条件为真，则对要执行的相关块进行编码，并再次检查嵌套在第一个块中的 If 条件，如果它也为真，则执行与其相关的代码。它会一直持续到最后一个条件成立。
 **语法:**
 
-```
+```kt
 if(condition1){
             // code 1
       if(condition2){
@@ -197,7 +197,7 @@ if(condition1){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import java.util.Scanner
 
 fun main(args: Array<String>) {
@@ -231,7 +231,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Enter three numbers: 123 231 321
 321 is the largest number
 ```

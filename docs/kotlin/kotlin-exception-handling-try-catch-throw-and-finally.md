@@ -15,7 +15,7 @@
 
 我们一般使用**抛出**-表达式，来抛出一个异常对象–
 
-```
+```kt
 throw Exception("Throw me")
 ```
 
@@ -28,7 +28,7 @@ throw Exception("Throw me")
 
 **抛出算术异常的柯特林程序–**
 
-```
+```kt
 fun main(args : Array<String>){
     var num = 10 / 0      // throws exception
     println(num)
@@ -37,7 +37,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Exception in thread "main" java.lang.ArithmeticException: / by zero
 ```
 
@@ -51,7 +51,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 
 **尝试捕获块的语法–**
 
-```
+```kt
 try {
    // code that can throw exception
 } catch(e: ExceptionName) {
@@ -62,7 +62,7 @@ try {
 
 **使用 try-catch 块进行算术异常处理的 Kotlin 程序–**
 
-```
+```kt
 import kotlin.ArithmeticException
 
 fun main(args : Array<String>){
@@ -78,7 +78,7 @@ fun main(args : Array<String>){
 
 **输出:**
 
-```
+```kt
 Divide by zero not allowed
 ```
 
@@ -91,7 +91,7 @@ Divide by zero not allowed
 
 **使用 try-catch 作为表达式的 Kotlin 程序–**
 
-```
+```kt
 fun test(a: Int, b: Int) : Any {
     return try {
         a/b
@@ -114,7 +114,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 5
 java.lang.ArithmeticException: / by zero
 Divide by zero not allowed
@@ -130,7 +130,7 @@ Divide by zero not allowed
 
 **带有 try 块的最终块的语法–**
 
-```
+```kt
 try {
    // code that can throw exception
 } finally {
@@ -141,7 +141,7 @@ try {
 
 **使用最终块和尝试块的柯特林程序–**
 
-```
+```kt
 fun main(args : Array<String>){
     try{
         var ar = arrayOf(1,2,3,4,5)
@@ -163,7 +163,7 @@ fun main(args : Array<String>){
 
 **带有 try-catch 块的最终块的语法–**
 
-```
+```kt
 try {
    // code that can throw exception
 } catch(e: ExceptionName) {
@@ -177,7 +177,7 @@ try {
 我们也可以使用 try、catch 和 finally 将所有块放在一起。
 **柯特林程序的使用最后用试捕块来阻止-**
 
-```
+```kt
 fun main (args: Array<String>){  
     try {  
         var int = 10 / 0  
@@ -192,7 +192,7 @@ fun main (args: Array<String>){  
 
 **输出:**
 
-```
+```kt
 java.lang.ArithmeticException: / by zero
 This block always executes
 
@@ -204,7 +204,7 @@ This block always executes
 
 **使用 throw 关键字的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     test("abcd")
     println("executes after the validation")
@@ -220,6 +220,6 @@ fun test(password: String) {
 
 **输出:**
 
-```
+```kt
 Exception in thread "main" java.lang.ArithmeticException: Password is too short
 ```

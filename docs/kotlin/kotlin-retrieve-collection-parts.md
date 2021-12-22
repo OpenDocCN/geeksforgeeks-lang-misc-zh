@@ -15,7 +15,7 @@
 切片函数的工作方式和其他语言一样，它返回一个带有给定索引的项目列表。这些索引可以作为范围或整数值传递。
 **科特林示例演示切片–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val fruits = listOf("apple", "banana", "cherries",
         "dragon_fruit", "egg_fruit", "fig")
@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [banana, cherries, dragon_fruit, egg_fruit]
 [apple, cherries, egg_fruit]
 [banana, cherries, egg_fruit]
@@ -41,7 +41,7 @@ fun main(args: Array<String>) {
 
 **演示取放的 Kotlin 示例–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val fruits = listOf("apple", "banana", "cherries",
         "dragon_fruit", "egg_fruit", "fig")
@@ -54,7 +54,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [apple, banana, cherries]
 [dragon_fruit, egg_fruit, fig]
 [egg_fruit, fig]
@@ -66,7 +66,7 @@ fun main(args: Array<String>) {
 
 **科特林计划–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val fruits = listOf("apple", "banana", "cherries",
         "dragon_fruit", "egg_fruit", "fig")
@@ -91,7 +91,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [apple, banana, cherries]
 [dragon_fruit, egg_fruit, fig]
 [banana, cherries, dragon_fruit, egg_fruit, fig]
@@ -107,7 +107,7 @@ fun main(args: Array<String>) {
 
 **使用 chunk()函数的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val fruits = listOf("apple", "banana", "cherries",
         "dragon_fruit", "egg_fruit", "fig")
@@ -122,7 +122,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [[apple, banana, cherries], [dragon_fruit, egg_fruit, fig]]
 [3, 12, 21, 30]
 
@@ -137,7 +137,7 @@ fun main(args: Array<String>) {
 
 **演示窗口()功能的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val fruits = listOf("apple", "banana", "cherries","orange")
     println(fruits.windowed(3))
@@ -147,7 +147,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [[apple, banana, cherries], [banana, cherries, orange]]
 [[apple, banana, cherries], [cherries, orange]]
 
@@ -156,7 +156,7 @@ fun main(args: Array<String>) {
 有一个**zipcwitnext()**函数构建两个元素窗口，也可以用一个变换来调用。
 **科特林程序演示 zipcwitnext()–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val fruits = listOf("apple", "banana", "cherries",
         "dragon_fruit", "egg_fruit", "fig")
@@ -166,7 +166,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [(apple, banana), (banana, cherries), (cherries, dragon_fruit), 
 (dragon_fruit, egg_fruit), (egg_fruit, fig)]
 

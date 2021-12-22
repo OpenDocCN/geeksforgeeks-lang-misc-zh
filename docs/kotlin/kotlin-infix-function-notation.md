@@ -17,7 +17,7 @@
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 fun main(args: Array<String>) {
     var a = 15
     var b = 12
@@ -33,7 +33,7 @@ fun main(args: Array<String>) {
 
 ****输出:**** 
 
-```
+```kt
 Boolean result1 = true
 Boolean result1 = true
 ```
@@ -45,7 +45,7 @@ Boolean result1 = true
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 fun main(args: Array<String>) {
     var a = 8
 
@@ -60,7 +60,7 @@ fun main(args: Array<String>) {
 
 ****输出:**** 
 
-```
+```kt
 Signed shift right by 2 bit: 2
 Signed shift right by 1 bit: 4
 ```
@@ -72,7 +72,7 @@ Signed shift right by 1 bit: 4
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 fun main(args: Array<String>) {
     var a = 8
     var b = 4
@@ -86,7 +86,7 @@ fun main(args: Array<String>) {
 
 ****输出:**** 
 
-```
+```kt
 9
 10
 3
@@ -113,7 +113,7 @@ b . dec()也代表 b(3)- 1 = 2**
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 class math {
     // user defined infix member function
     infix fun square(n : Int): Int{
@@ -131,7 +131,7 @@ fun main(args: Array<String>) {
 
 ****输出:**** 
 
-```
+```kt
 The square of a number is: 9
 ```
 
@@ -141,14 +141,14 @@ The square of a number is: 9
 2。**中缀**关键字用于标记功能。
 3。它只包含一个参数，没有默认值，函数返回类型也是整数。** 
 
-```
+```kt
 square(n : Int):Int
 ```
 
 **然后，我们为类 **math()**
 创建一个对象，并使用中缀符号调用该函数-** 
 
-```
+```kt
 m square 3
 ```
 
@@ -158,7 +158,7 @@ m square 3
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```kt
 class check{
     // user defined infix member function
     infix fun dataType(x: Any):Any{
@@ -181,7 +181,7 @@ fun main(args: Array<String>){
 
 ****输出:**** 
 
-```
+```kt
 Double
 ```
 
@@ -189,7 +189,7 @@ Double
 我们创建了一个中缀符号函数来查找变量的数据类型。
 数据类型在中缀调用中作为参数传递-** 
 
-```
+```kt
 chk dataType 3.3
 ```
 
@@ -201,7 +201,7 @@ chk dataType 3.3
 **执行指令时优先级很重要。中缀函数调用的优先级低于算术运算符、类型转换和 rangeTo 运算符。
 以下表达式等价:** 
 
-```
+```kt
 2 shr 1 + 2 and 2 shr (1 + 2)
 1 until n * 2 and 0 until (n * 2)
 xs union ys as Set<*> and xs union (ys as Set<*>)
@@ -210,7 +210,7 @@ xs union ys as Set<*> and xs union (ys as Set<*>)
 **另一方面，中缀函数调用比布尔运算符&&和||、is-和 in-check 以及其他一些运算符具有更高的优先级。
 以下表达式也是等价的:** 
 
-```
+```kt
 a xor b || c and a xor (b || c)
 a in b xor c and a in (b xor c)
 ```

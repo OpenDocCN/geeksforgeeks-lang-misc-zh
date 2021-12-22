@@ -15,7 +15,7 @@
 
 ## 我的锅
 
-```
+```kt
 // by default public
 class A {            
     var int = 10

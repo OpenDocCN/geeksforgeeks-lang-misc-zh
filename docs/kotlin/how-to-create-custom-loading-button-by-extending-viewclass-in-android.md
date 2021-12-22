@@ -16,7 +16,7 @@
 
 ## 我的锅
 
-```
+```kt
 package com.gfg.article.customloadingbutton
 
 // describes the state of the custom button
@@ -31,7 +31,7 @@ sealed class ButtonState() {
 
 ## 我的锅
 
-```
+```kt
 import android.animation.AnimatorInflater
 import android.animation.ValueAnimator
 import android.content.Context
@@ -169,7 +169,7 @@ class LoadingButton @JvmOverloads constructor(
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -201,7 +201,7 @@ class LoadingButton @JvmOverloads constructor(
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="LoadingButton">
@@ -216,7 +216,7 @@ class LoadingButton @JvmOverloads constructor(
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <animator 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -233,7 +233,7 @@ class LoadingButton @JvmOverloads constructor(
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity

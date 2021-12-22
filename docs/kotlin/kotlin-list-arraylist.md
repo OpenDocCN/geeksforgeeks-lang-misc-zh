@@ -17,7 +17,7 @@ ArrayList 类用于在 [Kotlin](https://www.geeksforgeeks.org/introduction-to-ko
 它用于将特定元素添加到数组列表中。第二个参数包含要添加的元素，它是必需的，第一个参数是我们要添加元素的索引，它是可选的，默认情况下它的值是 1 +数组的最后一个索引。
 **例:–**
 
-```
+```kt
 fun main(args: Array<String>) {
     // creating empty arraylist using constructor
     var arraylist = ArrayList<String>()
@@ -39,7 +39,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Arraylist ---->
 Geeks
 Geeks
@@ -54,7 +54,7 @@ Geeks
 
 它用于将指定集合的所有元素添加到指定索引处的当前列表中。第一个参数是索引值，也是可选的。
 
-```
+```kt
 fun main(args: Array<String>) {
     // creating empty arraylist using constructor
     var arraylist=ArrayList<String>()
@@ -74,7 +74,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Elements in arraylist1 -->
 Geeks
 For
@@ -86,7 +86,7 @@ Geeks
 
 它用于返回列表中指定索引处的元素。
 
-```
+```kt
 fun main(args: Array<String>) {
     // creating empty arraylist using constructor
     var arraylist=ArrayList<Int>()
@@ -107,7 +107,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 10 20 30 40 50
 Accessing the index 2 of arraylist: 40
 
@@ -117,7 +117,7 @@ Accessing the index 2 of arraylist: 40
 
 它用于用作为参数传递的指定元素替换当前列表中指定位置的元素。
 
-```
+```kt
 fun main(args: Array<String>) {
     // creating empty arraylist using constructor
     var arraylist=ArrayList<String>()
@@ -140,7 +140,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks for Geeks: Portal 
 Geeks for Geeks: A computer Science portal for students 
 
@@ -150,7 +150,7 @@ Geeks for Geeks: A computer Science portal for students
 
 它用于返回列表中指定元素第一次出现的索引，如果列表中没有指定元素，则返回-1。
 
-```
+```kt
 fun main(args: Array<String>) {
     // creating empty arraylist using constructor
     var arraylist=ArrayList<String>()
@@ -169,7 +169,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks for Geeks 
 The index of the element is: 0
 
@@ -179,7 +179,7 @@ The index of the element is: 0
 
 它用于从当前集合中移除特定元素的第一个匹配项(如果有)。类似地，为了移除索引 I 处的元素，我们使用**移除(索引)**
 
-```
+```kt
 fun main(args: Array<String>) {
     // creating empty arraylist using constructor
     var arraylist=ArrayList<String>()
@@ -197,7 +197,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks Geeks
 
 ```
@@ -206,7 +206,7 @@ Geeks Geeks
 
 它用于从列表中移除所有元素。
 
-```
+```kt
 fun main(args: Array<String>) {
     // creating empty arraylist using constructor
     var arraylist=ArrayList<Int>()
@@ -228,7 +228,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 10 20 30 40 50 
 The size of arraylist after clearing all the elements: 0
 

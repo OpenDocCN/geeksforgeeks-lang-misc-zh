@@ -24,7 +24,7 @@ SQLite 是一个独立、高可靠性、嵌入式、全功能、公共域的 SQL
 
 ## 可扩展标记语言
 
-```
+```kt
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
 
@@ -34,7 +34,7 @@ SQLite 是一个独立、高可靠性、嵌入式、全功能、公共域的 SQL
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -128,7 +128,7 @@ SQLite 是一个独立、高可靠性、嵌入式、全功能、公共域的 SQL
 
 ## 我的锅
 
-```
+```kt
 package com.release.gfg1
 
 import android.content.ContentValues
@@ -231,7 +231,7 @@ class DBHelper(context: Context, factory: SQLiteDatabase.CursorFactory?) :
 
 ## 我的锅
 
-```
+```kt
 package com.release.gfg1
 
 import androidx.appcompat.app.AppCompatActivity

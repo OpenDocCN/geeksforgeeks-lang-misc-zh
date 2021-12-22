@@ -23,7 +23,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -55,7 +55,7 @@
 
 ## ***我的锅***
 
-```
+```kt
 *import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
 
 ## ***Java 语言(一种计算机语言，尤用于创建网站)***
 
-```
+```kt
 *import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -18,7 +18,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <DatePicker
     android:id="@+id/datePicker"
     android:layout_width="wrap_content"

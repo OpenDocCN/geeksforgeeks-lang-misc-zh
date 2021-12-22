@@ -17,7 +17,7 @@
 
 第二步是设计我们的布局页面。在这里，我们将使用线性布局从柯特林文件中获取滚动视图。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -39,7 +39,7 @@
 
 打开 app/src/main/Java/your package name/main activity . kt .在这个文件中，我们声明了一个变量 ScrollView 来创建滚动视图小部件，如下所示:
 
-```
+```kt
 val scrollView = ScrollView(this)
         val layoutParams = LinearLayout.LayoutParams(
         ViewGroup.LayoutParams.MATCH_PARENT, 
@@ -50,11 +50,11 @@ val scrollView = ScrollView(this)
 
 然后使用以下命令在布局中添加小部件
 
-```
+```kt
 linearLayout1?.addView(scrollView)
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp 
 
 import androidx.appcompat.app.AppCompatActivity 
@@ -137,7 +137,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="i.apps.myapplication">

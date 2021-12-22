@@ -42,7 +42,7 @@ SeekBar 与 ProgressBar 具有相同的属性。但唯一不同的是，用户�
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -80,7 +80,7 @@ SeekBar 与 ProgressBar 具有相同的属性。但唯一不同的是，用户�
 
 ## 我的锅
 
-```
+```kt
 import android.content.Intent
 import android.os.Bundle
 import android.widget.SeekBar
@@ -154,7 +154,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -177,7 +177,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 // No Changes in this file
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

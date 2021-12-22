@@ -27,7 +27,7 @@
 
 **步骤#1:添加依赖项**
 
-```
+```kt
 dependencies {
     // AndroidX Pallete
     implementation 'androidx.palette:palette-ktx:1.0.0'
@@ -38,7 +38,7 @@ dependencies {
 
 **第二步:添加互联网权限，让我们的 app 可以使用互联网**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.android.androidx.palette">
@@ -54,7 +54,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat 
   xmlns:android="http://schemas.android.com/apk/res/android"
@@ -176,7 +176,7 @@ dependencies {
 
 ## 我的锅
 
-```
+```kt
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.os.Bundle

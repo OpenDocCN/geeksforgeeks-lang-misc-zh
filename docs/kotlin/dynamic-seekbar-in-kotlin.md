@@ -21,7 +21,7 @@
 
 首先，使用 LinearLayout 并设置它的属性，如 id、layout_width、上下文等。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -39,13 +39,13 @@ android:orientation="vertical">
 
 在这里，我们需要声明 seek 来创建 SeekBar，如下所示:
 
-```
+```kt
  val seek = SeekBar(this)
 ```
 
 然后，我们创建另一个变量 lParams，并为此设置属性。我们将为 LinearLayout 创建另一个变量，并使用 id 容器从 activity_main.xml 文件中调用。
 
-```
+```kt
 val lLayout = findViewById(R.id.container)
         // Adding SeekBar to LinearLayout
         lLayout?.addView(seek) 
@@ -53,11 +53,11 @@ val lLayout = findViewById(R.id.container)
 
 并将名为 seek 的 SeekBar 添加到线性布局中
 
-```
+```kt
 lLayout?.addView(seek)
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">
 

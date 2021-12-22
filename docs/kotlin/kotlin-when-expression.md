@@ -14,7 +14,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import java.util.Scanner;
 fun main(args: Array<String>) {
     var reader = Scanner(System.`in`)
@@ -32,7 +32,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Enter any largebody: Sun
 Sun is a Star
 
@@ -46,7 +46,7 @@ I don't know anything about it
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import java.util.Scanner;
 fun main(args: Array<String>) {
     var reader = Scanner(System.`in`)
@@ -63,7 +63,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Enter name: Mars
 
 Process finished with exit code 0
@@ -75,7 +75,7 @@ Process finished with exit code 0
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import java.util.Scanner;
 fun main(args: Array<String>) {
     var reader = Scanner(System.`in`)
@@ -104,14 +104,14 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Enter the month number:8
 August
 ```
 
 如果参数不满足任何分支条件，则执行 else 分支。作为一个表达式，else 分支是强制的，除非编译器能够证明所有可能的情况都被分支条件覆盖。如果我们不能使用 else 分支，它将给出一个编译器错误。
 
-```
+```kt
 Error:(6, 17) Kotlin: 'when' expression must be exhaustive, add necessary 'else' branch
 ```
 
@@ -122,7 +122,7 @@ Error:(6, 17) Kotlin: 'when' expression must be exhaustive, add necessary 'else'
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import java.util.Scanner;
 fun main(args: Array<String>) {
     var reader = Scanner(System.`in`)
@@ -138,7 +138,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Enter name of planet: Earth
 Planet
 ```
@@ -148,7 +148,7 @@ Planet
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import java.util.Scanner;
 fun main(args: Array<String>) {
     var reader = Scanner(System.`in`)
@@ -167,7 +167,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Enter the month number of year: 5
 It is summer season
 
@@ -180,7 +180,7 @@ Enter valid month of year
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var num: Any = "GeeksforGeeks"
     when(num){
@@ -193,7 +193,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 It is a String
 ```
 
@@ -202,7 +202,7 @@ It is a String
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun isOdd(x: Int) = x % 2 != 0
 fun isEven(x: Int) = x % 2 == 0
 
@@ -218,7 +218,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Even
 ```
 
@@ -227,7 +227,7 @@ Even
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun hasPrefix(company: Any) = when (company) {
     is String -> company.startsWith("GeeksforGeeks")
     else -> false
@@ -247,6 +247,6 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Yes, string started with GeeksforGeeks
 ```

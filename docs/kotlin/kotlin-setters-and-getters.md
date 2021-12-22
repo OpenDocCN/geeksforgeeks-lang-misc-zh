@@ -6,7 +6,7 @@
 
 ### **属性的语法**
 
-```
+```kt
 var <propertyName>[: <PropertyType>] [= <property_initializer>]
     [<getter>]
     [<setter>]
@@ -17,7 +17,7 @@ var <propertyName>[: <PropertyType>] [= <property_initializer>]
 1.  它以 ***val*** 而不是 ***var*** 开始。
 2.  它不允许二传手。
 
-```
+```kt
 fun main(args : Array) {
     var x: Int = 0
     val y: Int = 1
@@ -32,7 +32,7 @@ fun main(args : Array) {
 
 在科特林中，**设置器**用于*设置任意变量的值*，而**获取器**用于*获取值*。Getters 和 Setters 在代码中自动生成。让我们定义一个属性“**名称**”，在一个类中，**公司**。**名称**的数据类型是字符串，我们将*用一些默认值初始化*。
 
-```
+```kt
 class Company {
 var name: String = "Defaultvalue"
 }
@@ -40,7 +40,7 @@ var name: String = "Defaultvalue"
 
 上面的代码相当于这个代码:
 
-```
+```kt
 class Company {
     var name: String = "defaultvalue"
         get() = field                     // getter
@@ -50,7 +50,7 @@ class Company {
 
 我们*实例化了类“公司{…}”的对象“**c”**。当我们初始化“**名称”**属性时，它被传递给设置器的*参数值*，并将“字段”设置为值。当我们试图访问对象的**名称**属性时，我们得到字段是因为这个代码 **get() =字段**。我们可以**获取**或**使用**点(。)符号**–***
 
-```
+```kt
 val c = Company()
 c.name = "GeeksforGeeks"  // access setter
 println(c.name)           // access getter (Output: GeeksforGeeks)
@@ -60,7 +60,7 @@ println(c.name)           // access getter (Output: GeeksforGeeks)
 
 ## 我的锅
 
-```
+```kt
 class Company {
     var name: String = ""
         get() = field        // getter
@@ -77,7 +77,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 GeeksforGeeks
 ```
 
@@ -92,7 +92,7 @@ GeeksforGeeks
 
 如果我们希望**在公共访问中获得**方法，我们可以编写以下代码:
 
-```
+```kt
 var name: String = ""
     private set
 ```
@@ -101,7 +101,7 @@ var name: String = ""
 
 ## 我的锅
 
-```
+```kt
 class Company () {
     var name: String = "abc"
         private set
@@ -121,7 +121,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Name of the company is: abc
 Name of the new comapny is: GeeksforGeeks
 ```
@@ -134,7 +134,7 @@ Name of the new comapny is: GeeksforGeeks
 
 ## 我的锅
 
-```
+```kt
 class Registration( email: String, pwd: String, age: Int , gender: Char) {
 
     var email_id: String = email
@@ -184,7 +184,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 praveenruhil1993@gmail.com
 geeksforgeeks@careers.org
 Geeks@123

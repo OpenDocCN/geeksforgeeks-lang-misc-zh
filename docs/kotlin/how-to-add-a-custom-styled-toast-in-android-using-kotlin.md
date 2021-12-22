@@ -38,7 +38,7 @@ a[](https://www.geeksforgeeks.org/android-toast-in-kotlin/)**是短时间间隔�
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -113,7 +113,7 @@ a[](https://www.geeksforgeeks.org/android-toast-in-kotlin/)**是短时间间隔�
 
 ## **我的锅**
 
-```
+```kt
 import android.app.Activity
 import android.view.Gravity
 import android.widget.TextView
@@ -146,7 +146,7 @@ fun Toast.showCustomToast(message: String, activity: Activity)
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -177,7 +177,7 @@ fun Toast.showCustomToast(message: String, activity: Activity)
 
 ## **我的锅**
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast

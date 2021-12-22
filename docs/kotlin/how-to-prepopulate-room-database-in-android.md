@@ -16,7 +16,7 @@ Room 是安卓中的 Jetpack 架构组件之一。这在 SQLite 数据库上提�
 
 ## 我的锅
 
-```
+```kt
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -37,7 +37,7 @@ data class Quote(
 
 ## 我的锅
 
-```
+```kt
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
@@ -59,7 +59,7 @@ interface QuoteDao {
 
 ## 我的锅
 
-```
+```kt
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room

@@ -17,25 +17,25 @@
 我们可以通过在一个代码元素前面加上@符号来应用注释。例如，如果我们想要应用一个名为 Positive 的注释，那么如果我们想要编写注释 Pos
 ，那么我们应该编写以下内容
 
-```
+```kt
 @Positive val i: Int
 ```
 
 参数可以在括号中传递给注释，类似于函数调用。
 
-```
+```kt
 @Allowedlanguage("Kotlin")
 ```
 
 当一个注释作为参数在另一个注释中传递时，我们应该省略 **@** 符号。这里我们已经通过了 **Replacewith()** 注释作为参数。
 
-```
+```kt
 @Deprecated("This function is deprecated, use === instead", ReplaceWith("this === other"))
 ```
 
 当标注参数是类对象时，我们应该在类名中添加**:class**为:
 
-```
+```kt
 @Throws(IOException::class)
 ```
 
@@ -44,13 +44,13 @@
 要声明一个注释，class 关键字的前缀是 annotation 关键字。本质上，注释声明不能包含任何代码。在声明我们的自定义注释时，我们应该指定它们可能应用于哪些代码元素，以及它们应该存储在哪里。
 最简单的标注不包含参数–
 
-```
+```kt
 annotation class MyClass
 ```
 
 需要参数的注释与具有主构造函数的类非常相似–
 
-```
+```kt
 annotation class Suffix(val s: String)
 ```
 
@@ -58,7 +58,7 @@ annotation class Suffix(val s: String)
 
 我们也可以注释一个类的构造函数。这可以通过对构造函数声明使用 constructor 关键字并在它前面放置注释来实现。
 
-```
+```kt
 class MyClass@Inject constructor(dependency: MyDependency) {  
 //. . .   
 }
@@ -68,7 +68,7 @@ class MyClass@Inject constructor(dependency: MyDependency) {
 
 我们可以通过向属性添加注释来注释类的属性。在下面的示例中，我们假设如果名称的值是 Kotlin 或 Java，那么 Lang 实例是有效的。
 
-```
+```kt
 class Lang (
     @Allowedlanguages(["Java","Kotlin"]) val name: String)
 }
@@ -83,7 +83,7 @@ Kotlin 还提供了某些内置注释，用于为用户定义的注释提供更�
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 @Target(AnnotationTarget.CONSTRUCTOR, AnnotationTarget.LOCAL_VARIABLE)
 annotation class AnnotationDemo2
 
@@ -105,7 +105,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 Constructor annotated
 Count is 5
 Local parameter annotated
@@ -123,7 +123,7 @@ Hello
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 //Specifying an annotation with runtime policy
 @Retention(AnnotationRetention.RUNTIME)
 annotation class AnnotationDemo3
@@ -135,7 +135,7 @@ annotation class AnnotationDemo3
 
 **输出:**
 
-```
+```kt
 Main function annotated
 ```
 
@@ -145,7 +145,7 @@ Main function annotated
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 @Repeatable
 @Retention(AnnotationRetention.SOURCE)
 annotation class AnnotationDemo4 (val value: Int)
@@ -159,6 +159,6 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 Repeatable Annotation applied on main
 ```

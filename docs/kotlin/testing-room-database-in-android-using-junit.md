@@ -58,7 +58,7 @@
 
 ## 我的锅
 
-```
+```kt
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -78,7 +78,7 @@ data class Language(
 
 ## 我的锅
 
-```
+```kt
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
@@ -101,7 +101,7 @@ interface LanguageDao {
 
 ## 我的锅
 
-```
+```kt
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
@@ -150,7 +150,7 @@ abstract class LanguageDatabase : RoomDatabase() {
 
 ## 我的锅
 
-```
+```kt
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider

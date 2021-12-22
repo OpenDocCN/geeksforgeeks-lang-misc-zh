@@ -12,7 +12,7 @@
 
 通过 **==运算符**及其逆运算**检查结构相等性！=操作员**。默认情况下，包含 **x==y** 的表达式被转换为该类型的 **equals()** 函数的调用。
 
-```
+```kt
 x?.equals(y) ?: (y === null)
 ```
 
@@ -27,7 +27,7 @@ x?.equals(y) ?: (y === null)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 class Square(val side: Int) {
     override fun equals(other: Any?): Boolean {
         if(other is Square){
@@ -53,7 +53,7 @@ fun main(args :Array<String>) {
 
 **输出:**
 
-```
+```kt
 Two squares are structurally equal
 Two squares are not referentially equal
 ```

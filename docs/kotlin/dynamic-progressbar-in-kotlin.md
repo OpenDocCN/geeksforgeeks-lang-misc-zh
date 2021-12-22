@@ -17,7 +17,7 @@
 
 第二步是设计我们的布局页面。在这里，我们将使用 RelativeLayout 从 Kotlin 文件中获取 ProgressBar。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -50,7 +50,7 @@
 
 **更新字符串. xml 文件**
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicProgressBarInKotlin</string>
 </resources>
@@ -60,7 +60,7 @@
 
 打开 app/src/main/Java/your package name/main activity . kt .在这个文件中，我们声明了一个变量 **progressBar** 来创建 progressBar 小部件，如下所示
 
-```
+```kt
        val progressBar = ProgressBar(this)
        //setting height and width of progressBar
        progressBar.layoutParams = LinearLayout.LayoutParams(
@@ -71,13 +71,13 @@
 
 然后使用以下命令在布局中添加小部件
 
-```
+```kt
 val layout = findViewById(R.id.layout)
      // Add ProgressBar to our layout
      layout?.addView(progressBar) 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -134,7 +134,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

@@ -18,7 +18,7 @@ Kotlin 是由 JetBrains 开发的一种静态类型的通用编程语言，它�
 
 ## 科特林
 
-```
+```kt
 fun add(a:Int,b:Int) : Int {
    // ans having final value after execution
    val ans = a + b 

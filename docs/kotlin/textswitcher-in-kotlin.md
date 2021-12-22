@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <TextSwitcher android:id="@+id/imgSw"
     android:layout_width="match_parent"
     android:layout_height="250dp">
@@ -47,7 +47,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -100,7 +100,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <resources>
     <string name="app_name">TextSwitcherInKotlin</string>
     <string name="next">Next</string>
@@ -112,19 +112,19 @@
 
 首先，我们声明一个数组**语言**，它包含用于文本视图的语言列表。
 
-```
+```kt
 private val textList = arrayOf("Java","Python","Kotlin","Scala","C++")
 ```
 
 然后，我们从 XML 布局中访问**文本切换器**，并设置文本颜色、文本大小等属性。
 
-```
+```kt
 val textSwitcher = findViewById<TextSwitcher>(R.id.textSwitcher)
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -185,7 +185,7 @@ class MainActivity : AppCompatActivity() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

@@ -85,7 +85,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <resources>
     <string name="app_name">Services_In_Android</string>
     <string name="heading">Services In Android</string>
@@ -100,7 +100,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -186,7 +186,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import android.app.Service;
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -244,7 +244,7 @@ public class NewService extends Service {
 
 ## 我的锅
 
-```
+```kt
 import android.app.Service
 import android.content.Intent
 import android.media.MediaPlayer
@@ -299,7 +299,7 @@ class NewService : Service() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -355,7 +355,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 ## 我的锅
 
-```
+```kt
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -414,7 +414,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.services_in_android">

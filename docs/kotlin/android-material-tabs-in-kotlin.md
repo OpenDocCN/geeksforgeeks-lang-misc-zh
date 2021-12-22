@@ -30,7 +30,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0F9D58</color>
@@ -43,7 +43,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <!-- Base application theme. -->
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
        <!-- Customize your theme here. -->
@@ -59,7 +59,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -114,7 +114,7 @@
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -135,7 +135,7 @@ class GeeksFragment : Fragment() {
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -154,7 +154,7 @@ class GeeksFragment : Fragment() {
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -175,7 +175,7 @@ class CodeFragment : Fragment() {
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -195,7 +195,7 @@ class CodeFragment : Fragment() {
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -216,7 +216,7 @@ class LeetFragment : Fragment() {
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -238,7 +238,7 @@ class LeetFragment : Fragment() {
 
 ## **我的锅**
 
-```
+```kt
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
@@ -279,7 +279,7 @@ class ViewPagerAdapter(supportFragmentManager: FragmentManager) :
 
 ## **我的锅**
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.Toolbar

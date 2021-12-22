@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```kt
 fun <T> setOf( vararg elements: T): Set<T>
 ```
 
@@ -20,7 +20,7 @@ fun <T> setOf( vararg elements: T): Set<T>
 
 ## 我的锅
 
-```
+```kt
 fun main(args: Array<String>)
 {
     //declaring a set of strings

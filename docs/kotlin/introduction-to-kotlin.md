@@ -8,7 +8,7 @@ Kotlin 由谷歌赞助，2017 年宣布为**安卓开发**的官方语言之一�
 
 **柯特林示例–**
 
-```
+```kt
 fun main()
 {
     println("Hello Geeks");
@@ -22,7 +22,7 @@ fun main()
 
     考虑以下示例–
 
-    ```
+    ```kt
     /*     Java Code     */
     class Book {
         private String title;
@@ -48,7 +48,7 @@ fun main()
 
     但是在科特林，只有一行用来定义上面的类
 
-    ```
+    ```kt
     /* Kotlin Code */
     data class Book(var title:String, var author:Author)
 
@@ -58,21 +58,21 @@ fun main()
 4.  **Safe** – It provides the safety from most annoying and irritating NullPointerExceptions by supporting nullability as part of its system.
     Every variable in Kotlin is non-null by default.
 
-    ```
+    ```kt
     String s = "Hello Geeks"    // Non-null 
 
     ```
 
     如果我们试图赋予 s 空值，那么它会产生编译时错误。所以，
 
-    ```
+    ```kt
     s = null                    // compile time error
 
     ```
 
     要将空值赋给任何字符串，应该将其声明为可空。
 
-    ```
+    ```kt
     String nullableStr? = null  // compiles successfully
 
     ```
@@ -85,7 +85,7 @@ fun main()
 
     **高阶函数示例–**
 
-    ```
+    ```kt
     fun myFun(company: String,product: String, fn: (String,String) -> String): Unit {
         val result = fn(company,product)
         println(result)
@@ -100,14 +100,14 @@ fun main()
 
     **输出:**
 
-    ```
+    ```kt
     JetBrains develops Kotlin
     ```
 
 7.  **智能强制转换**–它显式地强制转换不可变的值，并将该值自动插入其安全强制转换中。
     如果我们试图访问一个可空类型的字符串(字符串？= "BYE ")如果没有安全转换，它将生成编译错误。
 
-    ```
+    ```kt
     fun main(args: Array){
         var string: String? = "BYE"          
             print(string.length)       // compile time error
@@ -116,7 +116,7 @@ fun main()
 
     ```
 
-    ```
+    ```kt
     fun main(args: Array){
         var string: String? = "BYE"
         if(string != null) {               // smart cast

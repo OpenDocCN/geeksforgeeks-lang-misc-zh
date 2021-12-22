@@ -31,13 +31,13 @@
 
 **步骤#1** :将依赖项添加到你的安卓项目中
 
-```
+```kt
 debugImplementation 'com.amitshekhar.android:debug-db:1.0.6'
 ```
 
 **步骤#2:** 设置认证
 
-```
+```kt
 debug {
     resValue("string", "DB_PASSWORD_GEEKSFORGEEKS", "password")
 }
@@ -53,7 +53,7 @@ debug {
 
 ## 我的锅
 
-```
+```kt
 public static void showingDebug(Context context) {
     if (BuildConfig.DEBUG) {
        try {
@@ -76,7 +76,7 @@ public static void showingDebug(Context context) {
 
 ## 我的锅
 
-```
+```kt
 public static void applyCustomFileDBHere(Context c) {
     if (BuildConfig.DEBUG) {
         try {

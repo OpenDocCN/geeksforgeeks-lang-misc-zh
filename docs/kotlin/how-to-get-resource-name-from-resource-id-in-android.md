@@ -4,7 +4,7 @@
 
 在安卓系统中，资源名称是在代码或 XML 中声明资源时分配给资源的名称。资源名称的格式为:
 
-```
+```kt
 ***[<package_name>.]R.<resource_type>.<resource_name>***
 ```
 
@@ -33,7 +33,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -72,7 +72,7 @@
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button

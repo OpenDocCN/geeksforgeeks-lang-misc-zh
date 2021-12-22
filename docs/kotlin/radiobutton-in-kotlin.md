@@ -37,7 +37,7 @@
 
 我们可以将应用程序的名称写成 **RadioButtonInKotlin** ，并编写其他可以使用的字符串。
 
-```
+```kt
 <resources>
     <string name="app_name">RadioButtonInKotlin</string>
     <string name="checked">checked</string>
@@ -49,7 +49,7 @@
 
 在 android 中，我们使用 RadioGroup 中的单选按钮将单选按钮组合成一个组，这将确保用户只能从按钮组中选择按钮。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -117,7 +117,7 @@
 
 ## 现在，打开 MainActivity.kt 文件，并在其中添加下面的代码。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -175,7 +175,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.myfirstkotlinapp">

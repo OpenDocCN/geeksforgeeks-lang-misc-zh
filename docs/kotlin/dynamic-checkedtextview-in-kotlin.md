@@ -17,7 +17,7 @@ CheckedTextView 用于实现可检查的接口，用户可以勾选或检查需�
 
 ## 修改 activity_main.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -33,7 +33,7 @@ CheckedTextView 用于实现可检查的接口，用户可以勾选或检查需�
 下一步是添加当我们选中或取消选中 CheckedTextView 时将显示的字符串。
 转到 res/values/strings.xml 并添加以下行。
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicCheckedTextView</string>
     <string name="checked">checked</string>
@@ -46,7 +46,7 @@ CheckedTextView 用于实现可检查的接口，用户可以勾选或检查需�
 
 最后一步是对我们的 CheckedTextView 进行编码。打开 app/src/main/Java/**your package name**/main activity . kt
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.myfirstkotlinapp">

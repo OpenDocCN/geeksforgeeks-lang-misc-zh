@@ -19,7 +19,7 @@
 
 **科特林绘图程序–**
 
-```
+```kt
 fun main(args : Array<String>) {
     val numbers = setOf(1, 2, 3)
 
@@ -34,7 +34,7 @@ fun main(args : Array<String>) {
 
 **输出:**
 
-```
+```kt
 The new elements are: [2, 4, 6]
 The modified elements are: [0, 2, 6]
 
@@ -42,7 +42,7 @@ The modified elements are: [0, 2, 6]
 
 在转换之后，如果我们在某些元素上获得空值，我们只需要调用 **mapNotNull()** 函数来代替 **map()** ，或者调用 **mapIndexedNotNull()** 来代替 **mapIndexed()** ，就可以很容易地从集合中过滤掉空值。
 
-```
+```kt
 fun main(args: Array<String>) {
     val numbers = setOf(1, 2, 3)
 
@@ -57,7 +57,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Numbers without null value: [4, 6]
 Numbers without null value: [2, 6]
 
@@ -71,7 +71,7 @@ Numbers without null value: [2, 6]
 
 **使用 zip()方法的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val numbers = listOf("One","Two","Three","four")
     val integers = listOf(1,2,3,4)
@@ -87,7 +87,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [(One, 1), (Two, 2), (Three, 3), (four, 4)]
 New pairs :[(One, 1), (Two, 2)]
 
@@ -100,7 +100,7 @@ New pairs :[(One, 1), (Two, 2)]
 
 **使用 unzip()方法的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val companies = listOf("Apple" to 1, "Google" to 2,
         "Amazon" to 3, "Facebook" to 4)
@@ -112,7 +112,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Pairs unzipped: ([Apple, Google, Amazon, Facebook], [1, 2, 3, 4])
 ```
 
@@ -124,7 +124,7 @@ Pairs unzipped: ([Apple, Google, Amazon, Facebook], [1, 2, 3, 4])
 
 **使用 associateWith()方法的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
 
     val captains = listOf("Kohli", "Root", "Smith", "Williamson","Root")
@@ -136,7 +136,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 {Kohli=5, Root=4, Smith=5, Williamson=10}
 
 ```
@@ -149,7 +149,7 @@ fun main(args: Array<String>) {
 
 **使用扁平化()方法的柯特林程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
 
     val openers = listOf(setOf("Warner", "Finch") ,setOf("Roy","Bairstow")
@@ -162,7 +162,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 All the openers are: [Warner, Finch, Roy, Bairstow, Rohit,Dhawan, Guptill, Henry]
 
 ```
@@ -180,7 +180,7 @@ All the openers are: [Warner, Finch, Roy, Bairstow, Rohit,Dhawan, Guptill, Henry
 
 **使用字符串表示方法的柯特林程序–**
 
-```
+```kt
 fun main(args: Array<String>) {
     val colors = listOf("Red","Green","Blue","Orange","Yellow")
 
@@ -196,7 +196,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 [Red, Green, Blue, Orange, Yellow]
 Red, Green, Blue, Orange, Yellow
 Colors are: Red, Green, Blue, Orange, Yellow

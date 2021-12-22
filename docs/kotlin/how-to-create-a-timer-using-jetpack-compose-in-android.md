@@ -18,7 +18,7 @@
 
 ## 我的锅
 
-```
+```kt
 import androidx.compose.ui.unit.dp
 import androidx.activity.compose.setContent
 import android.os.Bundle

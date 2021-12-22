@@ -9,7 +9,7 @@
 Kotlin 中的一个属性在 Java 中被定义为一个与该属性同名的**私有字段**，以及**一个 getter 和 setter 函数**，其中 *get* 和 *set* 被放在属性名称的前面。这个私有字段存在于从 kotlin 文件生成的 java 类中。
 例如，属性 **var age: Int** 在 Java 中被编译为以下代码–
 
-```
+```kt
 private int age;
 
 public int getAge(){
@@ -28,7 +28,7 @@ public void setAge(int age){
 
 例如，如果有一个名为**Kotlinprograms**的包和一个名为 **firstProgram.kt** 的 kotlink 文件，内容如下。
 
-```
+```kt
 // Kotlin file
 
 package kotlinPrograms
@@ -43,7 +43,7 @@ class myClass {
 
 可以使用以下语法在 Java 中调用该函数:
 
-```
+```kt
 // Java
 new kotlinPrograms.firstProgram.myClass()
 kotlinPrograms.FirstProgramkt.add(3, 5);
@@ -52,7 +52,7 @@ kotlinPrograms.FirstProgramkt.add(3, 5);
 
 我们可以使用 **@JvmName** 注释来更改生成的 Java 类的名称。
 
-```
+```kt
 // Kotlin file
 @file : Jvmname("Sample")
 
@@ -68,7 +68,7 @@ class myClass {
 
 可以使用以下语法在 Java 中调用该函数:
 
-```
+```kt
 // Java
 new kotlinPrograms.firstProgram.myClass()
 kotlinPrograms.Sample.add(3, 5);
@@ -79,7 +79,7 @@ kotlinPrograms.Sample.add(3, 5);
 
 **例**
 
-```
+```kt
 // Kotlin code
 @file:JvmName("Sample")
 @file:JvmMultiFileClass
@@ -91,7 +91,7 @@ fun print(){.......}
 
 **另一个柯特林文件–**
 
-```
+```kt
 // Kotlin code
 @file:JvmName("Sample")
 @file:JvmMultiFileClass
@@ -103,7 +103,7 @@ fun printString(){.......}
 
 这两个函数都可以使用以下语法在 Java 中调用:
 
-```
+```kt
 // Java calling statements
 sample.example.Sample.print()
 sample.example.Sample.printString()
@@ -116,7 +116,7 @@ Kotlin 中的**属性**在**命名对象或伴随对象**中声明，在 Java �
 
 **例**:
 
-```
+```kt
 // filename Program.kt
 
 // Property in a companion object
@@ -131,7 +131,7 @@ class abc{
 const val y = 5;
 ```
 
-```
+```kt
 //Java Usage
 abc.x
 Programkt.y
@@ -144,7 +144,7 @@ Programkt.y
 
 **伴随对象示例**
 
-```
+```kt
 // filename Programs.kt
 class abc {
   companion object {
@@ -158,7 +158,7 @@ class abc {
 }
 ```
 
-```
+```kt
 //Java usage
 abc.add(); // works fine
 abc.sub(); // error: not a static method
@@ -175,7 +175,7 @@ Kotlin 提供了在 Java 中将属性用作实例字段的功能。为此，请�
 
 **例**
 
-```
+```kt
 // Kotlin code
 class ABC(c: Int){
  @JvmField val id = c
@@ -184,7 +184,7 @@ class ABC(c: Int){
 
 这个属性现在可以在 Java 中作为
 
-```
+```kt
 ABC obj = new ABC(5);
 System.out.println(obj.id);
 
@@ -196,7 +196,7 @@ System.out.println(obj.id);
 
 **例**
 
-```
+```kt
 // A sample Kotlin function
 
 // filename program.kt
@@ -207,7 +207,7 @@ fun print(){
 }
 ```
 
-```
+```kt
 // Java code trying to call the above  function
 try {
     Sample.Program.print(); 
@@ -220,7 +220,7 @@ try {
 
 因此，为了解决错误，我们在顶部声明**@抛出**注释。
 
-```
+```kt
 // Overcoming the problem with @Throws annotation
 package Sample
 

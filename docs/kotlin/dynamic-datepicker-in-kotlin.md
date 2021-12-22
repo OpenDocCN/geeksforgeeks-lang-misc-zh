@@ -17,7 +17,7 @@
 
 ## 修改 activity_main.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -31,7 +31,7 @@
 
 **修改字符串. xml 文件**
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicDatePickerInKotlin</string>
 </resources>
@@ -41,14 +41,14 @@
 
 首先，我们声明一个变量 *datePicker* 在 Kotlin 文件中创建 datePicker 小部件。
 
-```
+```kt
 val datePicker = DatePicker(this)
 
 ```
 
 然后，我们将使用在线形布局中添加日期选择器
 
-```
+```kt
 val linearLayout = findViewById(R.id.linear_layout)
         // add datePicker in LinearLayout
         linearLayout?.addView(datePicker) 
@@ -56,7 +56,7 @@ val linearLayout = findViewById(R.id.linear_layout)
 
 我们熟悉前面文章中的进一步活动。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

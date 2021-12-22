@@ -4,7 +4,7 @@
 
 [**JSON(JavaScript Object notification)**](https://www.geeksforgeeks.org/json-full-form/)是一种简单明了的交换服务器数据的数据交换格式，是 [XML](https://www.geeksforgeeks.org/difference-between-json-and-xml/) 的更好替代。这是因为 JSON 是一种轻量级的结构化语言。安卓支持 **JSONStringer、JSONObject、JSONArray、**等所有 JSON 类以及所有其他形式来解析 JSON 数据，获取程序需要的信息。JSON 的主要优势是它是一个独立于语言的，JSON 对象将包含像键/值对一样的数据。一般来说，JSON 节点将以**方括号([)** 或**花括号({)** 开始。方括号和花括号的主要区别在于**方括号([)** 代表 **JSONArray 节点**的开始。而**花括号({)** 代表 **JSONObject** 。因此需要调用适当的方法来获取数据。有时 JSON 数据以[]开头。然后我们需要使用 **getJSONArray()** 方法来获取数据。同样，如果它以{ }开头，那么我们需要使用 **getJSONobject()** 方法。JSON 文件的语法如下:
 
-```
+```kt
 { 
 "Name": "GeeksforGeeks", 
 "Estd": 2009, 
@@ -34,7 +34,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -58,7 +58,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -104,7 +104,7 @@
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import android.util.Log
 import android.widget.ListAdapter

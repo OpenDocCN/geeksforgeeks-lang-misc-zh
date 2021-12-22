@@ -8,7 +8,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     val a = listOf('1', '2', '3')
     println(a.size)
@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 3
 1
 3
@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     //creating list of strings
     val a = listOf("Ram", "Shyam", "Raja", "Rani")
@@ -44,7 +44,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The size of the list is: 4
 The index of the element Raja is: 2
 The element at index Raja
@@ -61,7 +61,7 @@ len–1，其中“len”是列表的长度。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     val numbers = listOf(1, 5, 7, 32, 0, 21, 1, 6, 10)
@@ -85,7 +85,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 1
 6
 The first index of number is 0
@@ -101,7 +101,7 @@ The last index of the list is 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     val numbers = listOf(1, 5, 7, 32, 0, 21, 1, 6, 10)
@@ -112,7 +112,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 1
 10
 ```
@@ -124,7 +124,7 @@ fun main(args: Array<String>)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     val names = listOf("Gopal", "Asad", "Shubham", "Aditya",
@@ -157,7 +157,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 Gopal, Asad, Shubham, Aditya, Devarsh, Nikhil, Gagan, 
 Gopal Asad Shubham Aditya Devarsh Nikhil Gagan 
 names[0] = Gopal
@@ -172,7 +172,7 @@ Gopal Asad Shubham Aditya Devarsh Nikhil Gagan
 
 **说明:**
 
-```
+```kt
 for (name in names) {
 
         print("$name, ")
@@ -181,7 +181,7 @@ for (name in names) {
 
 for 循环遍历列表。在每个循环中，变量“name”指向列表中的下一个元素。
 
-```
+```kt
 for (i in 0 until names.size) {
 
         print("${names[i]} ")
@@ -190,13 +190,13 @@ for (i in 0 until names.size) {
 
 此方法使用列表的大小。直到关键字创建列表索引的范围。
 
-```
+```kt
 names.forEachIndexed({i, j -> println("namess[$i] = $j")})
 ```
 
 使用 forEachIndexed()方法，我们循环遍历在每次迭代中都有可用索引和值的列表。
 
-```
+```kt
 val it: ListIterator = names.listIterator()
 
     while (it.hasNext()) {
@@ -214,7 +214,7 @@ val it: ListIterator = names.listIterator()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     val list = listOf(8, 4, 7, 1, 2, 3, 0, 5, 6 )
@@ -229,20 +229,20 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 [0, 1, 2, 3, 4, 5, 6, 7, 8]
 [8, 7, 6, 5, 4, 3, 2, 1, 0]
 ```
 
 **说明:**
 
-```
+```kt
 val asc = list.sorted()
 ```
 
 sorted()方法按升序对列表进行排序。
 
-```
+```kt
 val desc = list.sortedDescending()
 ```
 
@@ -254,7 +254,7 @@ sortedDescending()方法按降序对列表进行排序。
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     val list = listOf(8, 4, 7, 1, 2, 3, 0, 5, 6 )
@@ -277,21 +277,21 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 The list contains 0
 The list does not contain 3 and -1
 ```
 
 **说明:**
 
-```
+```kt
 val res = list.contains(0)
 ```
 
 检查列表是否包含 0，并返回真或假(她的真)，存储在 RES
 中
 
-```
+```kt
  val result = list.containsAll(listOf(3, -1))
 ```
 

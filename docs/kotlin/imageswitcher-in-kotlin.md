@@ -11,7 +11,7 @@ ImageSwitcher 是 View Switcher 的一个子类，用于动画化一个图像并
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <ImageSwitcher android:id="@+id/imgSw"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -48,7 +48,7 @@ ImageSwitcher 是 View Switcher 的一个子类，用于动画化一个图像并
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
    xmlns:android="http://schemas.android.com/apk/res/android"
@@ -102,7 +102,7 @@ ImageSwitcher 是 View Switcher 的一个子类，用于动画化一个图像并
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <resources>
    <string name="app_name">ImageSwitcherInKotlin</string>
    <string name="next">Next</string>
@@ -126,14 +126,14 @@ ImageSwitcher 是 View Switcher 的一个子类，用于动画化一个图像并
 
 首先，我们声明一个数组**花**，它包含用于 ImageView 的图像资源。
 
-```
+```kt
 private val flowers = intArrayOf(R.drawable.flower1,
        R.drawable.flower2, R.drawable.flower4)
 ```
 
 然后，我们从 XML 布局中访问 **ImageSwitcher** ，设置 ImageView 显示图像。
 
-```
+```kt
 val imgSwitcher = findViewById<ImageSwitcher>(R.id.imgSw)
 imgSwitcher?.setFactory({
            val imgView = ImageView(applicationContext)
@@ -145,13 +145,13 @@ imgSwitcher?.setFactory({
 
 此外，我们将对 ImageSwitcher 使用上述方法之一。
 
-```
+```kt
 imgSwitcher?.setImageResource(flowers[index])
 ```
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -213,7 +213,7 @@ class MainActivity : AppCompatActivity() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

@@ -10,7 +10,7 @@
 
 **定义*适用* :**
 
-```
+```kt
 inline fun  T.apply(block: T.() -> Unit): T 
 {
     block()
@@ -21,7 +21,7 @@ inline fun  T.apply(block: T.() -> Unit): T
 
 **<u>应用</u>** 的例子
 
-```
+```kt
 fun main(args: Array<String>)
 {
     data class GFG(var name1 : String, var name2 : String,var name3 : String)
@@ -35,7 +35,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 GFG(name1=Geeks, name2=for, name3=Geeks)
 
 ```
@@ -48,7 +48,7 @@ GFG(name1=Geeks, name2=for, name3=Geeks)
 
  ***的定义同***
 
-```
+```kt
 inline fun  with(receiver: T, block: T.() -> R): R 
 {
     return receiver.block()
@@ -58,7 +58,7 @@ inline fun  with(receiver: T, block: T.() -> R): R
 
 **<u>例*同*</u> 同**
 
-```
+```kt
 fun main(args: Array<String>)
 {
     data class GFG(var name1: String, var name2 : String,var name3 : String)
@@ -75,7 +75,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 GFG(name1=Geeks, name2=for, name3=Geeks)
 
 ```

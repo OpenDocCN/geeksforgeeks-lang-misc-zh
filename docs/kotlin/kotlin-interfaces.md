@@ -10,7 +10,7 @@ Kotlin 中的接口定义以**接口**关键字开始，后面是接口名称，
 
 **示例:**
 
-```
+```kt
 interface Vehicle()
 {
   fun start()
@@ -23,14 +23,14 @@ interface Vehicle()
 
 接口可以由类或对象实现。实现接口时，一致性类型必须为其所有成员提供定义。要实现一个接口，自定义类型的名称后跟一个冒号和要实现的接口的名称。
 
-```
+```kt
 class Car: Vehicle
 
 ```
 
 **演示柯特林界面的示例–**
 
-```
+```kt
 interface Vehicle {
     fun start()
     fun stop()
@@ -58,7 +58,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 Car started
 Car stopped
 
@@ -73,7 +73,7 @@ Car stopped
 
 **演示默认值和默认方法的示例–**
 
-```
+```kt
 interface FirstInterface {
     fun add(a: Int, b: Int = 5)
     fun print()
@@ -105,7 +105,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 Sum is 10
 This is a default method defined in the interface
 It has been overridden
@@ -121,7 +121,7 @@ It has been overridden
 
 **演示界面属性的示例–**
 
-```
+```kt
 interface InterfaceProperties {
     val a : Int
     val b : String
@@ -143,7 +143,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 5000
 Property Overridden
 
@@ -158,7 +158,7 @@ Kotlin 中的接口也可以继承其他接口。当一个接口扩展另一个�
 
 **演示接口继承的示例–**
 
-```
+```kt
 interface Dimensions {
     val length : Double
     val breadth : Double
@@ -196,7 +196,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 Area is 150.0
 Perimeter is 50.0
 
@@ -211,7 +211,7 @@ Perimeter is 50.0
 
 **演示多接口实现的示例–**
 
-```
+```kt
 interface InterfaceProperties {
     val a : Int
     val b : String
@@ -240,7 +240,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 Multiple Interfaces implemented
 
 ```

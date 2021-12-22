@@ -22,7 +22,7 @@
 
 ## 科特林
 
-```
+```kt
 class LiveEvent<C> {
 ...
   fun sendingValue(data: C) {
@@ -37,7 +37,7 @@ class LiveEvent<C> {
 
 ## 科特林
 
-```
+```kt
 abstract class GeeksforGeeksViewModel : ViewModel() {
   protected val fireAlertedEvent = LiveEvent<FireAlert>()
 }

@@ -6,7 +6,7 @@
 
 让我们假设我们正在销售一些物品，并且*成本*被定义为浮动类型。这在下面的数据类中描述
 
-```
+```kt
 data class Items(val itemno: Int, val cost: float, val qty: Int)
 ```
 
@@ -14,7 +14,7 @@ data class Items(val itemno: Int, val cost: float, val qty: Int)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 data class Items(val itemno: Int, val cost: Cost, val qty: Int)
 data class Cost(val value: Float, val currency: Currency)
 enum class Currency {
@@ -30,7 +30,7 @@ enum class Currency {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 data class Item(val id: Int, val price: RupeePrice, val qty: Int)
 inline class RupeePrice(val price: Float) {
     inline fun toDollars(): Float = price * 71.62f
@@ -45,7 +45,7 @@ inline class RupeePrice(val price: Float) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 inline class Name(val s: String) {
     val length: Int
         get() = s.length
@@ -66,7 +66,7 @@ fun main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 interface Printable {
     fun prettyPrint(): String
 }
@@ -85,7 +85,7 @@ fun main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 interface I
 inline class Foo(val i: Int) : I
 fun asInline(f: Foo) {}
@@ -111,7 +111,7 @@ fun main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 inline class UInt(val x: Int)
 // Represented as 'public final void compute(int x)' on the JVM
 fun compute(x: Int) { }
@@ -127,7 +127,7 @@ fun compute(x: UInt) { }
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 typealias NameTypeAlias = String
 inline class NameInlineClass(val s: String)
 fun acceptString(s: String) {}

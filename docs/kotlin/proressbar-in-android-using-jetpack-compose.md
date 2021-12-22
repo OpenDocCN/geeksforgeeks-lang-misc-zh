@@ -35,7 +35,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.graphics.drawable.shapes.Shape
 import android.media.Image
 import android.os.Bundle

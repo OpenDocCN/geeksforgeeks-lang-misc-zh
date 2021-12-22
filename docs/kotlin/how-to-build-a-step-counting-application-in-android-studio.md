@@ -20,7 +20,7 @@
 
 导航到**应用程序/清单/AndroidManifest.xml** ，并在清单中编写下面给出的代码，以获得用户对活动识别的权限:
 
-```
+```kt
 <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
 ```
 
@@ -42,7 +42,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
@@ -66,7 +66,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -126,7 +126,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.content.Context
 import android.hardware.Sensor
 import android.hardware.SensorEvent
@@ -261,7 +261,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener { 
 
 **输出:**
 
-```
+```kt
 Note: 
 We have to allow the permission required for the app by going to app settings and then enabling it. 
 It will not count the steps in the emulator, you have to use a real android device to test it.

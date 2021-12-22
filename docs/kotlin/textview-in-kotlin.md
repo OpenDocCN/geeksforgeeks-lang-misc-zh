@@ -49,7 +49,7 @@
 
 我们可以在 strings.xml 文件中添加字符串，并通过用它们的名称调用它们来轻松地在其他文件中使用它们。
 
-```
+```kt
 <resources>
     <string name="app_name">TextViewInKotlin</string>
     <string name="text_view">GeeksForGeeks</string>
@@ -61,7 +61,7 @@
 
 打开 activity_main.xml 文件，使用 id textView 创建一个 TextView。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -86,7 +86,7 @@
 
 打开 MainActivity.kt 文件，获取布局文件中定义的 TextView 的引用。
 
-```
+```kt
 
 // finding the textView
  val textView = findViewById(R.id.text_view_id) as TextView 
@@ -94,7 +94,7 @@
 
 将点击监听器设置为按钮
 
-```
+```kt
 textView?.setOnClickListener{ Toast.makeText(this@MainActivity,
                 "COMPUTER SCIENCE PORTAL", Toast.LENGTH_LONG).show() }
 
@@ -104,7 +104,7 @@ textView?.setOnClickListener{ Toast.makeText(this@MainActivity,
 
 打开 app/src/main/Java/**your package name**/main activity . kt 获取 TextView 的引用。
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -131,7 +131,7 @@ class MainActivity : AppCompatActivity() {
 
 我们还将看到 main/AndroidManifest.xml 文件中的代码。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.myfirstkotlinapp">

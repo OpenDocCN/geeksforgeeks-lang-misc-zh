@@ -10,7 +10,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 
 allprojects {         
    repositories {         
@@ -23,7 +23,7 @@ allprojects {         
 
 ## 可扩展标记语言
 
-```
+```kt
 
 dependencies {         
          implementation 'com.github.Jay-Goo:RangeSeekBar:v3.0.0'         
@@ -34,7 +34,7 @@ dependencies {         
 
 ## strings.xml
 
-```
+```kt
 
 <string-array name="levelArray">
         <item>Lv1</item>
@@ -49,7 +49,7 @@ dependencies {         
 
 ## activity_main.xml
 
-```
+```kt
 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
@@ -104,7 +104,7 @@ dependencies {         
 
 ## MainActivity.kt 公司
 
-```
+```kt
 package org.geeksforgeeks.rangeseekbar
 
 import androidx.appcompat.app.AppCompatActivity

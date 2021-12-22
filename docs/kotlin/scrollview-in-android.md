@@ -109,7 +109,7 @@
 
 在 **strings.xml** 文件中添加一些字符串，在应用程序中显示这些字符串。
 
-<gfg-tab role="tab" slot="tab" id="gfg-tab-0">strings.xml </gfg-tab> <gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="xml">```
+<gfg-tab role="tab" slot="tab" id="gfg-tab-0">strings.xml </gfg-tab> <gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="xml">```kt
 <resources>
     <string name="app_name">gfgapp_scrollview</string>
     <string name="scrolltext">Kotlin is a statically typed,

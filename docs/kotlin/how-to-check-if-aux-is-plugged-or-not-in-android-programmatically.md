@@ -20,7 +20,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent

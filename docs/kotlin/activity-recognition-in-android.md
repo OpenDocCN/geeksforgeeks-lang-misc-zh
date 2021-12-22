@@ -74,7 +74,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -101,7 +101,7 @@
 
 ## 我的锅
 
-```
+```kt
 // declare all required constants at one place
 object Constants {
     const val REQUEST_CODE_ACTIVITY_TRANSITION = 123
@@ -130,7 +130,7 @@ object Constants {
 
 ## 我的锅
 
-```
+```kt
 import android.Manifest
 import android.content.Context
 import android.os.Build
@@ -236,7 +236,7 @@ object ActivityTransitionsUtil {
 
 ## 我的锅
 
-```
+```kt
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -284,7 +284,7 @@ class ActivityTransitionReceiver : BroadcastReceiver() {
 
 ## 我的锅
 
-```
+```kt
 import android.Manifest
 import android.app.PendingIntent
 import android.content.Intent

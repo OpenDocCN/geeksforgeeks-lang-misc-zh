@@ -10,7 +10,7 @@
 
 **在你的应用程序构建中加入依赖项:**
 
-```
+```kt
 dependencies {
     implementation "androidx.slice:slice-builders-ktx:(latest version)"
 }
@@ -18,7 +18,7 @@ dependencies {
 
 我们现在必须构建一个扩展 SliceProvider 的文件。这类似于给应用分一杯羹。切片是应用程序信息和活动的一部分，可以显示在安卓系统表面的应用程序之外或另一个应用程序中。一个 uri 标识一个切片，一个 SliceProvider 使您的应用程序能够基于一个 Uri 提供一个切片。要添加新的提供者，请转到 **NEW** - > **【其他】** - > **SLICEPROVIDER** ，它将在生成时被添加到清单中。
 
-```
+```kt
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geeksforgeeks.android.sampleapp">
     ...
@@ -41,7 +41,7 @@ dependencies {
 
 ## 我的锅
 
-```
+```kt
 override fun sliceAttached(sliceUri: Uri): Slice? {
     val gfgAction = doSomething()
     return if (sliceUri.path == "/gfg") {
@@ -94,7 +94,7 @@ SliceProvider 类是向其他应用程序公开您的切片的唯一方法，它
 
 ## 我的锅
 
-```
+```kt
 private fun postSomething(sliceUri: Uri): Slice {
   return ListBuilder(context, postUri, ListBuilder.INFINITY)
 
@@ -123,7 +123,7 @@ private fun postSomething(sliceUri: Uri): Slice {
 
 ## 我的锅
 
-```
+```kt
 override fun postOnGeeksforGeeks(): Boolean {
  return true
 }

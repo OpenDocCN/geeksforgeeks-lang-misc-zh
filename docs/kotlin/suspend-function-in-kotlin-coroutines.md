@@ -14,7 +14,7 @@
 
 ## 科特林
 
-```
+```kt
 // sample kotlin program to show use of delay function
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

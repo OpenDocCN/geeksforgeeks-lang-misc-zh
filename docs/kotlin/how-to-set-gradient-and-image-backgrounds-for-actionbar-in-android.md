@@ -30,7 +30,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -49,7 +49,7 @@
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.actionbargradientcolor
 
 import androidx.appcompat.app.AppCompatActivity
@@ -92,7 +92,7 @@ design_image.png
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.actionbargradientcolor
 
 import androidx.appcompat.app.AppCompatActivity

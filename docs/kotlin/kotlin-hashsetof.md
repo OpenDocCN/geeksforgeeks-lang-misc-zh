@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```kt
 fun <T> hashSetOf(vararg elements: T): HashSet<T>
 ```
 
@@ -18,7 +18,7 @@ fun <T> hashSetOf(vararg elements: T): HashSet<T>
 
 的例子
 
-```
+```kt
 fun main(args: Array<String>)
 {
 

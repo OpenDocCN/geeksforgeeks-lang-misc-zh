@@ -29,7 +29,7 @@ Kotlin 是一种静态类型的、跨平台的、通用的 JVM 编程语言，�
 *   [用 Intellij IDEA 设置 Kotlin 环境](https://www.geeksforgeeks.org/kotlin-environment-setup-with-intellij-idea/)–设置 IDE，准备好用 Kotlin 开始编程之旅。
 *   [科特林 Hello World 节目](https://www.geeksforgeeks.org/hello-world-program-in-kotlin/)–了解科特林首个“Hello World”节目。很简单。
 
-```
+```kt
 fun main(args: Array<String>) {
     println("Hello, World!")
 }

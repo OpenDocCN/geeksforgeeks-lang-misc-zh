@@ -20,7 +20,7 @@ Kotlin 语言对函数式编程有极好的支持。Kotlin 函数可以存储在
 
 ## **我的锅**
 
-```
+```kt
       // lambda expression
 var lambda = {println("GeeksforGeeks: A Computer Science portal for Geeks") }
       // higher-order function

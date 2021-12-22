@@ -17,7 +17,7 @@
 
 在这里，我们将使用 RelativeLayout 从 Kotlin 文件中获取滚动视图。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -38,7 +38,7 @@
 
 **更新字符串. xml 文件**
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicHorizontal ScrollView</string>
 </resources>
@@ -52,7 +52,7 @@
 
 打开 app/src/main/Java/your package name/main activity . kt .在这个文件中，我们声明了一个变量 **horizontalScrollView** 来创建 horizontalScrollView 小部件，如下所示:
 
-```
+```kt
  val horizontalScrollView = HorizontalScrollView(this)
     //setting height and width
     val layoutParams = LinearLayout.LayoutParams(
@@ -64,13 +64,13 @@
 
 然后，使用以下命令在布局中添加小部件
 
-```
+```kt
    val linearLayout1 = findViewById(R.id.layout)
        linearLayout1?.addView(horizontalScrollView)
 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -169,7 +169,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

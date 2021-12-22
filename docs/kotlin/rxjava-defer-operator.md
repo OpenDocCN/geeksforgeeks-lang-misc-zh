@@ -12,7 +12,7 @@
 
 ## 我的锅
 
-```
+```kt
 class GfG {
     var course: String = "DSA"
 
@@ -38,7 +38,7 @@ class GfG {
 
 ## 我的锅
 
-```
+```kt
 val course = Gfg()
 val courseObservable = course.getCourseObservable()
 val courseDeferObservable = course.getCourseDeferObservable()
@@ -57,7 +57,7 @@ courseDeferObservable
 
 **上述代码的输出:**
 
-```
+```kt
 GfGExample: courseObservable : DEFAULT
 GfGExample: courseDeferObservable : DSA
 ```

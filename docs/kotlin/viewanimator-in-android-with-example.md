@@ -6,7 +6,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <ViewAnimator
 
     android:id="@+id/simpleViewAnimator1"
@@ -96,7 +96,7 @@
 
 ## **可扩展标记语言**
 
-```
+```kt
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -130,7 +130,7 @@
 
 ## **我的锅**
 
-```
+```kt
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AnimationUtils

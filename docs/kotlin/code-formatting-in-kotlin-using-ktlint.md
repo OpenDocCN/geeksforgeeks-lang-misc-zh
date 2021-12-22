@@ -36,7 +36,7 @@
 
 ## 我的锅
 
-```
+```kt
 // root-level build.gradle
 plugins {
     id "org.jlleitschuh.gradle.ktlint" version "7.1.0"
@@ -61,7 +61,7 @@ buildscript {
 
 ## 科特林
 
-```
+```kt
 // root-level build.gradle
 allprojects {
     ...

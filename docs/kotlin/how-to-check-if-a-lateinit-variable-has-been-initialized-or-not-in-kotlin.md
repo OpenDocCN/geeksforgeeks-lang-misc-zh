@@ -20,7 +20,7 @@
 
 ## 我的锅
 
-```
+```kt
 class Tutorial {
 
     lateinit var tutorialName : String

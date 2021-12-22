@@ -45,7 +45,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -123,7 +123,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -141,7 +141,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -162,7 +162,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.example.androidrotateanimation
 
 import android.os.Bundle
@@ -231,7 +231,7 @@ class MainActivity : AppCompatActivity() {
 
 strings.xml
 
-```
+```kt
  <resources>
     <string name="app_name">Android Rotate Animation</string>
     <string name="heading">Rotate Animation in Android</string>

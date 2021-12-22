@@ -20,7 +20,7 @@
 
 **我的文本.txt：**
 
-```
+```kt
 GeeksforGeeks
 A computer science portal for geeks
 ```
@@ -31,7 +31,7 @@ A computer science portal for geeks
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,7 +57,7 @@ A computer science portal for geeks
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView

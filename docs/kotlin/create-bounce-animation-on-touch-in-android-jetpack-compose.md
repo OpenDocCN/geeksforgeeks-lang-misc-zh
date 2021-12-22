@@ -23,7 +23,7 @@
 
 ## 我的锅
 
-```
+```kt
 enum class BounceState { Pressed, Released }
 ```
 
@@ -33,7 +33,7 @@ enum class BounceState { Pressed, Released }
 
 ## 我的锅
 
-```
+```kt
 var currentState: BounceState by remember { mutableStateOf(BounceState.Released) }
 val transition = updateTransition(targetState = currentState, label = "animation")
 
@@ -59,7 +59,7 @@ val scale: Float by transition.animateFloat(
 
 ## 我的锅
 
-```
+```kt
 // Basic compose Box Layout
 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
 Column(modifier = Modifier
@@ -94,7 +94,7 @@ Column(modifier = Modifier
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent

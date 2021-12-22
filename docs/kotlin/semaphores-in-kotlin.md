@@ -22,7 +22,7 @@
 *   打印功能被声明为“打印”。表示线程活动已完成，许可证已发放。
 *   由于没有给任何线程分配优先级，所有线程都有一个 NORM_PRIORITY(默认优先级= 5)，并且优先选择最先到达的线程。
 
-```
+```kt
 import java.util.concurrent.Semaphore
 
 val s = Semaphore(2)
@@ -71,7 +71,7 @@ t4.start()
 
 **输出:**
 
-```
+```kt
 t1t2..t3t4..
 
 ```

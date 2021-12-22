@@ -17,7 +17,7 @@
 
 ## 我的锅
 
-```
+```kt
 class gfgViewModel : ViewModel() {
     val courses = MutableLiveData<List<courses>>()
     fun getCourses(): LiveData<List<courses>> {
@@ -33,7 +33,7 @@ class gfgViewModel : ViewModel() {
 
 ## 我的锅
 
-```
+```kt
 class GeeksActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         // Starting the model
@@ -49,7 +49,7 @@ class GeeksActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 val gfgSamplemodel = ViewModelProviders.of(this).get(GeeksModel::class.java)
 ```
 
@@ -57,7 +57,7 @@ val gfgSamplemodel = ViewModelProviders.of(this).get(GeeksModel::class.java)
 
 ## 我的锅
 
-```
+```kt
 gfgModel.getCourses().observe(this, Observer<List<Courses>>{ courses ->
             // Do something here
 }
@@ -84,7 +84,7 @@ gfgModel.getCourses().observe(this, Observer<List<Courses>>{ courses ->
 
 将以下代码添加到您的生成中，以集成项目中的保存状态。
 
-```
+```kt
 implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-alpha01'
 ```
 
@@ -92,19 +92,19 @@ implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-alpha01'
 
 替换视图(活动/片段)的 onCreate()函数中的以下代码片段。
 
-```
+```kt
 val model = GeeksViewModel.of(this, savedVMState(this)).get(MainGfGViewModel::class.java)
 ```
 
 **代替:**
 
-```
+```kt
 val gfgModel= GeeksViewModel.of(this).get(MainGfGViewModel::class.java)
 ```
 
 **此外，在视图模型中:**
 
-```
+```kt
 class GeeksViewModel(private val state: SavedStateHandle) : ViewModel() { ... }
 ```
 
@@ -127,7 +127,7 @@ class GeeksViewModel(private val state: SavedStateHandle) : ViewModel() { ... }
 
 ## 我的锅
 
-```
+```kt
 class GeeksVM(private val savedStateHandle: SavedStateHandle) : ViewModel(), BaseViewModel {
     override fun getCoursename(): LiveData<String> {
         return savedStateHandle.getLiveData(Constants.COURSE)
@@ -147,7 +147,7 @@ MainViewModel 类实现了 BaseViewModel，如下所示。
 
 ## 我的锅
 
-```
+```kt
 interface gfgViewModel {
     fun getCoursename(): LiveData<String>
     fun saveCourse(username: String)
@@ -164,36 +164,36 @@ interface gfgViewModel {
 
 如果您希望保留数据，请使用保存数据。
 
-```
+```kt
 savedStateHandle.set("key_name","value")
 ```
 
 如果希望从保存的数据中检索数据，请使用以下语法:
 
-```
+```kt
 savedStateHandle.get("key_name")
 ```
 
 如果您希望获取 LiveData 作为返回类型，请使用。
 
-```
+```kt
 savedStateHandle.getLiveData("key_name")
 ```
 
 如果您想查看 savedState 中是否存在某个键，请使用以下代码。
 
-```
+```kt
 savedState.contains("key_name")
 ```
 
 如果您想找到保存状态中的所有键，请使用以下命令获取它们的列表。
 
-```
+```kt
 savedState.keys()
 ```
 
 您也可以通过键访问它来移除任何单个值。要执行以下操作:
 
-```
+```kt
 savedState.remove("key_name")
 ```

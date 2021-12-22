@@ -27,7 +27,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -87,7 +87,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <resources>
     <string name="app_name">Geeksforgeeks Currency adder</string>
     <string name="amount">Amount you entered with currency sign is</string>
@@ -102,7 +102,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText

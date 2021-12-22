@@ -52,7 +52,7 @@
 
 ## 我的锅
 
-```
+```kt
 val nBuilder = NotificationCompat.Builder(this,CHANNEL_ID)
                     .setContentTitle(et1.text.toString())
                     .setContentText(et2.text.toString())
@@ -67,7 +67,7 @@ val nBuilder = NotificationCompat.Builder(this,CHANNEL_ID)
 
 ## 我的锅
 
-```
+```kt
 val nManager = NotificationManagerCompat.from(this)
 // Here we need to set an unique id for each
 // notification and the notification Builder

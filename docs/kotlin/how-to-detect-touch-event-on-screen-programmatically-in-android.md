@@ -23,7 +23,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.view.MotionEvent
 import android.widget.Toast
@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.MotionEvent
@@ -153,7 +153,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -182,7 +182,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 我的锅
 
-```
+```kt
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.MotionEvent

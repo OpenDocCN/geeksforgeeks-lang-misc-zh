@@ -18,7 +18,7 @@
 
 ## activity_main.xml
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -44,7 +44,7 @@
 
 ## MainActivity.kt 公司
 
-```
+```kt
 package com.example.expandable_notification_bigtext
 
 import android.app.*

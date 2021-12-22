@@ -11,7 +11,7 @@ T3】Java 文件申报为 myjava.javaT5】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Java class
 public class myjava {
   private int value;
@@ -28,7 +28,7 @@ public class myjava {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Kotlin file
 fun main(){
    val obj = myjava()
@@ -39,7 +39,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 5
 ```
 
@@ -50,7 +50,7 @@ T3】Java 文件申报为 myjava.javaT5】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Java code
 public class myjava {
     public int add(int a, int b){
@@ -63,7 +63,7 @@ public class myjava {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Kotlin file
 fun main(args: Array<String>) {
     val obj = myjava()
@@ -74,14 +74,14 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The sum of two numbers is 9
 ```
 
 **注意–**Kotlin 的一些关键字在 Java 中很容易被用作有效的标识符。例如——任何、密封的、物体等。**如果碰巧是这种情况，那么在科特林中使用标识符，用一个倒勾字符(`)将它们括起来。**
 例如，如果一个 Java 类 XYZ 恰好有一个名为 any 的方法，那么这个方法可以在 Kotlin 中调用为:
 
-```
+```kt
 obj.`any`() // obj is the instance of the class XYZ
 ```
 
@@ -92,7 +92,7 @@ T3】Java 文件申报为 myjava.javaT5】
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Java Code
 package mypackage;
     public class myjava {
@@ -106,7 +106,7 @@ package mypackage;
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // declare kotlin package
 package myktpackage
 // import java class using java package
@@ -121,7 +121,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Call successful
 ```
 
@@ -134,7 +134,7 @@ Kotlin 支持一种**不变的**形式的数组，即特定类型的数组不能
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Java Code
 public class myjava {
     int result = 0;
@@ -152,7 +152,7 @@ public class myjava {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Kotlin code
 fun main(args: Array<String>) {
     // Kotlin code
@@ -165,7 +165,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 The sum of an array is 21
 ```
 
@@ -176,7 +176,7 @@ Java 支持函数中变长参数的概念，即当一个函数的参数数量事
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Java code
 public class myjava {
     public void myfunc(String str,int... numbers) {
@@ -192,7 +192,7 @@ public class myjava {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 // Kotlin code
 fun main(args: Array<String>) {
     val obj = myjava()
@@ -203,7 +203,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Passed string is Geeks
  10 20 30
 ```

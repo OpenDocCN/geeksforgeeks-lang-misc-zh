@@ -14,7 +14,7 @@
 
 ## 我的锅
 
-```
+```kt
 Observable.timer(5, TimeUnit.SECONDS)
     .flatMap {
         return@flatMap Observable.create<String> { shooter ->
@@ -41,7 +41,7 @@ Observable.timer(5, TimeUnit.SECONDS)
 
 ## 我的锅
 
-```
+```kt
 Observable.create<String> { emitter ->
     Log.d("DelayGFG", "Shoot")
     emitter.onNext("GeeksforGeeks")
@@ -65,7 +65,7 @@ Observable.create<String> { emitter ->
 
 ## 我的锅
 
-```
+```kt
 val disposable =
     Observable.interval(1, 10, TimeUnit.SECONDS)
         .flatMap {

@@ -6,7 +6,7 @@
 
 **数据示例:**
 
-```
+```kt
 data class Student(val name: String, val roll_no: Int)
 ```
 
@@ -31,7 +31,7 @@ data class Student(val name: String, val roll_no: Int)
 此函数返回数据类中定义的所有参数的字符串。
 **例:**
 
-```
+```kt
 fun main(args: Array<String>) 
 {
     //declaring a data class 
@@ -49,7 +49,7 @@ fun main(args: Array<String>) 
 
 **输出:**
 
-```
+```kt
 man(roll=1, name=man, height=50)
 
 ```
@@ -60,7 +60,7 @@ man(roll=1, name=man, height=50)
 
 **示例:**
 
-```
+```kt
 fun main(args: Array<String>) 
 {
     //declaring a data class 
@@ -88,7 +88,7 @@ fun main(args: Array<String>) 
 
 **输出:**
 
-```
+```kt
 man(name=manish)
 70
 
@@ -107,7 +107,7 @@ man(name=manish)
 
 **副本声明()**
 
-```
+```kt
 fun copy(name: String = this.x, age: Int = this.y) = user(x, y)
 ```
 
@@ -115,7 +115,7 @@ fun copy(name: String = this.x, age: Int = this.y) = user(x, y)
 
 **例**
 
-```
+```kt
 fun main(args: Array<String>) 
 {
     //declaring a data class 
@@ -151,7 +151,7 @@ fun main(args: Array<String>) 
 
 **输出:**
 
-```
+```kt
 man(name=manish, age=18) has 100 cm height
 man(name=rahul, age=18) has 90 cm height
 man(name=manish, age=18) has 110 cm height
@@ -165,7 +165,7 @@ man(name=manish, age=18) has 110 cm height
 
 **hashCode()的声明:**
 
-```
+```kt
 open fun hashCode(): Int
 
 ```
@@ -176,7 +176,7 @@ open fun hashCode(): Int
 *   如果两个对象按照**等于**()的方法相等，那么返回的哈希码
     也将相同
 
-```
+```kt
 fun main(args: Array<String>) 
 {
     //declaring a data class 
@@ -204,7 +204,7 @@ fun main(args: Array<String>) 
 
 **输出:**
 
-```
+```kt
 835510190
 -938448478
 835510190

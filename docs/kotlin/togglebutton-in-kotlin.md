@@ -34,7 +34,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -59,13 +59,13 @@
 
 布局中的切换按钮可以使用**findwiewbyid()**功能访问。
 
-```
+```kt
 val toggle: ToggleButton = findViewById(R.id.toggleButton)
 ```
 
 访问后，使用**setncheckedchangelistener()**方法设置一个监听器根据切换状态执行操作。
 
-```
+```kt
 toggle.setOnCheckedChangeListener { _, isChecked -> **Perform Any Action Here**}
 ```
 
@@ -73,7 +73,7 @@ toggle.setOnCheckedChangeListener { _, isChecked -> **Perform Any Action Here**}
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 package com.example.togglebuttonsample
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -31,7 +31,7 @@
 
 ## 我的锅
 
-```
+```kt
 dependencies {
     implementation 'com.google.android.libraries.places:places:2.4.0'
 }
@@ -41,7 +41,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -119,7 +119,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```kt
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle"   >
@@ -151,7 +151,7 @@ activity_main.xml 预览
 
 ## 我的锅
 
-```
+```kt
 package org.geeksforgeeks.reversegeocoding
 
 import android.content.pm.ApplicationInfo

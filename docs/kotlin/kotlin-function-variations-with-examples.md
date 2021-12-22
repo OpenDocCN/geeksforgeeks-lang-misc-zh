@@ -6,7 +6,7 @@
 
 **在柯特林中定义函数:**
 
-```
+```kt
 Visibility modifier fun functionName (argument name: type name, ...): return type{
   .....
   // function body
@@ -19,7 +19,7 @@ Visibility modifier fun functionName (argument name: type name, ...): return typ
 
 **例:**
 
-```
+```kt
 private fun gfg1( a : Int, b :Int ): Int {
   var c : Int 
   c = a + b
@@ -35,7 +35,7 @@ private fun gfg1( a : Int, b :Int ): Int {
 
 **例:**
 
-```
+```kt
 fun gfg2( a : Int, b :Int ): Int {
   var c : Int 
   c = a + b
@@ -51,13 +51,13 @@ gfg1()和 gfg2()都在做同样的工作，但是 gfg1 是一个私有函数，g
 
 **例:**
 
-```
+```kt
 fun gfg3( a: Int , b :Int ) : Int  = a + b
 ```
 
 我们用“=”符号代替大括号作为函数体。我们也可以省略 Single 表达式函数中的返回类型。
 
-```
+```kt
 fun gfg4( a: Int , b :Int ) = a + b
 ```
 
@@ -69,7 +69,7 @@ gfg4()和 gfg3()相同。
 
 **例:**
 
-```
+```kt
 // declaring the return type as 
 // unit as it isn't returning anything.
 fun gfg5( a : Int): Unit {
@@ -90,7 +90,7 @@ gfg5()和 gfg6()是相同的。
 
 **例:**
 
-```
+```kt
 fun main( ){
     val res1 = gfg7( arg1 = 2, arg2 = 3) //using name argument 
     val res2 = gfg7( arg2 = 3, arg1 = 2 )  // sequence doesn't matter here.

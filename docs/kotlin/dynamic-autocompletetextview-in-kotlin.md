@@ -21,7 +21,7 @@
 
 在这个文件中，我们只使用线性布局并设置它的属性。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -37,7 +37,7 @@
 
 在这里，我们将指定活动的名称，并定义可以在活动的不同位置使用的其他字符串。另一件重要的事情是，我们将定义 **string_array** ，它包含**自动完成文本视图**的建议列表的项目。
 
-```
+```kt
 <resources>
     <string name="app_name">DynamicAutoCompleteTextView</string>
     <string name="hint">Please type language...</string>
@@ -62,7 +62,7 @@
 
 首先，我们声明两个变量*自动文本视图*和*按钮*来创建小部件并设置它们的属性。
 
-```
+```kt
 val autotextView = AutoCompleteTextView(this)
 val button = Button(this)
 
@@ -70,7 +70,7 @@ val button = Button(this)
 
 并使用在线形布局中添加自动图文视图和按钮
 
-```
+```kt
 val linearLayout = findViewById(R.id.linear_layout)
    // Add AutoCompleteTextView and button to LinearLayout
      linearLayout?.addView(autotextView)
@@ -79,20 +79,20 @@ val linearLayout = findViewById(R.id.linear_layout)
 
 然后，我们声明另一种变量语言，从 strings.xml 文件中获取字符串数组的项。
 
-```
+```kt
 val languages = resources.getStringArray(R.array.Languages)
 ```
 
 创建一个适配器，并使用
 
-```
+```kt
 val adapter = ArrayAdapter(this,
        android.R.layout.simple_list_item_1, languages)
        autotextView.setAdapter(adapter)
 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import android.os.Bundle
@@ -145,7 +145,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

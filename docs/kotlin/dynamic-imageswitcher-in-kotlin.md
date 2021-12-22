@@ -18,7 +18,7 @@ ImageSwitcher 是 View Switcher 的子类，用于动画化一个图像并显示
 
 **在这个文件中，我们使用约束布局与图像切换器和按钮。**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -61,7 +61,7 @@ ImageSwitcher 是 View Switcher 的子类，用于动画化一个图像并显示
 
 **这里，我们使用字符串标签更新应用程序的名称。**
 
-```
+```kt
 <resources>
    <string name="app_name">ImageSwitcherInKotlin</string>
    <string name="next">Next</string>
@@ -81,14 +81,14 @@ ImageSwitcher 是 View Switcher 的子类，用于动画化一个图像并显示
 
 **首先，我们声明一个数组**花**，它包含用于 ImageView 的图像资源。**
 
-```
+```kt
 private val flowers = intArrayOf(R.drawable.flower1,
        R.drawable.flower2, R.drawable.flower4) 
 ```
 
 **然后，我们在 **MainActivity.kt** 文件中创建 **ImageSwitcher** ，并设置 ImageView 来显示图像。**
 
-```
+```kt
 val imgSwitcher = ImageSwitcher(this)
 imgSwitcher?.setFactory({
            val imgView = ImageView(applicationContext)
@@ -100,13 +100,13 @@ imgSwitcher?.setFactory({
 
 **此外，我们应该使用将 ImageSwitcher 添加到布局中。**
 
-```
+```kt
 val c_Layout = findViewById<constraintlayout>(R.id.constraint_layout)
         //add ImageSwitcher in constraint layout
         c_Layout?.addView(imgSwitcher)</constraintlayout> 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -171,7 +171,7 @@ class MainActivity : AppCompatActivity() {
 
 ## **AndroidManifest.xml 文件**
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">

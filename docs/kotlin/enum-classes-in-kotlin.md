@@ -14,7 +14,7 @@
 
 枚举是通过在[类](https://www.geeksforgeeks.org/kotlin-class-and-objects/)前面使用**枚举**关键字来定义的，如下所示:-
 
-```
+```kt
 enum class DAYS{
   SUNDAY,
   MONDAY,
@@ -33,7 +33,7 @@ enum class DAYS{
 
 下面是一个为卡片指定颜色的示例–
 
-```
+```kt
 enum class Cards(val color: String) {
     Diamond("black"),
     Heart("red"),
@@ -43,7 +43,7 @@ enum class Cards(val color: String) {
 
 我们可以使用–
 
-```
+```kt
 val color = Cards.Diamond.color
 ```
 
@@ -63,7 +63,7 @@ val color = Cards.Diamond.color
 
 **在 Kotlin 中演示枚举类的示例–**
 
-```
+```kt
 enum class DAYS {
     SUNDAY,
     MONDAY,
@@ -85,7 +85,7 @@ fun main()
 
 **输出:**
 
-```
+```kt
 0 = SUNDAY
 1 = MONDAY
 2 = TUESDAY
@@ -103,7 +103,7 @@ WEDNESDAY
 
 **演示科特林中属性和功能的示例**
 
-```
+```kt
 // A property with default value provided
 enum class DAYS(val isWeekend: Boolean = false){
     SUNDAY(true),
@@ -134,7 +134,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 0 = SUNDAY and is weekend true
 1 = MONDAY and is weekend false
 2 = TUESDAY and is weekend false
@@ -150,7 +150,7 @@ Is today a weekend false
 
 枚举常量还通过实现它们自己的函数以及重写类的抽象函数，表现为匿名类。最重要的是每个枚举常量都必须被覆盖。
 
-```
+```kt
 // defining enum class
 enum class Seasons(var weather: String) {
     Summer("hot"){
@@ -180,7 +180,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Hot days of a year
 ```
 
@@ -188,7 +188,7 @@ Hot days of a year
 
 当枚举类与表达式中的[相结合时，Kotlin 中枚举类的一个很大的优势就发挥出来了。优点是因为枚举类限制了一个类型可以取的值，所以当与 when 表达式一起使用并且提供了所有常量的定义时，就完全不需要 **else 子句了**。事实上，这样做会从编译器中生成一个警告。](https://www.geeksforgeeks.org/kotlin-when-expression/)
 
-```
+```kt
 enum class DAYS{
     SUNDAY,
     MONDAY,
@@ -215,7 +215,7 @@ fun main(){
 
 **输出:**
 
-```
+```kt
 Today is Sunday
 
 ```

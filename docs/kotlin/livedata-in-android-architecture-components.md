@@ -82,7 +82,7 @@ LiveData 是[安卓架构组件](https://www.geeksforgeeks.org/jetpack-architect
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -112,7 +112,7 @@ LiveData 是[安卓架构组件](https://www.geeksforgeeks.org/jetpack-architect
 
 ## 我的锅
 
-```
+```kt
 import androidx.lifecycle.ViewModel
 
 class MainActivityViewModel:ViewModel() {
@@ -160,7 +160,7 @@ class MainActivityViewModel:ViewModel() {
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

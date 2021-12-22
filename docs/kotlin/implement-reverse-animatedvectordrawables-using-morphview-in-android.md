@@ -14,7 +14,7 @@
 
 *   **第一步:**在 **[build.gradle](https://www.geeksforgeeks.org/android-build-gradle/)** 文件中添加支持库，并在依赖项部分添加依赖项。
 
-    ```
+    ```kt
     implementation 'com.akaita.android:morphview:1.0.0'      
     ```
 
@@ -22,7 +22,7 @@
 
     ## avd _ fav . XML
 
-    ```
+    ```kt
 
     <?xml version="1.0" encoding="utf-8"?>
     <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
@@ -142,7 +142,7 @@
 
     ## avd _ send . XML
 
-    ```
+    ```kt
 
     <?xml version="1.0" encoding="utf-8"?>
     <animated-vector
@@ -265,7 +265,7 @@
 
     ## activity _ main . XML
 
-    ```
+    ```kt
 
     <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -301,7 +301,7 @@
 
     ## MainActivity.kt 公司
 
-    ```
+    ```kt
 
     package org.geeksforgeeks.morphView          
 

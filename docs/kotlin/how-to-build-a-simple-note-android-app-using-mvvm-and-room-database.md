@@ -31,7 +31,7 @@
 
 导航到**应用程序>渐变脚本> build.gradle(:project)** 级别文件，在该文件中，我们必须在该文件中添加以下代码，这些代码将用于我们的依赖版本。所以我们必须在这个文件的最后添加下面的代码块。
 
-```
+```kt
 ext {
     activityVersion = '1.2.3'
     appCompatVersion = '1.3.0'
@@ -52,7 +52,7 @@ ext {
 
 导航到**应用程序> build.gradle** ，在里面，在第一个插件部分，我们必须添加一个插件的 id。下面是我们 build.gradle 中所有插件的代码。
 
-```
+```kt
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
@@ -63,7 +63,7 @@ plugins {
 
 现在在同一文件的安卓部分，我们必须在安卓部分的最后一部分添加下面的块。下面是该块的代码。
 
-```
+```kt
 packagingOptions {
     exclude 'META-INF/atomicfu.kotlin_module'
 }
@@ -71,7 +71,7 @@ packagingOptions {
 
 现在在 build.gradle 文件中添加以下依赖项。我们只需用下面的更新依赖部分。
 
-```
+```kt
 dependencies {
     implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
     implementation "androidx.activity:activity-ktx:$rootProject.activityVersion"
@@ -116,7 +116,7 @@ dependencies {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#296D98</color>
@@ -149,7 +149,7 @@ dependencies {
 
 ## 我的锅
 
-```
+```kt
 package com.gtappdevelopers.noteapplication
 
 import androidx.room.ColumnInfo
@@ -177,7 +177,7 @@ DAO 是一个数据访问对象，用于指定 SQL 查询，然后将它们与�
 
 ## 我的锅
 
-```
+```kt
 package com.gtappdevelopers.noteapplication
 
 import androidx.lifecycle.LiveData
@@ -226,7 +226,7 @@ interface NotesDao {
 
 ## 我的锅
 
-```
+```kt
 package com.gtappdevelopers.noteapplication
 
 import android.content.Context
@@ -272,7 +272,7 @@ abstract class NoteDatabase : RoomDatabase() {
 
 ## 我的锅
 
-```
+```kt
 package com.gtappdevelopers.noteapplication
 
 import androidx.annotation.WorkerThread
@@ -311,7 +311,7 @@ class NoteRepository(private val notesDao: NotesDao) {
 
 ## 我的锅
 
-```
+```kt
 package com.gtappdevelopers.noteapplication
 
 import android.app.Application
@@ -362,7 +362,7 @@ class NoteViewModal (application: Application) :AndroidViewModel(application) {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -403,7 +403,7 @@ class NoteViewModal (application: Application) :AndroidViewModel(application) {
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"

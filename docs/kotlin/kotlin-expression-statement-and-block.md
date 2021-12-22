@@ -15,7 +15,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun sumOf(a:Int,b:Int): Int{
     return a+b
 }
@@ -32,7 +32,7 @@ fun main(args: Array<String>){
 
 **输出:**
 
-```
+```kt
 15
 50
 ```
@@ -43,7 +43,7 @@ fun main(args: Array<String>){
 
 在 Java 中， ***if*** 是一个语句，但是在 Kotlin 中 **if** 是一个表达式。它被称为表达式，因为它比较 a 和 b 的值并返回最大值。因此，在 Kotlin 中没有三元运算符 **(a > b)？a:b** 因为被 *if 表达式*代替了。
 
-```
+```kt
 if(condition) condition met! else condition not met!
 ```
 
@@ -51,7 +51,7 @@ if(condition) condition met! else condition not met!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>){
     val a = 1000
     val b = 999
@@ -65,7 +65,7 @@ fun main(args: Array<String>){
 
 **输出:**
 
-```
+```kt
 The maximum of 1000 and 999 is 1000 
 The maximum of 1122 and 1000 is 1122 
 ```
@@ -76,14 +76,14 @@ The maximum of 1122 and 1000 is 1122
 
 *   变量的声明是一条语句。
 
-```
+```kt
 val marks = 90
 var grade = 'A' 
 ```
 
 *   给变量赋值也是一种语句。
 
-```
+```kt
 var sum = 10 + 20        // it is a statement
 ```
 
@@ -95,7 +95,7 @@ var sum = 10 + 20        // it is a statement
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>){
     val sum: Int
     sum = 100
@@ -106,7 +106,7 @@ fun main(args: Array<String>){
 
 **输出:**
 
-```
+```kt
 100
 Hello
 Geeks!
@@ -119,7 +119,7 @@ Geeks!
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {              //start of main block or outer block
      val array = intArrayOf(2, 4, 6, 8)
      for (element in array) {                // start of inner block
@@ -130,7 +130,7 @@ fun main(args: Array<String>) {              //start of main block 
 
 **输出:**
 
-```
+```kt
 2
 4
 6

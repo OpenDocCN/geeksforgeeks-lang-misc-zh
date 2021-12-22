@@ -26,7 +26,7 @@
 
 ## 我的锅
 
-```
+```kt
 // this is the Language model class
 class Language(
     val id : Int =0,
@@ -41,7 +41,7 @@ class Language(
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -102,7 +102,7 @@ class Language(
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -141,7 +141,7 @@ class Language(
 
 ## 我的锅
 
-```
+```kt
 import androidx.recyclerview.widget.DiffUtil
 
 // pass two list one oldList and second newList
@@ -184,7 +184,7 @@ class MyDiffUtil(
 
 ## 我的锅
 
-```
+```kt
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -240,7 +240,7 @@ class RvAdapter() : RecyclerView.Adapter<RvAdapter.ViewHolder>() {
 
 ## 我的锅
 
-```
+```kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager

@@ -12,7 +12,7 @@
 
 ## 【科特林】
 
-```
+```kt
 package com.ayush.serialize_deserialize
 
 data class StudentInfo(val id: Int, val Name :String, val RollNo : Int)

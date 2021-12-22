@@ -30,7 +30,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -76,7 +76,7 @@
 
 ## 我的锅
 
-```
+```kt
 private fun checkAudioPermission() {
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {  // M = 23
             if(ContextCompat.checkSelfPermission(this, "android.permission.RECORD_AUDIO") != PackageManager.PERMISSION_GRANTED) {
@@ -95,7 +95,7 @@ private fun checkAudioPermission() {
 
 ## 我的锅
 
-```
+```kt
 private fun startSpeechToText() {
         val speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this)
         val speechRecognizerIntent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH)
@@ -131,7 +131,7 @@ private fun startSpeechToText() {
 
 ## 我的锅
 
-```
+```kt
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri

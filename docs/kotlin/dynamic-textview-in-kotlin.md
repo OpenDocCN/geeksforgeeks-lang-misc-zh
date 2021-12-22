@@ -17,7 +17,7 @@
 
 第二步是设计我们的布局页面。在这里，我们将使用 RelativeLayout 从 Kotlin 文件中获取 TextView。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -35,7 +35,7 @@
 
 打开 app/src/main/Java/your package name/main activity . kt .在这个文件中，我们声明了一个变量 TextView 来创建 TextView 小部件，如下所示:
 
-```
+```kt
      val textView = TextView(this)
      //setting height and width
     textView.layoutParams = LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
@@ -44,14 +44,14 @@
 
 然后使用以下命令在布局中添加小部件:
 
-```
+```kt
 
         // Add TextView to LinearLayout
         layout?.addView(textView)
 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import android.graphics.Color
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="i.apps.textview">

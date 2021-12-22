@@ -14,7 +14,7 @@ Kotlin 语言提供了一种简单的数据类型，可以在单个实例中存�
 
 **等级定义–**
 
-```
+```kt
 data class Pair<out A, out B> : Serializable
 
 ```
@@ -27,13 +27,13 @@ T6】B–类型的第二个值
 
 在 Kotlin 中，[构造函数](https://www.geeksforgeeks.org/kotlin-constructor/)是一个特殊的成员函数，在创建类的对象时调用，主要用于初始化变量或属性。要创建配对的新实例，我们使用:
 
-```
+```kt
 Pair(first: A, second: B)
 ```
 
 **使用构造函数创建配对的 Kotlin 示例–**
 
-```
+```kt
 fun main() {
     val (x, y) = Pair(1, "Geeks")
     println(x)
@@ -43,7 +43,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 1
 Geeks
 
@@ -57,7 +57,7 @@ Geeks
 
 **使用属性–**检索配对值的科特林程序
 
-```
+```kt
 fun main() {
     // declare pair
     var pair = Pair("Hello Geeks", "This is Kotlin tutorial")
@@ -68,7 +68,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Hello Geeks
 This is Kotlin tutorial
 
@@ -78,14 +78,14 @@ This is Kotlin tutorial
 
 **toString():** 该函数返回配对的等效字符串。
 
-```
+```kt
 fun toString(): String
 
 ```
 
 **使用功能的柯特林程序–**
 
-```
+```kt
 fun main() {
     val obj = Pair(5,5)
     println("String representation is "+obj.toString())
@@ -96,7 +96,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 String representation is (5, 5)
 Another string representation is (Geeks, [Praveen, Gaurav, Abhi])
 
@@ -107,14 +107,14 @@ Another string representation is (Geeks, [Praveen, Gaurav, Abhi])
 正如我们在之前的文章中了解到的那样，[扩展函数](https://www.geeksforgeeks.org/kotlin-extension-function/)能够在不继承现有类的情况下，向它们添加更多的功能。
 **toList():** 这个函数返回给定对的列表等价物。
 
-```
+```kt
 fun <T>Pair<T, T>.toList(): List
 
 ```
 
 **使用扩展功能的柯特林程序–**
 
-```
+```kt
 fun main() {
     // first pair
     var obj = Pair(1,2)
@@ -129,7 +129,7 @@ fun main() {
 
 **输出**
 
-```
+```kt
 [1, 2]
 [Hello, Geeks]
 

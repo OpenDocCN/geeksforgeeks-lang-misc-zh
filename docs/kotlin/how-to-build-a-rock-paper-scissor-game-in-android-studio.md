@@ -24,7 +24,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.LinearLayoutCompat 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -187,7 +187,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*

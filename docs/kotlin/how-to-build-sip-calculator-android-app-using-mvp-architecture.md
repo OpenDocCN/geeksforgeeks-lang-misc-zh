@@ -52,7 +52,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -351,7 +351,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.GFGSIPCalculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -461,7 +461,7 @@
 
 ## 我的锅
 
-```
+```kt
 interface SipCalculatorModelInterface {
     fun getTotalInvestedAmount(): Long
     fun getEstimatedReturns(): Long
@@ -473,7 +473,7 @@ interface SipCalculatorModelInterface {
 
 ## 我的锅
 
-```
+```kt
 interface SipCalculatorPresenterInterface {
     fun forCalculation(
         monthlyInvestmentAmount: String,
@@ -487,7 +487,7 @@ interface SipCalculatorPresenterInterface {
 
 ## 我的锅
 
-```
+```kt
 interface SipCalculatorViewInterface {
     fun onCalculationResult(
         totalInvestedAmount: String,
@@ -503,7 +503,7 @@ interface SipCalculatorViewInterface {
 
 ## 我的锅
 
-```
+```kt
 class SipCalculatorModel(
     monthlyInvestmentAmount: String,
     expectedReturnRate: String,
@@ -547,7 +547,7 @@ class SipCalculatorModel(
 
 ## 我的锅
 
-```
+```kt
 import com.adityamshidlyali.gfgsipcalculator.Model.SipCalculatorModel
 import com.adityamshidlyali.gfgsipcalculator.View.SipCalculatorViewInterface
 
@@ -584,7 +584,7 @@ class SipCalculatorPresenter(
 
 ## 我的锅
 
-```
+```kt
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -14,7 +14,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>  <!-- Add Background color as per your necessity-->
@@ -35,7 +35,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <style name="yourThemeName" parent="AppTheme">
   <item name="android:windowBackground">@drawable/yourDrawableFileName</item>
   <item name="android:windowFullscreen">true</item>
@@ -48,7 +48,7 @@
 
 ## 我的锅
 
-```
+```kt
 class MainActivity:AppCompatActivty(){  
 
 private val mHandler = Handler(Looper.getMainLooper()) 
@@ -91,7 +91,7 @@ private val mLauncher: Launcher = Launcher()
 
 ## 可扩展标记语言
 
-```
+```kt
 <activity
   android:name=".MainActivity"
   android:theme="@style/yourDrawableTheme">

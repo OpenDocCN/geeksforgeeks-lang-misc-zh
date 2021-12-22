@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```kt
  fun  <T> mutableListOf( vararg elements: T): MutableList <T>
 ```
 
@@ -19,7 +19,7 @@
 
 **演示可变性的 Kotlin 程序()–**
 
-```
+```kt
 fun main(args: Array<String>)
     {
         //declaring a mutable list of integers
@@ -38,7 +38,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 [1, 2, 3, 4, 3]
 [Geeks, for, geeks]
 Empty list []
@@ -51,7 +51,7 @@ Empty list []
 
 **演示可变性的 Kotlin 程序()–**
 
-```
+```kt
 fun main(args: Array<String>) {
     var mutablelist=mutableListOf("Geeks", "For");
     //adding string elements
@@ -68,7 +68,7 @@ fun main(args: Array<String>) {
 
 **输出:**
 
-```
+```kt
 Geeks
 For
 Geeks
@@ -84,7 +84,7 @@ Geeks
 
 **使用索引的柯特林程序–**
 
-```
+```kt
 fun main(args: Array<String>)
 {
     val captains = mutableListOf("Kohli","Smith","Root","Rohit","Dhawan")
@@ -99,7 +99,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 The element at index 2 is: Root
 The index of element is: 1
 The last index of element is: 3
@@ -109,7 +109,7 @@ The last index of element is: 3
 
 我们可以使用 first()和 last()函数获取列表的第一个和元素。
 
-```
+```kt
 fun main(args: Array<String>){
     val captains = mutableListOf(1,2,3,4,"Kohli","Smith",
         "Root","Malinga","Dhawan","Rohit")
@@ -122,7 +122,7 @@ fun main(args: Array<String>){
 
 **输出:**
 
-```
+```kt
 The first element of the list is: 1
 The last element of the list is: Rohit
 
@@ -132,7 +132,7 @@ The last element of the list is: Rohit
 
 我们可以用遍历列表中所有项目的迭代器运行 for 循环。
 
-```
+```kt
 fun main(args: Array<String>)
 {
     //declaring a mutable list of integers
@@ -146,7 +146,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 1
 2
 3
@@ -160,7 +160,7 @@ fun main(args: Array<String>)
 
 **使用 contains()和 containsAll()函数的 Kotlin 程序–**
 
-```
+```kt
 fun main(args: Array<String>){
     val captains = mutableListOf(1,2,3,4,"Kohli","Smith",
         "Root","Malinga","Rohit","Dhawan")
@@ -180,7 +180,7 @@ fun main(args: Array<String>){
 
 **输出:**
 
-```
+```kt
 The list contains the element Dhawan or not?   true
 The list contains the element 5 or not?   false
 The list contains the given elements or not?   true

@@ -16,7 +16,7 @@
 如果使用标签 **outer@** 标记外环，则可以在断开条件块中使用 **break@outer** 轻松断开外环。
 **循环时被标记为中断的语法-**
 
-```
+```kt
 outer@ while(condition) {
       // code
       inner@ while(condition) {
@@ -32,7 +32,7 @@ outer@ while(condition) {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>) {
     var num1 = 4
     outer@ while (num1 > 0) {

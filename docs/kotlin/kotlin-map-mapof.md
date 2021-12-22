@@ -6,7 +6,7 @@
 科特林区分*不可变*和*可变*地图。用 **mapOf()** 创建的不可变映射意味着这些是只读的，而用**mutalemapof()**创建的可变映射意味着我们可以同时执行读写。
 **语法:**
 
-```
+```kt
 fun <K, V> mapOf(vararg pairs: Pair<K, V>): Map<K, V> 
 ```
 
@@ -18,7 +18,7 @@ fun <K, V> mapOf(vararg pairs: Pair<K, V>): Map<K, V>
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     //declaring a map of integer to string
@@ -30,7 +30,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 {1=Geeks, 2=for, 3=Geeks}
 ```
 
@@ -38,7 +38,7 @@ fun main(args: Array<String>)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     //declaring a map of integer to string
@@ -54,7 +54,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 Map Entries : {1=One, 2=Two, 3=Three, 4=Four}
 Map Keys: [1, 2, 3, 4]
 Map Values: [One, Two, Three, Four] 
@@ -66,7 +66,7 @@ Map Values: [One, Two, Three, Four]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main() {
 
     val ranks = mapOf(1 to "India",2 to "Australia",3 to "England",4 to "Africa")
@@ -79,7 +79,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 The size of the map is: 4
 The size of the map is: 4 
 ```
@@ -91,7 +91,7 @@ The size of the map is: 4
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     //here we have created an empty map using mapOf()
@@ -108,7 +108,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 Entries: []
 Keys:[]
 Values:[] 
@@ -120,7 +120,7 @@ Values:[]
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main() {
 
     val ranks = mapOf(1 to "India",2 to "Australia",3 to "England",4 to "Africa")
@@ -139,7 +139,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Team having rank #1 is: India
 Team having rank #3 is: England
 Team having rank #4 is: Africa
@@ -152,7 +152,7 @@ Australia
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main() {
     val colorsTopToBottom = mapOf("red" to 1, "orange" to 2, "yellow" to 3,
         "green" to 4 , "blue" to 5, "indigo" to 6, "violet" to 7)
@@ -173,7 +173,7 @@ fun main() {
 
 **输出:**
 
-```
+```kt
 Yes, it contains color yellow
 No, it does not contain value 8 
 ```
@@ -185,7 +185,7 @@ No, it does not contain value 8
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```kt
 fun main(args: Array<String>)
 {
     //lets make two values with same key
@@ -197,7 +197,7 @@ fun main(args: Array<String>)
 
 **输出:**
 
-```
+```kt
 Entries of map : [1=geeks2, 2=for]
 ```
 

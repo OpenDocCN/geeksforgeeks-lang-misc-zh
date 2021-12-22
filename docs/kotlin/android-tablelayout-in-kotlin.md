@@ -10,7 +10,7 @@ TableLayout 的工作方式几乎和 HTML 表格相似，它包含的列和包�
 
 可以使用如下所示的<表格布局>来定义**表格布局**:
 
-```
+```kt
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,7 +24,7 @@ TableLayout 的工作方式几乎和 HTML 表格相似，它包含的列和包�
 
 和**表格行**可以使用
 
-```
+```kt
 <TableRow android:background="#51B435" android:padding="10dp">
         <TextView
             android:layout_width="wrap_content"
@@ -40,7 +40,7 @@ TableLayout 的工作方式几乎和 HTML 表格相似，它包含的列和包�
 
 该表的代码是:
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -205,7 +205,7 @@ TableLayout 的工作方式几乎和 HTML 表格相似，它包含的列和包�
 
 创建布局后，我们需要从活动 **onCreate()** 回调方法中加载 XML 布局资源，并使用**findwiewbyid**从 XML 中访问 UI 元素。
 
-```
+```kt
 package com.geeksforgeeks.myfirstKotlinapp
 
 import androidx.appcompat.app.AppCompatActivity

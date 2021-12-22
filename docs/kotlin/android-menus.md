@@ -14,7 +14,7 @@
 
 下面是在 XML 文件(menu_example.xml)中定义菜单的例子。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http:// schemas.android.com/apk/res/android">
     <item android:id="@+id/mail"
@@ -40,7 +40,7 @@
 
 下面是在菜单项中定义子菜单的例子。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http:// schemas.android.com/apk/res/android">
     <item android:id="@+id/file"

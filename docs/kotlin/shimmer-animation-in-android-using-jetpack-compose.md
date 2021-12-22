@@ -41,7 +41,7 @@
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun ShimmerItem(
     brush: Brush
@@ -71,7 +71,7 @@ fun ShimmerItem(
 
 ## 我的锅
 
-```
+```kt
 @Composable
 fun ShimmerAnimation(
 ) {
@@ -123,7 +123,7 @@ fun ShimmerAnimation(
 
 ## 我的锅
 
-```
+```kt
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -159,7 +159,7 @@ class MainActivity : ComponentActivity() {
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent

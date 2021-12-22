@@ -37,7 +37,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.geeksforgeeks.bluetoothdiscoverable">
@@ -72,7 +72,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -114,7 +114,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.bluetooth.BluetoothAdapter
 import android.content.Intent
 import android.os.Bundle
@@ -188,7 +188,7 @@ class MainActivity : AppCompatActivity() {
 
 ## **我的锅**
 
-```
+```kt
 startActivityForResult(Intent
                        (BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE)
                        .putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, 40)

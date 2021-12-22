@@ -38,7 +38,7 @@
 
 ## 可扩展标记语言
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat 
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -164,7 +164,7 @@
 
 ## 我的锅
 
-```
+```kt
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast

@@ -39,7 +39,7 @@
 
 ## 我的锅
 
-```
+```kt
 plugins {
     id 'com.android.application'
     id 'kotlin-android'

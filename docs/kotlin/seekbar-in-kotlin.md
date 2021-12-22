@@ -33,7 +33,7 @@
 
 这里，我们将在 LinearLayout 中添加 Seekbar 小部件，并设置其属性，如 id、边距等。
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +56,7 @@ android:orientation="vertical">
 
 **在字符串. xml 文件中指定的应用程序名称**
 
-```
+```kt
 <resources>
     <string name="app_name">SeekBarInKotlin</string>
 </resources>
@@ -66,26 +66,26 @@ android:orientation="vertical">
 
 在文件中，我们首先声明一个变量 *seek* ，并使用 id 从 xml 文件中调用 seekbar。
 
-```
+```kt
 val seek = findViewById(R.id.seekBar)
 ```
 
 然后，**设置点击监听器**对 seekBar 执行一些操作。
 
-```
+```kt
 seek?.setOnSeekBarChangeListener
 ```
 
 并使用显示祝酒词
 
-```
+```kt
 Toast.makeText(this@MainActivity,
    "Progress is: " + seek.progress + "%",
     Toast.LENGTH_SHORT).show()
 
 ```
 
-```
+```kt
 package com.geeksforgeeks.myfirstkotlinapp
 
 import androidx.appcompat.app.AppCompatActivity
@@ -124,7 +124,7 @@ class MainActivity : AppCompatActivity() {
 
 ## AndroidManifest.xml 文件
 
-```
+```kt
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.geeksforgeeks.myfirstkotlinapp">
